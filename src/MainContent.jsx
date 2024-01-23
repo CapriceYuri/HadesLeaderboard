@@ -3,45 +3,58 @@ import {
   ListItem,
   Avatar,
   Card,
+  CardFooter,
   Typography,
+  IconButton,
 } from "@material-tailwind/react";
 
-import { Runs } from "./Data/TestUnits";
-Runs.sort((a, b) => (a.heat < b.heat ? 1 : -1));
+import { useState } from "react";
+import { allData } from "./Data/DataLogic";
 
 export default function MainContent() {
+  const [active, setActive] = useState(1);
+  const [pageInfo, setPageInfo] = useState(allData[0]);
+
+  const getList = (index) => ({
+    variant: active === index ? "gradient" : "text",
+    color: "white",
+    onClick: () => {
+      setActive(index);
+      setPageInfo(allData[index - 1]);
+    },
+  });
   return (
     <section className="h-full">
       <img
-        src="bg-img.png"
+        src="Backgrounds/bg-img.png"
         alt="cover-bg"
         className="fixed h-lvh w-full object-cover -z-10"
       />
       {/* COVER BG */}
-      <section className="w-full flex justify-center py-24">
-        <Card className="w-[95%] max-w-[1200px] backdrop-blur-lg bg-transparent shadow-[0_0_50px_red]">
+      <section className="w-full flex justify-center py-12 2xl:px-36">
+        <Card className="w-[95%] max-w-[1200px] backdrop-blur-lg bg-transparent shadow-[0_0_50px_purple]">
           <img
-            src="bg-table.png"
+            src="Backgrounds/bg-table.png"
             className="h-full w-full object-cover rounded-2xl absolute"
           />
           <div className="absolute h-full w-full bg-gradient-to-bl from-black to-red-400 rounded-xl opacity-70" />
           <List className="z-40">
             <div>
               <Typography
-                variant="h4"
-                color="amber"
+                variant="h2"
+                color="white"
                 className="p-2 text-center"
               >
-                Heat Leaderboard
+                {"60+ Heat Leaderboard"}
               </Typography>
             </div>
-            {Runs.map((player) => (
-              <ListItem className="hover:bg-black focus:bg-black">
+            {pageInfo.map((player, index) => (
+              <ListItem className="hover:bg-black focus:bg-black" key={index}>
                 <div className="flex-1">
                   <div className="flex flex-col items-center">
                     <Avatar
                       variant="rounded"
-                      color="pink"
+                      color="indigo"
                       src={player.ava}
                       withBorder={true}
                       className="p-0.5"
@@ -59,7 +72,7 @@ export default function MainContent() {
                   >
                     {`Aspect`}
                   </Typography>
-                  <Typography variant="h5" color="yellow">
+                  <Typography variant="h5" color="pink">
                     {`${player.aspect}`}
                   </Typography>
                 </div>
@@ -95,7 +108,7 @@ export default function MainContent() {
                       player.category === "Seeded"
                         ? "blue"
                         : player.category === "Modded"
-                        ? "pink"
+                        ? "green"
                         : "orange"
                     }
                     className="font-normal"
@@ -110,7 +123,7 @@ export default function MainContent() {
                       viewBox="0 0 24 24"
                       fill="currentColor"
                       color="red"
-                      className="w-6 h-6 z-10"
+                      className="w-6 h-6 z-10 animate-bounce"
                     >
                       <path
                         fillRule="evenodd"
@@ -122,9 +135,15 @@ export default function MainContent() {
                 </div>
               </ListItem>
             ))}
-
-            {/* DIVIDE */}
           </List>
+          <CardFooter>
+            <div>
+              <div className="flex">
+                <IconButton {...getList(1)}>1</IconButton>
+                <IconButton {...getList(2)}>2</IconButton>
+              </div>
+            </div>
+          </CardFooter>
         </Card>
       </section>
     </section>
