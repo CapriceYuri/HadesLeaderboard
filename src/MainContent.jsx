@@ -91,10 +91,16 @@ export default function MainContent() {
                 <div className="flex-1 text-center">
                   <Typography
                     variant="h6"
-                    color={player.seeded === true ? "blue" : "orange"}
+                    color={
+                      player.category === "Seeded"
+                        ? "blue"
+                        : player.category === "Modded"
+                        ? "pink"
+                        : "orange"
+                    }
                     className="font-normal"
                   >
-                    {player.seeded === true ? "Seeded" : "Unseeded"}
+                    {player.category}
                   </Typography>
                 </div>
                 <div className="flex justify-center">
