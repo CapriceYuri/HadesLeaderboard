@@ -6,7 +6,8 @@ import {
   Typography,
 } from "@material-tailwind/react";
 
-import { TestingData } from "./Data/TestUnits";
+import { Runs } from "./Data/TestUnits";
+Runs.sort((a, b) => (a.heat < b.heat ? 1 : -1));
 
 export default function MainContent() {
   return (
@@ -23,12 +24,18 @@ export default function MainContent() {
             src="bg-table.png"
             className="h-full w-full object-cover rounded-2xl absolute"
           />
-          <div
-            className="absolute h-full w-full bg-gradient-to-t from-purple-800 to-purple-800
-         via-indigo-300 rounded-xl opacity-70"
-          />
+          <div className="absolute h-full w-full bg-gradient-to-bl from-black to-red-400 rounded-xl opacity-70" />
           <List className="z-40">
-            {TestingData.map((player) => (
+            <div>
+              <Typography
+                variant="h4"
+                color="amber"
+                className="p-2 text-center"
+              >
+                Heat Leaderboard
+              </Typography>
+            </div>
+            {Runs.map((player) => (
               <ListItem className="hover:bg-black focus:bg-black">
                 <div className="flex-1">
                   <div className="flex flex-col items-center">
@@ -50,10 +57,10 @@ export default function MainContent() {
                     color="white"
                     className="font-normal"
                   >
-                    {`God`}
+                    {`Aspect`}
                   </Typography>
-                  <Typography variant="h3" color="yellow">
-                    {`${player.god}`}
+                  <Typography variant="h4" color="yellow">
+                    {`${player.aspect}`}
                   </Typography>
                 </div>
                 <div className="flex-1 text-center">
@@ -62,10 +69,10 @@ export default function MainContent() {
                     color="white"
                     className="font-normal"
                   >
-                    {`Arm`}
+                    {`Weapon`}
                   </Typography>
-                  <Typography variant="h3" color="pink">
-                    {`${player.item}`}
+                  <Typography variant="h4" color="orange">
+                    {`${player.weapon}`}
                   </Typography>
                 </div>
 
@@ -77,8 +84,17 @@ export default function MainContent() {
                   >
                     {`Heat`}
                   </Typography>
-                  <Typography variant="h3" color="deep-orange">
+                  <Typography variant="h2" color="deep-orange">
                     {`${player.heat}`}
+                  </Typography>
+                </div>
+                <div className="flex-1 text-center">
+                  <Typography
+                    variant="h6"
+                    color="amber"
+                    className="font-normal"
+                  >
+                    {player.state === true ? "Seeded" : "Unseeded"}
                   </Typography>
                 </div>
                 <div className="flex justify-center">
