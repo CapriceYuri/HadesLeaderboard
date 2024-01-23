@@ -1,7 +1,9 @@
+import MainContent from "./MainContent";
+
 function App() {
   return (
     <>
-      <div className="text-indigo-400">CapriceYuri</div>
+      <MainContent />
     </>
   );
 }
