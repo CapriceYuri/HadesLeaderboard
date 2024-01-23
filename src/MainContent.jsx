@@ -101,7 +101,7 @@ export default function MainContent() {
                     {`${player.heat}`}
                   </Typography>
                 </div>
-                <div className="flex-1 text-center">
+                <div className="flex-1 text-center hidden md:block">
                   <Typography
                     variant="h6"
                     color={
