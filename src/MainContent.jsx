@@ -59,7 +59,7 @@ export default function MainContent() {
                   >
                     {`Aspect`}
                   </Typography>
-                  <Typography variant="h4" color="yellow">
+                  <Typography variant="h5" color="yellow">
                     {`${player.aspect}`}
                   </Typography>
                 </div>
@@ -71,7 +71,7 @@ export default function MainContent() {
                   >
                     {`Weapon`}
                   </Typography>
-                  <Typography variant="h4" color="orange">
+                  <Typography variant="h5" color="orange">
                     {`${player.weapon}`}
                   </Typography>
                 </div>
@@ -84,17 +84,17 @@ export default function MainContent() {
                   >
                     {`Heat`}
                   </Typography>
-                  <Typography variant="h2" color="deep-orange">
+                  <Typography variant="h3" color="deep-orange">
                     {`${player.heat}`}
                   </Typography>
                 </div>
                 <div className="flex-1 text-center">
                   <Typography
                     variant="h6"
-                    color="amber"
+                    color={player.seeded === true ? "blue" : "orange"}
                     className="font-normal"
                   >
-                    {player.state === true ? "Seeded" : "Unseeded"}
+                    {player.seeded === true ? "Seeded" : "Unseeded"}
                   </Typography>
                 </div>
                 <div className="flex justify-center">

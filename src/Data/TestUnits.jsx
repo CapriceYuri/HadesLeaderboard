@@ -6,7 +6,7 @@ export const Runs = [
     aspect: "Zeus",
     weapon: "Shield",
     src: "https://www.bilibili.com/video/BV1hH4y1z7c9/",
-    state: false,
+    seeded: false,
   },
   {
     ava: "player-索方索.png",
@@ -15,7 +15,7 @@ export const Runs = [
     aspect: "Zeus",
     weapon: "Shield",
     src: "https://www.bilibili.com/video/BV11t4y1873E/",
-    state: false,
+    seeded: false,
   },
   {
     ava: "player-ykc.png",
@@ -24,7 +24,7 @@ export const Runs = [
     aspect: "Zeus",
     weapon: "Shield",
     src: "https://www.bilibili.com/video/BV1WL4y1a7Ci/",
-    state: false,
+    seeded: false,
   },
   {
     ava: "player-PlayAd.png",
@@ -33,7 +33,7 @@ export const Runs = [
     aspect: "Rama",
     weapon: "Bow",
     src: "https://www.youtube.com/watch?v=tiW_iZ9SWAQ",
-    state: false,
+    seeded: false,
   },
   {
     ava: "player-Tailesque.png",
@@ -42,7 +42,7 @@ export const Runs = [
     aspect: "Rama",
     weapon: "Bow",
     src: "https://www.youtube.com/watch?v=Vm9hha2HWDA",
-    state: false,
+    seeded: false,
   },
   {
     ava: "player-ocaml_ocaml.png",
@@ -51,7 +51,7 @@ export const Runs = [
     aspect: "Rama",
     weapon: "Bow",
     src: "https://www.youtube.com/watch?v=x-RjELq1_70",
-    state: false,
+    seeded: false,
   },
   {
     ava: "player-芝心丹.png",
@@ -60,7 +60,7 @@ export const Runs = [
     aspect: "Beowulf",
     weapon: "Shield",
     src: "https://www.bilibili.com/video/BV1o34y1h72o/",
-    state: false,
+    seeded: false,
   },
   {
     ava: "player-llzzqq.png",
@@ -69,7 +69,7 @@ export const Runs = [
     aspect: "Rama",
     weapon: "Bow",
     src: "https://www.bilibili.com/video/BV12D4y1A7eU/",
-    state: false,
+    seeded: false,
   },
   {
     ava: "player-孑虫.png",
@@ -78,7 +78,7 @@ export const Runs = [
     aspect: "Beowulf",
     weapon: "Shield",
     src: "https://www.bilibili.com/video/BV1vx4y1c7Nm/",
-    state: false,
+    seeded: false,
   },
   {
     ava: "player-Baj.png",
@@ -87,7 +87,7 @@ export const Runs = [
     aspect: "Zeus",
     weapon: "Shield",
     src: "https://www.bilibili.com/video/BV1Mf4y1p7t2/",
-    state: true,
+    seeded: true,
   },
   {
     ava: "player-Retrash.png",
@@ -96,7 +96,7 @@ export const Runs = [
     aspect: "Eris",
     weapon: "Rail",
     src: "https://www.youtube.com/watch?v=0vZsERNO7cg",
-    state: true,
+    seeded: true,
   },
   {
     ava: "player-Jade.png",
@@ -105,6 +105,15 @@ export const Runs = [
     aspect: "Zeus",
     weapon: "Shield",
     src: "https://www.youtube.com/watch?v=0mo-kXjasZs",
-    state: false,
+    seeded: false,
+  },
+  {
+    ava: "player-过客.png",
+    name: "过客",
+    heat: 60,
+    aspect: "Beowulf",
+    weapon: "Shield",
+    src: "https://www.bilibili.com/video/BV1Rr4y1Z7et/",
+    seeded: false,
   },
 ];
