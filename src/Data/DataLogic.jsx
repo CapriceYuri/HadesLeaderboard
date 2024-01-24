@@ -15,26 +15,11 @@ let one,
   one3,
   one4;
 
-const totalPages = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14];
-const eachPages = [
-  one,
-  two,
-  three,
-  four,
-  five,
-  six,
-  seven,
-  eight,
-  nine,
-  ten,
-  one1,
-  one2,
-  one3,
-  one4,
-];
+const totalPages = [];
+const eachPages = [];
 
 let tempPlayerArr = [];
-
+// Find Total Unique Player
 function findTotalPlayer() {
   for (let i = 0; i < FullData.length; i++) {
     if (tempPlayerArr.indexOf(FullData[i].name) === -1) {
@@ -46,11 +31,19 @@ findTotalPlayer();
 const uniquePlayers = tempPlayerArr.length;
 
 FullData.sort((a, b) => (a.heat < b.heat ? 1 : -1));
-
+// Function To Page Creation
+let pageNeeded = Math.ceil(FullData.length / 25);
+// 27 Pages
+for (let j = 1; j <= pageNeeded; j++) {
+  let temp = j;
+  totalPages.push(temp);
+}
+// Assign The Actual List
 function BreakList(arr) {
-  eachPages[0] = arr.slice(0, 50);
-  for (let i = 1; i < totalPages.length - 1; i++) {
-    eachPages[i] = arr.slice(i * 50, (i + 1) * 50);
+  // Add ListItems
+  eachPages[0] = arr.slice(0, 25);
+  for (let i = 1; i < pageNeeded - 1; i++) {
+    eachPages[i] = arr.slice(i * 25, (i + 1) * 25);
   }
   eachPages[totalPages.length - 1] = arr.slice(650, arr.length);
 }

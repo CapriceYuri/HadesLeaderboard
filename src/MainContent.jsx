@@ -83,10 +83,10 @@ export default function MainContent() {
       <section className="w-full flex justify-center pt-5 pb-10 2xl:px-36">
         <Card className="w-[95%] max-w-[1200px] backdrop-blur-lg bg-transparent shadow-[0_0_50px_red]">
           <img
-            src="Backgrounds/bg-table.png"
+            src="Backgrounds/vertical.png"
             className="h-full w-full object-cover rounded-2xl absolute"
           />
-          <div className="absolute h-full w-full bg-gradient-to-bl from-black to-red-400 rounded-xl opacity-70" />
+          <div className="absolute h-full w-full bg-gradient-to-r from-black to-indigo-600 rounded-xl opacity-30" />
           <List className="z-40">
             <div>
               <Typography variant="h2" color="red" className="p-2 text-center">
