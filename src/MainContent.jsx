@@ -25,11 +25,11 @@ export default function MainContent() {
     },
   });
   return (
-    <section className="h-full">
+    <section className="h-lvh">
       <img
         src="Backgrounds/bg-img.png"
         alt="cover-bg"
-        className="fixed h-dvh w-full object-cover -z-10"
+        className="fixed h-lvh w-full object-cover -z-10"
       />
       {/* COVER BG */}
       <section className="w-full flex justify-center py-12 2xl:px-36">
