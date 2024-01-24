@@ -10,7 +10,7 @@ import {
 
 import { useState } from "react";
 import { allData } from "./Data/DataLogic";
-import { totalPages } from "./Data/DataLogic";
+import { totalPages, totalRuns, uniquePlayers } from "./Data/DataLogic";
 
 export default function MainContent() {
   const [active, setActive] = useState(1);
@@ -32,8 +32,56 @@ export default function MainContent() {
         className="fixed h-lvh w-full object-cover -z-10"
       />
       {/* COVER BG */}
-      <section className="w-full flex justify-center py-12 2xl:px-36">
-        <Card className="w-[95%] max-w-[1200px] backdrop-blur-lg bg-transparent shadow-[0_0_50px_purple]">
+      <section>
+        <div className="grid grid-cols-2 mx-auto w-[100%] pt-10 px-4 gap-x-2">
+          <Card
+            className="w-[100%] h-56 mx-auto bg-transparent shadow-[0_0_30px_yellow] relative"
+            shadow={false}
+          >
+            <img
+              src="Backgrounds/runbg.png"
+              className="h-full w-full object-cover rounded-2xl absolute"
+            />
+            <div className="absolute h-full w-full bg-gradient-to-r from-purple-900 to-red-400 opacity-60 rounded-xl" />
+            <div className="z-50 flex flex-col h-full justify-center items-center mx-auto">
+              <Typography variant="h4" color="white">
+                {`Total Runs`}
+              </Typography>
+              <Typography
+                variant="h1"
+                color="amber"
+                className="font-bold"
+                children={totalRuns}
+              ></Typography>
+            </div>
+          </Card>
+          <Card
+            className="w-[100%] h-56 mx-auto bg-transparent shadow-[0_0_30px_yellow] relative"
+            shadow={false}
+          >
+            <img
+              src="Backgrounds/playerbg.png"
+              className="h-full w-full object-cover rounded-2xl absolute"
+            />
+            <div className="absolute h-full w-full bg-gradient-to-l to-purple-900 from-red-400 opacity-60 rounded-xl" />
+
+            <div className="z-50 flex flex-col h-full justify-center items-center mx-auto">
+              <Typography variant="h4" color="white">
+                {`Unique Players`}
+              </Typography>
+              <Typography
+                variant="h1"
+                color="amber"
+                className="font-bold"
+                children={uniquePlayers}
+              ></Typography>
+            </div>
+          </Card>
+        </div>
+      </section>
+      {/* TABLE CONTENT */}
+      <section className="w-full flex justify-center pt-5 pb-10 2xl:px-36">
+        <Card className="w-[95%] max-w-[1200px] backdrop-blur-lg bg-transparent shadow-[0_0_50px_red]">
           <img
             src="Backgrounds/bg-table.png"
             className="h-full w-full object-cover rounded-2xl absolute"

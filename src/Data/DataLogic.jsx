@@ -13,9 +13,7 @@ let one,
   one1,
   one2,
   one3,
-  one4,
-  one5,
-  one6;
+  one4;
 
 const totalPages = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14];
 const eachPages = [
@@ -35,6 +33,18 @@ const eachPages = [
   one4,
 ];
 
+let tempPlayerArr = [];
+
+function findTotalPlayer() {
+  for (let i = 0; i < FullData.length; i++) {
+    if (tempPlayerArr.indexOf(FullData[i].name) === -1) {
+      tempPlayerArr.push(FullData[i].name);
+    }
+  }
+}
+findTotalPlayer();
+const uniquePlayers = tempPlayerArr.length;
+
 FullData.sort((a, b) => (a.heat < b.heat ? 1 : -1));
 
 function BreakList(arr) {
@@ -46,6 +56,6 @@ function BreakList(arr) {
 }
 
 BreakList(FullData);
-
+export const totalRuns = FullData.length;
 export const allData = [...eachPages];
-export { totalPages };
+export { totalPages, uniquePlayers };
