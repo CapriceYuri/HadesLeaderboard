@@ -10,6 +10,7 @@ import {
 
 import { useState } from "react";
 import { allData } from "./Data/DataLogic";
+import { totalPages } from "./Data/DataLogic";
 
 export default function MainContent() {
   const [active, setActive] = useState(1);
@@ -40,12 +41,8 @@ export default function MainContent() {
           <div className="absolute h-full w-full bg-gradient-to-bl from-black to-red-400 rounded-xl opacity-70" />
           <List className="z-40">
             <div>
-              <Typography
-                variant="h2"
-                color="white"
-                className="p-2 text-center"
-              >
-                {"60+ Heat Leaderboard"}
+              <Typography variant="h2" color="red" className="p-2 text-center">
+                {"Heat Leaderboard"}
               </Typography>
             </div>
             {pageInfo.map((player, index) => (
@@ -138,9 +135,12 @@ export default function MainContent() {
           </List>
           <CardFooter>
             <div>
-              <div className="flex">
-                <IconButton {...getList(1)}>1</IconButton>
-                <IconButton {...getList(2)}>2</IconButton>
+              <div className="grid grid-cols-10">
+                {totalPages.map((page, index) => (
+                  <IconButton {...getList(page)} key={index}>
+                    {page}
+                  </IconButton>
+                ))}
               </div>
             </div>
           </CardFooter>
