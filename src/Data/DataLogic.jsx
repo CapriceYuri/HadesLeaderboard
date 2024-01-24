@@ -1,20 +1,5 @@
 import { FullData } from "./ImportData";
 
-let one,
-  two,
-  three,
-  four,
-  five,
-  six,
-  seven,
-  eight,
-  nine,
-  ten,
-  one1,
-  one2,
-  one3,
-  one4;
-
 const totalPages = [];
 const eachPages = [];
 
@@ -31,6 +16,7 @@ findTotalPlayer();
 const uniquePlayers = tempPlayerArr.length;
 
 FullData.sort((a, b) => (a.heat < b.heat ? 1 : -1));
+
 // Function To Page Creation
 let pageNeeded = Math.ceil(FullData.length / 25);
 // 27 Pages
@@ -49,6 +35,7 @@ function BreakList(arr) {
 }
 
 BreakList(FullData);
+
 export const totalRuns = FullData.length;
 export const allData = [...eachPages];
 export { totalPages, uniquePlayers };
