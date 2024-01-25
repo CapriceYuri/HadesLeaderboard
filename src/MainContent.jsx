@@ -11,18 +11,22 @@ import {
 
 import { useState } from "react";
 import { allData } from "./Data/DataLogic";
-import { totalPages, totalRuns, uniquePlayers } from "./Data/DataLogic";
-
+import {
+  totalPages,
+  totalRuns,
+  uniquePlayers,
+  eachPages,
+} from "./Data/DataLogic";
 export default function MainContent() {
   const [active, setActive] = useState(1);
-  const [pageInfo, setPageInfo] = useState(allData[0]);
+  const [pageInfo, setPageInfo] = useState(eachPages[0]);
 
   const getList = (index) => ({
     variant: active === index ? "gradient" : "text",
     color: "white",
     onClick: () => {
       setActive(index);
-      setPageInfo(allData[index - 1]);
+      setPageInfo(() => eachPages[index - 1]);
     },
   });
   return (
