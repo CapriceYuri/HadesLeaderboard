@@ -22,24 +22,24 @@ const sData = FullData.filter((run) => run.category === "Seeded");
 const totalPages = [];
 export const eachPages = [];
 
-export function BreakList(arr, num) {
+export function BreakList(arr) {
   // Find Page Amount
-  let pageNeeded = Math.ceil(arr.length / num);
+  let pageNeeded = Math.ceil(arr.length / 30);
   for (let j = 1; j <= pageNeeded; j++) {
     let temp = j;
     totalPages.push(temp);
   }
   // Assign runs
-  eachPages[0] = arr.slice(0, num);
+  eachPages[0] = arr.slice(0, 30);
   for (let i = 1; i < pageNeeded - 1; i++) {
-    eachPages[i] = arr.slice(i * num, (i + 1) * num);
+    eachPages[i] = arr.slice(i * 30, (i + 1) * 30);
   }
   eachPages[totalPages.length - 1] = arr.slice(
-    (pageNeeded - 1) * num,
+    (pageNeeded - 1) * 30,
     arr.length
   );
 }
-BreakList(ogData, 20);
+BreakList(ogData);
 
 export const totalRuns = FullData.length;
 export const allData = [...eachPages];
