@@ -110,17 +110,17 @@ export default function MainContent() {
                 {"Heat Leaderboard"}
               </Typography>
             </div>
-            <div className="grid grid-cols-4 gap-x-4 p-4">
+            <div className="grid grid-cols-2 grid-rows-2 gap-4 p-4">
               <Button
                 onClick={() => handleDataChange(0)}
-                color="orange"
-                className="text-black p-3"
+                color="red"
+                className="text-black p-3 max-width-[100px]"
               >
                 ALL
               </Button>
               <Button
                 onClick={() => handleDataChange(1)}
-                color="orange"
+                color="green"
                 className="text-black p-3"
               >
                 MODDED
@@ -134,7 +134,7 @@ export default function MainContent() {
               </Button>
               <Button
                 onClick={() => handleDataChange(3)}
-                color="orange"
+                color="blue"
                 className="text-black p-3"
               >
                 Seeded
