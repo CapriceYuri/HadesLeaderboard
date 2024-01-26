@@ -6,27 +6,41 @@ import {
   CardFooter,
   Typography,
   IconButton,
+  Button,
+  ButtonGroup,
 } from "@material-tailwind/react";
 
 import { useState } from "react";
-import {
-  totalPages,
-  totalRuns,
-  uniquePlayers,
-  eachPages,
-} from "./Data/DataLogic";
+import { totalRuns, uniquePlayers, allData, BreakList } from "./Data/DataLogic";
+
 export default function MainContent() {
+  const [category, setCategory] = useState(0);
   const [active, setActive] = useState(1);
-  const [pageInfo, setPageInfo] = useState(eachPages[0]);
+  const [pageInfo, setPageInfo] = useState(0);
+
+  function handleDataChange(num) {
+    setCategory(num);
+    setPageInfo(0);
+    setActive(1);
+  }
+  function handleChangePage(arr) {
+    setPageInfo(arr);
+  }
+
+  let dataDisplay = allData[category];
+  const { eachPages, totalPages } = BreakList(dataDisplay);
+
+  let sortDisplay = eachPages[pageInfo];
 
   const getList = (index) => ({
     variant: active === index ? "gradient" : "text",
     color: "white",
     onClick: () => {
       setActive(index);
-      setPageInfo(() => eachPages[index - 1]);
+      handleChangePage(index - 1);
     },
   });
+
   return (
     <section className="h-lvh">
       <img
@@ -96,7 +110,13 @@ export default function MainContent() {
                 {"Heat Leaderboard"}
               </Typography>
             </div>
-            {pageInfo.map((player, index) => (
+            <div className="mx-auto">
+              <Button onClick={() => handleDataChange(0)}>ALL</Button>
+              <Button onClick={() => handleDataChange(1)}>MODDED</Button>
+              <Button onClick={() => handleDataChange(2)}>Unseeded</Button>
+              <Button onClick={() => handleDataChange(3)}>Seeded</Button>
+            </div>
+            {sortDisplay.map((player, index) => (
               <ListItem className="hover:bg-black focus:bg-black" key={index}>
                 <div className="flex-1">
                   <div className="flex flex-col items-center">

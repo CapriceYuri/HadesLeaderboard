@@ -2,7 +2,6 @@ import { FullData } from "./ImportData";
 
 // Find Total Unique Player
 let tempPlayerArr = [];
-
 function findTotalPlayer() {
   for (let i = 0; i < FullData.length; i++) {
     if (tempPlayerArr.indexOf(FullData[i].name) === -1) {
@@ -12,18 +11,20 @@ function findTotalPlayer() {
 }
 findTotalPlayer();
 const uniquePlayers = tempPlayerArr.length;
-
+const totalRuns = FullData.length;
+//
 const ogData = FullData.sort((a, b) => (a.heat < b.heat ? 1 : -1));
 const mData = FullData.filter((run) => run.category === "Modded");
 const uData = FullData.filter((run) => run.category === "Unseeded");
 const sData = FullData.filter((run) => run.category === "Seeded");
+const allData = [ogData, mData, uData, sData];
+//
 
 // Assign The Actual List
-const totalPages = [];
-export const eachPages = [];
-
 export function BreakList(arr) {
   // Find Page Amount
+  let totalPages = [];
+  let eachPages = [];
   let pageNeeded = Math.ceil(arr.length / 30);
   for (let j = 1; j <= pageNeeded; j++) {
     let temp = j;
@@ -38,9 +39,8 @@ export function BreakList(arr) {
     (pageNeeded - 1) * 30,
     arr.length
   );
+  return { eachPages, totalPages };
 }
-BreakList(ogData);
 
-export const totalRuns = FullData.length;
-export const allData = [...eachPages];
-export { totalPages, uniquePlayers, ogData, mData, uData, sData };
+//
+export { totalRuns, uniquePlayers, allData };
