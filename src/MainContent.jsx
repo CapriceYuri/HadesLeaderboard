@@ -110,11 +110,35 @@ export default function MainContent() {
                 {"Heat Leaderboard"}
               </Typography>
             </div>
-            <div className="mx-auto">
-              <Button onClick={() => handleDataChange(0)}>ALL</Button>
-              <Button onClick={() => handleDataChange(1)}>MODDED</Button>
-              <Button onClick={() => handleDataChange(2)}>Unseeded</Button>
-              <Button onClick={() => handleDataChange(3)}>Seeded</Button>
+            <div className="grid grid-cols-4 gap-x-4 p-4">
+              <Button
+                onClick={() => handleDataChange(0)}
+                color="orange"
+                className="text-black p-3"
+              >
+                ALL
+              </Button>
+              <Button
+                onClick={() => handleDataChange(1)}
+                color="orange"
+                className="text-black p-3"
+              >
+                MODDED
+              </Button>
+              <Button
+                onClick={() => handleDataChange(2)}
+                color="orange"
+                className="text-black p-3"
+              >
+                Unseeded
+              </Button>
+              <Button
+                onClick={() => handleDataChange(3)}
+                color="orange"
+                className="text-black p-3"
+              >
+                Seeded
+              </Button>
             </div>
             {sortDisplay.map((player, index) => (
               <ListItem className="hover:bg-black focus:bg-black" key={index}>
