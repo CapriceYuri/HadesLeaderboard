@@ -193,7 +193,7 @@ export default function MainContent() {
                     {`${player.heat}`}
                   </Typography>
                 </div>
-                <div className="flex-1 text-center hidden md:block">
+                <div className="flex-1 text-center hidden sm:block">
                   <Typography
                     variant="h6"
                     color={
@@ -203,9 +203,28 @@ export default function MainContent() {
                         ? "green"
                         : "orange"
                     }
-                    className="font-normal"
+                    className="font-semibold"
                   >
                     {player.category}
+                  </Typography>
+                </div>
+                <div className="flex-0 mx-2 text-center sm:hidden">
+                  <Typography
+                    variant="h4"
+                    color={
+                      player.category === "Seeded"
+                        ? "blue"
+                        : player.category === "Modded"
+                        ? "green"
+                        : "orange"
+                    }
+                    className="font-bold"
+                  >
+                    {player.category === "Seeded"
+                      ? "S"
+                      : player.category === "Modded"
+                      ? "M"
+                      : "U"}
                   </Typography>
                 </div>
                 <div className="flex justify-center">
