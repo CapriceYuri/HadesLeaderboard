@@ -103,39 +103,39 @@ export default function MainContent() {
             src="Backgrounds/vertical.png"
             className="h-full w-full object-cover rounded-2xl absolute"
           />
-          <div className="absolute h-full w-full bg-gradient-to-r from-black to-indigo-600 rounded-xl opacity-30" />
+          <div className="absolute h-full w-full bg-gradient-to-r from-purple-600 via-indigo-500 to-purple-800 rounded-xl opacity-40" />
           <List className="z-40">
             <div>
               <Typography variant="h2" color="red" className="p-2 text-center">
                 {"Heat Leaderboard"}
               </Typography>
             </div>
-            <div className="grid grid-cols-2 grid-rows-2 gap-4 p-4">
+            <div className="flex justify-center gap-2 p-4">
               <Button
                 onClick={() => handleDataChange(0)}
                 color="red"
-                className="text-black p-3 max-width-[100px]"
+                className="text-black p-3 w-[100px]"
               >
                 ALL
               </Button>
               <Button
                 onClick={() => handleDataChange(1)}
                 color="green"
-                className="text-black p-3"
+                className="text-black p-3 w-[100px]"
               >
                 MODDED
               </Button>
               <Button
                 onClick={() => handleDataChange(2)}
                 color="orange"
-                className="text-black p-3"
+                className="text-black p-3 w-[100px]"
               >
                 Unseeded
               </Button>
               <Button
                 onClick={() => handleDataChange(3)}
                 color="blue"
-                className="text-black p-3"
+                className="text-black p-3 w-[100px]"
               >
                 Seeded
               </Button>
@@ -156,7 +156,7 @@ export default function MainContent() {
                     </Typography>
                   </div>
                 </div>
-                <div className="flex-1 text-center">
+                <div className="flex-1 text-center align-top">
                   <Typography
                     variant="small"
                     color="white"
@@ -189,7 +189,7 @@ export default function MainContent() {
                   >
                     {`Heat`}
                   </Typography>
-                  <Typography variant="h3" color="deep-orange">
+                  <Typography variant="h5" color="deep-orange">
                     {`${player.heat}`}
                   </Typography>
                 </div>
