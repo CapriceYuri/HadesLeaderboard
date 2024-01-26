@@ -50,9 +50,9 @@ export default function MainContent() {
       />
       {/* COVER BG */}
       <section>
-        <div className="grid grid-cols-2 mx-auto w-[100%] pt-10 px-4 gap-x-2">
+        <div className="flex justify-center px-4 mx-auto w-[100%] pt-10 gap-x-2">
           <Card
-            className="w-[100%] h-56 mx-auto bg-transparent shadow-[0_0_30px_yellow] relative"
+            className="w-[100%] h-56 max-w-[600px] bg-transparent shadow-[0_0_30px_yellow] relative"
             shadow={false}
           >
             <img
@@ -73,7 +73,7 @@ export default function MainContent() {
             </div>
           </Card>
           <Card
-            className="w-[100%] h-56 mx-auto bg-transparent shadow-[0_0_30px_yellow] relative"
+            className="w-[100%] h-56 max-w-[600px] flex bg-transparent shadow-[0_0_30px_yellow] relative"
             shadow={false}
           >
             <img
