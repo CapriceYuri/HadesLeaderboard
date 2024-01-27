@@ -173,7 +173,7 @@ export default function MainContent() {
                     />
                   </div>
                 </div>
-                <div className="flex-1 text-center align-top">
+                <div className="flex-1 text-center align-top hidden sm:block">
                   <Typography
                     variant="small"
                     color="white"
