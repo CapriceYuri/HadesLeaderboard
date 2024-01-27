@@ -164,6 +164,7 @@ export default function MainContent() {
                   <div className="relative mx-auto">
                     <Avatar
                       src={`arms/${player.weapon}-${player.aspect}.png`}
+                      withBorder={true}
                     />
                     <Avatar
                       src={`rings/discord-${player.ring}.gif`}
