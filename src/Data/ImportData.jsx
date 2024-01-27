@@ -9,6 +9,15 @@ export const FullData = [
     src: "https://www.bilibili.com/video/BV1Mf4y1p7t2",
   },
   {
+    ava: "Backgrounds/hades.gif",
+    category: "Modded",
+    name: "Bananas",
+    heat: 50,
+    weapon: "Bow",
+    aspect: "Rama",
+    src: "https://www.youtube.com/watch?v=qSA9KWTg61o",
+  },
+  {
     ava: "player-Retrash.png",
     category: "Seeded",
     name: "Retrash",
