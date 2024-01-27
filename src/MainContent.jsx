@@ -7,8 +7,10 @@ import {
   Typography,
   IconButton,
   Button,
-  ButtonGroup,
 } from "@material-tailwind/react";
+
+import CategoryButtons from "./Components.jsx/CategoryBtn";
+import CategoryWeapBtns from "./Components.jsx/WeaponBtn";
 
 import { useState } from "react";
 import { totalRuns, uniquePlayers, allData, BreakList } from "./Data/DataLogic";
@@ -140,6 +142,8 @@ export default function MainContent() {
                 Seeded
               </Button>
             </div>
+            <CategoryButtons onClick={handleDataChange} />
+            <CategoryWeapBtns onClick={handleDataChange} />
             {sortDisplay.map((player, index) => (
               <ListItem className="hover:bg-black focus:bg-black" key={index}>
                 <div className="flex-1">

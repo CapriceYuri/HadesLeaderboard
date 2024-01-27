@@ -17,7 +17,66 @@ const ogData = FullData.sort((a, b) => (a.heat < b.heat ? 1 : -1));
 const mData = FullData.filter((run) => run.category === "Modded");
 const uData = FullData.filter((run) => run.category === "Unseeded");
 const sData = FullData.filter((run) => run.category === "Seeded");
-const allData = [ogData, mData, uData, sData];
+const aspectZeus_Data = FullData.filter((run) => run.aspect === "Zeus");
+const aspectRama_Data = FullData.filter((run) => run.aspect === "Rama");
+const aspectEris_Data = FullData.filter((run) => run.aspect === "Eris");
+const aspectBeowulf_Data = FullData.filter((run) => run.aspect === "Beowulf");
+const aspectZagreus_Data = FullData.filter((run) => run.aspect === "Zagreus");
+const aspectNemesis_Data = FullData.filter((run) => run.aspect === "Nemesis");
+const aspectHestia_Data = FullData.filter((run) => run.aspect === "Hestia");
+const aspectDemeter_Data = FullData.filter((run) => run.aspect === "Demeter");
+const aspectChiron_Data = FullData.filter((run) => run.aspect === "Chiron");
+const aspectGuanYu_Data = FullData.filter((run) => run.aspect === "Guan Yu");
+const aspectPoseidon_Data = FullData.filter((run) => run.aspect === "Poseidon");
+const aspectLucifer_Data = FullData.filter((run) => run.aspect === "Lucifer");
+const aspectAchilles_Data = FullData.filter((run) => run.aspect === "Achilles");
+const aspectHades_Data = FullData.filter((run) => run.aspect === "Hades");
+const aspectArthur_Data = FullData.filter((run) => run.aspect === "Arthur");
+const aspectChaos_Data = FullData.filter((run) => run.aspect === "Chaos");
+const aspectTalos_Data = FullData.filter((run) => run.aspect === "Talos");
+const aspectHera_Data = FullData.filter((run) => run.aspect === "Hera");
+const aspectGilgamesh_Data = FullData.filter(
+  (run) => run.aspect === "Gilgamesh"
+);
+
+const armsSword_Data = FullData.filter((run) => run.weapon === "Sword");
+const armsShield_Data = FullData.filter((run) => run.weapon === "Shield");
+const armsFists_Data = FullData.filter((run) => run.weapon === "Fists");
+const armsSpear_Data = FullData.filter((run) => run.weapon === "Spear");
+const armsRail_Data = FullData.filter((run) => run.weapon === "Rail");
+const armsBow_Data = FullData.filter((run) => run.weapon === "Bow");
+
+const allData = [
+  ogData,
+  mData,
+  uData,
+  sData,
+  aspectAchilles_Data,
+  aspectArthur_Data,
+  aspectBeowulf_Data,
+  aspectChaos_Data,
+  aspectChiron_Data,
+  aspectDemeter_Data,
+  aspectEris_Data,
+  aspectGilgamesh_Data,
+  aspectGuanYu_Data,
+  aspectHades_Data,
+  aspectHera_Data,
+  aspectHestia_Data,
+  aspectLucifer_Data,
+  aspectNemesis_Data,
+  aspectPoseidon_Data,
+  aspectRama_Data,
+  aspectTalos_Data,
+  aspectZagreus_Data,
+  aspectZeus_Data,
+  armsBow_Data,
+  armsFists_Data,
+  armsRail_Data,
+  armsSpear_Data,
+  armsShield_Data,
+  armsSword_Data,
+];
 //
 
 // Assign The Actual List
