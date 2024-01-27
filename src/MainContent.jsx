@@ -149,7 +149,7 @@ export default function MainContent() {
                 <div className="flex-1">
                   <div className="flex flex-col items-center">
                     <Avatar
-                      variant="circular"
+                      variant="rounded"
                       color="indigo"
                       src={player.ava}
                       withBorder={true}
@@ -163,13 +163,11 @@ export default function MainContent() {
                 <div>
                   <div className="relative mx-auto">
                     <Avatar
-                      variant="circular"
-                      color="indigo"
                       src={`arms/${player.weapon}-${player.aspect}.png`}
                     />
-                    <img
+                    <Avatar
                       src={`rings/discord-${player.ring}.gif`}
-                      class="absolute top-0 start-0"
+                      className="absolute top-0 start-0"
                     />
                   </div>
                 </div>
