@@ -9,7 +9,7 @@ export const FullData = [
     src: "https://www.bilibili.com/video/BV1Mf4y1p7t2",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Bananas.png",
     category: "Modded",
     name: "Bananas",
     heat: 50,
