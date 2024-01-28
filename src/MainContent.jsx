@@ -172,6 +172,15 @@ export default function MainContent() {
                     />
                   </div>
                 </div>
+                <div>
+                  <div className="relative mx-auto ms-2">
+                    <Avatar src={`gods/${player.god}.png`} withBorder={true} />
+                    <Avatar
+                      src={`rings/discord-${player.ring}.gif`}
+                      className="absolute top-0 start-0"
+                    />
+                  </div>
+                </div>
                 <div className="flex-1 text-center align-top hidden sm:block">
                   <Typography
                     variant="small"
