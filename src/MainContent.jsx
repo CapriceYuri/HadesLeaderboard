@@ -11,9 +11,12 @@ import {
 
 import CategoryButtons from "./Components.jsx/CategoryBtn";
 import CategoryWeapBtns from "./Components.jsx/WeaponBtn";
+import TotalRunsCard from "./Components.jsx/TotalRunsCard";
+import TotalPlayerCard from "./Components.jsx/TotalPlayerCard";
+import RunTypeBtn from "./Components.jsx/RunTypeBtn";
 
 import { useState } from "react";
-import { totalRuns, uniquePlayers, allData, BreakList } from "./Data/DataLogic";
+import { allData, BreakList } from "./Data/DataLogic";
 
 export default function MainContent() {
   const [category, setCategory] = useState(0);
@@ -52,55 +55,14 @@ export default function MainContent() {
       />
       {/* COVER BG */}
       <section>
-        <div className="flex justify-center px-4 mx-auto w-[100%] pt-10 gap-x-2">
-          <Card
-            className="w-[100%] h-56 max-w-[600px] bg-transparent shadow-[0_0_30px_yellow] relative"
-            shadow={false}
-          >
-            <img
-              src="Backgrounds/runbg.png"
-              className="h-full w-full object-cover rounded-2xl absolute"
-            />
-            <div className="absolute h-full w-full bg-gradient-to-r from-purple-900 to-red-400 opacity-60 rounded-xl" />
-            <div className="z-50 flex flex-col h-full justify-center items-center mx-auto">
-              <Typography variant="h4" color="white">
-                {`Total Runs`}
-              </Typography>
-              <Typography
-                variant="h1"
-                color="amber"
-                className="font-bold"
-                children={totalRuns}
-              ></Typography>
-            </div>
-          </Card>
-          <Card
-            className="w-[100%] h-56 max-w-[600px] flex bg-transparent shadow-[0_0_30px_yellow] relative"
-            shadow={false}
-          >
-            <img
-              src="Backgrounds/playerbg.png"
-              className="h-full w-full object-cover rounded-2xl absolute"
-            />
-            <div className="absolute h-full w-full bg-gradient-to-l to-purple-900 from-red-400 opacity-60 rounded-xl" />
-
-            <div className="z-50 flex flex-col h-full justify-center items-center mx-auto">
-              <Typography variant="h4" color="white">
-                {`Unique Players`}
-              </Typography>
-              <Typography
-                variant="h1"
-                color="amber"
-                className="font-bold"
-                children={uniquePlayers}
-              ></Typography>
-            </div>
-          </Card>
+        <div className="flex justify-center px-4 mx-auto w-[100%] pt-10 gap-x-2 2xl:w-2/3">
+          <TotalRunsCard />
+          <TotalPlayerCard />
         </div>
       </section>
       {/* TABLE CONTENT */}
-      <section className="w-full flex justify-center pt-5 pb-10 2xl:px-36">
-        <Card className="w-[95%] max-w-[1200px] backdrop-blur-lg bg-transparent shadow-[0_0_50px_red]">
+      <section className="w-full flex justify-center px-4 pt-5 pb-10">
+        <Card className="w-[100%] backdrop-blur-lg bg-transparent shadow-[0_0_50px_red] 2xl:w-2/3">
           <img
             src="Backgrounds/vertical.png"
             className="h-full w-full object-cover rounded-2xl absolute"
@@ -112,36 +74,7 @@ export default function MainContent() {
                 {"Heat Leaderboard"}
               </Typography>
             </div>
-            <div className="flex justify-center gap-2 p-4">
-              <Button
-                onClick={() => handleDataChange(0)}
-                color="red"
-                className="text-black p-3 w-[100px]"
-              >
-                ALL
-              </Button>
-              <Button
-                onClick={() => handleDataChange(1)}
-                color="green"
-                className="text-black p-3 w-[100px]"
-              >
-                MODDED
-              </Button>
-              <Button
-                onClick={() => handleDataChange(2)}
-                color="orange"
-                className="text-black p-3 w-[100px]"
-              >
-                Unseeded
-              </Button>
-              <Button
-                onClick={() => handleDataChange(3)}
-                color="blue"
-                className="text-black p-3 w-[100px]"
-              >
-                Seeded
-              </Button>
-            </div>
+            <RunTypeBtn onClick={handleDataChange} />
             <CategoryButtons onClick={handleDataChange} />
             <CategoryWeapBtns onClick={handleDataChange} />
             {sortDisplay.map((player, index) => (

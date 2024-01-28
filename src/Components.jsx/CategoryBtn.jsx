@@ -27,9 +27,9 @@ export default function CategoryButtons({ onClick }) {
     <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 place-items-center gap-2 p-4">
       {categories.map((cate, index) => (
         <Button
+          variant="outlined"
           onClick={() => onClick(index + 4)}
-          color="amber"
-          className="text-black p-3 w-[100px]"
+          className="text-white border-black border-2 p-3 w-[100px] hover:bg-white hover:text-black"
           key={index}
         >
           {cate}
