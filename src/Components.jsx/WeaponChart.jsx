@@ -41,7 +41,7 @@ const chartConfig = {
     plotOptions: {
       bar: {
         columnWidth: "40%",
-        borderRadius: 2,
+        borderRadius: 8,
       },
     },
     xaxis: {
@@ -96,7 +96,7 @@ const chartConfig = {
 
 export default function CategoryWeaponChart() {
   return (
-    <Card className="bg-transparent">
+    <Card className="bg-transparent" shadow={false}>
       <CardHeader
         floated={false}
         shadow={false}

@@ -36,7 +36,7 @@ const chartConfig = {
     plotOptions: {
       bar: {
         columnWidth: "40%",
-        borderRadius: 2,
+        borderRadius: 8,
       },
     },
     xaxis: {
@@ -127,7 +127,7 @@ const chartConfig2 = {
     plotOptions: {
       bar: {
         columnWidth: "40%",
-        borderRadius: 2,
+        borderRadius: 8,
       },
     },
     xaxis: {
@@ -211,7 +211,7 @@ const chartConfig3 = {
     plotOptions: {
       bar: {
         columnWidth: "40%",
-        borderRadius: 2,
+        borderRadius: 8,
       },
     },
     xaxis: {
@@ -229,7 +229,7 @@ const chartConfig3 = {
           fontWeight: 400,
         },
       },
-      categories: ["Lucifer", "Nemesis", "Poseidon", "Rama", "Talos", "Z-Bow"],
+      categories: ["Lucifer", "Nemesis", "Poseidon", "Rama", "Talos", "Bow"],
     },
     yaxis: {
       labels: {
@@ -295,7 +295,7 @@ const chartConfig4 = {
     plotOptions: {
       bar: {
         columnWidth: "40%",
-        borderRadius: 2,
+        borderRadius: 8,
       },
     },
     xaxis: {
@@ -313,14 +313,7 @@ const chartConfig4 = {
           fontWeight: 400,
         },
       },
-      categories: [
-        "Z-Fists",
-        "Z-Rail",
-        "Z-Spear",
-        "Z-Shield",
-        "Z-Sword",
-        "Z-Zeus",
-      ],
+      categories: ["Fists", "Rail", "Spear", "Shield", "Sword", "Zeus"],
     },
     yaxis: {
       labels: {
@@ -361,7 +354,7 @@ export default function CategoryWeaponChart() {
   return (
     <Carousel loop={true} autoplay={true} transition={{ duration: 2 }}>
       {allCharts.map((chart) => (
-        <Card className="bg-transparent">
+        <Card className="bg-transparent" shadow={false}>
           <CardBody className="px-2 pb-4">
             <Chart {...chart} />
           </CardBody>
