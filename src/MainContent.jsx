@@ -55,6 +55,13 @@ export default function MainContent() {
         className="fixed h-lvh w-full object-cover -z-10"
       />
       {/* COVER BG */}
+      <section>
+        <div className="flex justify-center px-2 mx-auto w-[100%] py-5 gap-x-2 2xl:w-3/4">
+          <TotalRunsCard />
+          <TotalPlayerCard />
+        </div>
+      </section>
+      {/* CHARTS */}
       <section className="w-full flex justify-center py-5">
         <Card className="w-[100%] backdrop-blur-lg bg-transparent shadow-[0_0_50px_red] 2xl:w-3/4">
           <img
@@ -76,13 +83,6 @@ export default function MainContent() {
             <CategoryAspectChart />
           </List>
         </Card>
-      </section>
-      {/* TESTING */}
-      <section>
-        <div className="flex justify-center px-2 mx-auto w-[100%] py-5 gap-x-2 2xl:w-3/4">
-          <TotalRunsCard />
-          <TotalPlayerCard />
-        </div>
       </section>
       {/* TABLE CONTENT */}
       <section className="w-full flex justify-center pt-5 pb-10">
