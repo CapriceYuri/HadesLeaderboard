@@ -65,11 +65,11 @@ export default function MainContent() {
           <List className="z-40">
             <div>
               <Typography
-                variant="h2"
+                variant="h3"
                 color="deep-orange"
-                className="p-2 text-center"
+                className="p-2 text-center font-[monospace]"
               >
-                {"Heat Summary"}
+                {"Stat Summary"}
               </Typography>
             </div>
             <CategoryWeaponChart />
@@ -94,7 +94,11 @@ export default function MainContent() {
           <div className="absolute h-full w-full bg-gradient-to-r from-purple-600 via-indigo-500 to-purple-800 rounded-xl opacity-40" />
           <List className="z-40">
             <div>
-              <Typography variant="h2" color="red" className="p-2 text-center">
+              <Typography
+                variant="h3"
+                color="deep-orange"
+                className="p-2 text-center font-[monospace]"
+              >
                 {"Heat Leaderboard"}
               </Typography>
             </div>

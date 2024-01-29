@@ -145,7 +145,7 @@ const chartConfig2 = {
           fontWeight: 400,
         },
       },
-      categories: ["Eris", "Gilgamesh", "Guan Yu", "Hades", "Hera", "Hestia"],
+      categories: ["Eris", "Gilga", "GuanYu", "Hades", "Hera", "Hestia"],
     },
     yaxis: {
       labels: {
