@@ -1,5 +1,16 @@
 export const FullData = [
   {
+    ava: "player-摆子哥.png",
+    category: "Unseeded",
+    name: "摆子哥",
+    heat: 64,
+    weapon: "Shield",
+    aspect: "Zeus",
+    god: "Zeus",
+    ring: "yellow",
+    src: "https://www.bilibili.com/video/BV1hH4y1z7c9/",
+  },
+  {
     ava: "player-Mysterra.png",
     category: "Modded",
     name: "Mysterra",
@@ -295,7 +306,7 @@ export const FullData = [
     aspect: "Chiron",
     god: "Artemis",
     ring: "yellow",
-    src: " https://www.bilibili.com/video/BV1KM4y1Q7Db/?share_source=copy_web&vd_source=7658e3c42f3d573a7da0ccf6c6859ca0",
+    src: " https://www.bilibili.com/video/BV1KM4y1Q7Db/",
   },
   {
     ava: "Backgrounds/hades.gif",
@@ -727,7 +738,7 @@ export const FullData = [
     aspect: "Zeus",
     god: "Zeus",
     ring: "yellow",
-    src: " https://www.bilibili.com/video/BV1UM411i7MD/?share_source=copy_web&vd_source=7658e3c42f3d573a7da0ccf6c6859ca0",
+    src: " https://www.bilibili.com/video/BV1UM411i7MD/",
   },
   {
     ava: "player-PlayAd.png",
@@ -6059,7 +6070,7 @@ export const FullData = [
     aspect: "Zeus",
     god: "Zeus",
     ring: "yellow",
-    src: " https://www.bilibili.com/video/BV1kx4y1V7kz/?share_source=copy_web&vd_source=7658e3c42f3d573a7da0ccf6c6859ca0",
+    src: " https://www.bilibili.com/video/BV1kx4y1V7kz/",
   },
   {
     ava: "player-Jade.png",
