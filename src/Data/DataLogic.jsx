@@ -13,6 +13,7 @@ findTotalPlayer();
 const uniquePlayers = tempPlayerArr.length;
 const totalRuns = FullData.length;
 //
+FullData.sort((a, b) => (a.heat < b.heat ? 1 : -1));
 const ogData = FullData.sort((a, b) => (a.heat < b.heat ? 1 : -1));
 const mData = FullData.filter((run) => run.category === "Modded");
 const uData = FullData.filter((run) => run.category === "Unseeded");
@@ -21,7 +22,25 @@ const aspectZeus_Data = FullData.filter((run) => run.aspect === "Zeus");
 const aspectRama_Data = FullData.filter((run) => run.aspect === "Rama");
 const aspectEris_Data = FullData.filter((run) => run.aspect === "Eris");
 const aspectBeowulf_Data = FullData.filter((run) => run.aspect === "Beowulf");
-const aspectZagreus_Data = FullData.filter((run) => run.aspect === "Zagreus");
+const aspectZagreusBow_Data = FullData.filter(
+  (run) => run.aspect === "Zagreus" && run.weapon === "Bow"
+);
+const aspectZagreusFists_Data = FullData.filter(
+  (run) => run.aspect === "Zagreus" && run.weapon === "Fists"
+);
+const aspectZagreusRail_Data = FullData.filter(
+  (run) => run.aspect === "Zagreus" && run.weapon === "Rail"
+);
+const aspectZagreusSpear_Data = FullData.filter(
+  (run) => run.aspect === "Zagreus" && run.weapon === "Spear"
+);
+const aspectZagreusShield_Data = FullData.filter(
+  (run) => run.aspect === "Zagreus" && run.weapon === "Shield"
+);
+const aspectZagreusSword_Data = FullData.filter(
+  (run) => run.aspect === "Zagreus" && run.weapon === "Sword"
+);
+
 const aspectNemesis_Data = FullData.filter((run) => run.aspect === "Nemesis");
 const aspectHestia_Data = FullData.filter((run) => run.aspect === "Hestia");
 const aspectDemeter_Data = FullData.filter((run) => run.aspect === "Demeter");
@@ -68,7 +87,12 @@ const allData = [
   aspectPoseidon_Data,
   aspectRama_Data,
   aspectTalos_Data,
-  aspectZagreus_Data,
+  aspectZagreusBow_Data,
+  aspectZagreusFists_Data,
+  aspectZagreusRail_Data,
+  aspectZagreusSpear_Data,
+  aspectZagreusShield_Data,
+  aspectZagreusSword_Data,
   aspectZeus_Data,
   armsBow_Data,
   armsFists_Data,

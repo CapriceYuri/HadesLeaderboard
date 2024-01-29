@@ -16,7 +16,13 @@ const categories = [
   "Poseidon",
   "Rama",
   "Talos",
-  "Zagreus",
+  "Z-Bow",
+  "Z-Fists",
+  "Z-Rail",
+  "Z-Spear",
+  "Z-Shield",
+  "Z-Sword",
+
   "Zeus",
 ];
 
@@ -24,7 +30,7 @@ import { Button } from "@material-tailwind/react";
 
 export default function CategoryButtons({ onClick }) {
   return (
-    <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 place-items-center gap-2 p-4">
+    <div className="grid grid-cols-3 md:grid-cols-4 place-items-center gap-2 p-4">
       {categories.map((cate, index) => (
         <Button
           variant="outlined"

@@ -6,7 +6,6 @@ import {
   CardFooter,
   Typography,
   IconButton,
-  Button,
 } from "@material-tailwind/react";
 
 import CategoryButtons from "./Components.jsx/CategoryBtn";
@@ -14,6 +13,8 @@ import CategoryWeapBtns from "./Components.jsx/WeaponBtn";
 import TotalRunsCard from "./Components.jsx/TotalRunsCard";
 import TotalPlayerCard from "./Components.jsx/TotalPlayerCard";
 import RunTypeBtn from "./Components.jsx/RunTypeBtn";
+import CategoryWeaponChart from "./Components.jsx/WeaponChart";
+import CategoryAspectChart from "./Components.jsx/AspectChart";
 
 import { useState } from "react";
 import { allData, BreakList } from "./Data/DataLogic";
@@ -54,15 +55,38 @@ export default function MainContent() {
         className="fixed h-lvh w-full object-cover -z-10"
       />
       {/* COVER BG */}
+      <section className="w-full flex justify-center py-5">
+        <Card className="w-[100%] backdrop-blur-lg bg-transparent shadow-[0_0_50px_red] 2xl:w-3/4">
+          <img
+            src="Backgrounds/recordBG.png"
+            className="h-full w-full object-cover rounded-2xl absolute"
+          />
+          <div className="absolute h-full w-full bg-gradient-to-r from-purple-600 via-indigo-500 to-purple-800 rounded-xl opacity-40" />
+          <List className="z-40">
+            <div>
+              <Typography
+                variant="h2"
+                color="deep-orange"
+                className="p-2 text-center"
+              >
+                {"Heat Summary"}
+              </Typography>
+            </div>
+            <CategoryWeaponChart />
+            <CategoryAspectChart />
+          </List>
+        </Card>
+      </section>
+      {/* TESTING */}
       <section>
-        <div className="flex justify-center px-4 mx-auto w-[100%] pt-10 gap-x-2 2xl:w-2/3">
+        <div className="flex justify-center px-2 mx-auto w-[100%] py-5 gap-x-2 2xl:w-3/4">
           <TotalRunsCard />
           <TotalPlayerCard />
         </div>
       </section>
       {/* TABLE CONTENT */}
-      <section className="w-full flex justify-center px-4 pt-5 pb-10">
-        <Card className="w-[100%] backdrop-blur-lg bg-transparent shadow-[0_0_50px_red] 2xl:w-2/3">
+      <section className="w-full flex justify-center pt-5 pb-10">
+        <Card className="w-[100%] backdrop-blur-lg bg-transparent shadow-[0_0_50px_red] 2xl:w-3/4">
           <img
             src="Backgrounds/vertical.png"
             className="h-full w-full object-cover rounded-2xl absolute"
