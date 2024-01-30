@@ -30,7 +30,7 @@ const chartConfig = {
     dataLabels: {
       enabled: false,
     },
-    colors: ["#00FFFF"],
+    colors: ["#E6E6FA"],
     plotOptions: {
       bar: {
         columnWidth: "40%",
@@ -46,7 +46,7 @@ const chartConfig = {
       },
       labels: {
         style: {
-          colors: "#00FFFF",
+          colors: "#E6E6FA",
           fontSize: "12px",
           fontFamily: "monospace",
           fontWeight: 400,
@@ -57,7 +57,7 @@ const chartConfig = {
     yaxis: {
       labels: {
         style: {
-          colors: "#00FFFF",
+          colors: "#E6E6FA",
           fontSize: "12px",
           fontFamily: "inherit",
           fontWeight: 400,
@@ -112,7 +112,7 @@ const chartConfig2 = {
     dataLabels: {
       enabled: false,
     },
-    colors: ["#00FFFF"],
+    colors: ["#E6E6FA"],
     plotOptions: {
       bar: {
         columnWidth: "40%",
@@ -128,7 +128,7 @@ const chartConfig2 = {
       },
       labels: {
         style: {
-          colors: "#00FFFF",
+          colors: "#E6E6FA",
           fontSize: "12px",
           fontFamily: "monospace",
           fontWeight: 400,
@@ -139,7 +139,7 @@ const chartConfig2 = {
     yaxis: {
       labels: {
         style: {
-          colors: "#00FFFF",
+          colors: "#E6E6FA",
           fontSize: "12px",
           fontFamily: "inherit",
           fontWeight: 400,
@@ -194,7 +194,7 @@ const chartConfig3 = {
     dataLabels: {
       enabled: false,
     },
-    colors: ["#00FFFF"],
+    colors: ["#E6E6FA"],
     plotOptions: {
       bar: {
         columnWidth: "40%",
@@ -210,7 +210,7 @@ const chartConfig3 = {
       },
       labels: {
         style: {
-          colors: "#00FFFF",
+          colors: "#E6E6FA",
           fontSize: "12px",
           fontFamily: "monospace",
           fontWeight: 400,
@@ -221,7 +221,7 @@ const chartConfig3 = {
     yaxis: {
       labels: {
         style: {
-          colors: "#00FFFF",
+          colors: "#E6E6FA",
           fontSize: "12px",
           fontFamily: "inherit",
           fontWeight: 400,
@@ -276,7 +276,7 @@ const chartConfig4 = {
     dataLabels: {
       enabled: false,
     },
-    colors: ["#00FFFF"],
+    colors: ["#E6E6FA"],
     plotOptions: {
       bar: {
         columnWidth: "40%",
@@ -292,7 +292,7 @@ const chartConfig4 = {
       },
       labels: {
         style: {
-          colors: "#00FFFF",
+          colors: "#E6E6FA",
           fontSize: "12px",
           fontFamily: "monospace",
           fontWeight: 400,
@@ -303,7 +303,7 @@ const chartConfig4 = {
     yaxis: {
       labels: {
         style: {
-          colors: "#00FFFF",
+          colors: "#E6E6FA",
           fontSize: "12px",
           fontFamily: "inherit",
           fontWeight: 400,
@@ -358,7 +358,7 @@ const chartConfig5 = {
     dataLabels: {
       enabled: false,
     },
-    colors: ["#00FFFF"],
+    colors: ["#E6E6FA"],
     plotOptions: {
       bar: {
         columnWidth: "40%",
@@ -374,7 +374,7 @@ const chartConfig5 = {
       },
       labels: {
         style: {
-          colors: "#00FFFF",
+          colors: "#E6E6FA",
           fontSize: "12px",
           fontFamily: "monospace",
           fontWeight: 400,
@@ -385,7 +385,7 @@ const chartConfig5 = {
     yaxis: {
       labels: {
         style: {
-          colors: "#00FFFF",
+          colors: "#E6E6FA",
           fontSize: "12px",
           fontFamily: "inherit",
           fontWeight: 400,
@@ -440,7 +440,7 @@ const chartConfig6 = {
     dataLabels: {
       enabled: false,
     },
-    colors: ["#00FFFF"],
+    colors: ["#E6E6FA"],
     plotOptions: {
       bar: {
         columnWidth: "40%",
@@ -456,7 +456,7 @@ const chartConfig6 = {
       },
       labels: {
         style: {
-          colors: "#00FFFF",
+          colors: "#E6E6FA",
           fontSize: "12px",
           fontFamily: "monospace",
           fontWeight: 400,
@@ -467,7 +467,7 @@ const chartConfig6 = {
     yaxis: {
       labels: {
         style: {
-          colors: "#00FFFF",
+          colors: "#E6E6FA",
           fontSize: "12px",
           fontFamily: "inherit",
           fontWeight: 400,
@@ -511,7 +511,7 @@ export default function CategoryWeaponChart() {
     <Carousel loop={true}>
       {allCharts.map((chart) => (
         <Card className="bg-transparent" shadow={false}>
-          <CardBody className="px-2 pb-4">
+          <CardBody className="px-14 pb-4">
             <Chart {...chart} />
           </CardBody>
         </Card>

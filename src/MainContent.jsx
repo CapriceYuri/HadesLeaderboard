@@ -99,12 +99,12 @@ export default function MainContent() {
             src="Backgrounds/recordBG.png"
             className="h-full w-full object-cover rounded-2xl absolute"
           />
-          <div className="absolute h-full w-full bg-gradient-to-r from-light-blue-700 via-indigo-500 to-light-blue-800 rounded-xl opacity-40" />
+          <div className="absolute h-full w-full bg-gradient-to-r from-light-blue-500 via-indigo-800 to-light-blue-600 rounded-xl opacity-50" />
           <List className="z-40">
             <div>
               <Typography
                 variant="h3"
-                className="p-2 text-center font-[monospace] text-[#00FFFF]"
+                className="p-2 text-center font-[monospace] text-[#E6E6FA]"
               >
                 {"Stat Summary"}
               </Typography>

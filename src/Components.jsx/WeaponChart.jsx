@@ -36,7 +36,7 @@ const chartConfig = {
     dataLabels: {
       enabled: false,
     },
-    colors: ["#00FFFF"],
+    colors: ["#E6E6FA"],
     plotOptions: {
       bar: {
         columnWidth: "40%",
@@ -52,7 +52,7 @@ const chartConfig = {
       },
       labels: {
         style: {
-          colors: "#00FFFF",
+          colors: "#E6E6FA",
           fontSize: "12px",
           fontFamily: "monospace",
           fontWeight: 400,
@@ -63,7 +63,7 @@ const chartConfig = {
     yaxis: {
       labels: {
         style: {
-          colors: "#00FFFF",
+          colors: "#E6E6FA",
           fontSize: "12px",
           fontFamily: "inherit",
           fontWeight: 400,
@@ -103,7 +103,7 @@ export default function CategoryWeaponChart() {
         className="flex flex-col gap-4 rounded-none md:flex-row md:items-center"
       >
         <div className="2xl:text-center 2xl:mx-auto">
-          <Typography variant="h5" className="text-[#00FFFF]">
+          <Typography variant="h5" className="text-[#E6E6FA]">
             Infernal Arms
           </Typography>
           <Typography
@@ -117,7 +117,7 @@ export default function CategoryWeaponChart() {
           </Typography>
         </div>
         <div className="2xl:text-center 2xl:mx-auto">
-          <Typography variant="h5" className="text-[#00FFFF]">
+          <Typography variant="h5" className="text-[#E6E6FA]">
             Aspects
           </Typography>
           <Typography
@@ -131,7 +131,7 @@ export default function CategoryWeaponChart() {
           </Typography>
         </div>
       </CardHeader>
-      <CardBody className="px-2 pb-0">
+      <CardBody className="px-14 pb-0">
         <Chart {...chartConfig} />
       </CardBody>
     </Card>
