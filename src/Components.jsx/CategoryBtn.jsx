@@ -30,7 +30,7 @@ import { Button } from "@material-tailwind/react";
 
 export default function CategoryButtons({ onClick }) {
   return (
-    <div className="grid grid-cols-4 md:grid-cols-6 place-items-center gap-2 p-4">
+    <div className="grid grid-cols-3 md:grid-cols-6 place-items-center gap-2 p-4">
       {categories.map((cate, index) => (
         <Button
           variant="outlined"

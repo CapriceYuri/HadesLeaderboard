@@ -9,7 +9,8 @@ export default function CategoryWeapBtns({ onClick }) {
         <Button
           variant="outlined"
           onClick={() => onClick(index + 28)}
-          className="text-orange-600 border-orange-600 border-2 p-3 w-[100px] hover:bg-orange-500 hover:text-black"
+          color="orange"
+          className="text-white border-2 p-3 w-[100px] hover:bg-orange-500 hover:text-black"
           key={index}
         >
           {weapon}

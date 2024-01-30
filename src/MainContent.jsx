@@ -66,10 +66,10 @@ export default function MainContent() {
       <section className="w-full flex justify-center py-5">
         <Card className="w-[100%] backdrop-blur-lg bg-transparent shadow-[0_0_50px_red] 2xl:w-3/4">
           <img
-            src="Backgrounds/vertical.png"
+            src="Backgrounds/vertical-green.jpg"
             className="h-full w-full object-cover rounded-2xl absolute"
           />
-          <div className="absolute h-full w-full bg-gradient-to-r from-green-500 via-black to-yellow-500 rounded-xl opacity-40" />
+          <div className="absolute h-full w-full bg-gradient-to-r from-green-700 via-black to-green-700 rounded-xl opacity-50" />
           <List className="z-40">
             <div>
               <Typography
@@ -99,7 +99,7 @@ export default function MainContent() {
             src="Backgrounds/recordBG.png"
             className="h-full w-full object-cover rounded-2xl absolute"
           />
-          <div className="absolute h-full w-full bg-gradient-to-r from-purple-600 via-indigo-500 to-purple-800 rounded-xl opacity-40" />
+          <div className="absolute h-full w-full bg-gradient-to-r from-light-blue-700 via-indigo-500 to-light-blue-800 rounded-xl opacity-40" />
           <List className="z-40">
             <div>
               <Typography
@@ -118,10 +118,10 @@ export default function MainContent() {
       <section className="w-full flex justify-center pt-5 pb-10">
         <Card className="w-[100%] backdrop-blur-lg bg-transparent shadow-[0_0_50px_red] 2xl:w-3/4">
           <img
-            src="Backgrounds/vertical.png"
+            src="Backgrounds/vertical-blue.jpg"
             className="h-full w-full object-cover rounded-2xl absolute"
           />
-          <div className="absolute h-full w-full bg-gradient-to-r from-purple-600 via-indigo-500 to-purple-800 rounded-xl opacity-40" />
+          <div className="absolute h-full w-full bg-gradient-to-r from-black via-indigo-300 to-black rounded-xl opacity-60" />
           <List className="z-40">
             <div>
               <Typography
@@ -140,17 +140,23 @@ export default function MainContent() {
                 <div className="flex-1">
                   <div className="flex flex-col items-center">
                     <Avatar
-                      variant="rounded"
+                      variant="circular"
                       color="indigo"
                       src={player.ava}
                       withBorder={true}
                       className="p-0.5"
+                      size="md"
                     />
-                    <Typography variant="h6" color="white">
+                    <Typography
+                      variant="small"
+                      color="white"
+                      className="font-normal"
+                    >
                       {player.name}
                     </Typography>
                   </div>
                 </div>
+
                 <div>
                   <div className="relative mx-auto">
                     <Avatar
@@ -163,38 +169,41 @@ export default function MainContent() {
                     />
                   </div>
                 </div>
+
+                <div className="flex-1 text-center align-top hidden md:block">
+                  <Typography
+                    variant="small"
+                    color="white"
+                    className="font-normal"
+                  >
+                    {``}
+                  </Typography>
+                  <Typography variant="h5" color="pink">
+                    {`${player.aspect}`}
+                  </Typography>
+                </div>
+
+                <div className="text-center px-2 md:flex-1 md:px-0">
+                  <Typography
+                    variant="small"
+                    color="white"
+                    className="font-normal"
+                  >
+                    {``}
+                  </Typography>
+                  <Typography variant="h5" color="orange">
+                    {`${player.weapon}`}
+                  </Typography>
+                </div>
+
                 <div>
-                  <div className="relative mx-auto ms-2">
+                  <div className="relative mx-auto">
                     <Avatar src={`gods/${player.god}.png`} withBorder={true} />
                     <Avatar
                       src={`rings/discord-${player.ring}.gif`}
                       className="absolute top-0 start-0"
                     />
                   </div>
-                </div>
-                <div className="flex-1 text-center align-top hidden sm:block">
-                  <Typography
-                    variant="small"
-                    color="white"
-                    className="font-normal"
-                  >
-                    {`Aspect`}
-                  </Typography>
-                  <Typography variant="h5" color="pink">
-                    {`${player.aspect}`}
-                  </Typography>
-                </div>
-                <div className="flex-1 text-center">
-                  <Typography
-                    variant="small"
-                    color="white"
-                    className="font-normal"
-                  >
-                    {`Weapon`}
-                  </Typography>
-                  <Typography variant="h5" color="orange">
-                    {`${player.weapon}`}
-                  </Typography>
                 </div>
 
                 <div className="flex-1 text-center">
@@ -203,7 +212,7 @@ export default function MainContent() {
                     color="white"
                     className="font-normal"
                   >
-                    {`Heat`}
+                    {``}
                   </Typography>
                   <Typography variant="h5" color="deep-orange">
                     {`${player.heat}`}

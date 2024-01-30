@@ -28,7 +28,12 @@ export default function RecordSummary() {
               key={index}
             >
               <div className="flex flex-row items-center gap-x-2 flex-1 justify-start">
-                <Avatar variant="rounded" src={run.ava} size="xs" />
+                <Avatar
+                  variant="rounded"
+                  src={run.ava}
+                  size="xs"
+                  className="hidden md:block"
+                />
                 <Typography
                   variant="small"
                   color="white"
@@ -37,16 +42,7 @@ export default function RecordSummary() {
                   {run.name}
                 </Typography>
               </div>
-              <div className="flex-1">
-                <Typography
-                  variant="small"
-                  color="light-green"
-                  className="text-center font-[monospace] font-normal"
-                >
-                  {run.weapon}
-                </Typography>
-              </div>
-              <div className="relative mx-auto">
+              <div className="relative mx-auto flex-1 text-center">
                 <Avatar
                   src={`arms/${run.weapon}-${run.aspect}.png`}
                   withBorder={true}
@@ -54,7 +50,7 @@ export default function RecordSummary() {
                 />
                 <Avatar
                   src={`rings/discord-${run.ring}.gif`}
-                  className="absolute top-0 start-0"
+                  className="absolute top-0 start-50 transform -translate-x-full"
                   size="lg"
                 />
               </div>
@@ -62,9 +58,16 @@ export default function RecordSummary() {
                 <Typography
                   variant="small"
                   color="light-green"
-                  className="text-center font-[monospace] font-normal"
+                  className="text-center font-[monospace] font-semibold"
                 >
                   {run.aspect}
+                </Typography>
+                <Typography
+                  variant="small"
+                  color="white"
+                  className="text-center font-[monospace] font-normal"
+                >
+                  {run.weapon}
                 </Typography>
               </div>
 
