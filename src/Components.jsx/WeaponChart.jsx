@@ -131,7 +131,7 @@ export default function CategoryWeaponChart() {
           </Typography>
         </div>
       </CardHeader>
-      <CardBody className="px-14 pb-0">
+      <CardBody className="px-2 pb-0">
         <Chart {...chartConfig} />
       </CardBody>
     </Card>

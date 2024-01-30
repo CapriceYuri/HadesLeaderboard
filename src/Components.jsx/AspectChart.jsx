@@ -52,7 +52,7 @@ const chartConfig = {
           fontWeight: 400,
         },
       },
-      categories: ["Z-Sword", "Nemesis", "Poseidon", "Arthur"],
+      categories: ["Zagreus-Sword", "Nemesis", "Poseidon", "Arthur"],
     },
     yaxis: {
       labels: {
@@ -134,7 +134,7 @@ const chartConfig2 = {
           fontWeight: 400,
         },
       },
-      categories: ["Z-Spear", "Achilles", "Hades", "Guan Yu"],
+      categories: ["Zagreus-Spear", "Achilles", "Hades", "Guan Yu"],
     },
     yaxis: {
       labels: {
@@ -216,7 +216,7 @@ const chartConfig3 = {
           fontWeight: 400,
         },
       },
-      categories: ["Z-Shield", "Chaos", "Zeus", "Beowulf"],
+      categories: ["Zagreus-Shield", "Chaos", "Zeus", "Beowulf"],
     },
     yaxis: {
       labels: {
@@ -298,7 +298,7 @@ const chartConfig4 = {
           fontWeight: 400,
         },
       },
-      categories: ["Z-Bow", "Chiron", "Hera", "Rama"],
+      categories: ["Zagreus-Bow", "Chiron", "Hera", "Rama"],
     },
     yaxis: {
       labels: {
@@ -380,7 +380,7 @@ const chartConfig5 = {
           fontWeight: 400,
         },
       },
-      categories: ["Z-Fists", "Talos", "Demeter", "Gilgamesh"],
+      categories: ["Zagreus-Fists", "Talos", "Demeter", "Gilgamesh"],
     },
     yaxis: {
       labels: {
@@ -462,7 +462,7 @@ const chartConfig6 = {
           fontWeight: 400,
         },
       },
-      categories: ["Z-Rail", "Eris", "Hestia", "Lucifer"],
+      categories: ["Zagreus-Rail", "Eris", "Hestia", "Lucifer"],
     },
     yaxis: {
       labels: {
@@ -511,7 +511,7 @@ export default function CategoryWeaponChart() {
     <Carousel loop={true}>
       {allCharts.map((chart) => (
         <Card className="bg-transparent" shadow={false}>
-          <CardBody className="px-14 pb-4">
+          <CardBody className="px-12 pb-4">
             <Chart {...chart} />
           </CardBody>
         </Card>
