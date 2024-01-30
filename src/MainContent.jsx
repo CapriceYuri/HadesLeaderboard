@@ -102,8 +102,8 @@ export default function MainContent() {
               </Typography>
             </div>
             <RunTypeBtn onClick={handleDataChange} />
-            <CategoryButtons onClick={handleDataChange} />
             <CategoryWeapBtns onClick={handleDataChange} />
+            <CategoryButtons onClick={handleDataChange} />
             {sortDisplay.map((player, index) => (
               <ListItem className="hover:bg-black focus:bg-black" key={index}>
                 <div className="flex-1">

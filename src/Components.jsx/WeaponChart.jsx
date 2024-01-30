@@ -16,12 +16,12 @@ const chartConfig = {
     {
       name: "Runs",
       data: [
+        WeaponData[5].length,
+        WeaponData[3].length,
+        WeaponData[4].length,
         WeaponData[0].length,
         WeaponData[1].length,
         WeaponData[2].length,
-        WeaponData[3].length,
-        WeaponData[4].length,
-        WeaponData[5].length,
       ],
     },
   ],
@@ -59,7 +59,7 @@ const chartConfig = {
           fontWeight: 400,
         },
       },
-      categories: ["Bow", "Fists", "Rail", "Spear", "Shield", "Sword"],
+      categories: ["Sword", "Spear", "Shield", "Bow", "Fists", "Rail"],
     },
     yaxis: {
       labels: {

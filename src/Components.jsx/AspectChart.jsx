@@ -11,12 +11,10 @@ const chartConfig = {
     {
       name: "Runs",
       data: [
-        WeaponData[0].length,
+        WeaponData[22].length,
+        WeaponData[13].length,
+        WeaponData[14].length,
         WeaponData[1].length,
-        WeaponData[2].length,
-        WeaponData[3].length,
-        WeaponData[4].length,
-        WeaponData[5].length,
       ],
     },
   ],
@@ -54,14 +52,7 @@ const chartConfig = {
           fontWeight: 400,
         },
       },
-      categories: [
-        "Achilles",
-        "Arthur",
-        "Beowulf",
-        "Chaos",
-        "Chiron",
-        "Demter",
-      ],
+      categories: ["Z-Sword", "Nemesis", "Poseidon", "Arthur"],
     },
     yaxis: {
       labels: {
@@ -102,12 +93,10 @@ const chartConfig2 = {
     {
       name: "Runs",
       data: [
-        WeaponData[6].length,
-        WeaponData[7].length,
-        WeaponData[8].length,
+        WeaponData[20].length,
+        WeaponData[0].length,
         WeaponData[9].length,
-        WeaponData[10].length,
-        WeaponData[11].length,
+        WeaponData[8].length,
       ],
     },
   ],
@@ -145,7 +134,7 @@ const chartConfig2 = {
           fontWeight: 400,
         },
       },
-      categories: ["Eris", "Gilga", "GuanYu", "Hades", "Hera", "Hestia"],
+      categories: ["Z-Spear", "Achilles", "Hades", "Guan Yu"],
     },
     yaxis: {
       labels: {
@@ -186,12 +175,10 @@ const chartConfig3 = {
     {
       name: "Runs",
       data: [
-        WeaponData[12].length,
-        WeaponData[13].length,
-        WeaponData[14].length,
-        WeaponData[15].length,
-        WeaponData[16].length,
-        WeaponData[17].length,
+        WeaponData[21].length,
+        WeaponData[3].length,
+        WeaponData[23].length,
+        WeaponData[2].length,
       ],
     },
   ],
@@ -229,7 +216,7 @@ const chartConfig3 = {
           fontWeight: 400,
         },
       },
-      categories: ["Lucifer", "Nemesis", "Poseidon", "Rama", "Talos", "Bow"],
+      categories: ["Z-Shield", "Chaos", "Zeus", "Beowulf"],
     },
     yaxis: {
       labels: {
@@ -270,12 +257,10 @@ const chartConfig4 = {
     {
       name: "Runs",
       data: [
-        WeaponData[18].length,
-        WeaponData[19].length,
-        WeaponData[20].length,
-        WeaponData[21].length,
-        WeaponData[22].length,
-        WeaponData[23].length,
+        WeaponData[17].length,
+        WeaponData[4].length,
+        WeaponData[10].length,
+        WeaponData[15].length,
       ],
     },
   ],
@@ -313,7 +298,171 @@ const chartConfig4 = {
           fontWeight: 400,
         },
       },
-      categories: ["Fists", "Rail", "Spear", "Shield", "Sword", "Zeus"],
+      categories: ["Z-Bow", "Chiron", "Hera", "Rama"],
+    },
+    yaxis: {
+      labels: {
+        style: {
+          colors: "#00FFFF",
+          fontSize: "12px",
+          fontFamily: "inherit",
+          fontWeight: 400,
+        },
+      },
+    },
+    grid: {
+      show: false,
+      borderColor: "#dddddd",
+      strokeDashArray: 5,
+      xaxis: {
+        lines: {
+          show: true,
+        },
+      },
+      padding: {
+        top: 5,
+        right: 20,
+      },
+    },
+    fill: {
+      opacity: 0.8,
+    },
+    tooltip: {
+      theme: "dark",
+    },
+  },
+};
+const chartConfig5 = {
+  type: "bar",
+  height: 240,
+  series: [
+    {
+      name: "Runs",
+      data: [
+        WeaponData[18].length,
+        WeaponData[16].length,
+        WeaponData[5].length,
+        WeaponData[7].length,
+      ],
+    },
+  ],
+  options: {
+    chart: {
+      toolbar: {
+        show: false,
+      },
+    },
+    title: {
+      show: "",
+    },
+    dataLabels: {
+      enabled: false,
+    },
+    colors: ["#00FFFF"],
+    plotOptions: {
+      bar: {
+        columnWidth: "40%",
+        borderRadius: 8,
+      },
+    },
+    xaxis: {
+      axisTicks: {
+        show: false,
+      },
+      axisBorder: {
+        show: false,
+      },
+      labels: {
+        style: {
+          colors: "#00FFFF",
+          fontSize: "12px",
+          fontFamily: "monospace",
+          fontWeight: 400,
+        },
+      },
+      categories: ["Z-Fists", "Talos", "Demeter", "Gilgamesh"],
+    },
+    yaxis: {
+      labels: {
+        style: {
+          colors: "#00FFFF",
+          fontSize: "12px",
+          fontFamily: "inherit",
+          fontWeight: 400,
+        },
+      },
+    },
+    grid: {
+      show: false,
+      borderColor: "#dddddd",
+      strokeDashArray: 5,
+      xaxis: {
+        lines: {
+          show: true,
+        },
+      },
+      padding: {
+        top: 5,
+        right: 20,
+      },
+    },
+    fill: {
+      opacity: 0.8,
+    },
+    tooltip: {
+      theme: "dark",
+    },
+  },
+};
+const chartConfig6 = {
+  type: "bar",
+  height: 240,
+  series: [
+    {
+      name: "Runs",
+      data: [
+        WeaponData[19].length,
+        WeaponData[6].length,
+        WeaponData[11].length,
+        WeaponData[12].length,
+      ],
+    },
+  ],
+  options: {
+    chart: {
+      toolbar: {
+        show: false,
+      },
+    },
+    title: {
+      show: "",
+    },
+    dataLabels: {
+      enabled: false,
+    },
+    colors: ["#00FFFF"],
+    plotOptions: {
+      bar: {
+        columnWidth: "40%",
+        borderRadius: 8,
+      },
+    },
+    xaxis: {
+      axisTicks: {
+        show: false,
+      },
+      axisBorder: {
+        show: false,
+      },
+      labels: {
+        style: {
+          colors: "#00FFFF",
+          fontSize: "12px",
+          fontFamily: "monospace",
+          fontWeight: 400,
+        },
+      },
+      categories: ["Z-Rail", "Eris", "Hestia", "Lucifer"],
     },
     yaxis: {
       labels: {
@@ -348,7 +497,14 @@ const chartConfig4 = {
   },
 };
 
-const allCharts = [chartConfig, chartConfig2, chartConfig3, chartConfig4];
+const allCharts = [
+  chartConfig,
+  chartConfig2,
+  chartConfig3,
+  chartConfig4,
+  chartConfig5,
+  chartConfig6,
+];
 
 export default function CategoryWeaponChart() {
   return (
