@@ -64,7 +64,7 @@ export default function MainContent() {
       </section>
       {/* CHARTS */}
       <section className="w-full flex justify-center py-5">
-        <Card className="w-[100%] backdrop-blur-lg bg-transparent shadow-[0_0_50px_red] 2xl:w-3/4">
+        <Card className="w-[100%] backdrop-blur-lg bg-transparent shadow-[0_0_50px_green] 2xl:w-3/4">
           <img
             src="Backgrounds/vertical-green.jpg"
             className="h-full w-full object-cover rounded-2xl absolute"
@@ -94,7 +94,7 @@ export default function MainContent() {
         </Card>
       </section>
       <section className="w-full flex justify-center py-5">
-        <Card className="w-[100%] backdrop-blur-lg bg-transparent shadow-[0_0_50px_red] 2xl:w-3/4">
+        <Card className="w-[100%] backdrop-blur-lg bg-transparent shadow-[0_0_50px_cyan] 2xl:w-3/4">
           <img
             src="Backgrounds/recordBG.png"
             className="h-full w-full object-cover rounded-2xl absolute"
@@ -116,7 +116,7 @@ export default function MainContent() {
       </section>
       {/* TABLE CONTENT */}
       <section className="w-full flex justify-center pt-5 pb-10">
-        <Card className="w-[100%] backdrop-blur-lg bg-transparent shadow-[0_0_50px_red] 2xl:w-3/4">
+        <Card className="w-[100%] backdrop-blur-lg bg-transparent shadow-[0_0_50px_white] 2xl:w-3/4">
           <img
             src="Backgrounds/vertical-blue.jpg"
             className="h-full w-full object-cover rounded-2xl absolute"

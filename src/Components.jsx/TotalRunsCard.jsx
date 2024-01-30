@@ -4,7 +4,7 @@ import { totalRuns } from "../Data/DataLogic";
 export default function TotalRunsCard() {
   return (
     <Card
-      className="w-[100%] h-56 bg-transparent shadow-[0_0_30px_yellow] relative"
+      className="w-[100%] h-56 bg-transparent shadow-[0_0_50px_red] relative"
       shadow={false}
     >
       <img

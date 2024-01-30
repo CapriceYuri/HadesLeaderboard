@@ -4,7 +4,7 @@ import { uniquePlayers } from "../Data/DataLogic";
 export default function TotalPlayerCard() {
   return (
     <Card
-      className="w-[100%] h-56 flex bg-transparent shadow-[0_0_30px_yellow] relative"
+      className="w-[100%] h-56 flex bg-transparent shadow-[0_0_50px_red] relative"
       shadow={false}
     >
       <img
