@@ -352,7 +352,7 @@ const allCharts = [chartConfig, chartConfig2, chartConfig3, chartConfig4];
 
 export default function CategoryWeaponChart() {
   return (
-    <Carousel loop={true} autoplay={true}>
+    <Carousel loop={true}>
       {allCharts.map((chart) => (
         <Card className="bg-transparent" shadow={false}>
           <CardBody className="px-2 pb-4">
