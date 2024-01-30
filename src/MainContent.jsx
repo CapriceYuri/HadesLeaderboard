@@ -15,6 +15,7 @@ import TotalPlayerCard from "./Components.jsx/TotalPlayerCard";
 import RunTypeBtn from "./Components.jsx/RunTypeBtn";
 import CategoryWeaponChart from "./Components.jsx/WeaponChart";
 import CategoryAspectChart from "./Components.jsx/AspectChart";
+import RecordSummary from "./Components.jsx/RecordSummary";
 
 import { useState } from "react";
 import { allData, BreakList } from "./Data/DataLogic";
@@ -62,6 +63,36 @@ export default function MainContent() {
         </div>
       </section>
       {/* CHARTS */}
+      <section className="w-full flex justify-center py-5">
+        <Card className="w-[100%] backdrop-blur-lg bg-transparent shadow-[0_0_50px_red] 2xl:w-3/4">
+          <img
+            src="Backgrounds/vertical.png"
+            className="h-full w-full object-cover rounded-2xl absolute"
+          />
+          <div className="absolute h-full w-full bg-gradient-to-r from-green-500 via-black to-yellow-500 rounded-xl opacity-40" />
+          <List className="z-40">
+            <div>
+              <Typography
+                variant="h3"
+                color="light-green"
+                className="p-2 text-center font-[monospace]"
+              >
+                {"Record Summary"}
+              </Typography>
+            </div>
+            <div>
+              <Typography
+                variant="small"
+                color="light-green"
+                className="font-normal font-[monospace] text-center"
+              >
+                "Ascended to godlike prowess on the battlefield"
+              </Typography>
+            </div>
+            <RecordSummary />
+          </List>
+        </Card>
+      </section>
       <section className="w-full flex justify-center py-5">
         <Card className="w-[100%] backdrop-blur-lg bg-transparent shadow-[0_0_50px_red] 2xl:w-3/4">
           <img

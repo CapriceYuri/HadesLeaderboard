@@ -8,7 +8,6 @@ import Chart from "react-apexcharts";
 import { allData } from "../Data/DataLogic";
 
 const WeaponData = allData.slice(28);
-console.log(WeaponData.length);
 const chartConfig = {
   type: "bar",
   height: 240,
