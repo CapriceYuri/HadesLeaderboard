@@ -71,42 +71,42 @@ const allData = [
   uData,
   sData,
 
-  aspectAchilles_Data,
-  aspectArthur_Data,
-  aspectBeowulf_Data,
-  aspectChaos_Data,
-
-  aspectChiron_Data,
-  aspectDemeter_Data,
-  aspectEris_Data,
-  aspectGilgamesh_Data,
-
-  aspectGuanYu_Data,
-  aspectHades_Data,
-  aspectHera_Data,
-  aspectHestia_Data,
-
-  aspectLucifer_Data,
+  aspectZagreusSword_Data,
   aspectNemesis_Data,
   aspectPoseidon_Data,
+  aspectArthur_Data,
+
+  armsSpear_Data,
+  aspectAchilles_Data,
+  aspectHades_Data,
+  aspectGuanYu_Data,
+
+  aspectZagreusShield_Data,
+  aspectChaos_Data,
+  aspectZeus_Data,
+  aspectBeowulf_Data,
+
+  aspectZagreusBow_Data,
+  aspectChiron_Data,
+  aspectHera_Data,
   aspectRama_Data,
 
-  aspectTalos_Data,
-  aspectZagreusBow_Data,
   aspectZagreusFists_Data,
+  aspectTalos_Data,
+  aspectDemeter_Data,
+  aspectGilgamesh_Data,
+
   aspectZagreusRail_Data,
+  aspectEris_Data,
+  aspectHestia_Data,
+  aspectLucifer_Data,
 
-  aspectZagreusSpear_Data,
-  aspectZagreusShield_Data,
-  aspectZagreusSword_Data,
-  aspectZeus_Data,
-
+  armsSword_Data,
+  armsSpear_Data,
+  armsShield_Data,
   armsBow_Data,
   armsFists_Data,
   armsRail_Data,
-  armsSpear_Data,
-  armsShield_Data,
-  armsSword_Data,
 ];
 //
 

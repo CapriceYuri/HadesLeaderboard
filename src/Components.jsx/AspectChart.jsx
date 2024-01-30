@@ -11,10 +11,10 @@ const chartConfig = {
     {
       name: "Runs",
       data: [
-        WeaponData[22].length,
-        WeaponData[13].length,
-        WeaponData[14].length,
+        WeaponData[0].length,
         WeaponData[1].length,
+        WeaponData[2].length,
+        WeaponData[3].length,
       ],
     },
   ],
@@ -93,10 +93,10 @@ const chartConfig2 = {
     {
       name: "Runs",
       data: [
-        WeaponData[20].length,
-        WeaponData[0].length,
-        WeaponData[9].length,
-        WeaponData[8].length,
+        WeaponData[4].length,
+        WeaponData[5].length,
+        WeaponData[6].length,
+        WeaponData[7].length,
       ],
     },
   ],
@@ -175,10 +175,10 @@ const chartConfig3 = {
     {
       name: "Runs",
       data: [
-        WeaponData[21].length,
-        WeaponData[3].length,
-        WeaponData[23].length,
-        WeaponData[2].length,
+        WeaponData[8].length,
+        WeaponData[9].length,
+        WeaponData[10].length,
+        WeaponData[11].length,
       ],
     },
   ],
@@ -257,9 +257,9 @@ const chartConfig4 = {
     {
       name: "Runs",
       data: [
-        WeaponData[17].length,
-        WeaponData[4].length,
-        WeaponData[10].length,
+        WeaponData[12].length,
+        WeaponData[13].length,
+        WeaponData[14].length,
         WeaponData[15].length,
       ],
     },
@@ -339,10 +339,10 @@ const chartConfig5 = {
     {
       name: "Runs",
       data: [
-        WeaponData[18].length,
         WeaponData[16].length,
-        WeaponData[5].length,
-        WeaponData[7].length,
+        WeaponData[17].length,
+        WeaponData[18].length,
+        WeaponData[19].length,
       ],
     },
   ],
@@ -421,10 +421,10 @@ const chartConfig6 = {
     {
       name: "Runs",
       data: [
-        WeaponData[19].length,
-        WeaponData[6].length,
-        WeaponData[11].length,
-        WeaponData[12].length,
+        WeaponData[20].length,
+        WeaponData[21].length,
+        WeaponData[22].length,
+        WeaponData[23].length,
       ],
     },
   ],

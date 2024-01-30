@@ -1,4 +1,4 @@
-const weapons = ["Bow", "Fists", "Rail", "Spear", "Shield", "Sword"];
+const weapons = ["Sword", "Spear", "Shield", "Bow", "Fists", "Rail"];
 
 import { Button } from "@material-tailwind/react";
 
