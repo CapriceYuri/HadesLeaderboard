@@ -511,7 +511,7 @@ export default function CategoryWeaponChart() {
     <Carousel loop={true}>
       {allCharts.map((chart) => (
         <Card className="bg-transparent" shadow={false}>
-          <CardBody className="px-12 pb-4">
+          <CardBody className="px-10 pb-4">
             <Chart {...chart} />
           </CardBody>
         </Card>
