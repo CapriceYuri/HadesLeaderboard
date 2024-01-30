@@ -37,7 +37,7 @@ const chartConfig = {
     dataLabels: {
       enabled: false,
     },
-    colors: ["#FF6347"],
+    colors: ["#00FFFF"],
     plotOptions: {
       bar: {
         columnWidth: "40%",
@@ -53,7 +53,7 @@ const chartConfig = {
       },
       labels: {
         style: {
-          colors: "#FF6347",
+          colors: "#00FFFF",
           fontSize: "12px",
           fontFamily: "monospace",
           fontWeight: 400,
@@ -64,7 +64,7 @@ const chartConfig = {
     yaxis: {
       labels: {
         style: {
-          colors: "#FF6347",
+          colors: "#00FFFF",
           fontSize: "12px",
           fontFamily: "inherit",
           fontWeight: 400,
@@ -104,7 +104,7 @@ export default function CategoryWeaponChart() {
         className="flex flex-col gap-4 rounded-none md:flex-row md:items-center"
       >
         <div className="2xl:text-center 2xl:mx-auto">
-          <Typography variant="h5" color="amber">
+          <Typography variant="h5" className="text-[#00FFFF]">
             Infernal Arms
           </Typography>
           <Typography

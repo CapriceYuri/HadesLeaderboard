@@ -73,8 +73,7 @@ export default function MainContent() {
             <div>
               <Typography
                 variant="h3"
-                color="deep-orange"
-                className="p-2 text-center font-[monospace]"
+                className="p-2 text-center font-[monospace] text-[#00FFFF]"
               >
                 {"Stat Summary"}
               </Typography>
