@@ -160,7 +160,11 @@ export default function MainContent() {
                 <div>
                   <div className="relative mx-auto">
                     <Avatar
-                      src={`arms/${player.weapon}-${player.aspect}.png`}
+                      src={
+                        `${player.creator}` === "madeit"
+                          ? `arms/${player.creator}.gif`
+                          : `arms/${player.weapon}-${player.aspect}.png`
+                      }
                       withBorder={true}
                     />
                     <Avatar
@@ -198,7 +202,14 @@ export default function MainContent() {
 
                 <div>
                   <div className="relative mx-auto">
-                    <Avatar src={`gods/${player.god}.png`} withBorder={true} />
+                    <Avatar
+                      src={
+                        `${player.creator}` === "madeit"
+                          ? `arms/${player.creator}.gif`
+                          : `gods/${player.god}.png`
+                      }
+                      withBorder={true}
+                    />
                     <Avatar
                       src={`rings/discord-${player.ring}.gif`}
                       className="absolute top-0 start-0"

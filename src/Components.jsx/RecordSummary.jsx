@@ -44,7 +44,11 @@ export default function RecordSummary() {
               </div>
               <div className="relative mx-auto flex-1 text-center">
                 <Avatar
-                  src={`arms/${run.weapon}-${run.aspect}.png`}
+                  src={
+                    `${run.creator}` === "madeit"
+                      ? `arms/${run.creator}.gif`
+                      : `arms/${run.weapon}-${run.aspect}.png`
+                  }
                   withBorder={true}
                   size="lg"
                 />
