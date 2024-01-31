@@ -1,14 +1,13 @@
 export const FullData = [
   {
     ava: "creator.png",
-    category: "Unseeded",
+    category: "Modded",
     name: "CapriceYuri",
-    heat: 63,
-    weapon: "Spear",
-    aspect: "GuanYu",
+    heat: 64,
+    weapon: "Shield",
+    aspect: "Zeus",
     god: "Zagreus",
     ring: "green",
-    creator: "madeit",
     src: "https://www.youtube.com/watch?v=VEiPmNCHaK4",
   },
   {
