@@ -15,8 +15,21 @@ function findTopPlayer(arr) {
   let highestHeat = arr[0].heat;
   TopPlayerCategory.push(arr.filter((run) => run.heat === highestHeat));
 }
+
+function removeDup(myArr, prop) {
+  return myArr.filter((obj, pos, arr) => {
+    return arr.map((mapObj) => mapObj[prop]).indexOf(obj[prop]) === pos;
+  });
+}
+
 recordData.forEach((arr) => findTopPlayer(arr));
 
+for (let i = 0; i < TopPlayerCategory.length; i++) {
+  TopPlayerCategory[i] = removeDup(TopPlayerCategory[i], "ava");
+}
+
+// TESTING
+// TESTING
 export default function RecordSummary() {
   return (
     <Card className="w-full bg-transparent" shadow={false}>
