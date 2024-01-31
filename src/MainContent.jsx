@@ -69,7 +69,7 @@ export default function MainContent() {
             src="Backgrounds/vertical-green.jpg"
             className="h-full w-full object-cover rounded-2xl absolute"
           />
-          <div className="absolute h-full w-full bg-gradient-to-r from-green-700 via-black to-green-700 rounded-xl opacity-50" />
+          <div className="absolute h-full w-full bg-gradient-to-r from-teal-600 via-black to-teal-400 rounded-xl opacity-60" />
           <List className="z-40">
             <div>
               <Typography

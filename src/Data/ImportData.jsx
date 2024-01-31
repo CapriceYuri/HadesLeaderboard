@@ -9,6 +9,7 @@ export const FullData = [
     god: "Zagreus",
     ring: "green",
     src: "https://www.youtube.com/watch?v=VEiPmNCHaK4",
+    quote: "'Yeah!'",
   },
   {
     ava: "player-Mysterra.png",
@@ -174,6 +175,7 @@ export const FullData = [
     god: "Zagreus",
     ring: "orange",
     src: "https://www.youtube.com/watch?v=FMgB_1blciY",
+    quote: "'anyone else play hades with a disconnected controller'",
   },
   {
     ava: "Backgrounds/hades.gif",
@@ -6158,6 +6160,7 @@ export const FullData = [
     god: "Sisyphus",
     ring: "blue",
     src: "https://www.youtube.com/watch?v=XHc_3QU6JwY",
+    quote: "'I freaking hate dracons'",
   },
   {
     ava: "player-Jade.png",

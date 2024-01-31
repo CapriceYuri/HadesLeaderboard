@@ -42,6 +42,16 @@ export default function RecordSummary() {
                   {run.name}
                 </Typography>
               </div>
+
+              <div className="flex-1">
+                <Typography
+                  variant="small"
+                  color="red"
+                  className="text-center font-[monospace] font-normal"
+                >
+                  {run.quote}
+                </Typography>
+              </div>
               <div className="relative mx-auto flex-1 text-center">
                 <Avatar
                   src={
@@ -58,6 +68,7 @@ export default function RecordSummary() {
                   size="lg"
                 />
               </div>
+
               <div className="flex-1">
                 <Typography
                   variant="small"
