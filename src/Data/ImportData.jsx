@@ -9,7 +9,7 @@ export const FullData = [
     god: "Zagreus",
     ring: "green",
     src: "https://www.youtube.com/watch?v=VEiPmNCHaK4",
-    quote: "'Yeah!'",
+    quote: "Yeah!",
   },
   {
     ava: "player-Mysterra.png",
@@ -175,10 +175,10 @@ export const FullData = [
     god: "Zagreus",
     ring: "orange",
     src: "https://www.youtube.com/watch?v=FMgB_1blciY",
-    quote: "'anyone else play hades with a disconnected controller'",
+    quote: "anyone else play hades with a disconnected controller",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-NephiOH.png",
     category: "Modded",
     name: "NephiOH",
     heat: 60,
@@ -200,7 +200,7 @@ export const FullData = [
     src: "https://www.bilibili.com/video/BV1V64y1p7fG/",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-NephiOH.png",
     category: "Unseeded",
     name: "NephiOH",
     heat: 57,
@@ -376,7 +376,7 @@ export const FullData = [
     src: " https://www.bilibili.com/video/BV1KM4y1Q7Db/",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-NephiOH.png",
     category: "Seeded",
     name: "NephiOH",
     heat: 53,
@@ -431,7 +431,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=ASqHU2fLz68",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Hadesprofessor.png",
     category: "Seeded",
     name: "Hadesprofessor",
     heat: 50,
@@ -442,7 +442,7 @@ export const FullData = [
     src: "https://youtu.be/YzF9E2fCFa0",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Hadesprofessor.png",
     category: "Seeded",
     name: "Hadesprofessor",
     heat: 50,
@@ -453,7 +453,7 @@ export const FullData = [
     src: "https://youtu.be/MaLOJf0975s",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Hadesprofessor.png",
     category: "Seeded",
     name: "Hadesprofessor",
     heat: 50,
@@ -486,7 +486,7 @@ export const FullData = [
     src: "https://www.twitch.tv/videos/1009171150",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-NephiOH.png",
     category: "Seeded",
     name: "NephiOH",
     heat: 50,
@@ -497,7 +497,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=lt97Ir9_YZM",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-NephiOH.png",
     category: "Seeded",
     name: "NephiOH",
     heat: 50,
@@ -1036,7 +1036,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=06EkFj7aV3Y",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Hadesprofessor.png",
     category: "Unseeded",
     name: "Hadesprofessor",
     heat: 57,
@@ -1091,7 +1091,7 @@ export const FullData = [
     src: "https://www.bilibili.com/video/BV1w64y1t7Km",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-NephiOH.png",
     category: "Unseeded",
     name: "NephiOH",
     heat: 57,
@@ -1267,7 +1267,7 @@ export const FullData = [
     src: "https://youtu.be/ttJhOQN6Eas",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Hadesprofessor.png",
     category: "Unseeded",
     name: "Hadesprofessor",
     heat: 55,
@@ -1289,7 +1289,7 @@ export const FullData = [
     src: "https://www.bilibili.com/video/BV1MU4y1h7ay",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Hadesprofessor.png",
     category: "Unseeded",
     name: "Hadesprofessor",
     heat: 55,
@@ -1333,7 +1333,7 @@ export const FullData = [
     src: "https://www.bilibili.com/video/BV1444y1r7xY",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-NephiOH.png",
     category: "Unseeded",
     name: "NephiOH",
     heat: 55,
@@ -1663,7 +1663,7 @@ export const FullData = [
     src: "https://www.twitch.tv/videos/816903799",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Hadesprofessor.png",
     category: "Unseeded",
     name: "Hadesprofessor",
     heat: 53,
@@ -1685,7 +1685,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=r8gJQdz4wII",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Hadesprofessor.png",
     category: "Unseeded",
     name: "Hadesprofessor",
     heat: 53,
@@ -1828,7 +1828,7 @@ export const FullData = [
     src: "https://youtu.be/pUPWgs-27BQ",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-NephiOH.png",
     category: "Unseeded",
     name: "NephiOH",
     heat: 53,
@@ -1927,7 +1927,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=_cco4oKLcp0",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Hadesprofessor.png",
     category: "Unseeded",
     name: "Hadesprofessor",
     heat: 52,
@@ -2235,7 +2235,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=5H3ezPgERNo",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Hadesprofessor.png",
     category: "Unseeded",
     name: "Hadesprofessor",
     heat: 51,
@@ -2378,7 +2378,7 @@ export const FullData = [
     src: "https://youtu.be/hJLfgNzBQxM",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-NephiOH.png",
     category: "Unseeded",
     name: "NephiOH",
     heat: 51,
@@ -2554,7 +2554,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=2NymcxcglKY",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Hadesprofessor.png",
     category: "Unseeded",
     name: "Hadesprofessor",
     heat: 50,
@@ -2565,7 +2565,7 @@ export const FullData = [
     src: "https://youtu.be/VVQ3-LK5rew",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Hadesprofessor.png",
     category: "Unseeded",
     name: "Hadesprofessor",
     heat: 50,
@@ -2587,7 +2587,7 @@ export const FullData = [
     src: "https://www.twitch.tv/videos/820121105",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Hadesprofessor.png",
     category: "Unseeded",
     name: "Hadesprofessor",
     heat: 50,
@@ -2598,7 +2598,7 @@ export const FullData = [
     src: "https://youtu.be/Efsyawh5hL0",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Hadesprofessor.png",
     category: "Unseeded",
     name: "Hadesprofessor",
     heat: 50,
@@ -2609,7 +2609,7 @@ export const FullData = [
     src: "https://youtu.be/ibUvb7e0AjE",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Hadesprofessor.png",
     category: "Unseeded",
     name: "Hadesprofessor",
     heat: 50,
@@ -2631,7 +2631,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=BilqJk5uHAw&ab_channel=TylerKing",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Hadesprofessor.png",
     category: "Unseeded",
     name: "Hadesprofessor",
     heat: 50,
@@ -2642,7 +2642,7 @@ export const FullData = [
     src: "https://youtu.be/ZgQJqMcphMM",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Hadesprofessor.png",
     category: "Unseeded",
     name: "Hadesprofessor",
     heat: 50,
@@ -2653,7 +2653,7 @@ export const FullData = [
     src: "https://youtu.be/YJBk0v0Pho0",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Hadesprofessor.png",
     category: "Unseeded",
     name: "Hadesprofessor",
     heat: 50,
@@ -2675,7 +2675,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=TWahzalFkYM",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Hadesprofessor.png",
     category: "Unseeded",
     name: "Hadesprofessor",
     heat: 50,
@@ -2719,7 +2719,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=SGVJGrjfBsM",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Hadesprofessor.png",
     category: "Unseeded",
     name: "Hadesprofessor",
     heat: 50,
@@ -2730,7 +2730,7 @@ export const FullData = [
     src: "https://youtu.be/weJW7aHEDy4",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Hadesprofessor.png",
     category: "Unseeded",
     name: "Hadesprofessor",
     heat: 50,
@@ -2741,7 +2741,7 @@ export const FullData = [
     src: "https://youtu.be/SaH2DAu2KS8",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Hadesprofessor.png",
     category: "Unseeded",
     name: "Hadesprofessor",
     heat: 50,
@@ -2752,7 +2752,7 @@ export const FullData = [
     src: "https://youtu.be/fb5wlEw8etA",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Hadesprofessor.png",
     category: "Unseeded",
     name: "Hadesprofessor",
     heat: 50,
@@ -2807,7 +2807,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=Kb--1BKjCRU",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Hadesprofessor.png",
     category: "Unseeded",
     name: "Hadesprofessor",
     heat: 50,
@@ -2829,7 +2829,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=ybHCHG_KuA8",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Hadesprofessor.png",
     category: "Unseeded",
     name: "Hadesprofessor",
     heat: 50,
@@ -2840,7 +2840,7 @@ export const FullData = [
     src: "https://youtu.be/4uqFF1e7clI",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Hadesprofessor.png",
     category: "Unseeded",
     name: "Hadesprofessor",
     heat: 50,
@@ -2862,7 +2862,7 @@ export const FullData = [
     src: "https://youtu.be/Xu__mFZ9LDY",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Hadesprofessor.png",
     category: "Unseeded",
     name: "Hadesprofessor",
     heat: 50,
@@ -2873,7 +2873,7 @@ export const FullData = [
     src: "https://youtu.be/BYa-PajQUME",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Hadesprofessor.png",
     category: "Unseeded",
     name: "Hadesprofessor",
     heat: 50,
@@ -2884,7 +2884,7 @@ export const FullData = [
     src: "https://youtu.be/6fpJ1RiGXRc",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Hadesprofessor.png",
     category: "Unseeded",
     name: "Hadesprofessor",
     heat: 50,
@@ -2895,7 +2895,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=IrcWRkwynb8&feature=youtu.be",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Hadesprofessor.png",
     category: "Unseeded",
     name: "Hadesprofessor",
     heat: 50,
@@ -2906,7 +2906,7 @@ export const FullData = [
     src: "https://youtu.be/1jaxHKzBAVg",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Hadesprofessor.png",
     category: "Unseeded",
     name: "Hadesprofessor",
     heat: 50,
@@ -2917,7 +2917,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=xGfQeXB8J4s&feature=youtu.be",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Hadesprofessor.png",
     category: "Unseeded",
     name: "Hadesprofessor",
     heat: 50,
@@ -2928,7 +2928,7 @@ export const FullData = [
     src: "https://youtu.be/6srZEfrobMQ",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Hadesprofessor.png",
     category: "Unseeded",
     name: "Hadesprofessor",
     heat: 50,
@@ -2950,7 +2950,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=jKmEQaOuQL0",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Hadesprofessor.png",
     category: "Unseeded",
     name: "Hadesprofessor",
     heat: 50,
@@ -2961,7 +2961,7 @@ export const FullData = [
     src: "https://youtu.be/sILnou4kwbw",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Hadesprofessor.png",
     category: "Unseeded",
     name: "Hadesprofessor",
     heat: 50,
@@ -2972,7 +2972,7 @@ export const FullData = [
     src: "https://youtu.be/PfnepqNDjqA",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Hadesprofessor.png",
     category: "Unseeded",
     name: "Hadesprofessor",
     heat: 50,
@@ -3049,7 +3049,7 @@ export const FullData = [
     src: "https://youtu.be/Me9kciO9H5I",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Hadesprofessor.png",
     category: "Unseeded",
     name: "Hadesprofessor",
     heat: 50,
@@ -3104,7 +3104,7 @@ export const FullData = [
     src: "https://www.twitch.tv/videos/935041181",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Hadesprofessor.png",
     category: "Unseeded",
     name: "Hadesprofessor",
     heat: 50,
@@ -3236,7 +3236,7 @@ export const FullData = [
     src: "https://youtu.be/pcZsujHOeX4",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Hadesprofessor.png",
     category: "Unseeded",
     name: "Hadesprofessor",
     heat: 50,
@@ -3621,7 +3621,7 @@ export const FullData = [
     src: "https://youtu.be/eihw38-h3aY",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-NephiOH.png",
     category: "Unseeded",
     name: "NephiOH",
     heat: 50,
@@ -3643,7 +3643,7 @@ export const FullData = [
     src: "https://youtu.be/Ans7QzgyA6U",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-NephiOH.png",
     category: "Unseeded",
     name: "NephiOH",
     heat: 50,
@@ -3654,7 +3654,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=hylHrCg2ONs",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-NephiOH.png",
     category: "Unseeded",
     name: "NephiOH",
     heat: 50,
@@ -3676,7 +3676,7 @@ export const FullData = [
     src: "https://youtu.be/KDI0to1nXAA",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-NephiOH.png",
     category: "Unseeded",
     name: "NephiOH",
     heat: 50,
@@ -3687,7 +3687,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=pASiSzef34U",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-NephiOH.png",
     category: "Unseeded",
     name: "NephiOH",
     heat: 50,
@@ -3709,7 +3709,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=_8oTQGc9p7g",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-NephiOH.png",
     category: "Unseeded",
     name: "NephiOH",
     heat: 50,
@@ -3731,7 +3731,7 @@ export const FullData = [
     src: "https://youtu.be/Zp3G6IPwTZE",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-NephiOH.png",
     category: "Unseeded",
     name: "NephiOH",
     heat: 50,
@@ -3742,7 +3742,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=jdaPPyrJyZI",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-NephiOH.png",
     category: "Unseeded",
     name: "NephiOH",
     heat: 50,
@@ -4644,7 +4644,7 @@ export const FullData = [
     src: "https://youtu.be/_Ubix0Vwf9I",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Hadesprofessor.png",
     category: "Unseeded",
     name: "Hadesprofessor",
     heat: 40,
@@ -6160,7 +6160,7 @@ export const FullData = [
     god: "Sisyphus",
     ring: "blue",
     src: "https://www.youtube.com/watch?v=XHc_3QU6JwY",
-    quote: "'I freaking hate dracons'",
+    quote: "I freaking hate dracons",
   },
   {
     ava: "player-Jade.png",

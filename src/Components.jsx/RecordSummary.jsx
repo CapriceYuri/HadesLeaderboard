@@ -56,7 +56,7 @@ export default function RecordSummary() {
                 </Typography>
               </div>
 
-              <div className="flex-1">
+              <div className="flex-1 hidden md:block">
                 <Typography
                   variant="small"
                   color="red"
