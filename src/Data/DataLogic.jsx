@@ -76,7 +76,7 @@ const allData = [
   aspectPoseidon_Data,
   aspectArthur_Data,
 
-  armsSpear_Data,
+  aspectZagreusSpear_Data,
   aspectAchilles_Data,
   aspectHades_Data,
   aspectGuanYu_Data,

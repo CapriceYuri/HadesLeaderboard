@@ -9,19 +9,19 @@ import {
 import { allData } from "../Data/DataLogic";
 
 const recordData = allData.slice(4, 28);
+console.log(recordData);
 let TopPlayerCategory = [];
-
+// Filter Function
 function findTopPlayer(arr) {
   let highestHeat = arr[0].heat;
   TopPlayerCategory.push(arr.filter((run) => run.heat === highestHeat));
 }
-
 function removeDup(myArr, prop) {
   return myArr.filter((obj, pos, arr) => {
     return arr.map((mapObj) => mapObj[prop]).indexOf(obj[prop]) === pos;
   });
 }
-
+// Execute Filtering
 recordData.forEach((arr) => findTopPlayer(arr));
 
 for (let i = 0; i < TopPlayerCategory.length; i++) {
