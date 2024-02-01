@@ -9,7 +9,6 @@ import {
 import { allData } from "../Data/DataLogic";
 
 const recordData = allData.slice(4, 28);
-console.log(recordData);
 let TopPlayerCategory = [];
 // Filter Function
 function findTopPlayer(arr) {
@@ -56,14 +55,12 @@ export default function RecordSummary() {
                 </Typography>
               </div>
 
-              <div className="flex-1 hidden md:block">
-                <Typography
-                  variant="small"
-                  color="red"
-                  className="text-center font-[monospace] font-normal"
-                >
-                  {run.quote}
-                </Typography>
+              <div className="">
+                <img
+                  src={`actual-arms/${run.aspect}-${run.weapon}.png`}
+                  className="rounded-2xl mx-auto shadow-[0_0_30px_white]"
+                  width={180}
+                />
               </div>
               <div className="relative mx-auto flex-1 text-center">
                 <Avatar
@@ -82,7 +79,7 @@ export default function RecordSummary() {
                 />
               </div>
 
-              <div className="flex-1">
+              <div className="flex-1 hidden md:block">
                 <Typography
                   variant="small"
                   color="light-green"
