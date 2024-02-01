@@ -55,11 +55,11 @@ export default function RecordSummary() {
                 </Typography>
               </div>
 
-              <div className="">
+              <div className="flex-1">
                 <img
                   src={`actual-arms/${run.aspect}-${run.weapon}.png`}
                   className="rounded-2xl mx-auto shadow-[0_0_30px_white]"
-                  width={180}
+                  width={200}
                 />
               </div>
               <div className="relative mx-auto flex-1 text-center">
