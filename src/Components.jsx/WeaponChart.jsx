@@ -54,7 +54,7 @@ const chartConfig = {
         style: {
           colors: "#E6E6FA",
           fontSize: "12px",
-          fontFamily: "monospace",
+          fontFamily: "customFont",
           fontWeight: 400,
         },
       },
@@ -103,13 +103,13 @@ export default function CategoryWeaponChart() {
         className="flex flex-col gap-4 rounded-none md:flex-row md:items-center"
       >
         <div className="2xl:text-center 2xl:mx-auto">
-          <Typography variant="h5" className="text-[#E6E6FA]">
+          <Typography variant="h4" className="text-[#E6E6FA] font-customFont">
             Infernal Arms
           </Typography>
           <Typography
-            variant="small"
+            variant="h6"
             color="white"
-            className="max-w-sm font-normal"
+            className="max-w-sm font-normal font-customFont"
           >
             Concise visual representation of the distribution of runs based on
             different weapons, offering insights into the effectiveness and
@@ -117,13 +117,13 @@ export default function CategoryWeaponChart() {
           </Typography>
         </div>
         <div className="2xl:text-center 2xl:mx-auto">
-          <Typography variant="h5" className="text-[#E6E6FA]">
+          <Typography variant="h4" className="text-[#E6E6FA] font-customFont">
             Aspects
           </Typography>
           <Typography
-            variant="small"
+            variant="h6"
             color="white"
-            className="max-w-sm font-normal"
+            className="max-w-sm font-normal font-customFont"
           >
             Like a forged blade tempered in the fires of adversity, a strong
             weapon is not only a tool of power but a testament to resilience,

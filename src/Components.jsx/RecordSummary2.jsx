@@ -48,9 +48,9 @@ export default function RecordSummaryCard() {
             <CardBody className="p-2">
               <div className="text-center">
                 <Typography
-                  variant="h6"
+                  variant="h5"
                   color="white"
-                  className="mx-auto backdrop-blur-md inline-block rounded-md"
+                  className="mx-auto backdrop-blur-md inline-block rounded-md font-customFont"
                 >
                   {run.name}
                 </Typography>
@@ -75,16 +75,16 @@ export default function RecordSummaryCard() {
 
               <div className="flex justify-evenly items-center py-2">
                 <Typography
-                  variant="h5"
+                  variant="h4"
                   color="white"
-                  className="text-center backdrop-blur-md inline-block rounded-md"
+                  className="text-center backdrop-blur-md inline-block rounded-md font-customFont"
                 >
                   {run.aspect}
                 </Typography>
                 <Typography
-                  variant="h4"
+                  variant="h3"
                   color="pink"
-                  className="text-center backdrop-blur-md inline-block rounded-md"
+                  className="text-center backdrop-blur-md inline-block rounded-md font-customFont"
                 >
                   {run.heat}
                 </Typography>

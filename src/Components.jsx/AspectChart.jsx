@@ -48,7 +48,7 @@ const chartConfig = {
         style: {
           colors: "#E6E6FA",
           fontSize: "12px",
-          fontFamily: "monospace",
+          fontFamily: "customFont",
           fontWeight: 400,
         },
       },
@@ -130,7 +130,7 @@ const chartConfig2 = {
         style: {
           colors: "#E6E6FA",
           fontSize: "12px",
-          fontFamily: "monospace",
+          fontFamily: "customFont",
           fontWeight: 400,
         },
       },
@@ -212,7 +212,7 @@ const chartConfig3 = {
         style: {
           colors: "#E6E6FA",
           fontSize: "12px",
-          fontFamily: "monospace",
+          fontFamily: "customFont",
           fontWeight: 400,
         },
       },
@@ -294,7 +294,7 @@ const chartConfig4 = {
         style: {
           colors: "#E6E6FA",
           fontSize: "12px",
-          fontFamily: "monospace",
+          fontFamily: "customFont",
           fontWeight: 400,
         },
       },
@@ -376,7 +376,7 @@ const chartConfig5 = {
         style: {
           colors: "#E6E6FA",
           fontSize: "12px",
-          fontFamily: "monospace",
+          fontFamily: "customFont",
           fontWeight: 400,
         },
       },
@@ -458,7 +458,7 @@ const chartConfig6 = {
         style: {
           colors: "#E6E6FA",
           fontSize: "12px",
-          fontFamily: "monospace",
+          fontFamily: "customFont",
           fontWeight: 400,
         },
       },

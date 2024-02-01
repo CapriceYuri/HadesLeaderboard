@@ -82,9 +82,9 @@ export default function MainContent() {
           <List className="z-40">
             <div className="flex justify-center items-center">
               <Typography
-                variant="h3"
+                variant="h2"
                 color="light-green"
-                className="p-2 text-center font-[monospace]"
+                className="p-2 text-center font-customFont"
               >
                 {"Record Summary"}
               </Typography>
@@ -97,9 +97,9 @@ export default function MainContent() {
             </div>
             <div>
               <Typography
-                variant="small"
+                variant="h5"
                 color="light-green"
-                className="font-normal font-[monospace] text-center"
+                className="font-normal font-customFont text-center"
               >
                 "Ascended to godlike prowess on the battlefield"
               </Typography>
@@ -118,8 +118,8 @@ export default function MainContent() {
           <List className="z-40">
             <div>
               <Typography
-                variant="h3"
-                className="p-2 text-center font-[monospace] text-[#E6E6FA]"
+                variant="h2"
+                className="p-2 text-center font-customFont text-[#E6E6FA]"
               >
                 {"Stat Summary"}
               </Typography>
@@ -140,9 +140,9 @@ export default function MainContent() {
           <List className="z-40">
             <div>
               <Typography
-                variant="h3"
+                variant="h2"
                 color="deep-orange"
-                className="p-2 text-center font-[monospace]"
+                className="p-2 text-center font-customFont"
               >
                 {"Heat Leaderboard"}
               </Typography>
@@ -191,26 +191,20 @@ export default function MainContent() {
 
                 <div className="flex-1 text-center align-top hidden md:block">
                   <Typography
-                    variant="small"
-                    color="white"
-                    className="font-normal"
+                    variant="h5"
+                    color="pink"
+                    className="font-customFont"
                   >
-                    {``}
-                  </Typography>
-                  <Typography variant="h5" color="pink">
                     {`${player.aspect}`}
                   </Typography>
                 </div>
 
                 <div className="text-center px-2 md:flex-1 md:px-0">
                   <Typography
-                    variant="small"
-                    color="white"
-                    className="font-normal"
+                    variant="h5"
+                    color="orange"
+                    className="font-customFont"
                   >
-                    {``}
-                  </Typography>
-                  <Typography variant="h5" color="orange">
                     {`${player.weapon}`}
                   </Typography>
                 </div>
@@ -254,7 +248,7 @@ export default function MainContent() {
                         ? "green"
                         : "orange"
                     }
-                    className="font-semibold"
+                    className="font-semibold font-customFont"
                   >
                     {player.category}
                   </Typography>

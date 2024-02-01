@@ -45,9 +45,9 @@ export default function RecordSummary() {
                   className="hidden md:block"
                 />
                 <Typography
-                  variant="small"
+                  variant="h6"
                   color="white"
-                  className="font-[monospace] font-normal"
+                  className="font-customFont font-normal"
                 >
                   {run.name}
                 </Typography>
@@ -79,16 +79,16 @@ export default function RecordSummary() {
 
               <div className="flex-1 hidden md:block">
                 <Typography
-                  variant="small"
+                  variant="h6"
                   color="light-green"
-                  className="text-center font-[monospace] font-semibold"
+                  className="text-center font-customFont font-semibold"
                 >
                   {run.aspect}
                 </Typography>
                 <Typography
-                  variant="small"
+                  variant="h6"
                   color="white"
-                  className="text-center font-[monospace] font-normal"
+                  className="text-center font-customFont font-normal"
                 >
                   {run.weapon}
                 </Typography>
@@ -98,7 +98,7 @@ export default function RecordSummary() {
                 <Typography
                   variant="h4"
                   color="amber"
-                  className="text-center font-[monospace] font-bold"
+                  className="text-center font-customFont font-bold"
                 >
                   {run.heat}
                 </Typography>
