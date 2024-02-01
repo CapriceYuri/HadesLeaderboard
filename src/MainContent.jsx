@@ -16,6 +16,7 @@ import RunTypeBtn from "./Components.jsx/RunTypeBtn";
 import CategoryWeaponChart from "./Components.jsx/WeaponChart";
 import CategoryAspectChart from "./Components.jsx/AspectChart";
 import RecordSummary from "./Components.jsx/RecordSummary";
+import RecordSummaryCard from "./Components.jsx/RecordSummary2";
 
 import { useState } from "react";
 import { allData, BreakList } from "./Data/DataLogic";
@@ -24,6 +25,14 @@ export default function MainContent() {
   const [category, setCategory] = useState(0);
   const [active, setActive] = useState(1);
   const [pageInfo, setPageInfo] = useState(0);
+
+  // TESTING
+  const [showComponentOne, setShowComponentOne] = useState(true);
+
+  const handleToggleClick = () => {
+    setShowComponentOne(!showComponentOne);
+  };
+  // TESTING
 
   function handleDataChange(num) {
     setCategory(num);
@@ -71,7 +80,7 @@ export default function MainContent() {
           />
           <div className="absolute h-full w-full bg-gradient-to-r from-teal-600 via-black to-teal-400 rounded-xl opacity-60" />
           <List className="z-40">
-            <div>
+            <div className="flex justify-center items-center">
               <Typography
                 variant="h3"
                 color="light-green"
@@ -79,6 +88,12 @@ export default function MainContent() {
               >
                 {"Record Summary"}
               </Typography>
+              <img
+                src="switch.gif"
+                width={100}
+                onClick={handleToggleClick}
+                className="cursor-pointer"
+              />
             </div>
             <div>
               <Typography
@@ -89,7 +104,7 @@ export default function MainContent() {
                 "Ascended to godlike prowess on the battlefield"
               </Typography>
             </div>
-            <RecordSummary />
+            {showComponentOne ? <RecordSummary /> : <RecordSummaryCard />}
           </List>
         </Card>
       </section>

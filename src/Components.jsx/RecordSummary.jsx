@@ -27,8 +27,6 @@ for (let i = 0; i < TopPlayerCategory.length; i++) {
   TopPlayerCategory[i] = removeDup(TopPlayerCategory[i], "ava");
 }
 
-// TESTING
-// TESTING
 export default function RecordSummary() {
   return (
     <Card className="w-full bg-transparent" shadow={false}>
