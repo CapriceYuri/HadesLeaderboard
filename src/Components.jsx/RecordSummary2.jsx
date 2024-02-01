@@ -27,7 +27,7 @@ export default function RecordSummaryCard() {
       {TopPlayerCategory.map((arr) =>
         arr.map((run, index) => (
           <Card
-            className={`bg-[url('cardBG/card2.png')] bg-cover border-2 border-white px-4 py-8`}
+            className={`bg-[url('/cardBG/card2.png')] bg-cover border-2 border-white px-4 py-8`}
             key={index}
           >
             <div className="text-center relative">
