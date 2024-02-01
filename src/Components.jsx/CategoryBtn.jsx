@@ -2,7 +2,7 @@ const categories1 = ["Z-Sword", "Nemesis", "Poseidon", "Arthur"];
 const categories2 = ["Z-Spear", "Achilles", "Hades", "Guan Yu"];
 const categories3 = ["Z-Shield", "Chaos", "Zeus", "Beowulf"];
 const categories4 = ["Z-Bow", "Chiron", "Hera", "Rama"];
-const categories5 = ["Z-Fists", "Talos", "Demter", "Gilgamesh"];
+const categories5 = ["Z-Fists", "Talos", "Demeter", "Gilgamesh"];
 const categories6 = ["Z-Rail", "Eris", "Hestia", "Lucifer"];
 
 import { Button } from "@material-tailwind/react";
