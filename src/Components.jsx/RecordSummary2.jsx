@@ -50,7 +50,7 @@ export default function RecordSummaryCard() {
                 <Typography
                   variant="h6"
                   color="white"
-                  className="mx-auto backdrop-blur-lg inline-block"
+                  className="mx-auto backdrop-blur-md inline-block rounded-md"
                 >
                   {run.name}
                 </Typography>
@@ -77,14 +77,14 @@ export default function RecordSummaryCard() {
                 <Typography
                   variant="h5"
                   color="white"
-                  className="text-center py-2"
+                  className="text-center backdrop-blur-md inline-block rounded-md"
                 >
                   {run.aspect}
                 </Typography>
                 <Typography
                   variant="h4"
                   color="pink"
-                  className="text-center py-2"
+                  className="text-center backdrop-blur-md inline-block rounded-md"
                 >
                   {run.heat}
                 </Typography>
