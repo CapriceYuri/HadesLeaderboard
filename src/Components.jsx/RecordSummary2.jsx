@@ -1,6 +1,7 @@
 import { Card, CardBody, Typography, Avatar } from "@material-tailwind/react";
 
 import { allData } from "../Data/DataLogic";
+import { getAvatarRing } from "../Data/FunctionLogic";
 
 const recordData = allData.slice(4, 28);
 let TopPlayerCategory = [];
@@ -67,7 +68,7 @@ export default function RecordSummaryCard() {
                   size="lg"
                 />
                 <Avatar
-                  src={`rings/discord-${run.ring}.gif`}
+                  src={getAvatarRing(run.aspect)}
                   className="absolute top-0 start-50 transform -translate-x-full"
                   size="lg"
                 />

@@ -7,7 +7,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     god: "Zagreus",
-    ring: "green",
     src: "https://www.youtube.com/watch?v=VEiPmNCHaK4",
   },
   {
@@ -18,7 +17,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "orange",
     src: "https://www.bilibili.com/video/BV1vN4y1Y7sZ/",
   },
   {
@@ -29,7 +27,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Chaos",
     god: "Chaos",
-    ring: "purple",
     src: "https://www.bilibili.com/video/BV1fa4y1Z7pb/",
   },
   {
@@ -40,7 +37,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Eris",
     god: "Athena",
-    ring: "darkblue",
     src: "https://www.bilibili.com/video/BV1ba4y1k7ya/",
   },
   {
@@ -51,7 +47,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: " https://www.bilibili.com/video/BV1iu4y1J7uk/",
   },
   {
@@ -62,7 +57,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://www.bilibili.com/video/BV1eN4y1s7D3/",
   },
   {
@@ -73,7 +67,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     god: "Zeus",
-    ring: "yellow",
     src: "https://www.bilibili.com/video/BV1hH4y1z7c9/",
   },
   {
@@ -84,7 +77,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     god: "Zeus",
-    ring: "yellow",
     src: "https://www.bilibili.com/video/BV1xG4y1N7rT/",
   },
   {
@@ -95,7 +87,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     god: "Zeus",
-    ring: "yellow",
     src: "https://www.bilibili.com/video/BV1Qm4y1L7fw/",
   },
   {
@@ -106,7 +97,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     god: "Zeus",
-    ring: "yellow",
     src: "https://www.bilibili.com/video/BV1Ku4y127Yi/",
   },
   {
@@ -117,7 +107,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     god: "Zeus",
-    ring: "yellow",
     src: "https://www.bilibili.com/video/BV13w411F7fQ/",
   },
   {
@@ -128,7 +117,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     god: "Zeus",
-    ring: "yellow",
     src: "https://www.bilibili.com/video/BV12w411F735/",
   },
   {
@@ -139,7 +127,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     god: "Zeus",
-    ring: "yellow",
     src: "https://www.bilibili.com/video/BV1iu4y1a7Kr/",
   },
   {
@@ -150,7 +137,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     god: "Zeus",
-    ring: "yellow",
     src: "https://www.bilibili.com/video/BV12w411q7uL/",
   },
   {
@@ -161,7 +147,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     god: "Zeus",
-    ring: "yellow",
     src: "https://www.bilibili.com/video/BV1yM411D77h/",
   },
   {
@@ -172,7 +157,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "orange",
     src: "https://www.youtube.com/watch?v=FMgB_1blciY",
   },
   {
@@ -183,7 +167,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Hestia",
     god: "Hermes",
-    ring: "pink",
     src: "https://www.youtube.com/watch?v=ZEUJzkO6KLo",
   },
   {
@@ -194,7 +177,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Guan Yu",
     god: "Dionysus",
-    ring: "red",
     src: "https://www.bilibili.com/video/BV1V64y1p7fG/",
   },
   {
@@ -205,7 +187,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Arthur",
     god: "Aphrodite",
-    ring: "blue",
     src: "https://www.youtube.com/watch?v=YOF3YfqCwBE&ab_channel=NephiOH",
   },
   {
@@ -216,7 +197,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Chaos",
     god: "Chaos",
-    ring: "purple",
     src: "https://www.youtube.com/watch?v=uXrJWsuXpfw&t=1204s",
   },
   {
@@ -227,7 +207,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Eris",
     god: "Athena",
-    ring: "darkblue",
     src: "https://www.bilibili.com/video/BV1R14y1Z7HR",
   },
   {
@@ -238,7 +217,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Nemesis",
     god: "Persephone",
-    ring: "violet",
     src: "https://www.youtube.com/watch?v=rWmm1_1Dy3c",
   },
   {
@@ -249,7 +227,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Lucifer",
     god: "Nyx",
-    ring: "yellow",
     src: "https://www.youtube.com/watch?v=Z4umFW4lpyM",
   },
   {
@@ -260,7 +237,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Demeter",
     god: "Demeter",
-    ring: "green",
     src: "https://www.youtube.com/watch?v=4XWHO8F8XCc",
   },
   {
@@ -271,7 +247,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     god: "Zeus",
-    ring: "yellow",
     src: "https://www.bilibili.com/video/BV1Mf4y1p7t2",
   },
   {
@@ -282,7 +257,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Rama",
     god: "Sisyphus",
-    ring: "blue",
     src: "https://www.youtube.com/watch?v=qSA9KWTg61o",
   },
   {
@@ -293,7 +267,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Eris",
     god: "Athena",
-    ring: "darkblue",
     src: "https://youtu.be/0vZsERNO7cg",
   },
   {
@@ -304,7 +277,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Nemesis",
     god: "Persephone",
-    ring: "violet",
     src: "https://youtu.be/EdQ03L87zmY",
   },
   {
@@ -315,7 +287,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "red",
     src: "https://youtu.be/9MIcM-chEDM",
   },
   {
@@ -326,7 +297,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Eris",
     god: "Athena",
-    ring: "darkblue",
     src: "https://www.twitch.tv/videos/945980872",
   },
   {
@@ -337,7 +307,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "orange",
     src: "https://www.youtube.com/watch?v=HKpzhVU5ewQ",
   },
   {
@@ -348,7 +317,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "red",
     src: "https://youtu.be/_XksRjWaZ0Y",
   },
   {
@@ -359,7 +327,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "purple",
     src: "https://youtu.be/HXBTumqIk-0",
   },
   {
@@ -370,7 +337,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Chiron",
     god: "Artemis",
-    ring: "yellow",
     src: " https://www.bilibili.com/video/BV1KM4y1Q7Db/",
   },
   {
@@ -381,7 +347,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Lucifer",
     god: "Nyx",
-    ring: "yellow",
     src: "https://www.youtube.com/watch?v=RJTWQuig2Q0",
   },
   {
@@ -392,7 +357,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://youtu.be/ZLLcf-MMtI0",
   },
   {
@@ -403,7 +367,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     god: "Zeus",
-    ring: "yellow",
     src: "https://www.youtube.com/watch?v=viyiJInKhhI",
   },
   {
@@ -414,7 +377,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Rama",
     god: "Sisyphus",
-    ring: "blue",
     src: "https://www.youtube.com/watch?v=rGgz7bc40vc",
   },
   {
@@ -425,7 +387,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Poseidon",
     god: "Poseidon",
-    ring: "green",
     src: "https://www.youtube.com/watch?v=ASqHU2fLz68",
   },
   {
@@ -436,7 +397,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Guan Yu",
     god: "Dionysus",
-    ring: "red",
     src: "https://youtu.be/YzF9E2fCFa0",
   },
   {
@@ -447,7 +407,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Nemesis",
     god: "Persephone",
-    ring: "violet",
     src: "https://youtu.be/MaLOJf0975s",
   },
   {
@@ -458,7 +417,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Eris",
     god: "Athena",
-    ring: "darkblue",
     src: "https://youtu.be/WLVh4YyxJCI",
   },
   {
@@ -469,7 +427,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Hades",
     god: "Hades",
-    ring: "pink",
     src: "https://www.youtube.com/watch?v=hUORNJV55uE",
   },
   {
@@ -480,7 +437,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Rama",
     god: "Sisyphus",
-    ring: "blue",
     src: "https://www.twitch.tv/videos/1009171150",
   },
   {
@@ -491,7 +447,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "red",
     src: "https://www.youtube.com/watch?v=lt97Ir9_YZM",
   },
   {
@@ -502,7 +457,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Achilles",
     god: "Achilles",
-    ring: "yellow",
     src: "https://www.youtube.com/watch?v=SRXskPWsTMA",
   },
   {
@@ -513,7 +467,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Rama",
     god: "Sisyphus",
-    ring: "blue",
     src: "https://www.bilibili.com/video/BV1qY41197iY/?spm_id_from=333.999.0.0&vd_source=f11ff48f182a1b78e6f17407eedd459f",
   },
   {
@@ -524,7 +477,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Eris",
     god: "Athena",
-    ring: "darkblue",
     src: "https://www.youtube.com/watch?v=5s0ev_xKSp8",
   },
   {
@@ -535,7 +487,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Rama",
     god: "Sisyphus",
-    ring: "blue",
     src: "https://www.youtube.com/watch?v=qR6wl7zTNJw",
   },
   {
@@ -546,7 +497,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Achilles",
     god: "Achilles",
-    ring: "yellow",
     src: "https://www.youtube.com/watch?v=0pALaGeibaU",
   },
   {
@@ -557,7 +507,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Chiron",
     god: "Artemis",
-    ring: "yellow",
     src: "https://www.youtube.com/watch?v=EdLF1CfYLaU",
   },
   {
@@ -568,7 +517,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Chiron",
     god: "Artemis",
-    ring: "yellow",
     src: "https://www.twitch.tv/videos/765674324",
   },
   {
@@ -579,7 +527,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Arthur",
     god: "Aphrodite",
-    ring: "blue",
     src: "https://www.youtube.com/watch?v=H6Izc2Yt6UM",
   },
   {
@@ -590,7 +537,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Guan Yu",
     god: "Dionysus",
-    ring: "red",
     src: "https://www.bilibili.com/video/BV17Y4y1e7X4/",
   },
   {
@@ -601,7 +547,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Chiron",
     god: "Artemis",
-    ring: "yellow",
     src: "https://www.youtube.com/watch?v=kXA357uKwJ0",
   },
   {
@@ -612,7 +557,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Chiron",
     god: "Artemis",
-    ring: "yellow",
     src: "https://www.youtube.com/watch?v=MV1OlIxbC78",
   },
   {
@@ -623,7 +567,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "blue",
     src: "https://www.youtube.com/watch?v=143x9FjM2gM",
   },
   {
@@ -634,7 +577,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Chiron",
     god: "Artemis",
-    ring: "yellow",
     src: "https://www.youtube.com/watch?v=efzPtywLS7g",
   },
   {
@@ -645,7 +587,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Arthur",
     god: "Aphrodite",
-    ring: "blue",
     src: "https://www.youtube.com/watch?v=4zXfbsypxvY",
   },
   {
@@ -656,7 +597,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Hades",
     god: "Hades",
-    ring: "pink",
     src: "https://www.youtube.com/watch?v=ieiOiWIBEsA",
   },
   {
@@ -667,7 +607,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Arthur",
     god: "Aphrodite",
-    ring: "blue",
     src: "https://www.youtube.com/watch?v=FE39fW8IXpc&ab_channel=VallarfaxTF",
   },
   {
@@ -678,7 +617,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Guan Yu",
     god: "Dionysus",
-    ring: "red",
     src: "https://www.youtube.com/watch?v=isE-oE-pprY",
   },
   {
@@ -689,7 +627,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Rama",
     god: "Sisyphus",
-    ring: "blue",
     src: "https://www.twitch.tv/videos/1009162772",
   },
   {
@@ -700,7 +637,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "orange",
     src: "https://www.twitch.tv/videos/1024703850",
   },
   {
@@ -711,7 +647,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Hades",
     god: "Hades",
-    ring: "pink",
     src: "https://youtu.be/Wf6QRWJZk1E",
   },
   {
@@ -722,7 +657,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Guan Yu",
     god: "Dionysus",
-    ring: "red",
     src: "https://youtu.be/aNK3Dd8lx-M",
   },
   {
@@ -733,7 +667,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     god: "Zeus",
-    ring: "yellow",
     src: "https://www.twitch.tv/videos/1124749513",
   },
   {
@@ -744,7 +677,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Hestia",
     god: "Hermes",
-    ring: "pink",
     src: "https://youtu.be/0mlp1oC575Q",
   },
   {
@@ -755,7 +687,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "blue",
     src: "https://www.youtube.com/watch?v=AiPacIppnVQ",
   },
   {
@@ -766,7 +697,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     god: "Zeus",
-    ring: "yellow",
     src: "https://youtu.be/0mo-kXjasZs",
   },
   {
@@ -777,7 +707,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     god: "Zeus",
-    ring: "yellow",
     src: "https://www.bilibili.com/video/BV1WL4y1a7Ci/",
   },
   {
@@ -788,7 +717,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     god: "Zeus",
-    ring: "yellow",
     src: "https://www.bilibili.com/video/BV11t4y1873E?spm_id_from=333.999.list.card_archive.click",
   },
   {
@@ -799,7 +727,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     god: "Zeus",
-    ring: "yellow",
     src: " https://www.bilibili.com/video/BV1UM411i7MD/",
   },
   {
@@ -810,7 +737,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Rama",
     god: "Sisyphus",
-    ring: "blue",
     src: "https://youtu.be/tiW_iZ9SWAQ",
   },
   {
@@ -821,7 +747,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     god: "Zeus",
-    ring: "yellow",
     src: "https://www.bilibili.com/video/BV1Nq4y1Q7eU",
   },
   {
@@ -832,7 +757,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Rama",
     god: "Sisyphus",
-    ring: "blue",
     src: "https://www.youtube.com/watch?v=Vm9hha2HWDA",
   },
   {
@@ -843,7 +767,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://www.bilibili.com/video/BV1BK4y1P7EW",
   },
   {
@@ -854,7 +777,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Rama",
     god: "Sisyphus",
-    ring: "blue",
     src: "https://www.youtube.com/watch?v=x-RjELq1_70",
   },
   {
@@ -865,7 +787,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "orange",
     src: "https://youtu.be/f6GipboAH3I",
   },
   {
@@ -876,7 +797,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     god: "Zeus",
-    ring: "yellow",
     src: "https://youtu.be/U24rsfQ-_jI",
   },
   {
@@ -887,7 +807,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://www.bilibili.com/video/BV1o34y1h72o",
   },
   {
@@ -898,7 +817,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://www.bilibili.com/video/BV1TY411F7WS?spm_id_from=333.999.list.card_archive.click",
   },
   {
@@ -909,7 +827,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Rama",
     god: "Sisyphus",
-    ring: "blue",
     src: "https://www.bilibili.com/video/BV15N4y1G7QG?share_source=copy_web",
   },
   {
@@ -920,7 +837,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Rama",
     god: "Sisyphus",
-    ring: "blue",
     src: "https://www.bilibili.com/video/BV12D4y1A7eU/?vd_source=f11ff48f182a1b78e6f17407eedd459f",
   },
   {
@@ -931,7 +847,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://www.bilibili.com/video/BV1vx4y1c7Nm/?spm_id_from=333.999.0.0&vd_source=f11ff48f182a1b78e6f17407eedd459f",
   },
   {
@@ -942,7 +857,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     god: "Zeus",
-    ring: "yellow",
     src: "https://www.bilibili.com/video/BV1ZU4y1U7G9?spm_id_from=333.999.0.0",
   },
   {
@@ -953,7 +867,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Rama",
     god: "Sisyphus",
-    ring: "blue",
     src: "https://www.youtube.com/watch?v=7cPpv_Oafys",
   },
   {
@@ -964,7 +877,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://www.bilibili.com/video/BV14K411F7yH",
   },
   {
@@ -975,7 +887,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     god: "Zeus",
-    ring: "yellow",
     src: "https://www.bilibili.com/video/BV1Yg411G7LZ",
   },
   {
@@ -986,7 +897,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://www.bilibili.com/video/BV1PS4y1w7d6/",
   },
   {
@@ -997,7 +907,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://www.bilibili.com/video/BV1iU4y1m74u?from=search&seid=5024257748053017821&spm_id_from=333.337.0.0",
   },
   {
@@ -1008,7 +917,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Hestia",
     god: "Hermes",
-    ring: "pink",
     src: "https://www.youtube.com/watch?v=-ryQv1OIaNo",
   },
   {
@@ -1019,7 +927,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     god: "Zeus",
-    ring: "yellow",
     src: "video no longer available, verified",
   },
   {
@@ -1030,7 +937,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Rama",
     god: "Sisyphus",
-    ring: "blue",
     src: "https://www.youtube.com/watch?v=06EkFj7aV3Y",
   },
   {
@@ -1041,7 +947,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Hestia",
     god: "Hermes",
-    ring: "pink",
     src: "https://youtu.be/Uj2n13U9ALI",
   },
   {
@@ -1052,7 +957,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Hestia",
     god: "Hermes",
-    ring: "pink",
     src: "https://youtu.be/MfhHce0_4KM",
   },
   {
@@ -1063,7 +967,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://www.bilibili.com/video/BV1xg411G7wb",
   },
   {
@@ -1074,7 +977,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Nemesis",
     god: "Persephone",
-    ring: "violet",
     src: "https://youtu.be/7mQwfdTfozM",
   },
   {
@@ -1085,7 +987,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     god: "Zeus",
-    ring: "yellow",
     src: "https://www.bilibili.com/video/BV1w64y1t7Km",
   },
   {
@@ -1096,7 +997,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Hestia",
     god: "Hermes",
-    ring: "pink",
     src: "https://www.youtube.com/watch?v=evG3SkNccZE",
   },
   {
@@ -1107,7 +1007,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Hestia",
     god: "Hermes",
-    ring: "pink",
     src: "https://youtu.be/wgKL0ei_vcs",
   },
   {
@@ -1118,7 +1017,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Eris",
     god: "Athena",
-    ring: "darkblue",
     src: "https://www.bilibili.com/video/BV15R4y1K7gN?spm_id_from=333.999.0.0",
   },
   {
@@ -1129,7 +1027,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Rama",
     god: "Sisyphus",
-    ring: "blue",
     src: "https://www.bilibili.com/video/BV1Qg411d77W?spm_id_from=333.999.0.0",
   },
   {
@@ -1140,7 +1037,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Achilles",
     god: "Achilles",
-    ring: "yellow",
     src: "https://www.bilibili.com/video/BV1wd4y1K7Sh?spm_id_from=333.999.0.0",
   },
   {
@@ -1151,7 +1047,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Eris",
     god: "Athena",
-    ring: "darkblue",
     src: "https://www.bilibili.com/video/BV1r3411R7ng/?spm_id_from=333.999.0.0&vd_source=f11ff48f182a1b78e6f17407eedd459f",
   },
   {
@@ -1162,7 +1057,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Rama",
     god: "Sisyphus",
-    ring: "blue",
     src: "https://www.youtube.com/watch?v=2kwIhh6sfeo",
   },
   {
@@ -1173,7 +1067,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Hestia",
     god: "Hermes",
-    ring: "pink",
     src: "https://www.twitch.tv/videos/822817669",
   },
   {
@@ -1184,7 +1077,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     god: "Zeus",
-    ring: "yellow",
     src: "https://www.bilibili.com/video/BV1jA411L7rt",
   },
   {
@@ -1195,7 +1087,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Rama",
     god: "Sisyphus",
-    ring: "blue",
     src: "https://www.youtube.com/watch?v=I2o3t2MHBBs",
   },
   {
@@ -1206,7 +1097,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     god: "Zeus",
-    ring: "yellow",
     src: "video no longer available, verified",
   },
   {
@@ -1217,7 +1107,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Hestia",
     god: "Hermes",
-    ring: "pink",
     src: "https://www.youtube.com/watch?v=3SHjL4zadww",
   },
   {
@@ -1228,7 +1117,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Demeter",
     god: "Demeter",
-    ring: "green",
     src: "https://youtu.be/eG8Rp0EW3Zo",
   },
   {
@@ -1239,7 +1127,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "red",
     src: "https://youtu.be/fPQOZFgDlx4",
   },
   {
@@ -1250,7 +1137,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Eris",
     god: "Athena",
-    ring: "darkblue",
     src: "https://www.youtube.com/watch?v=VZMuawkGVxw",
   },
   {
@@ -1261,7 +1147,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Eris",
     god: "Athena",
-    ring: "darkblue",
     src: "https://youtu.be/ttJhOQN6Eas",
   },
   {
@@ -1272,7 +1157,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "pink",
     src: "https://youtu.be/zrGTflRwNJI",
   },
   {
@@ -1283,7 +1167,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://www.bilibili.com/video/BV1MU4y1h7ay",
   },
   {
@@ -1294,7 +1177,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Rama",
     god: "Sisyphus",
-    ring: "blue",
     src: "https://youtu.be/OlcVye-_q88",
   },
   {
@@ -1305,7 +1187,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "orange",
     src: "https://youtu.be/ubt2jqFxZsE",
   },
   {
@@ -1316,7 +1197,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     god: "Zeus",
-    ring: "yellow",
     src: "https://www.youtube.com/watch?v=-dcP8erGwII",
   },
   {
@@ -1327,7 +1207,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://www.bilibili.com/video/BV1444y1r7xY",
   },
   {
@@ -1338,7 +1217,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Rama",
     god: "Sisyphus",
-    ring: "blue",
     src: "https://www.youtube.com/watch?v=sBMzvv9jl78",
   },
   {
@@ -1349,7 +1227,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Rama",
     god: "Sisyphus",
-    ring: "blue",
     src: "https://youtu.be/Q7Ajs58NhJ8",
   },
   {
@@ -1360,7 +1237,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     god: "Zeus",
-    ring: "yellow",
     src: "https://youtu.be/fa2QUnGFGy0",
   },
   {
@@ -1371,7 +1247,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     god: "Zeus",
-    ring: "yellow",
     src: "https://www.bilibili.com/video/BV1sh411r7E2",
   },
   {
@@ -1382,7 +1257,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://www.bilibili.com/video/BV1nP4y147qP",
   },
   {
@@ -1393,7 +1267,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Hades",
     god: "Hades",
-    ring: "pink",
     src: "https://www.youtube.com/watch?v=Rh3nKCFiweA",
   },
   {
@@ -1404,7 +1277,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Guan Yu",
     god: "Dionysus",
-    ring: "red",
     src: "https://youtu.be/kgeijiLRy4E",
   },
   {
@@ -1415,7 +1287,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Hades",
     god: "Hades",
-    ring: "pink",
     src: "https://youtu.be/UncdldFWTYg",
   },
   {
@@ -1426,7 +1297,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://www.bilibili.com/video/BV17m4y1973S?spm_id_from=333.999.0.0",
   },
   {
@@ -1437,7 +1307,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Poseidon",
     god: "Poseidon",
-    ring: "green",
     src: "https://youtu.be/ftOMJ5scu3c",
   },
   {
@@ -1448,7 +1317,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     god: "Zeus",
-    ring: "yellow",
     src: "https://youtu.be/G7RnIAkuOvQ",
   },
   {
@@ -1459,7 +1327,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://youtu.be/FiFrm-C6-Ns",
   },
   {
@@ -1470,7 +1337,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Eris",
     god: "Athena",
-    ring: "darkblue",
     src: "https://www.bilibili.com/video/BV1PL4y1V7WC/?spm_id_from=333.788",
   },
   {
@@ -1481,7 +1347,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Achilles",
     god: "Achilles",
-    ring: "yellow",
     src: "https://www.bilibili.com/video/BV1zY4y1r7Jn/",
   },
   {
@@ -1492,7 +1357,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Lucifer",
     god: "Nyx",
-    ring: "yellow",
     src: "https://www.bilibili.com/video/BV1E5411R7yP?spm_id_from=333.999.0.0",
   },
   {
@@ -1503,7 +1367,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Chaos",
     god: "Chaos",
-    ring: "purple",
     src: "https://www.bilibili.com/video/BV17a411j7ei/",
   },
   {
@@ -1514,7 +1377,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Talos",
     god: "Thanatos",
-    ring: "purple",
     src: "https://www.bilibili.com/video/BV1bZ4y147GE",
   },
   {
@@ -1525,7 +1387,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "purple",
     src: "https://www.bilibili.com/video/BV1gs4y1h7EL/?spm_id_from=333.999.0.0&vd_source=f11ff48f182a1b78e6f17407eedd459f",
   },
   {
@@ -1536,7 +1397,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Demeter",
     god: "Demeter",
-    ring: "green",
     src: "https://www.bilibili.com/video/BV1gx4y1w7JC/?spm_id_from=333.999.0.0&vd_source=f11ff48f182a1b78e6f17407eedd459f",
   },
   {
@@ -1547,7 +1407,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "blue",
     src: "https://www.bilibili.com/video/BV1Qs4y1Z7RQ/?spm_id_from=333.999.0.0",
   },
   {
@@ -1558,7 +1417,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "yellow",
     src: "https://www.bilibili.com/video/BV1sM411x7rq/?spm_id_from=333.999.0.0",
   },
   {
@@ -1569,7 +1427,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Chiron",
     god: "Artemis",
-    ring: "yellow",
     src: "https://www.bilibili.com/video/BV1Ej411g7cm/?share_source=copy_web&vd_source=897c012bf99634926eb8f6fec30d9a20",
   },
   {
@@ -1580,7 +1437,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Rama",
     god: "Sisyphus",
-    ring: "blue",
     src: "https://www.youtube.com/watch?v=I4x6mmU-G-8",
   },
   {
@@ -1591,7 +1447,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "red",
     src: "https://www.youtube.com/watch?v=fZfiEzQhHT0",
   },
   {
@@ -1602,7 +1457,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://youtu.be/1Ep0CyDNlRA",
   },
   {
@@ -1613,7 +1467,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Hades",
     god: "Hades",
-    ring: "pink",
     src: "https://youtu.be/chnLeGiALhg",
   },
   {
@@ -1624,7 +1477,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Hestia",
     god: "Hermes",
-    ring: "pink",
     src: "https://youtu.be/cwyhizxxuGc",
   },
   {
@@ -1635,7 +1487,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     god: "Zeus",
-    ring: "yellow",
     src: "https://www.bilibili.com/video/BV1dK4y1M79h",
   },
   {
@@ -1646,7 +1497,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "purple",
     src: "www.bilibili.com/video/BV1MG411x7wm?vd_source=f11ff48f182a1b78e6f17407eedd459f",
   },
   {
@@ -1657,7 +1507,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Hestia",
     god: "Hermes",
-    ring: "pink",
     src: "https://www.twitch.tv/videos/816903799",
   },
   {
@@ -1668,7 +1517,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Hestia",
     god: "Hermes",
-    ring: "pink",
     src: "https://youtu.be/pWrLxN8Y1zk",
   },
   {
@@ -1679,7 +1527,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Eris",
     god: "Athena",
-    ring: "darkblue",
     src: "https://www.youtube.com/watch?v=r8gJQdz4wII",
   },
   {
@@ -1690,7 +1537,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Chaos",
     god: "Chaos",
-    ring: "purple",
     src: "https://youtu.be/NPOHSyActSw",
   },
   {
@@ -1701,7 +1547,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     god: "Zeus",
-    ring: "yellow",
     src: "https://youtu.be/Hr7bSO_Nf7g",
   },
   {
@@ -1712,7 +1557,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Hades",
     god: "Hades",
-    ring: "pink",
     src: "https://www.youtube.com/watch?v=JbEJFTFL40w",
   },
   {
@@ -1723,7 +1567,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "orange",
     src: "https://youtu.be/VaqD8b0KMYo",
   },
   {
@@ -1734,7 +1577,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Hestia",
     god: "Hermes",
-    ring: "pink",
     src: "https://youtu.be/MmAtcigaxPI",
   },
   {
@@ -1745,7 +1587,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Rama",
     god: "Sisyphus",
-    ring: "blue",
     src: "https://youtu.be/3eiuIHwKQw8",
   },
   {
@@ -1756,7 +1597,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Hestia",
     god: "Hermes",
-    ring: "pink",
     src: "https://youtu.be/BnRnPtc1TZo",
   },
   {
@@ -1767,7 +1607,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Hestia",
     god: "Hermes",
-    ring: "pink",
     src: "https://www.youtube.com/watch?v=wFGa6Nnla5s",
   },
   {
@@ -1778,7 +1617,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Eris",
     god: "Athena",
-    ring: "darkblue",
     src: "https://www.youtube.com/watch?v=qEtbqnc5XAM",
   },
   {
@@ -1789,7 +1627,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Achilles",
     god: "Achilles",
-    ring: "yellow",
     src: "https://youtu.be/ingSYL29o2s",
   },
   {
@@ -1800,7 +1637,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "blue",
     src: "https://www.youtube.com/watch?v=Ww5yHGOUywI",
   },
   {
@@ -1811,7 +1647,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://youtu.be/4Gmz7Vsb7KY",
   },
   {
@@ -1822,7 +1657,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Gilgamesh",
     god: "Cerberus",
-    ring: "pink",
     src: "https://youtu.be/pUPWgs-27BQ",
   },
   {
@@ -1833,7 +1667,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Arthur",
     god: "Aphrodite",
-    ring: "blue",
     src: "https://www.youtube.com/watch?v=kcMDbT9y9no",
   },
   {
@@ -1844,7 +1677,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Lucifer",
     god: "Nyx",
-    ring: "yellow",
     src: "https://youtu.be/B4RK2vfCo9Y",
   },
   {
@@ -1855,7 +1687,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "purple",
     src: "https://www.youtube.com/watch?v=D9neyOUGQCs",
   },
   {
@@ -1866,7 +1697,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Poseidon",
     god: "Poseidon",
-    ring: "green",
     src: "https://youtu.be/NmHrKKjjlKQ",
   },
   {
@@ -1877,7 +1707,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Guan Yu",
     god: "Dionysus",
-    ring: "red",
     src: "https://www.youtube.com/watch?v=zb-wFvlQm_Q",
   },
   {
@@ -1888,7 +1717,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Achilles",
     god: "Achilles",
-    ring: "yellow",
     src: "https://www.bilibili.com/video/BV1hB4y117fr?spm_id_from=333.999.0.0",
   },
   {
@@ -1899,7 +1727,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Hera",
     god: "Dusa",
-    ring: "purple",
     src: "https://www.bilibili.com/video/BV15541197RR?spm_id_from=333.999.0.0",
   },
   {
@@ -1910,7 +1737,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "yellow",
     src: "https://www.bilibili.com/video/BV1GF411j7wY?spm_id_from=333.999.list.card_archive.click&vd_source=9e1c33ed9fc69b5d343d2b501c3caa63",
   },
   {
@@ -1921,7 +1747,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Gilgamesh",
     god: "Cerberus",
-    ring: "pink",
     src: "https://www.youtube.com/watch?v=_cco4oKLcp0",
   },
   {
@@ -1932,7 +1757,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Hestia",
     god: "Hermes",
-    ring: "pink",
     src: "https://youtu.be/2lcDS4RGTbU",
   },
   {
@@ -1943,7 +1767,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "blue",
     src: "https://www.youtube.com/watch?v=Lz7vQ_j3ibs",
   },
   {
@@ -1954,7 +1777,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "purple",
     src: "https://www.youtube.com/watch?v=uSbFWcmxnAE",
   },
   {
@@ -1965,7 +1787,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Hades",
     god: "Hades",
-    ring: "pink",
     src: "https://www.youtube.com/watch?v=bwI2ISJs0U0",
   },
   {
@@ -1976,7 +1797,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Poseidon",
     god: "Poseidon",
-    ring: "green",
     src: "https://youtu.be/wEbIJr_8zno",
   },
   {
@@ -1987,7 +1807,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Nemesis",
     god: "Persephone",
-    ring: "violet",
     src: "https://youtu.be/0UHVTE08Brs",
   },
   {
@@ -1998,7 +1817,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Chaos",
     god: "Chaos",
-    ring: "purple",
     src: "https://youtu.be/luAS0j8NvDU",
   },
   {
@@ -2009,7 +1827,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://youtu.be/Gxh1C1qmaZQ",
   },
   {
@@ -2020,7 +1837,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Hades",
     god: "Hades",
-    ring: "pink",
     src: "https://youtu.be/hRiSRRxteNk",
   },
   {
@@ -2031,7 +1847,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Guan Yu",
     god: "Dionysus",
-    ring: "red",
     src: "https://youtu.be/LRkfmvlOanw",
   },
   {
@@ -2042,7 +1857,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Achilles",
     god: "Achilles",
-    ring: "yellow",
     src: "https://www.youtube.com/watch?v=sD0VaCG9Ttc",
   },
   {
@@ -2053,7 +1867,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Chiron",
     god: "Artemis",
-    ring: "yellow",
     src: "https://youtu.be/oeNYiEeskIE",
   },
   {
@@ -2064,7 +1877,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Eris",
     god: "Athena",
-    ring: "darkblue",
     src: "https://youtu.be/u8oTpT58ry4",
   },
   {
@@ -2075,7 +1887,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "blue",
     src: "https://youtu.be/ApiqK5ZbG9w",
   },
   {
@@ -2086,7 +1897,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "pink",
     src: "https://youtu.be/mFh0TTCw_IE",
   },
   {
@@ -2097,7 +1907,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "purple",
     src: "https://youtu.be/aW_ZokIWjW8",
   },
   {
@@ -2108,7 +1917,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Hera",
     god: "Dusa",
-    ring: "purple",
     src: "https://youtu.be/mtCVQQa-J78",
   },
   {
@@ -2119,7 +1927,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://youtu.be/9i4EpNl-noE",
   },
   {
@@ -2130,7 +1937,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://youtu.be/Avi9v-OcB2Y",
   },
   {
@@ -2141,7 +1947,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Eris",
     god: "Athena",
-    ring: "darkblue",
     src: "https://www.twitch.tv/videos/768294685?t=04h03m14s",
   },
   {
@@ -2152,7 +1957,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Rama",
     god: "Sisyphus",
-    ring: "blue",
     src: "https://www.youtube.com/watch?v=FzzclNVlaks",
   },
   {
@@ -2163,7 +1967,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "red",
     src: "https://www.youtube.com/watch?v=QvyMPCzYs0w",
   },
   {
@@ -2174,7 +1977,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Hestia",
     god: "Hermes",
-    ring: "pink",
     src: "https://www.twitch.tv/videos/798703485",
   },
   {
@@ -2185,7 +1987,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Lucifer",
     god: "Nyx",
-    ring: "yellow",
     src: "https://www.youtube.com/watch?v=IK6LT3wZQdg",
   },
   {
@@ -2196,7 +1997,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Guan Yu",
     god: "Dionysus",
-    ring: "red",
     src: "https://www.youtube.com/watch?v=-jqIXoW0qXE",
   },
   {
@@ -2207,7 +2007,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Demeter",
     god: "Demeter",
-    ring: "green",
     src: "https://www.twitch.tv/videos/798969963",
   },
   {
@@ -2218,7 +2017,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://www.youtube.com/watch?v=duy6j7_vM4A",
   },
   {
@@ -2229,7 +2027,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Rama",
     god: "Sisyphus",
-    ring: "blue",
     src: "https://www.youtube.com/watch?v=5H3ezPgERNo",
   },
   {
@@ -2240,7 +2037,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Hestia",
     god: "Hermes",
-    ring: "pink",
     src: "https://youtu.be/MVZhIYUr_Tk",
   },
   {
@@ -2251,7 +2047,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "yellow",
     src: "https://youtu.be/JZYbLQVIvFs",
   },
   {
@@ -2262,7 +2057,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Talos",
     god: "Thanatos",
-    ring: "purple",
     src: "https://youtu.be/SjcsXqC3UQ4",
   },
   {
@@ -2273,7 +2067,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "orange",
     src: "https://www.youtube.com/watch?v=IgCFTUwIBHY",
   },
   {
@@ -2284,7 +2077,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Nemesis",
     god: "Persephone",
-    ring: "violet",
     src: "https://www.youtube.com/watch?v=Z1vqXMSHz8M",
   },
   {
@@ -2295,7 +2087,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "yellow",
     src: "https://www.youtube.com/watch?v=irailXnDJBc",
   },
   {
@@ -2306,7 +2097,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "pink",
     src: "https://www.youtube.com/watch?v=Zz7H5NdWtH8",
   },
   {
@@ -2317,7 +2107,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Arthur",
     god: "Aphrodite",
-    ring: "blue",
     src: "https://www.youtube.com/watch?v=oh5Y1n5J0Qw",
   },
   {
@@ -2328,7 +2117,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Achilles",
     god: "Achilles",
-    ring: "yellow",
     src: "https://youtu.be/I_14LVDkPho",
   },
   {
@@ -2339,7 +2127,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Chiron",
     god: "Artemis",
-    ring: "yellow",
     src: "https://youtu.be/JFSDaZEXiOc",
   },
   {
@@ -2350,7 +2137,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Chaos",
     god: "Chaos",
-    ring: "purple",
     src: "https://youtu.be/tdjHR_9lN9A",
   },
   {
@@ -2361,7 +2147,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Arthur",
     god: "Aphrodite",
-    ring: "blue",
     src: "https://youtu.be/_AbegwNR8ZM",
   },
   {
@@ -2372,7 +2157,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Rama",
     god: "Sisyphus",
-    ring: "blue",
     src: "https://youtu.be/hJLfgNzBQxM",
   },
   {
@@ -2383,7 +2167,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "blue",
     src: "https://www.youtube.com/watch?v=TWHAGplTMGE",
   },
   {
@@ -2394,7 +2177,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://youtu.be/freJoFwbJFM",
   },
   {
@@ -2405,7 +2187,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     god: "Zeus",
-    ring: "yellow",
     src: "https://youtu.be/7T86UjoJVwI",
   },
   {
@@ -2416,7 +2197,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Eris",
     god: "Athena",
-    ring: "darkblue",
     src: "https://www.youtube.com/watch?v=N9yOjuPDhs4",
   },
   {
@@ -2427,7 +2207,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Eris",
     god: "Athena",
-    ring: "darkblue",
     src: "https://www.youtube.com/watch?v=2w228H-svO0",
   },
   {
@@ -2438,7 +2217,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Rama",
     god: "Sisyphus",
-    ring: "blue",
     src: "https://www.youtube.com/watch?v=1qa05Th3KCc",
   },
   {
@@ -2449,7 +2227,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Eris",
     god: "Athena",
-    ring: "darkblue",
     src: "https://www.twitch.tv/videos/762360608?t=02h05m02s",
   },
   {
@@ -2460,7 +2237,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Hades",
     god: "Hades",
-    ring: "pink",
     src: "https://www.youtube.com/watch?v=lxt-AKMrLm8",
   },
   {
@@ -2471,7 +2247,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Demeter",
     god: "Demeter",
-    ring: "green",
     src: "https://www.youtube.com/watch?v=9OhkSEDsyEM",
   },
   {
@@ -2482,7 +2257,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Rama",
     god: "Sisyphus",
-    ring: "blue",
     src: "https://www.youtube.com/watch?v=ahFiSO4MdM0",
   },
   {
@@ -2493,7 +2267,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Rama",
     god: "Sisyphus",
-    ring: "blue",
     src: "https://www.youtube.com/watch?v=8V5Hgq8tE2E",
   },
   {
@@ -2504,7 +2277,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Gilgamesh",
     god: "Cerberus",
-    ring: "pink",
     src: "https://www.youtube.com/watch?v=IUIAeQv_Doo",
   },
   {
@@ -2515,7 +2287,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "purple",
     src: "https://www.youtube.com/watch?v=b4EQP8HsRRs",
   },
   {
@@ -2526,7 +2297,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "purple",
     src: "https://www.youtube.com/watch?v=ep5KhGaZqx8",
   },
   {
@@ -2537,7 +2307,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Guan Yu",
     god: "Dionysus",
-    ring: "red",
     src: "https://www.youtube.com/watch?v=u1SbYZhsXbw",
   },
   {
@@ -2548,7 +2317,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "blue",
     src: "https://www.youtube.com/watch?v=2NymcxcglKY",
   },
   {
@@ -2559,7 +2327,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Hades",
     god: "Hades",
-    ring: "pink",
     src: "https://youtu.be/VVQ3-LK5rew",
   },
   {
@@ -2570,7 +2337,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Chiron",
     god: "Artemis",
-    ring: "yellow",
     src: "https://youtu.be/j2gjjUXy71g",
   },
   {
@@ -2581,7 +2347,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Hestia",
     god: "Hermes",
-    ring: "pink",
     src: "https://www.twitch.tv/videos/820121105",
   },
   {
@@ -2592,7 +2357,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Chaos",
     god: "Chaos",
-    ring: "purple",
     src: "https://youtu.be/Efsyawh5hL0",
   },
   {
@@ -2603,7 +2367,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Hestia",
     god: "Hermes",
-    ring: "pink",
     src: "https://youtu.be/ibUvb7e0AjE",
   },
   {
@@ -2614,7 +2377,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Hestia",
     god: "Hermes",
-    ring: "pink",
     src: "https://youtu.be/Efsyawh5hL0",
   },
   {
@@ -2625,7 +2387,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://www.youtube.com/watch?v=BilqJk5uHAw&ab_channel=TylerKing",
   },
   {
@@ -2636,7 +2397,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Eris",
     god: "Athena",
-    ring: "darkblue",
     src: "https://youtu.be/ZgQJqMcphMM",
   },
   {
@@ -2647,7 +2407,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Rama",
     god: "Sisyphus",
-    ring: "blue",
     src: "https://youtu.be/YJBk0v0Pho0",
   },
   {
@@ -2658,7 +2417,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "blue",
     src: "http://youtu.be/JBvI0jVw5pM",
   },
   {
@@ -2669,7 +2427,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Hera",
     god: "Dusa",
-    ring: "purple",
     src: "https://www.youtube.com/watch?v=TWahzalFkYM",
   },
   {
@@ -2680,7 +2437,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     god: "Zeus",
-    ring: "yellow",
     src: "https://youtu.be/mxAmovhYvEc",
   },
   {
@@ -2691,7 +2447,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Achilles",
     god: "Achilles",
-    ring: "yellow",
     src: "https://www.youtube.com/watch?v=w7GE8bokFLQ",
   },
   {
@@ -2702,7 +2457,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Hestia",
     god: "Hermes",
-    ring: "pink",
     src: "https://www.youtube.com/watch?v=HptNdZwkxy8",
   },
   {
@@ -2713,7 +2467,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Rama",
     god: "Sisyphus",
-    ring: "blue",
     src: "https://www.youtube.com/watch?v=SGVJGrjfBsM",
   },
   {
@@ -2724,7 +2477,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Achilles",
     god: "Achilles",
-    ring: "yellow",
     src: "https://youtu.be/weJW7aHEDy4",
   },
   {
@@ -2735,7 +2487,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://youtu.be/SaH2DAu2KS8",
   },
   {
@@ -2746,7 +2497,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "purple",
     src: "https://youtu.be/fb5wlEw8etA",
   },
   {
@@ -2757,7 +2507,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "orange",
     src: "https://youtu.be/ZEiStB_xYKA",
   },
   {
@@ -2768,7 +2517,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Rama",
     god: "Sisyphus",
-    ring: "blue",
     src: "https://www.youtube.com/watch?v=kJ3Idc-QOAg",
   },
   {
@@ -2779,7 +2527,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Chiron",
     god: "Artemis",
-    ring: "yellow",
     src: "https://www.youtube.com/watch?v=Og2XqttUJ7U",
   },
   {
@@ -2790,7 +2537,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Arthur",
     god: "Aphrodite",
-    ring: "blue",
     src: "https://youtu.be/ONCAG775K_0",
   },
   {
@@ -2801,7 +2547,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://www.youtube.com/watch?v=Kb--1BKjCRU",
   },
   {
@@ -2812,7 +2557,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "pink",
     src: "https://youtu.be/uoRvtn382T0",
   },
   {
@@ -2823,7 +2567,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Hestia",
     god: "Hermes",
-    ring: "pink",
     src: "https://www.youtube.com/watch?v=ybHCHG_KuA8",
   },
   {
@@ -2834,7 +2577,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Arthur",
     god: "Aphrodite",
-    ring: "blue",
     src: "https://youtu.be/4uqFF1e7clI",
   },
   {
@@ -2845,7 +2587,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Lucifer",
     god: "Nyx",
-    ring: "yellow",
     src: "https://youtu.be/Xg2JYrdwoG0",
   },
   {
@@ -2856,7 +2597,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Hestia",
     god: "Hermes",
-    ring: "pink",
     src: "https://youtu.be/Xu__mFZ9LDY",
   },
   {
@@ -2867,7 +2607,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Talos",
     god: "Thanatos",
-    ring: "purple",
     src: "https://youtu.be/BYa-PajQUME",
   },
   {
@@ -2878,7 +2617,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "yellow",
     src: "https://youtu.be/6fpJ1RiGXRc",
   },
   {
@@ -2889,7 +2627,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Hera",
     god: "Dusa",
-    ring: "purple",
     src: "https://www.youtube.com/watch?v=IrcWRkwynb8&feature=youtu.be",
   },
   {
@@ -2900,7 +2637,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Gilgamesh",
     god: "Cerberus",
-    ring: "pink",
     src: "https://youtu.be/1jaxHKzBAVg",
   },
   {
@@ -2911,7 +2647,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Poseidon",
     god: "Poseidon",
-    ring: "green",
     src: "https://www.youtube.com/watch?v=xGfQeXB8J4s&feature=youtu.be",
   },
   {
@@ -2922,7 +2657,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "red",
     src: "https://youtu.be/6srZEfrobMQ",
   },
   {
@@ -2933,7 +2667,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Guan Yu",
     god: "Dionysus",
-    ring: "red",
     src: "https://youtu.be/kShxSG74wq8",
   },
   {
@@ -2944,7 +2677,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "red",
     src: "https://www.youtube.com/watch?v=jKmEQaOuQL0",
   },
   {
@@ -2955,7 +2687,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Demeter",
     god: "Demeter",
-    ring: "green",
     src: "https://youtu.be/sILnou4kwbw",
   },
   {
@@ -2966,7 +2697,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Nemesis",
     god: "Persephone",
-    ring: "violet",
     src: "https://youtu.be/PfnepqNDjqA",
   },
   {
@@ -2977,7 +2707,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Chiron",
     god: "Artemis",
-    ring: "yellow",
     src: "https://youtu.be/dzCFGqOY6HQ",
   },
   {
@@ -2988,7 +2717,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Gilgamesh",
     god: "Cerberus",
-    ring: "pink",
     src: "https://www.youtube.com/watch?v=0upLsm4LrcQ",
   },
   {
@@ -2999,7 +2727,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Talos",
     god: "Thanatos",
-    ring: "purple",
     src: "https://youtu.be/rJX8KalNETY",
   },
   {
@@ -3010,7 +2737,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Lucifer",
     god: "Nyx",
-    ring: "yellow",
     src: "https://www.twitch.tv/videos/935005568",
   },
   {
@@ -3021,7 +2747,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Eris",
     god: "Athena",
-    ring: "darkblue",
     src: "https://www.twitch.tv/videos/935005569",
   },
   {
@@ -3032,7 +2757,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Chiron",
     god: "Artemis",
-    ring: "yellow",
     src: "https://youtu.be/kinVpZ27buM",
   },
   {
@@ -3043,7 +2767,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Nemesis",
     god: "Persephone",
-    ring: "violet",
     src: "https://youtu.be/Me9kciO9H5I",
   },
   {
@@ -3054,7 +2777,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Hestia",
     god: "Hermes",
-    ring: "pink",
     src: "https://youtu.be/L-JzT8FLLOE",
   },
   {
@@ -3065,7 +2787,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://www.youtube.com/watch?v=xjWC_G9Swjg",
   },
   {
@@ -3076,7 +2797,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Rama",
     god: "Sisyphus",
-    ring: "blue",
     src: "https://youtu.be/nUKDFhFStz0",
   },
   {
@@ -3087,7 +2807,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Poseidon",
     god: "Poseidon",
-    ring: "green",
     src: "https://www.twitch.tv/videos/935041182",
   },
   {
@@ -3098,7 +2817,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://www.twitch.tv/videos/935041181",
   },
   {
@@ -3109,7 +2827,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Hestia",
     god: "Hermes",
-    ring: "pink",
     src: "https://youtu.be/oGL8pGP8rrU",
   },
   {
@@ -3120,7 +2837,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Chaos",
     god: "Chaos",
-    ring: "purple",
     src: "https://www.twitch.tv/videos/926303256?filter=highlights&sort=time",
   },
   {
@@ -3131,7 +2847,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Lucifer",
     god: "Nyx",
-    ring: "yellow",
     src: "https://www.twitch.tv/videos/926303257?filter=highlights&sort=time",
   },
   {
@@ -3142,7 +2857,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Eris",
     god: "Athena",
-    ring: "darkblue",
     src: "https://www.twitch.tv/videos/926303258?filter=highlights&sort=time",
   },
   {
@@ -3153,7 +2867,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     god: "Zeus",
-    ring: "yellow",
     src: "https://youtu.be/HPM2OJPNrt0",
   },
   {
@@ -3164,7 +2877,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Hestia",
     god: "Hermes",
-    ring: "pink",
     src: "https://youtu.be/bQen_R6GZdY",
   },
   {
@@ -3175,7 +2887,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Rama",
     god: "Sisyphus",
-    ring: "blue",
     src: "https://youtu.be/Rsix3YwAARA",
   },
   {
@@ -3186,7 +2897,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Hestia",
     god: "Hermes",
-    ring: "pink",
     src: "https://youtu.be/YlxXqtqcQnk",
   },
   {
@@ -3197,7 +2907,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://www.youtube.com/watch?v=zS_qLSoWegw",
   },
   {
@@ -3208,7 +2917,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Guan Yu",
     god: "Dionysus",
-    ring: "red",
     src: "https://www.youtube.com/watch?v=mbRKuaL4Bjs",
   },
   {
@@ -3219,7 +2927,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://youtu.be/zUfv-n2LISs",
   },
   {
@@ -3230,7 +2937,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Chaos",
     god: "Chaos",
-    ring: "purple",
     src: "https://youtu.be/pcZsujHOeX4",
   },
   {
@@ -3241,7 +2947,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Hestia",
     god: "Hermes",
-    ring: "pink",
     src: "https://youtu.be/srrYcrwxK3Q",
   },
   {
@@ -3252,7 +2957,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Hades",
     god: "Hades",
-    ring: "pink",
     src: "https://youtu.be/LjKr_8yz_TE",
   },
   {
@@ -3263,7 +2967,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Eris",
     god: "Athena",
-    ring: "darkblue",
     src: "https://www.youtube.com/watch?v=lMa2V9wP9K4&",
   },
   {
@@ -3274,7 +2977,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     god: "Zeus",
-    ring: "yellow",
     src: "https://youtu.be/tey3R_cgKaw",
   },
   {
@@ -3285,7 +2987,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Hestia",
     god: "Hermes",
-    ring: "pink",
     src: "https://www.youtube.com/watch?v=WczF2UPxU20",
   },
   {
@@ -3296,7 +2997,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://www.youtube.com/watch?v=RjK_TjUtTI8",
   },
   {
@@ -3307,7 +3007,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Nemesis",
     god: "Persephone",
-    ring: "violet",
     src: "https://www.twitch.tv/videos/976072171?filter=highlights&sort=time",
   },
   {
@@ -3318,7 +3017,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Achilles",
     god: "Achilles",
-    ring: "yellow",
     src: "https://www.twitch.tv/videos/976072172?filter=highlights&sort=time",
   },
   {
@@ -3329,7 +3027,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Arthur",
     god: "Aphrodite",
-    ring: "blue",
     src: "https://youtu.be/pljsqMtOZxc",
   },
   {
@@ -3340,7 +3037,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "purple",
     src: "https://youtu.be/4v-Lxze8Arc",
   },
   {
@@ -3351,7 +3047,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Demeter",
     god: "Demeter",
-    ring: "green",
     src: "https://youtu.be/BYK3o-erIfQ",
   },
   {
@@ -3362,7 +3057,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Hades",
     god: "Hades",
-    ring: "pink",
     src: "https://www.youtube.com/watch?v=6VdzYTyh1fk",
   },
   {
@@ -3373,7 +3067,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     god: "Zeus",
-    ring: "yellow",
     src: "https://www.youtube.com/watch?v=B4MR4TXnDw8",
   },
   {
@@ -3384,7 +3077,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Eris",
     god: "Athena",
-    ring: "darkblue",
     src: "https://www.youtube.com/watch?v=RWqsinNLdZw",
   },
   {
@@ -3395,7 +3087,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Eris",
     god: "Athena",
-    ring: "darkblue",
     src: "https://youtu.be/3PuX1wc8qoA",
   },
   {
@@ -3406,7 +3097,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Guan Yu",
     god: "Dionysus",
-    ring: "red",
     src: "https://youtu.be/uuSOlx1znUg",
   },
   {
@@ -3417,7 +3107,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Chiron",
     god: "Artemis",
-    ring: "yellow",
     src: "https://www.youtube.com/watch?v=qhs4wtXLSNs",
   },
   {
@@ -3428,7 +3117,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Chiron",
     god: "Artemis",
-    ring: "yellow",
     src: "https://www.youtube.com/watch?v=iyTtxykJmvE",
   },
   {
@@ -3439,7 +3127,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "blue",
     src: "https://www.youtube.com/watch?v=4IaJ6-r4SwE&t=1621s",
   },
   {
@@ -3450,7 +3137,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Eris",
     god: "Athena",
-    ring: "darkblue",
     src: "https://www.youtube.com/watch?v=0V6-gablOpE",
   },
   {
@@ -3461,7 +3147,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Hera",
     god: "Dusa",
-    ring: "purple",
     src: "https://www.youtube.com/watch?v=a4C9qZpomAU",
   },
   {
@@ -3472,7 +3157,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://youtu.be/05zWx0nkpCo",
   },
   {
@@ -3483,7 +3167,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "blue",
     src: "https://www.youtube.com/watch?v=Jby1LmUHa9o",
   },
   {
@@ -3494,7 +3177,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "blue",
     src: "https://youtu.be/01CrDHj62zw",
   },
   {
@@ -3505,7 +3187,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Rama",
     god: "Sisyphus",
-    ring: "blue",
     src: "https://youtu.be/B-v2S11r_Rg",
   },
   {
@@ -3516,7 +3197,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://www.bilibili.com/video/BV1BB4y1c7S3",
   },
   {
@@ -3527,7 +3207,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Nemesis",
     god: "Persephone",
-    ring: "violet",
     src: "https://youtu.be/Lns-y5072PA",
   },
   {
@@ -3538,7 +3217,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Hades",
     god: "Hades",
-    ring: "pink",
     src: "https://youtu.be/LELNAz6BS8Q",
   },
   {
@@ -3549,7 +3227,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Achilles",
     god: "Achilles",
-    ring: "yellow",
     src: "https://www.youtube.com/watch?v=ayebmAFcngE",
   },
   {
@@ -3560,7 +3237,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://youtu.be/SsbWDSDCZbY",
   },
   {
@@ -3571,7 +3247,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Demeter",
     god: "Demeter",
-    ring: "green",
     src: "https://www.youtube.com/watch?v=qfGEni7-8YM",
   },
   {
@@ -3582,7 +3257,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Hestia",
     god: "Hermes",
-    ring: "pink",
     src: "https://youtu.be/8gV5Xda2NsA",
   },
   {
@@ -3593,7 +3267,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Talos",
     god: "Thanatos",
-    ring: "purple",
     src: "https://www.youtube.com/watch?v=h3QrnRe_-sg",
   },
   {
@@ -3604,7 +3277,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Rama",
     god: "Sisyphus",
-    ring: "blue",
     src: "https://www.youtube.com/watch?v=uwpbVfK2GH4",
   },
   {
@@ -3615,7 +3287,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Hestia",
     god: "Hermes",
-    ring: "pink",
     src: "https://youtu.be/eihw38-h3aY",
   },
   {
@@ -3626,7 +3297,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Guan Yu",
     god: "Dionysus",
-    ring: "red",
     src: "https://www.youtube.com/watch?v=G3VRvkVsqaw",
   },
   {
@@ -3637,7 +3307,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://youtu.be/Ans7QzgyA6U",
   },
   {
@@ -3648,7 +3317,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Eris",
     god: "Athena",
-    ring: "darkblue",
     src: "https://www.youtube.com/watch?v=hylHrCg2ONs",
   },
   {
@@ -3659,7 +3327,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "yellow",
     src: "https://www.youtube.com/watch?v=AGEFobSrscA",
   },
   {
@@ -3670,7 +3337,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "blue",
     src: "https://youtu.be/KDI0to1nXAA",
   },
   {
@@ -3681,7 +3347,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://www.youtube.com/watch?v=pASiSzef34U",
   },
   {
@@ -3692,7 +3357,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Hades",
     god: "Hades",
-    ring: "pink",
     src: "https://www.youtube.com/watch?v=xjT1mBXABn8",
   },
   {
@@ -3703,7 +3367,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://www.youtube.com/watch?v=_8oTQGc9p7g",
   },
   {
@@ -3714,7 +3377,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Talos",
     god: "Thanatos",
-    ring: "purple",
     src: "https://www.youtube.com/watch?v=GxEcwWMaGRM",
   },
   {
@@ -3725,7 +3387,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Talos",
     god: "Thanatos",
-    ring: "purple",
     src: "https://youtu.be/Zp3G6IPwTZE",
   },
   {
@@ -3736,7 +3397,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Chiron",
     god: "Artemis",
-    ring: "yellow",
     src: "https://www.youtube.com/watch?v=jdaPPyrJyZI",
   },
   {
@@ -3747,7 +3407,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Poseidon",
     god: "Poseidon",
-    ring: "green",
     src: "https://www.youtube.com/watch?v=hLh1BfreD5Y",
   },
   {
@@ -3758,7 +3417,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Arthur",
     god: "Aphrodite",
-    ring: "blue",
     src: "https://youtu.be/F0XAVCTtSdQ",
   },
   {
@@ -3769,7 +3427,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "purple",
     src: "https://youtu.be/HaYl_SLoLpI",
   },
   {
@@ -3780,7 +3437,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Eris",
     god: "Athena",
-    ring: "darkblue",
     src: "https://youtu.be/HYszEzrFM48",
   },
   {
@@ -3791,7 +3447,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "pink",
     src: "https://youtu.be/FQAKei9QwZo",
   },
   {
@@ -3802,7 +3457,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Demeter",
     god: "Demeter",
-    ring: "green",
     src: "https://youtu.be/2A2PFGoOY9Y",
   },
   {
@@ -3813,7 +3467,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Guan Yu",
     god: "Dionysus",
-    ring: "red",
     src: "https://youtu.be/M5PXw4SKSJU",
   },
   {
@@ -3824,7 +3477,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Hera",
     god: "Dusa",
-    ring: "purple",
     src: "https://www.bilibili.com/video/BV1cR4y1374R?spm_id_from=333.999.0.0",
   },
   {
@@ -3835,7 +3487,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://youtu.be/UOHYzG90udM",
   },
   {
@@ -3846,7 +3497,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Talos",
     god: "Thanatos",
-    ring: "purple",
     src: "https://www.twitch.tv/videos/1268729827",
   },
   {
@@ -3857,7 +3507,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Talos",
     god: "Thanatos",
-    ring: "purple",
     src: "https://www.twitch.tv/videos/1268729827",
   },
   {
@@ -3868,7 +3517,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://youtu.be/5prpNWHaUR8",
   },
   {
@@ -3879,7 +3527,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     god: "Zeus",
-    ring: "yellow",
     src: "https://youtu.be/_aMtspvjq80",
   },
   {
@@ -3890,7 +3537,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Chiron",
     god: "Artemis",
-    ring: "yellow",
     src: "https://youtu.be/qjXxf2niqWk",
   },
   {
@@ -3901,7 +3547,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Eris",
     god: "Athena",
-    ring: "darkblue",
     src: "https://youtu.be/t72EpNMXa30",
   },
   {
@@ -3912,7 +3557,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "orange",
     src: "https://youtu.be/c-S83mFQ8ow",
   },
   {
@@ -3923,7 +3567,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     god: "Zeus",
-    ring: "yellow",
     src: "https://youtu.be/XsDCOLWZpek",
   },
   {
@@ -3934,7 +3577,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://youtu.be/HqngMdRF0ao",
   },
   {
@@ -3945,7 +3587,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "pink",
     src: "https://www.twitch.tv/videos/791519993",
   },
   {
@@ -3956,7 +3597,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://youtu.be/656ipcArq1Q",
   },
   {
@@ -3967,7 +3607,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Rama",
     god: "Sisyphus",
-    ring: "blue",
     src: "https://youtu.be/kltSP-w1qU0",
   },
   {
@@ -3978,7 +3617,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Arthur",
     god: "Aphrodite",
-    ring: "blue",
     src: "https://www.youtube.com/watch?v=mLz1YDCN6FI",
   },
   {
@@ -3989,7 +3627,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Rama",
     god: "Sisyphus",
-    ring: "blue",
     src: "https://www.youtube.com/watch?v=2mHEeEilu8k",
   },
   {
@@ -4000,7 +3637,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "orange",
     src: "https://www.youtube.com/watch?v=uXOYpviMpNA",
   },
   {
@@ -4011,7 +3647,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Rama",
     god: "Sisyphus",
-    ring: "blue",
     src: "https://youtu.be/g2cMzZRcm4o",
   },
   {
@@ -4022,7 +3657,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://www.youtube.com/watch?v=Tb9kuH38oqo",
   },
   {
@@ -4033,7 +3667,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Rama",
     god: "Sisyphus",
-    ring: "blue",
     src: "https://www.youtube.com/watch?v=ccYnoAWm08A",
   },
   {
@@ -4044,7 +3677,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Chiron",
     god: "Artemis",
-    ring: "yellow",
     src: "https://youtu.be/EdLF1CfYLaU",
   },
   {
@@ -4055,7 +3687,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "blue",
     src: "https://www.youtube.com/watch?v=PxDAIvAwFFQ",
   },
   {
@@ -4066,7 +3697,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Guan Yu",
     god: "Dionysus",
-    ring: "red",
     src: "https://www.youtube.com/watch?v=JnSK7yszYb4",
   },
   {
@@ -4077,7 +3707,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Rama",
     god: "Sisyphus",
-    ring: "blue",
     src: "https://www.youtube.com/watch?v=TPS2mpGz8ug",
   },
   {
@@ -4088,7 +3717,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Hera",
     god: "Dusa",
-    ring: "purple",
     src: "https://www.youtube.com/watch?v=OuE-m72G6jk",
   },
   {
@@ -4099,7 +3727,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Nemesis",
     god: "Persephone",
-    ring: "violet",
     src: "https://www.twitch.tv/videos/829994452",
   },
   {
@@ -4110,7 +3737,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "yellow",
     src: "https://www.twitch.tv/videos/829987349",
   },
   {
@@ -4121,7 +3747,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Talos",
     god: "Thanatos",
-    ring: "purple",
     src: "https://www.twitch.tv/videos/830002468",
   },
   {
@@ -4132,7 +3757,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "red",
     src: "https://youtu.be/NHE7HYXzZaY?t=11199",
   },
   {
@@ -4143,7 +3767,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "purple",
     src: "https://youtu.be/NHE7HYXzZaY?t=8877",
   },
   {
@@ -4154,7 +3777,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "orange",
     src: "https://youtu.be/NHE7HYXzZaY?t=4250",
   },
   {
@@ -4165,7 +3787,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "yellow",
     src: "https://youtu.be/NHE7HYXzZaY?t=30",
   },
   {
@@ -4176,7 +3797,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "pink",
     src: "https://youtu.be/NHE7HYXzZaY?t=1932",
   },
   {
@@ -4187,7 +3807,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "blue",
     src: "https://youtu.be/NHE7HYXzZaY?t=4250",
   },
   {
@@ -4198,7 +3817,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Arthur",
     god: "Aphrodite",
-    ring: "blue",
     src: "video no longer available, verified",
   },
   {
@@ -4209,7 +3827,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Guan Yu",
     god: "Dionysus",
-    ring: "red",
     src: "video no longer available, verified",
   },
   {
@@ -4220,7 +3837,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Rama",
     god: "Sisyphus",
-    ring: "blue",
     src: "video no longer available, verified",
   },
   {
@@ -4231,7 +3847,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Nemesis",
     god: "Persephone",
-    ring: "violet",
     src: "https://youtu.be/Wb3XEMcJ79M",
   },
   {
@@ -4242,7 +3857,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Demeter",
     god: "Demeter",
-    ring: "green",
     src: "https://youtu.be/VscS0zL3FJM",
   },
   {
@@ -4253,7 +3867,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Guan Yu",
     god: "Dionysus",
-    ring: "red",
     src: "https://www.youtube.com/watch?v=btGxgpi2_c0",
   },
   {
@@ -4264,7 +3877,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Eris",
     god: "Athena",
-    ring: "darkblue",
     src: "https://www.youtube.com/watch?v=x3qQRt-SdL4",
   },
   {
@@ -4275,7 +3887,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Rama",
     god: "Sisyphus",
-    ring: "blue",
     src: "https://youtu.be/WdspSl2RWkc",
   },
   {
@@ -4286,7 +3897,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://youtu.be/IgguR8n2eS4",
   },
   {
@@ -4297,7 +3907,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Eris",
     god: "Athena",
-    ring: "darkblue",
     src: "https://www.youtube.com/watch?v=MgBmNhLSRbg",
   },
   {
@@ -4308,7 +3917,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Guan Yu",
     god: "Dionysus",
-    ring: "red",
     src: "https://youtu.be/NzyM1DlByzE",
   },
   {
@@ -4319,7 +3927,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Poseidon",
     god: "Poseidon",
-    ring: "green",
     src: "https://www.youtube.com/watch?v=j3NfkSmoxss",
   },
   {
@@ -4330,7 +3937,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Arthur",
     god: "Aphrodite",
-    ring: "blue",
     src: "https://youtu.be/P_fEKwP5t7w",
   },
   {
@@ -4341,7 +3947,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Chiron",
     god: "Artemis",
-    ring: "yellow",
     src: "https://youtu.be/mk9nkRg2fYA",
   },
   {
@@ -4352,7 +3957,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "pink",
     src: "https://youtu.be/AkBINX31sJk",
   },
   {
@@ -4363,7 +3967,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Hestia",
     god: "Hermes",
-    ring: "pink",
     src: "https://www.twitch.tv/videos/1055565379",
   },
   {
@@ -4374,7 +3977,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     god: "Zeus",
-    ring: "yellow",
     src: "https://www.youtube.com/watch?v=pi6HhmuFn6U",
   },
   {
@@ -4385,7 +3987,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Talos",
     god: "Thanatos",
-    ring: "purple",
     src: "https://youtu.be/rvD7UFvzZsw",
   },
   {
@@ -4396,7 +3997,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Eris",
     god: "Athena",
-    ring: "darkblue",
     src: "https://youtu.be/u5sulbpTQYE",
   },
   {
@@ -4407,7 +4007,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Guan Yu",
     god: "Dionysus",
-    ring: "red",
     src: "https://youtu.be/n_fewwkMSiI",
   },
   {
@@ -4418,7 +4017,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Chiron",
     god: "Artemis",
-    ring: "yellow",
     src: "https://youtu.be/MV1OlIxbC78",
   },
   {
@@ -4429,7 +4027,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Chaos",
     god: "Chaos",
-    ring: "purple",
     src: "https://www.youtube.com/watch?v=uR0akWr_q_E",
   },
   {
@@ -4440,7 +4037,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "red",
     src: "https://www.youtube.com/watch?v=wmUU02tUR1M",
   },
   {
@@ -4451,7 +4047,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Eris",
     god: "Athena",
-    ring: "darkblue",
     src: "https://www.twitch.tv/videos/785322570",
   },
   {
@@ -4462,7 +4057,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Talos",
     god: "Thanatos",
-    ring: "purple",
     src: "https://www.twitch.tv/videos/941125711",
   },
   {
@@ -4473,7 +4067,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "blue",
     src: "https://youtu.be/hj8Ggw0_vHI",
   },
   {
@@ -4484,7 +4077,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Chiron",
     god: "Artemis",
-    ring: "yellow",
     src: "https://youtu.be/mLOv1lp_MgQ",
   },
   {
@@ -4495,7 +4087,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Nemesis",
     god: "Persephone",
-    ring: "violet",
     src: "https://youtu.be/dCKeLNax524",
   },
   {
@@ -4506,7 +4097,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Hera",
     god: "Dusa",
-    ring: "purple",
     src: "https://youtu.be/dAqtmKhacSc",
   },
   {
@@ -4517,7 +4107,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Achilles",
     god: "Achilles",
-    ring: "yellow",
     src: "https://youtu.be/qN7Wabm8uVg",
   },
   {
@@ -4528,7 +4117,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Hestia",
     god: "Hermes",
-    ring: "pink",
     src: "https://youtu.be/J86AucQ0t0s",
   },
   {
@@ -4539,7 +4127,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Eris",
     god: "Athena",
-    ring: "darkblue",
     src: "https://youtu.be/ZvVyFR8PY9g",
   },
   {
@@ -4550,7 +4137,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "pink",
     src: "https://youtu.be/-4PEYflOPvE",
   },
   {
@@ -4561,7 +4147,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Demeter",
     god: "Demeter",
-    ring: "green",
     src: "https://youtu.be/HrSxZWBDDo4",
   },
   {
@@ -4572,7 +4157,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Hestia",
     god: "Hermes",
-    ring: "pink",
     src: "https://www.youtube.com/watch?v=Nn3c4X599nw",
   },
   {
@@ -4583,7 +4167,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Chaos",
     god: "Chaos",
-    ring: "purple",
     src: "https://www.youtube.com/watch?v=FzyFvlF4TuI",
   },
   {
@@ -4594,7 +4177,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Eris",
     god: "Athena",
-    ring: "darkblue",
     src: "https://www.youtube.com/watch?v=BllJlOlFB2g",
   },
   {
@@ -4605,7 +4187,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Hades",
     god: "Hades",
-    ring: "pink",
     src: "https://www.youtube.com/watch?v=e6ko8lIaYD0",
   },
   {
@@ -4616,7 +4197,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Rama",
     god: "Sisyphus",
-    ring: "blue",
     src: "https://www.youtube.com/watch?v=d3F-ysT7UDQ",
   },
   {
@@ -4627,7 +4207,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Guan Yu",
     god: "Dionysus",
-    ring: "red",
     src: "https://youtu.be/OSrW-WfzH-E",
   },
   {
@@ -4638,7 +4217,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Poseidon",
     god: "Poseidon",
-    ring: "green",
     src: "https://youtu.be/_Ubix0Vwf9I",
   },
   {
@@ -4649,7 +4227,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Eris",
     god: "Athena",
-    ring: "darkblue",
     src: "https://youtu.be/OFwwSFcf0HY",
   },
   {
@@ -4660,7 +4237,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Eris",
     god: "Athena",
-    ring: "darkblue",
     src: "https://www.youtube.com/watch?v=iqEvH3oTvTQ",
   },
   {
@@ -4671,7 +4247,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Guan Yu",
     god: "Dionysus",
-    ring: "red",
     src: "https://www.youtube.com/watch?v=BM57VAknbmI",
   },
   {
@@ -4682,7 +4257,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://www.youtube.com/watch?v=MbPSNCA1V_g",
   },
   {
@@ -4693,7 +4267,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://youtu.be/b5KPenp2Wfk",
   },
   {
@@ -4704,7 +4277,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Arthur",
     god: "Aphrodite",
-    ring: "blue",
     src: "https://www.twitch.tv/videos/861550385",
   },
   {
@@ -4715,7 +4287,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Guan Yu",
     god: "Dionysus",
-    ring: "red",
     src: "https://www.youtube.com/watch?v=uW2cM5UF6e4",
   },
   {
@@ -4726,7 +4297,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Arthur",
     god: "Aphrodite",
-    ring: "blue",
     src: "https://www.youtube.com/watch?v=TIdzT6sMCKk",
   },
   {
@@ -4737,7 +4307,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Rama",
     god: "Sisyphus",
-    ring: "blue",
     src: "https://www.youtube.com/watch?v=BWlyTXr45Rw",
   },
   {
@@ -4748,7 +4317,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Hades",
     god: "Hades",
-    ring: "pink",
     src: "https://www.youtube.com/watch?v=kY6x0Aepz9A",
   },
   {
@@ -4759,7 +4327,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Demeter",
     god: "Demeter",
-    ring: "green",
     src: "https://www.youtube.com/watch?v=ZQAtobBKJL4",
   },
   {
@@ -4770,7 +4337,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Hestia",
     god: "Hermes",
-    ring: "pink",
     src: "https://www.youtube.com/watch?v=LJVKg7AU5QM",
   },
   {
@@ -4781,7 +4347,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Hera",
     god: "Dusa",
-    ring: "purple",
     src: "https://www.youtube.com/watch?v=mNP3kVxHDzQ",
   },
   {
@@ -4792,7 +4357,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     god: "Zeus",
-    ring: "yellow",
     src: "https://youtu.be/lrdzzbGQLZI",
   },
   {
@@ -4803,7 +4367,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Nemesis",
     god: "Persephone",
-    ring: "violet",
     src: "https://youtu.be/1DPBfuiGqV0",
   },
   {
@@ -4814,7 +4377,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "orange",
     src: "https://youtu.be/bTMX990qoGI",
   },
   {
@@ -4825,7 +4387,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://youtu.be/LO1eq_6b2i0",
   },
   {
@@ -4836,7 +4397,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "pink",
     src: "https://youtu.be/5CFyy94ROxc",
   },
   {
@@ -4847,7 +4407,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Guan Yu",
     god: "Dionysus",
-    ring: "red",
     src: "https://youtu.be/h1pwdCIpH8s",
   },
   {
@@ -4858,7 +4417,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Gilgamesh",
     god: "Cerberus",
-    ring: "pink",
     src: "https://youtu.be/W0PdDce7kxI",
   },
   {
@@ -4869,7 +4427,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Arthur",
     god: "Aphrodite",
-    ring: "blue",
     src: "https://youtu.be/MCbXbO9KdRY",
   },
   {
@@ -4880,7 +4437,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "yellow",
     src: "https://youtu.be/PSnoXANfrZ0",
   },
   {
@@ -4891,7 +4447,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Poseidon",
     god: "Poseidon",
-    ring: "green",
     src: "https://youtu.be/G8W9E8TkUT4",
   },
   {
@@ -4902,7 +4457,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "purple",
     src: "https://youtu.be/TgInANLhLC4",
   },
   {
@@ -4913,7 +4467,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Lucifer",
     god: "Nyx",
-    ring: "yellow",
     src: "https://youtu.be/wwvFwoEuE1w",
   },
   {
@@ -4924,7 +4477,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "red",
     src: "https://youtu.be/JW9JSlA7Clg",
   },
   {
@@ -4935,7 +4487,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Achilles",
     god: "Achilles",
-    ring: "yellow",
     src: "https://youtu.be/xiFkoabo00w",
   },
   {
@@ -4946,7 +4497,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Talos",
     god: "Thanatos",
-    ring: "purple",
     src: "https://youtu.be/uLcxENYjS6E",
   },
   {
@@ -4957,7 +4507,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "yellow",
     src: "https://www.youtube.com/watch?v=yJkPraXLP6c&feature=youtu.be",
   },
   {
@@ -4968,7 +4517,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Nemesis",
     god: "Persephone",
-    ring: "violet",
     src: "https://www.twitch.tv/videos/942326795",
   },
   {
@@ -4979,7 +4527,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "blue",
     src: "https://youtu.be/TN2iLAHFe6w",
   },
   {
@@ -4990,7 +4537,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Chiron",
     god: "Artemis",
-    ring: "yellow",
     src: "https://youtu.be/UtWgq3cUhEA",
   },
   {
@@ -5001,7 +4547,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Hestia",
     god: "Hermes",
-    ring: "pink",
     src: "https://www.youtube.com/watch?v=J_wskDrH1-I",
   },
   {
@@ -5012,7 +4557,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Hera",
     god: "Dusa",
-    ring: "purple",
     src: "https://youtu.be/7fAZmy7cOtQ",
   },
   {
@@ -5023,7 +4567,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Arthur",
     god: "Aphrodite",
-    ring: "blue",
     src: "https://www.youtube.com/watch?v=kaeT94lfrmM",
   },
   {
@@ -5034,7 +4577,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Guan Yu",
     god: "Dionysus",
-    ring: "red",
     src: "https://www.twitch.tv/videos/958334465",
   },
   {
@@ -5045,7 +4587,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Arthur",
     god: "Aphrodite",
-    ring: "blue",
     src: "https://www.youtube.com/watch?v=E1uq7scZoFM",
   },
   {
@@ -5056,7 +4597,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Lucifer",
     god: "Nyx",
-    ring: "yellow",
     src: "https://youtu.be/Wg6IyDZVN00",
   },
   {
@@ -5067,7 +4607,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Chaos",
     god: "Chaos",
-    ring: "purple",
     src: "https://youtu.be/PIAY43zkdN8",
   },
   {
@@ -5078,7 +4617,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Eris",
     god: "Athena",
-    ring: "darkblue",
     src: "https://youtu.be/5MGcG2AM2JY",
   },
   {
@@ -5089,7 +4627,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "pink",
     src: "https://www.youtube.com/watch?v=0RWnqzBOJ44",
   },
   {
@@ -5100,7 +4637,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Rama",
     god: "Sisyphus",
-    ring: "blue",
     src: "https://www.youtube.com/watch?v=TgbvwGAz98E",
   },
   {
@@ -5111,7 +4647,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Talos",
     god: "Thanatos",
-    ring: "purple",
     src: "https://youtu.be/jQSDVGgkqiY",
   },
   {
@@ -5122,7 +4657,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Demeter",
     god: "Demeter",
-    ring: "green",
     src: "https://youtu.be/gerdc6xZt4k",
   },
   {
@@ -5133,7 +4667,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Gilgamesh",
     god: "Cerberus",
-    ring: "pink",
     src: "https://youtu.be/azsQi2d-Nhw",
   },
   {
@@ -5144,7 +4677,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "purple",
     src: "https://youtu.be/sMBJAiuCJZg",
   },
   {
@@ -5155,7 +4687,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Guan Yu",
     god: "Dionysus",
-    ring: "red",
     src: "https://youtu.be/Q73V-lzjx4k",
   },
   {
@@ -5166,7 +4697,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Achilles",
     god: "Achilles",
-    ring: "yellow",
     src: "https://youtu.be/V_qAhiyVluA",
   },
   {
@@ -5177,7 +4707,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://youtu.be/rhKaABdJiCw",
   },
   {
@@ -5188,7 +4717,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Hades",
     god: "Hades",
-    ring: "pink",
     src: "https://youtu.be/XYCyBLd2L-A",
   },
   {
@@ -5199,7 +4727,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     god: "Zeus",
-    ring: "yellow",
     src: "video no longer available, verified",
   },
   {
@@ -5210,7 +4737,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Poseidon",
     god: "Poseidon",
-    ring: "green",
     src: "https://youtu.be/IhdgS9m6J6c",
   },
   {
@@ -5221,7 +4747,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Nemesis",
     god: "Persephone",
-    ring: "violet",
     src: "https://youtu.be/QsZ_x1iPIt8",
   },
   {
@@ -5232,7 +4757,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "red",
     src: "https://youtu.be/N8frMHj8U6s",
   },
   {
@@ -5243,7 +4767,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     god: "Zeus",
-    ring: "yellow",
     src: "https://youtu.be/76EDqNBGiSA",
   },
   {
@@ -5254,7 +4777,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "orange",
     src: "https://youtu.be/_ttjdoQrNBA",
   },
   {
@@ -5265,7 +4787,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://youtu.be/__n9dHcNhAc",
   },
   {
@@ -5276,7 +4797,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Rama",
     god: "Sisyphus",
-    ring: "blue",
     src: "https://youtu.be/QtBdU_Yr9vE",
   },
   {
@@ -5287,7 +4807,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Hera",
     god: "Dusa",
-    ring: "purple",
     src: "https://youtu.be/wgsREZDZQYo",
   },
   {
@@ -5298,7 +4817,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "blue",
     src: "https://youtu.be/Lin8O0qwOtM",
   },
   {
@@ -5309,7 +4827,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Hestia",
     god: "Hermes",
-    ring: "pink",
     src: "https://www.youtube.com/watch?v=LoD_i1IoG4U",
   },
   {
@@ -5320,7 +4837,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Hestia",
     god: "Hermes",
-    ring: "pink",
     src: "https://youtu.be/lvSa3Hq3pNw",
   },
   {
@@ -5331,7 +4847,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Hestia",
     god: "Hermes",
-    ring: "pink",
     src: "https://youtu.be/Mt4HYxc1_Xo",
   },
   {
@@ -5342,7 +4857,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Guan Yu",
     god: "Dionysus",
-    ring: "red",
     src: "https://www.youtube.com/watch?v=ixhFP_be5lM",
   },
   {
@@ -5353,7 +4867,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "yellow",
     src: "https://www.twitch.tv/videos/1024703849",
   },
   {
@@ -5364,7 +4877,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "pink",
     src: "https://www.twitch.tv/videos/1024703848",
   },
   {
@@ -5375,7 +4887,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "red",
     src: "https://www.twitch.tv/videos/1124749512",
   },
   {
@@ -5386,7 +4897,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Lucifer",
     god: "Nyx",
-    ring: "yellow",
     src: "https://www.twitch.tv/videos/1125263067",
   },
   {
@@ -5397,7 +4907,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "pink",
     src: "https://www.twitch.tv/videos/1125263066",
   },
   {
@@ -5408,7 +4917,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Chiron",
     god: "Artemis",
-    ring: "yellow",
     src: "https://www.twitch.tv/videos/1125263065",
   },
   {
@@ -5419,7 +4927,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "purple",
     src: "https://www.twitch.tv/videos/1127068780",
   },
   {
@@ -5430,7 +4937,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Arthur",
     god: "Aphrodite",
-    ring: "blue",
     src: "https://youtu.be/VRlC5Jlxb1c",
   },
   {
@@ -5441,7 +4947,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Hades",
     god: "Hades",
-    ring: "pink",
     src: "https://youtu.be/yA1eyp3Ek5A",
   },
   {
@@ -5452,7 +4957,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Achilles",
     god: "Achilles",
-    ring: "yellow",
     src: "https://youtu.be/wj19NI7C7I0",
   },
   {
@@ -5463,7 +4967,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "orange",
     src: "https://youtu.be/IOkL6eikg20",
   },
   {
@@ -5474,7 +4977,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Lucifer",
     god: "Nyx",
-    ring: "yellow",
     src: "https://youtu.be/4TBrZ8SFYfY",
   },
   {
@@ -5485,7 +4987,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Hestia",
     god: "Hermes",
-    ring: "pink",
     src: "https://www.youtube.com/watch?v=bnGmXxDI80g",
   },
   {
@@ -5496,7 +4997,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Hestia",
     god: "Hermes",
-    ring: "pink",
     src: "https://www.youtube.com/watch?v=HfDmYWmf8Yo",
   },
   {
@@ -5507,7 +5007,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Hestia",
     god: "Hermes",
-    ring: "pink",
     src: "https://www.youtube.com/watch?v=Y9ix8qHY9io&t=3s",
   },
   {
@@ -5518,7 +5017,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "blue",
     src: "https://youtu.be/z2XZIYCbcgE",
   },
   {
@@ -5529,7 +5027,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "orange",
     src: "https://youtu.be/ierRcL4T1nY",
   },
   {
@@ -5540,7 +5037,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Hestia",
     god: "Hermes",
-    ring: "pink",
     src: "https://www.youtube.com/watch?v=VNunvdJqUbQ",
   },
   {
@@ -5551,7 +5047,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Chiron",
     god: "Artemis",
-    ring: "yellow",
     src: "https://youtu.be/zAxwh7Qr2OA",
   },
   {
@@ -5562,7 +5057,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Arthur",
     god: "Aphrodite",
-    ring: "blue",
     src: "https://youtu.be/zlWiOIeXx_U",
   },
   {
@@ -5573,7 +5067,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Guan Yu",
     god: "Dionysus",
-    ring: "red",
     src: "https://youtu.be/aWEeMmmNZFI",
   },
   {
@@ -5584,7 +5077,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Hestia",
     god: "Hermes",
-    ring: "pink",
     src: "https://youtu.be/fFkhLApwY-Q",
   },
   {
@@ -5595,7 +5087,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://youtu.be/Af2FMCyw_Bw",
   },
   {
@@ -5606,7 +5097,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://www.youtube.com/watch?v=sjFP0gWDBFY",
   },
   {
@@ -5617,7 +5107,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Eris",
     god: "Athena",
-    ring: "darkblue",
     src: "https://www.youtube.com/watch?v=1xvoQPpgaTU",
   },
   {
@@ -5628,7 +5117,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Chaos",
     god: "Chaos",
-    ring: "purple",
     src: "https://www.youtube.com/watch?v=z5SiVrLofDY",
   },
   {
@@ -5639,7 +5127,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://youtu.be/4boGWFJMIWY",
   },
   {
@@ -5650,7 +5137,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://www.youtube.com/watch?v=MuBsVFJ3vmQ",
   },
   {
@@ -5661,7 +5147,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Achilles",
     god: "Achilles",
-    ring: "yellow",
     src: "https://youtu.be/ThwYuoAZDvw",
   },
   {
@@ -5672,7 +5157,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Achilles",
     god: "Achilles",
-    ring: "yellow",
     src: "https://www.twitch.tv/videos/916437976",
   },
   {
@@ -5683,7 +5167,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Arthur",
     god: "Aphrodite",
-    ring: "blue",
     src: "https://www.twitch.tv/videos/917737697",
   },
   {
@@ -5694,7 +5177,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Hades",
     god: "Hades",
-    ring: "pink",
     src: "https://youtu.be/2Oubyhx-5Jo",
   },
   {
@@ -5705,7 +5187,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Eris",
     god: "Athena",
-    ring: "darkblue",
     src: "https://www.twitch.tv/videos/925854650/",
   },
   {
@@ -5716,7 +5197,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Talos",
     god: "Thanatos",
-    ring: "purple",
     src: "https://www.twitch.tv/videos/941146058",
   },
   {
@@ -5727,7 +5207,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Hestia",
     god: "Hermes",
-    ring: "pink",
     src: "https://www.twitch.tv/videos/958866948",
   },
   {
@@ -5738,7 +5217,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Poseidon",
     god: "Poseidon",
-    ring: "green",
     src: "https://youtu.be/DVOVuNtA4bs",
   },
   {
@@ -5749,7 +5227,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "orange",
     src: "https://youtu.be/QFdkylMoLYI",
   },
   {
@@ -5760,7 +5237,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Demeter",
     god: "Demeter",
-    ring: "green",
     src: "https://youtu.be/qu3o9Di04S8",
   },
   {
@@ -5771,7 +5247,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Hera",
     god: "Dusa",
-    ring: "purple",
     src: "https://youtu.be/JXjY3ImN8NU",
   },
   {
@@ -5782,7 +5257,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Guan Yu",
     god: "Dionysus",
-    ring: "red",
     src: "https://youtu.be/fXTv8jZfwzw",
   },
   {
@@ -5793,7 +5267,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Hestia",
     god: "Hermes",
-    ring: "pink",
     src: "https://www.youtube.com/watch?v=rVV2rP03i9c",
   },
   {
@@ -5804,7 +5277,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "orange",
     src: "https://youtu.be/LjMmlw5VDsQ",
   },
   {
@@ -5815,7 +5287,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Eris",
     god: "Athena",
-    ring: "darkblue",
     src: "https://youtu.be/DBfYX-pUGxo",
   },
   {
@@ -5826,7 +5297,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Eris",
     god: "Athena",
-    ring: "darkblue",
     src: "https://youtu.be/V0MKt5J2LRM",
   },
   {
@@ -5837,7 +5307,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Gilgamesh",
     god: "Cerberus",
-    ring: "pink",
     src: "https://youtu.be/GSg1oKGSaNo",
   },
   {
@@ -5848,7 +5317,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Rama",
     god: "Sisyphus",
-    ring: "blue",
     src: "https://youtu.be/Crm1Oh2t3HM",
   },
   {
@@ -5859,7 +5327,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Hestia",
     god: "Hermes",
-    ring: "pink",
     src: "https://www.twitch.tv/videos/1009160541",
   },
   {
@@ -5870,7 +5337,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://www.youtube.com/watch?v=dGIoiQUUBsM&t=2s",
   },
   {
@@ -5881,7 +5347,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Hestia",
     god: "Hermes",
-    ring: "pink",
     src: "https://youtu.be/OyI6WicJTRg",
   },
   {
@@ -5892,7 +5357,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Hera",
     god: "Dusa",
-    ring: "purple",
     src: "https://youtu.be/KJJKJx49yUo",
   },
   {
@@ -5903,7 +5367,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     god: "Zeus",
-    ring: "yellow",
     src: "https://youtu.be/y9aAyjWtEsU",
   },
   {
@@ -5914,7 +5377,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Gilgamesh",
     god: "Cerberus",
-    ring: "pink",
     src: "https://www.twitch.tv/videos/1055565380",
   },
   {
@@ -5925,7 +5387,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "blue",
     src: "https://www.twitch.tv/videos/1055565378",
   },
   {
@@ -5936,7 +5397,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Talos",
     god: "Thanatos",
-    ring: "purple",
     src: "https://www.twitch.tv/videos/1083586648?t=00h00m33s",
   },
   {
@@ -5947,7 +5407,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Arthur",
     god: "Aphrodite",
-    ring: "blue",
     src: "https://www.youtube.com/watch?v=Y3hYCB9aZUY",
   },
   {
@@ -5958,7 +5417,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Rama",
     god: "Sisyphus",
-    ring: "blue",
     src: "https://youtu.be/O_MBS3HejjI",
   },
   {
@@ -5969,7 +5427,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Chiron",
     god: "Artemis",
-    ring: "yellow",
     src: "https://www.youtube.com/watch?v=ZsxMSYCZFkE",
   },
   {
@@ -5980,7 +5437,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     god: "Zeus",
-    ring: "yellow",
     src: "https://youtu.be/G6CqK_nzJ7Y",
   },
   {
@@ -5991,7 +5447,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Achilles",
     god: "Achilles",
-    ring: "yellow",
     src: "https://youtu.be/dOnPYcjYswQ",
   },
   {
@@ -6002,7 +5457,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "blue",
     src: "https://youtu.be/qwreXAEtQU8",
   },
   {
@@ -6013,7 +5467,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Lucifer",
     god: "Nyx",
-    ring: "yellow",
     src: "https://youtu.be/oxtaqZzhugU",
   },
   {
@@ -6024,7 +5477,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Gilgamesh",
     god: "Cerberus",
-    ring: "pink",
     src: "https://youtu.be/zMkl692sFAk",
   },
   {
@@ -6035,7 +5487,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "red",
     src: "https://youtu.be/UkK89GW32uM",
   },
   {
@@ -6046,7 +5497,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     god: "Zeus",
-    ring: "yellow",
     src: "https://youtu.be/TdGELR-Wdg0",
   },
   {
@@ -6057,7 +5507,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://youtu.be/TqrFM6NSxCg",
   },
   {
@@ -6068,7 +5517,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://youtu.be/jb7GIv286-g",
   },
   {
@@ -6079,7 +5527,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://youtu.be/jb7GIv286-g",
   },
   {
@@ -6090,7 +5537,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://youtu.be/oCSN__ABbro",
   },
   {
@@ -6101,7 +5547,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Talos",
     god: "Thanatos",
-    ring: "purple",
     src: "https://www.twitch.tv/videos/1746613565",
   },
   {
@@ -6112,7 +5557,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     god: "Zeus",
-    ring: "yellow",
     src: " https://www.bilibili.com/video/BV1kx4y1V7kz/",
   },
   {
@@ -6123,7 +5567,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     god: "Zeus",
-    ring: "yellow",
     src: "https://youtu.be/v1Pu-t7mxNM",
   },
   {
@@ -6134,7 +5577,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     god: "Zeus",
-    ring: "yellow",
     src: "https://youtu.be/I3dYGU5RTts",
   },
   {
@@ -6145,7 +5587,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "orange",
     src: "https://youtu.be/qtDp6fCcyS8",
   },
   {
@@ -6156,7 +5597,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Rama",
     god: "Sisyphus",
-    ring: "blue",
     src: "https://www.youtube.com/watch?v=XHc_3QU6JwY",
   },
   {
@@ -6167,7 +5607,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "orange",
     src: "https://youtu.be/sukabMsx8SE",
   },
   {
@@ -6178,7 +5617,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     god: "Zeus",
-    ring: "yellow",
     src: "https://youtu.be/63MX2n0p2I8",
   },
   {
@@ -6189,7 +5627,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Chaos",
     god: "Chaos",
-    ring: "purple",
     src: "https://youtu.be/N4tC4VDHA6Y",
   },
   {
@@ -6200,7 +5637,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Hestia",
     god: "Hermes",
-    ring: "pink",
     src: "https://www.youtube.com/watch?v=u4fOOByXBtI",
   },
   {
@@ -6211,7 +5647,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Rama",
     god: "Sisyphus",
-    ring: "blue",
     src: "https://youtu.be/0xi8TupE_vg",
   },
   {
@@ -6222,7 +5657,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Chaos",
     god: "Chaos",
-    ring: "purple",
     src: "https://youtu.be/Qvj3bz_6RNQ",
   },
   {
@@ -6233,7 +5667,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://youtu.be/rk2OK2k2uDg",
   },
   {
@@ -6244,7 +5677,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Achilles",
     god: "Achilles",
-    ring: "yellow",
     src: "https://www.bilibili.com/video/BV1214y1c767/#reply779270232",
   },
   {
@@ -6255,7 +5687,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Rama",
     god: "Sisyphus",
-    ring: "blue",
     src: "https://www.youtube.com/watch?v=lr3hsbMbOCo&t=1746s",
   },
   {
@@ -6266,7 +5697,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://youtu.be/RbcfskuMaC4",
   },
   {
@@ -6277,7 +5707,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Chaos",
     god: "Chaos",
-    ring: "purple",
     src: "https://youtu.be/CFJDLQbqe64",
   },
   {
@@ -6288,7 +5717,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Hestia",
     god: "Hermes",
-    ring: "pink",
     src: "https://youtu.be/6XdJTDTPCZM",
   },
   {
@@ -6299,7 +5727,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "blue",
     src: "https://youtu.be/fp717tGRbAU",
   },
   {
@@ -6310,7 +5737,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Guan Yu",
     god: "Dionysus",
-    ring: "red",
     src: "https://youtu.be/wqq5o2bMDGI",
   },
   {
@@ -6321,7 +5747,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Hestia",
     god: "Hermes",
-    ring: "pink",
     src: "https://www.youtube.com/watch?v=aXg1d_cOQwQ",
   },
   {
@@ -6332,7 +5757,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Hades",
     god: "Hades",
-    ring: "pink",
     src: "https://www.youtube.com/watch?v=dZUfQ6Hn06Y",
   },
   {
@@ -6343,7 +5767,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "blue",
     src: "https://www.youtube.com/watch?v=3wc31HPLGCk",
   },
   {
@@ -6354,7 +5777,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Chiron",
     god: "Artemis",
-    ring: "yellow",
     src: "https://www.youtube.com/watch?v=jeOSCT8_zao",
   },
   {
@@ -6365,7 +5787,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "blue",
     src: "https://youtu.be/FgYXHuB2ca8",
   },
   {
@@ -6376,7 +5797,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Nemesis",
     god: "Persephone",
-    ring: "violet",
     src: "https://youtu.be/4NVEHc66Kns",
   },
   {
@@ -6387,7 +5807,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Chiron",
     god: "Artemis",
-    ring: "yellow",
     src: "https://youtu.be/4J_C1qnrpoM",
   },
   {
@@ -6398,7 +5817,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Hades",
     god: "Hades",
-    ring: "pink",
     src: "https://youtu.be/5rW3gFiqZDs",
   },
   {
@@ -6409,7 +5827,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Lucifer",
     god: "Nyx",
-    ring: "yellow",
     src: "https://youtu.be/UFRJofoKf-Q",
   },
   {
@@ -6420,7 +5837,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Guan Yu",
     god: "Dionysus",
-    ring: "red",
     src: "https://youtu.be/ZCpiTyKVU9k",
   },
   {
@@ -6431,7 +5847,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Achilles",
     god: "Achilles",
-    ring: "yellow",
     src: "https://youtu.be/LejWx1bt8mo",
   },
   {
@@ -6442,7 +5857,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Eris",
     god: "Athena",
-    ring: "darkblue",
     src: "https://youtu.be/ahXyqAMhTyQ",
   },
   {
@@ -6453,7 +5867,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Talos",
     god: "Thanatos",
-    ring: "purple",
     src: "https://youtu.be/Sla0kPw69rg",
   },
   {
@@ -6464,7 +5877,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Demeter",
     god: "Demeter",
-    ring: "green",
     src: "https://youtu.be/4yk_2Vby2PA",
   },
   {
@@ -6475,7 +5887,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Hera",
     god: "Dusa",
-    ring: "purple",
     src: "https://youtu.be/1QkVDRppoJw",
   },
   {
@@ -6486,7 +5897,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "orange",
     src: "https://youtu.be/Te5LZoMDVZQ",
   },
   {
@@ -6497,7 +5907,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Achilles",
     god: "Achilles",
-    ring: "yellow",
     src: "https://youtu.be/EsfNadaEYms",
   },
   {
@@ -6508,7 +5917,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Demeter",
     god: "Demeter",
-    ring: "green",
     src: "https://youtu.be/qlRszqxBKd4",
   },
   {
@@ -6519,7 +5927,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "yellow",
     src: "https://youtu.be/3HcoqspIiAs",
   },
   {
@@ -6530,7 +5937,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "purple",
     src: "https://youtu.be/omDsCQqjysQ",
   },
   {
@@ -6541,7 +5947,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Talos",
     god: "Thanatos",
-    ring: "purple",
     src: "https://www.twitch.tv/videos/1491932461?t=0h8m8s",
   },
   {
@@ -6552,7 +5957,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Talos",
     god: "Thanatos",
-    ring: "purple",
     src: "https://youtu.be/u4BeI8QjvKk",
   },
   {
@@ -6563,7 +5967,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Eris",
     god: "Athena",
-    ring: "darkblue",
     src: "https://youtu.be/von2udfoJfI",
   },
   {
@@ -6574,7 +5977,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "orange",
     src: "https://youtu.be/ntLy3P6iZPg",
   },
   {
@@ -6585,7 +5987,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Demeter",
     god: "Demeter",
-    ring: "green",
     src: "https://youtu.be/QxCobH3CJMc",
   },
   {
@@ -6596,7 +5997,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Eris",
     god: "Athena",
-    ring: "darkblue",
     src: "https://youtu.be/UN_1ZTf621M",
   },
   {
@@ -6607,7 +6007,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://youtu.be/LRFrT3bGgzE",
   },
   {
@@ -6618,7 +6017,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "yellow",
     src: "https://youtu.be/jjrNfwTOcBU",
   },
   {
@@ -6629,7 +6027,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "pink",
     src: "https://youtu.be/yN_X7mEgjR0",
   },
   {
@@ -6640,7 +6037,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Talos",
     god: "Thanatos",
-    ring: "purple",
     src: "https://youtu.be/3ExDBRB2K7M",
   },
   {
@@ -6651,7 +6047,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "red",
     src: "https://youtu.be/Grdy309LHts",
   },
   {
@@ -6662,7 +6057,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Poseidon",
     god: "Poseidon",
-    ring: "green",
     src: "https://youtu.be/TNrlr2it3lY",
   },
   {
@@ -6673,7 +6067,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Hera",
     god: "Dusa",
-    ring: "purple",
     src: "https://youtu.be/p9cMGgLEeCI",
   },
   {
@@ -6684,7 +6077,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Gilgamesh",
     god: "Cerberus",
-    ring: "pink",
     src: "https://youtu.be/DumyWYJ1-F8",
   },
   {
@@ -6695,7 +6087,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Achilles",
     god: "Achilles",
-    ring: "yellow",
     src: "https://youtu.be/vlKw3R0W8uE",
   },
   {
@@ -6706,7 +6097,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Rama",
     god: "Sisyphus",
-    ring: "blue",
     src: "https://www.youtube.com/watch?v=DTmw_cTEXpk&ab_channel=Kirrby",
   },
   {
@@ -6717,7 +6107,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Arthur",
     god: "Aphrodite",
-    ring: "blue",
     src: "https://youtu.be/yzr1Y5_19NQ",
   },
   {
@@ -6728,7 +6117,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Lucifer",
     god: "Nyx",
-    ring: "yellow",
     src: "https://youtu.be/lVXSWSsPtr0",
   },
   {
@@ -6739,7 +6127,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Gilgamesh",
     god: "Cerberus",
-    ring: "pink",
     src: "https://youtu.be/slxzIxM9zf4",
   },
   {
@@ -6750,7 +6137,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Nemesis",
     god: "Persephone",
-    ring: "violet",
     src: "https://youtu.be/594rKogKQwA",
   },
   {
@@ -6761,7 +6147,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "blue",
     src: "https://www.youtube.com/watch?v=HOp8WxjUKKM&ab_channel=Kirrby",
   },
   {
@@ -6772,7 +6157,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "pink",
     src: "https://www.twitch.tv/videos/1539721286",
   },
   {
@@ -6783,7 +6167,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Nemesis",
     god: "Persephone",
-    ring: "violet",
     src: "https://youtu.be/DnEuCfU7Brw",
   },
   {
@@ -6794,7 +6177,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Guan Yu",
     god: "Dionysus",
-    ring: "red",
     src: "https://youtu.be/mX9KUFlFjQk",
   },
   {
@@ -6805,7 +6187,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     god: "Zeus",
-    ring: "yellow",
     src: "https://youtu.be/UctbzIl8C5U",
   },
   {
@@ -6816,7 +6197,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Nemesis",
     god: "Persephone",
-    ring: "violet",
     src: "https://www.youtube.com/watch?v=xexBO_v3mGw",
   },
   {
@@ -6827,7 +6207,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Hestia",
     god: "Hermes",
-    ring: "pink",
     src: "https://youtu.be/vAHBNCdSzAw",
   },
   {
@@ -6838,7 +6217,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://youtu.be/kkLWJv6xajg",
   },
   {
@@ -6849,7 +6227,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Hades",
     god: "Hades",
-    ring: "pink",
     src: "https://youtu.be/CSPG_NOUyw4",
   },
   {
@@ -6860,7 +6237,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Chiron",
     god: "Artemis",
-    ring: "yellow",
     src: "https://youtu.be/lSyzIYm0W2Q",
   },
   {
@@ -6871,7 +6247,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     god: "Zeus",
-    ring: "yellow",
     src: "https://youtu.be/qPHGG-3Pm8s",
   },
   {
@@ -6882,7 +6257,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Guan Yu",
     god: "Dionysus",
-    ring: "red",
     src: "https://youtu.be/NQTWrhBR0lw",
   },
   {
@@ -6893,7 +6267,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Demeter",
     god: "Demeter",
-    ring: "green",
     src: "https://youtu.be/Vn_QJIGmn1o",
   },
   {
@@ -6904,7 +6277,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Eris",
     god: "Athena",
-    ring: "darkblue",
     src: "https://youtu.be/4upG-sK-cx8",
   },
   {
@@ -6915,7 +6287,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Chaos",
     god: "Chaos",
-    ring: "purple",
     src: "https://youtu.be/6HaMREeRo6Q",
   },
   {
@@ -6926,7 +6297,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Nemesis",
     god: "Persephone",
-    ring: "violet",
     src: "https://youtu.be/Wxcoa9beb9c",
   },
   {
@@ -6937,7 +6307,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Rama",
     god: "Sisyphus",
-    ring: "blue",
     src: "https://youtu.be/qNTaHPZILDU",
   },
   {
@@ -6948,7 +6317,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Talos",
     god: "Thanatos",
-    ring: "purple",
     src: "https://youtu.be/VKJXd169w0A",
   },
   {
@@ -6959,7 +6327,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Demeter",
     god: "Demeter",
-    ring: "green",
     src: "https://youtu.be/8zVZaM_UcZg",
   },
   {
@@ -6970,7 +6337,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Hestia",
     god: "Hermes",
-    ring: "pink",
     src: "https://www.youtube.com/watch?v=r0UegOw8fVA&ab_channel=Kirrby",
   },
   {
@@ -6981,7 +6347,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "blue",
     src: "https://youtu.be/fRkONSyO5MM",
   },
   {
@@ -6992,7 +6357,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "orange",
     src: "https://www.youtube.com/watch?v=XnwHoizI3Zc&ab_channel=Kirrby",
   },
   {
@@ -7003,7 +6367,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Rama",
     god: "Sisyphus",
-    ring: "blue",
     src: "https://www.youtube.com/watch?v=t-WgKMUEcjI&ab_channel=Kirrby",
   },
   {
@@ -7014,7 +6377,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://www.youtube.com/watch?v=Vq4SeyeYO7Y&ab_channel=Kirrby",
   },
   {
@@ -7025,7 +6387,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Achilles",
     god: "Achilles",
-    ring: "yellow",
     src: "https://www.youtube.com/watch?v=BE8bXD6dd4U&ab_channel=Kirrby",
   },
   {
@@ -7036,7 +6397,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Eris",
     god: "Athena",
-    ring: "darkblue",
     src: "https://www.youtube.com/watch?v=OAtXjAZIugM&ab_channel=Kirrby",
   },
   {
@@ -7047,7 +6407,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Demeter",
     god: "Demeter",
-    ring: "green",
     src: "https://www.youtube.com/watch?v=OCr7oXh02_w&ab_channel=Kirrby",
   },
   {
@@ -7058,7 +6417,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "red",
     src: "https://youtu.be/DTjipruKK7o",
   },
   {
@@ -7069,7 +6427,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "pink",
     src: "https://youtu.be/-I-1IsrrNDs",
   },
   {
@@ -7080,7 +6437,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Talos",
     god: "Thanatos",
-    ring: "purple",
     src: "https://youtu.be/oFn1cnmfdp0",
   },
   {
@@ -7091,7 +6447,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Chiron",
     god: "Artemis",
-    ring: "yellow",
     src: "https://www.youtube.com/watch?v=EGdvpOWQjis&ab_channel=Kirrby",
   },
   {
@@ -7102,7 +6457,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Lucifer",
     god: "Nyx",
-    ring: "yellow",
     src: "https://youtu.be/tmYYe4g2lA4",
   },
   {
@@ -7113,7 +6467,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Gilgamesh",
     god: "Cerberus",
-    ring: "pink",
     src: "https://youtu.be/Pb1JVAiTCwc",
   },
   {
@@ -7124,7 +6477,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Guan Yu",
     god: "Dionysus",
-    ring: "red",
     src: "https://www.youtube.com/watch?v=SeOYjKrKwPk&ab_channel=Kirrby",
   },
   {
@@ -7135,7 +6487,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     god: "Zeus",
-    ring: "yellow",
     src: "https://youtu.be/allc8c4ewUw",
   },
   {
@@ -7146,7 +6497,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "yellow",
     src: "https://www.youtube.com/watch?v=odV97zVvrx0&ab_channel=Kirrby",
   },
   {
@@ -7157,7 +6507,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Lucifer",
     god: "Nyx",
-    ring: "yellow",
     src: "https://www.youtube.com/watch?v=WBUXq5_oVTQ&ab_channel=Kirrby",
   },
   {
@@ -7168,7 +6517,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "pink",
     src: "https://youtu.be/dK7_l_XMuLk",
   },
   {
@@ -7179,7 +6527,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Talos",
     god: "Thanatos",
-    ring: "purple",
     src: "https://youtu.be/cLbbB7CGmJM",
   },
   {
@@ -7190,7 +6537,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Hera",
     god: "Dusa",
-    ring: "purple",
     src: "https://www.youtube.com/watch?v=w9am2hi8CmQ&ab_channel=Kirrby",
   },
   {
@@ -7201,7 +6547,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Hera",
     god: "Dusa",
-    ring: "purple",
     src: "https://youtu.be/JMrbkdNujOo",
   },
   {
@@ -7212,7 +6557,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "purple",
     src: "https://youtu.be/UQqjhaz1-20",
   },
   {
@@ -7223,7 +6567,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Guan Yu",
     god: "Dionysus",
-    ring: "red",
     src: "https://youtu.be/B3aaUtIr2hk",
   },
   {
@@ -7234,7 +6577,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     god: "Zeus",
-    ring: "yellow",
     src: "https://youtu.be/HKf-yI_yysk",
   },
   {
@@ -7245,7 +6587,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Poseidon",
     god: "Poseidon",
-    ring: "green",
     src: "https://youtu.be/BGKT2bg0W6A",
   },
   {
@@ -7256,7 +6597,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "yellow",
     src: "https://youtu.be/HVA4WWmMOrc",
   },
   {
@@ -7267,7 +6607,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Arthur",
     god: "Aphrodite",
-    ring: "blue",
     src: "https://youtu.be/JsUtBINE-TA",
   },
   {
@@ -7278,7 +6617,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://youtu.be/956Q7aq9e98",
   },
   {
@@ -7289,7 +6627,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "orange",
     src: "https://youtu.be/VKI6BqI-pm8",
   },
   {
@@ -7300,7 +6637,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Chaos",
     god: "Chaos",
-    ring: "purple",
     src: "https://youtu.be/AT8GNbPN0PI",
   },
   {
@@ -7311,7 +6647,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Rama",
     god: "Sisyphus",
-    ring: "blue",
     src: "https://youtu.be/jEY3hVFgbE0",
   },
   {
@@ -7322,7 +6657,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://youtu.be/rwXG8F6Siv4",
   },
   {
@@ -7333,7 +6667,6 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Eris",
     god: "Athena",
-    ring: "darkblue",
     src: "https://youtu.be/cQEhtSSKGVM",
   },
   {
@@ -7344,7 +6677,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Hades",
     god: "Hades",
-    ring: "pink",
     src: "https://youtu.be/JqeSNwdq7cg",
   },
   {
@@ -7355,7 +6687,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://youtu.be/vbH6pyiRsDw",
   },
   {
@@ -7366,7 +6697,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "red",
     src: "https://www.twitch.tv/videos/1447947656",
   },
   {
@@ -7377,7 +6707,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://youtu.be/9JzcCdk6qmI",
   },
   {
@@ -7388,7 +6717,6 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     god: "Ares",
-    ring: "red",
     src: "https://youtu.be/Rh-I8Axua6c",
   },
   {
@@ -7399,7 +6727,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "purple",
     src: "https://youtu.be/XbX4YR-Ox28",
   },
   {
@@ -7410,7 +6737,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Gilgamesh",
     god: "Cerberus",
-    ring: "pink",
     src: "https://youtu.be/JbHiv-N-BV8",
   },
   {
@@ -7421,7 +6747,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Hades",
     god: "Hades",
-    ring: "pink",
     src: "https://www.youtube.com/watch?v=49hrB_tfZqA&ab_channel=Kirrby",
   },
   {
@@ -7432,7 +6757,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Talos",
     god: "Thanatos",
-    ring: "purple",
     src: "https://www.twitch.tv/videos/1229767730",
   },
   {
@@ -7443,7 +6767,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "pink",
     src: "https://www.twitch.tv/videos/1173903833",
   },
   {
@@ -7454,7 +6777,6 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Zagreus",
     god: "Zagreus",
-    ring: "red",
     src: "https://www.twitch.tv/videos/1206500070",
   },
   {
@@ -7465,7 +6787,6 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Demeter",
     god: "Demeter",
-    ring: "green",
     src: "https://www.twitch.tv/videos/1263593990",
   },
 ];

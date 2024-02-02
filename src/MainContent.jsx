@@ -17,6 +17,7 @@ import CategoryWeaponChart from "./Components.jsx/WeaponChart";
 import CategoryAspectChart from "./Components.jsx/AspectChart";
 import RecordSummary from "./Components.jsx/RecordSummary";
 import RecordSummaryCard from "./Components.jsx/RecordSummary2";
+import { getAvatarRing } from "./Data/FunctionLogic";
 
 import { useState } from "react";
 import { allData, BreakList } from "./Data/DataLogic";
@@ -183,7 +184,7 @@ export default function MainContent() {
                       withBorder={true}
                     />
                     <Avatar
-                      src={`rings/discord-${player.ring}.gif`}
+                      src={getAvatarRing(player.aspect)}
                       className="absolute top-0 start-0"
                     />
                   </div>
@@ -220,7 +221,7 @@ export default function MainContent() {
                       withBorder={true}
                     />
                     <Avatar
-                      src={`rings/discord-${player.ring}.gif`}
+                      src={getAvatarRing(player.aspect)}
                       className="absolute top-0 start-0"
                     />
                   </div>
