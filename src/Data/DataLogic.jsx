@@ -109,6 +109,13 @@ const allData = [
   armsRail_Data,
 ];
 //
+// TESTING Function
+export function addRankProperty(arr) {
+  for (let i = 0; i < arr.length; i++) {
+    arr[i].rank = i + 1;
+  }
+}
+addRankProperty(ogData);
 
 // Assign The Actual List
 export function BreakList(arr) {

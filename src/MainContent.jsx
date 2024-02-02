@@ -20,7 +20,7 @@ import RecordSummaryCard from "./Components.jsx/RecordSummary2";
 import { getAvatarRing } from "./Data/FunctionLogic";
 
 import { useState } from "react";
-import { allData, BreakList } from "./Data/DataLogic";
+import { allData, BreakList, addRankProperty } from "./Data/DataLogic";
 
 export default function MainContent() {
   const [category, setCategory] = useState(0);
@@ -36,6 +36,7 @@ export default function MainContent() {
   // TESTING
 
   function handleDataChange(num) {
+    addRankProperty(allData[num]);
     setCategory(num);
     setPageInfo(0);
     setActive(1);
@@ -153,6 +154,15 @@ export default function MainContent() {
             <CategoryButtons onClick={handleDataChange} />
             {sortDisplay.map((player, index) => (
               <ListItem className="hover:bg-black focus:bg-black" key={index}>
+                <div>
+                  <Typography
+                    variant="h6"
+                    color="pink"
+                    className="font-customFont"
+                  >
+                    {`#${player.rank}.`}
+                  </Typography>
+                </div>
                 <div className="flex-1">
                   <div className="flex flex-col items-center">
                     <Avatar
