@@ -226,7 +226,7 @@ export default function MainContent() {
                       src={
                         `${player.name}` === "CapriceYuri"
                           ? `madeit.gif`
-                          : `gods/${player.god}.png`
+                          : `gods/${player.aspect}.png`
                       }
                       withBorder={true}
                     />
