@@ -10,7 +10,7 @@ export const FullData = [
   },
   {
     ava: "player-Timothy.png",
-    category: "Mdded",
+    category: "Modded",
     name: "Timothy",
     heat: 58,
     weapon: "Bow",
