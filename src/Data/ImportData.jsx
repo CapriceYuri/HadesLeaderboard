@@ -10,6 +10,15 @@ export const FullData = [
   },
   {
     ava: "player-Timothy.png",
+    category: "Mdded",
+    name: "Timothy",
+    heat: 58,
+    weapon: "Bow",
+    aspect: "Zagreus",
+    src: "https://www.youtube.com/watch?v=-_sUfxCQp_M",
+  },
+  {
+    ava: "player-Timothy.png",
     category: "Modded",
     name: "Timothy",
     heat: 60,
