@@ -34,13 +34,15 @@ export default function MainContent() {
     setShowComponentOne(!showComponentOne);
   };
   // TESTING
-
-  function handleDataChange(num) {
-    addRankProperty(allData[num]);
-    setCategory(num);
-    setPageInfo(0);
-    setActive(1);
-  }
+  const handleDataChange = (num) => ({
+    variant: category === num ? "filled" : "outlined",
+    onClick: () => {
+      addRankProperty(allData[num]);
+      setCategory(num);
+      setPageInfo(0);
+      setActive(1);
+    },
+  });
   function handleChangePage(arr) {
     setPageInfo(arr);
   }
@@ -149,9 +151,9 @@ export default function MainContent() {
                 {"Heat Leaderboard"}
               </Typography>
             </div>
-            <RunTypeBtn onClick={handleDataChange} />
-            <CategoryWeapBtns onClick={handleDataChange} />
-            <CategoryButtons onClick={handleDataChange} />
+            <RunTypeBtn onButtonClick={handleDataChange} />
+            <CategoryWeapBtns onButtonClick={handleDataChange} />
+            <CategoryButtons onButtonClick={handleDataChange} />
             {sortDisplay.map((player, index) => (
               <ListItem className="hover:bg-black focus:bg-black" key={index}>
                 <div>

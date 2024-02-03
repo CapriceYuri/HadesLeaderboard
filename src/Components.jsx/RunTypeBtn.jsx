@@ -1,19 +1,20 @@
 import { Button } from "@material-tailwind/react";
 
 const RunTypes = ["All", "Modded", "Unseeded", "Seeded"];
+const buttonColors = ["pink", "cyan", "light-green"];
 
-export default function RunTypeBtn({ onClick }) {
+export default function RunTypeBtn({ onButtonClick }) {
   return (
     <div className="flex justify-center gap-2 p-4">
-      {RunTypes.map((types, index) => (
+      {RunTypes.map((num, index) => (
         <Button
           key={index}
-          variant="outlined"
-          onClick={() => onClick(index + 0)}
-          color="red"
-          className="text-white border-2 p-3 w-[100px] hover:bg-red-600 hover:text-black"
+          variant={onButtonClick(index).variant}
+          onClick={onButtonClick(index).onClick}
+          color={buttonColors[0]}
+          className="p-3 w-[100px]"
         >
-          {types}
+          {num}
         </Button>
       ))}
     </div>

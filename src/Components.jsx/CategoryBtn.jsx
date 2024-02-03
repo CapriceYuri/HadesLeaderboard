@@ -7,16 +7,16 @@ const categories6 = ["Z-Rail", "Eris", "Hestia", "Lucifer"];
 
 import { Button } from "@material-tailwind/react";
 
-export default function CategoryButtons({ onClick }) {
+export default function CategoryButtons({ onButtonClick }) {
   return (
     <div className="grid grid-cols-3 md:grid-cols-6">
       <div className="grid grid-cols-1 place-items-center gap-2 p-2">
         {categories1.map((cate, index) => (
           <Button
-            variant="outlined"
+            variant={onButtonClick(index + 4).variant}
             color="blue"
-            onClick={() => onClick(index + 4)}
-            className="text-white border-2 p-3 w-[100px] hover:bg-white hover:text-black"
+            onClick={onButtonClick(index + 4).onClick}
+            className="p-3 w-[100px]"
             key={index}
           >
             {cate}
@@ -26,10 +26,10 @@ export default function CategoryButtons({ onClick }) {
       <div className="grid grid-cols-1 place-items-center gap-2 p-2">
         {categories2.map((cate, index) => (
           <Button
-            variant="outlined"
+            variant={onButtonClick(index + 8).variant}
             color="amber"
-            onClick={() => onClick(index + 8)}
-            className="text-white border-2 p-3 w-[100px] hover:bg-white hover:text-black"
+            onClick={onButtonClick(index + 8).onClick}
+            className="p-3 w-[100px]"
             key={index}
           >
             {cate}
@@ -39,10 +39,10 @@ export default function CategoryButtons({ onClick }) {
       <div className="grid grid-cols-1 place-items-center gap-2 p-2">
         {categories3.map((cate, index) => (
           <Button
-            variant="outlined"
+            variant={onButtonClick(index + 12).variant}
             color="lime"
-            onClick={() => onClick(index + 12)}
-            className="text-white border-2 p-3 w-[100px] hover:bg-white hover:text-black"
+            onClick={onButtonClick(index + 12).onClick}
+            className="p-3 w-[100px]"
             key={index}
           >
             {cate}
@@ -52,10 +52,10 @@ export default function CategoryButtons({ onClick }) {
       <div className="grid grid-cols-1 place-items-center gap-2 p-2">
         {categories4.map((cate, index) => (
           <Button
-            variant="outlined"
+            variant={onButtonClick(index + 16).variant}
             color="red"
-            onClick={() => onClick(index + 16)}
-            className="text-white border-2 p-3 w-[100px] hover:bg-white hover:text-black"
+            onClick={onButtonClick(index + 16).onClick}
+            className="p-3 w-[100px]"
             key={index}
           >
             {cate}
@@ -65,10 +65,10 @@ export default function CategoryButtons({ onClick }) {
       <div className="grid grid-cols-1 place-items-center gap-2 p-2">
         {categories5.map((cate, index) => (
           <Button
-            variant="outlined"
+            variant={onButtonClick(index + 20).variant}
             color="light-blue"
-            onClick={() => onClick(index + 20)}
-            className="text-white border-2 p-3 w-[100px] hover:bg-white hover:text-black"
+            onClick={onButtonClick(index + 20).onClick}
+            className="p-3 w-[100px]"
             key={index}
           >
             {cate}
@@ -78,10 +78,10 @@ export default function CategoryButtons({ onClick }) {
       <div className="grid grid-cols-1 place-items-center gap-2 p-2">
         {categories6.map((cate, index) => (
           <Button
-            variant="outlined"
+            variant={onButtonClick(index + 24).variant}
             color="teal"
-            onClick={() => onClick(index + 24)}
-            className="text-white border-2 p-3 w-[100px] hover:bg-white hover:text-black"
+            onClick={onButtonClick(index + 24).onClick}
+            className="p-3 w-[100px]"
             key={index}
           >
             {cate}
