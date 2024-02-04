@@ -70,17 +70,20 @@ export default function MainContent() {
       />
       {/* COVER BG */}
       <section>
-        <div className="flex justify-center px-2 mx-auto w-[100%] py-5 gap-x-2 2xl:w-3/4">
+        <div className="flex justify-center px-2 mx-auto w-[100%] pt-5 gap-x-2 2xl:w-3/4">
           <TotalRunsCard />
           <TotalPlayerCard />
         </div>
       </section>
       <section>
-        <img src="hades-green.png" className="mx-auto" />
+        <img
+          src="hades-green.png"
+          className="mx-auto border-x-8 border-green-500 rounded-2xl"
+        />
       </section>
       {/* CHARTS */}
       <section className="w-full flex justify-center pb-5">
-        <Card className="w-[100%] backdrop-blur-lg bg-transparent shadow-[0_0_50px_green] 2xl:w-3/4">
+        <Card className="w-[100%] backdr`op-blur-lg bg-transparent shadow-[0_0_50px_green] 2xl:w-3/4">
           <img
             src="Backgrounds/vertical-green.jpg"
             className="h-full w-full object-cover rounded-2xl absolute"
