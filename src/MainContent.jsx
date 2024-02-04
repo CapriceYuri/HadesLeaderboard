@@ -75,8 +75,11 @@ export default function MainContent() {
           <TotalPlayerCard />
         </div>
       </section>
+      <section>
+        <img src="hades-green.png" className="mx-auto" />
+      </section>
       {/* CHARTS */}
-      <section className="w-full flex justify-center py-5">
+      <section className="w-full flex justify-center pb-5">
         <Card className="w-[100%] backdrop-blur-lg bg-transparent shadow-[0_0_50px_green] 2xl:w-3/4">
           <img
             src="Backgrounds/vertical-green.jpg"
