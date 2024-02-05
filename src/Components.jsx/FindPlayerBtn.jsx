@@ -12,7 +12,9 @@ export default function FindPlayerBtn({ onButtonClick }) {
     setInputValue(e.target.value);
   };
 
-  const findPlayer = FullData.filter((run) => run.name === inputValue);
+  const findPlayer = FullData.filter(
+    (run) => run.name.toLowerCase() === inputValue.toLowerCase()
+  );
   allData[34] = findPlayer;
 
   return (
