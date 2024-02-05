@@ -15,10 +15,6 @@ export default function FindPlayerBtn({ onButtonClick }) {
   const findPlayer = FullData.filter((run) => run.name === inputValue);
   allData[34] = findPlayer;
 
-  const exportInputValue = () => {
-    console.log("Exported Value:", inputValue);
-  };
-
   return (
     <div className="flex justify-center gap-2 p-4">
       <div className="w-72">
@@ -30,9 +26,6 @@ export default function FindPlayerBtn({ onButtonClick }) {
           onChange={handleInputChange}
         />
         <div className="flex justify-start">
-          <Button onClick={exportInputValue} className="me-2">
-            Set Name
-          </Button>
           <Button
             onClick={() => {
               onButtonClick(0).onClick();
