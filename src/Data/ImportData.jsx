@@ -559,6 +559,15 @@ export const FullData = [
   },
   {
     ava: "player-Haelian.png",
+    category: "Unseeded",
+    name: "haelian",
+    heat: 50,
+    weapon: "Bow",
+    aspect: "Rama",
+    src: "https://www.youtube.com/watch?v=JCWBhtEe01o&t=49s",
+  },
+  {
+    ava: "player-Haelian.png",
     category: "Seeded",
     name: "haelian",
     heat: 40,
@@ -1773,15 +1782,6 @@ export const FullData = [
     src: "https://youtu.be/Avi9v-OcB2Y",
   },
   {
-    ava: "player-Haelian.png",
-    category: "Unseeded",
-    name: "haelian",
-    heat: 51,
-    weapon: "Rail",
-    aspect: "Eris",
-    src: "https://www.twitch.tv/videos/768294685?t=04h03m14s",
-  },
-  {
     ava: "player-Tailesque.png",
     category: "Unseeded",
     name: "Tailesque",
@@ -2023,15 +2023,6 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Rama",
     src: "https://www.youtube.com/watch?v=1qa05Th3KCc",
-  },
-  {
-    ava: "player-Haelian.png",
-    category: "Unseeded",
-    name: "haelian",
-    heat: 50,
-    weapon: "Rail",
-    aspect: "Eris",
-    src: "https://www.twitch.tv/videos/762360608?t=02h05m02s",
   },
   {
     ava: "player-Tailesque.png",
