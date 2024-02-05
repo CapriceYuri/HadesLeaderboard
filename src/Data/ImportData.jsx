@@ -6,7 +6,7 @@ export const FullData = [
     heat: 64,
     weapon: "Shield",
     aspect: "Zeus",
-    src: "https://www.youtube.com/watch?v=VEiPmNCHaK4",
+    src: "https://www.youtube.com/watch?v=ovWUhk5Ho-A",
   },
   {
     ava: "player-Timothy.png",
