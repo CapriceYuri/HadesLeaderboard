@@ -18,6 +18,7 @@ import CategoryAspectChart from "./Components.jsx/AspectChart";
 import RecordSummary from "./Components.jsx/RecordSummary";
 import RecordSummaryCard from "./Components.jsx/RecordSummary2";
 import { getAvatarRing } from "./Data/FunctionLogic";
+import FindPlayerBtn from "./Components.jsx/FindPlayerBtn";
 
 import { useState } from "react";
 import { allData, BreakList, addRankProperty } from "./Data/DataLogic";
@@ -160,6 +161,7 @@ export default function MainContent() {
             <RunTypeBtn onButtonClick={handleDataChange} />
             <CategoryWeapBtns onButtonClick={handleDataChange} />
             <CategoryButtons onButtonClick={handleDataChange} />
+            <FindPlayerBtn onButtonClick={handleDataChange} />
             {sortDisplay.map((player, index) => (
               <ListItem className="hover:bg-black focus:bg-black" key={index}>
                 <div>
