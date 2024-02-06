@@ -28,7 +28,11 @@ export default function RecordSummaryCard() {
       {TopPlayerCategory.map((arr) =>
         arr.map((run, index) => (
           <Card
-            className={`bg-[url('/cardBG/card2.png')] bg-cover border-2 border-white px-4 py-8`}
+            className={
+              run.name === "CapriceYuri"
+                ? `bg-[url('cardBG/card4.png')] border-2 border-white px-4 py-8`
+                : `bg-transparent border-2 border-white px-4 py-8`
+            }
             key={index}
           >
             <div className="text-center relative">
@@ -90,7 +94,13 @@ export default function RecordSummaryCard() {
                 </Typography>
                 <Typography
                   variant="h3"
-                  color="pink"
+                  color={
+                    run.heat < 60
+                      ? `light-green`
+                      : run.heat === 64
+                      ? `pink`
+                      : `light-blue`
+                  }
                   className="text-center backdrop-blur-md inline-block rounded-md font-customFont"
                 >
                   {run.heat}

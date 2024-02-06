@@ -19,7 +19,7 @@ export default function FindPlayerBtn({ onButtonClick }) {
 
   return (
     <div className="flex justify-center gap-2 p-4">
-      <div className="w-72">
+      <div className="w-[400px]">
         <Input
           type="text"
           color="white"
@@ -29,6 +29,7 @@ export default function FindPlayerBtn({ onButtonClick }) {
         />
         <div className="flex justify-start">
           <Button
+            className="mt-1 w-[100px]"
             onClick={() => {
               onButtonClick(0).onClick();
               setInputValue("");
@@ -36,20 +37,19 @@ export default function FindPlayerBtn({ onButtonClick }) {
           >
             Reset
           </Button>
+          {RunTypes.map((num, index) => (
+            <Button
+              key={index}
+              variant={onButtonClick(index + 34).variant}
+              onClick={onButtonClick(index + 34).onClick}
+              color="white"
+              className="mt-1 w-[100px]"
+            >
+              {num}
+            </Button>
+          ))}
         </div>
       </div>
-
-      {RunTypes.map((num, index) => (
-        <Button
-          key={index}
-          variant={onButtonClick(index + 34).variant}
-          onClick={onButtonClick(index + 34).onClick}
-          color="white"
-          className="p-3 w-[100px]"
-        >
-          {num}
-        </Button>
-      ))}
     </div>
   );
 }
