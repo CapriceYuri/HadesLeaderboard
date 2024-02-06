@@ -3,7 +3,7 @@ import { useState } from "react";
 import { FullData } from "../Data/ImportData";
 import { allData } from "../Data/DataLogic";
 
-const RunTypes = ["Find Player"];
+const RunTypes = ["Search"];
 
 export default function FindPlayerBtn({ onButtonClick }) {
   const [inputValue, setInputValue] = useState("");
@@ -18,8 +18,18 @@ export default function FindPlayerBtn({ onButtonClick }) {
   allData[34] = findPlayer;
 
   return (
-    <div className="flex justify-center gap-2 p-4">
-      <div className="w-[400px]">
+    <div className="py-8">
+      <div className=" w-[500px] flex mx-auto gap-x-2 items-center">
+        <Button
+          variant="outlined"
+          color="white"
+          onClick={() => {
+            onButtonClick(0).onClick();
+            setInputValue("");
+          }}
+        >
+          Reset
+        </Button>
         <Input
           type="text"
           color="white"
@@ -27,28 +37,17 @@ export default function FindPlayerBtn({ onButtonClick }) {
           value={inputValue}
           onChange={handleInputChange}
         />
-        <div className="flex justify-start">
+
+        {RunTypes.map((num, index) => (
           <Button
-            className="mt-1 w-[100px]"
-            onClick={() => {
-              onButtonClick(0).onClick();
-              setInputValue("");
-            }}
+            key={index}
+            variant={onButtonClick(index + 34).variant}
+            onClick={onButtonClick(index + 34).onClick}
+            color="white"
           >
-            Reset
+            {num}
           </Button>
-          {RunTypes.map((num, index) => (
-            <Button
-              key={index}
-              variant={onButtonClick(index + 34).variant}
-              onClick={onButtonClick(index + 34).onClick}
-              color="white"
-              className="mt-1 w-[100px]"
-            >
-              {num}
-            </Button>
-          ))}
-        </div>
+        ))}
       </div>
     </div>
   );
