@@ -19,35 +19,39 @@ export default function FindPlayerBtn({ onButtonClick }) {
 
   return (
     <div className="py-8">
-      <div className=" w-[500px] flex mx-auto gap-x-2 items-center">
-        <Button
-          variant="outlined"
-          color="white"
-          onClick={() => {
-            onButtonClick(0).onClick();
-            setInputValue("");
-          }}
-        >
-          Reset
-        </Button>
+      <div className=" w-[400px] mx-auto">
         <Input
           type="text"
           color="white"
           label="Name"
           value={inputValue}
           onChange={handleInputChange}
+          className="order-1"
         />
-
-        {RunTypes.map((num, index) => (
+        <div className="flex justify-between mt-2">
           <Button
-            key={index}
-            variant={onButtonClick(index + 34).variant}
-            onClick={onButtonClick(index + 34).onClick}
+            className="col-span-1"
+            variant="gradient"
             color="white"
+            onClick={() => {
+              onButtonClick(0).onClick();
+              setInputValue("");
+            }}
           >
-            {num}
+            Reset
           </Button>
-        ))}
+          {RunTypes.map((num, index) => (
+            <Button
+              key={index}
+              variant={onButtonClick(index + 34).variant}
+              onClick={onButtonClick(index + 34).onClick}
+              color="white"
+              className="order-3"
+            >
+              {num}
+            </Button>
+          ))}
+        </div>
       </div>
     </div>
   );
