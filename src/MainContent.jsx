@@ -326,6 +326,7 @@ export default function MainContent() {
           </CardFooter>
         </Card>
       </section>
+      <div className="text-orange-500 text-center">2/5/24</div>
     </section>
   );
 }

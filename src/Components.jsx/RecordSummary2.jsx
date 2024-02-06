@@ -30,7 +30,7 @@ export default function RecordSummaryCard() {
           <Card
             className={
               run.name === "CapriceYuri"
-                ? `bg-[url('cardBG/card4.png')] border-2 border-white px-4 py-8`
+                ? `bg-[url('/cardBG/card4.png')] border-2 border-white px-4 py-8`
                 : `bg-transparent border-2 border-white px-4 py-8`
             }
             key={index}
