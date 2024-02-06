@@ -24,7 +24,7 @@ for (let i = 0; i < TopPlayerCategory.length; i++) {
 
 export default function RecordSummaryCard() {
   return (
-    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-5 gap-2 pt-4">
+    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 pt-4">
       {TopPlayerCategory.map((arr) =>
         arr.map((run, index) => (
           <Card
