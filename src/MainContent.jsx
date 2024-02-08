@@ -74,7 +74,7 @@ export default function MainContent() {
       {/* COVER BG */}
       <NavigationBar />
       <section>
-        <div className="flex justify-center px-2 mx-auto w-[100%] py-5 gap-x-2 2xl:w-3/4">
+        <div className="flex justify-center px-2 mx-auto w-[100%] pt-10 pb-5 gap-x-2 2xl:w-3/4">
           <TotalRunsCard />
           <TotalPlayerCard />
         </div>

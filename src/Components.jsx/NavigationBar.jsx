@@ -43,7 +43,7 @@ export default function NavigationBar() {
 
   return (
     <div className="max-h-[768px]">
-      <Navbar className="bg-transparent backdrop-blur-lg h-max max-w-full border-0 px-4 py-2 lg:px-8 lg:py-4">
+      <Navbar className="bg-black h-max max-w-full border-0 px-4 py-2 lg:px-8 lg:py-4">
         <div className="flex items-center justify-center text-white w-full">
           <div className="mr-4 hidden lg:block">{navList}</div>
           <IconButton
