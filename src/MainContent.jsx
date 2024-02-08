@@ -19,6 +19,8 @@ import RecordSummary from "./Components.jsx/RecordSummary";
 import RecordSummaryCard from "./Components.jsx/RecordSummary2";
 import { getAvatarRing } from "./Data/FunctionLogic";
 import FindPlayerBtn from "./Components.jsx/FindPlayerBtn";
+import NavigationBar from "./Components.jsx/NavigationBar";
+import PageFooter from "./Components.jsx/Footer";
 
 import { useState } from "react";
 import { allData, BreakList, addRankProperty } from "./Data/DataLogic";
@@ -70,6 +72,7 @@ export default function MainContent() {
         className="fixed h-lvh w-full object-cover -z-10"
       />
       {/* COVER BG */}
+      <NavigationBar />
       <section>
         <div className="flex justify-center px-2 mx-auto w-[100%] py-5 gap-x-2 2xl:w-3/4">
           <TotalRunsCard />
@@ -326,7 +329,7 @@ export default function MainContent() {
           </CardFooter>
         </Card>
       </section>
-      <div className="text-orange-500 text-center">2/5/24</div>
+      <PageFooter />
     </section>
   );
 }
