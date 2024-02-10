@@ -38,7 +38,7 @@ export default function RecordSummary() {
               className="hover:bg-black focus:bg-black flex justify-between"
               key={index}
             >
-              <div className="relative mx-auto flex-1 text-center">
+              <div className="relative mx-auto flex-1 text-center hidden md:block">
                 <Avatar src={run.ava} size="lg" className="p-1" />
 
                 <Avatar
