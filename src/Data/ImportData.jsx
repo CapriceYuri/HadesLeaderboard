@@ -9,6 +9,15 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=ovWUhk5Ho-A",
   },
   {
+    ava: "player-PlayAd.png",
+    category: "Modded",
+    name: "PlayAd",
+    heat: 63,
+    weapon: "Bow",
+    aspect: "Rama",
+    src: "https://www.youtube.com/watch?v=lQgBtOjaGt8",
+  },
+  {
     ava: "player-Nitrostarch.png",
     category: "Unseeded",
     name: "Nitrostarch",
