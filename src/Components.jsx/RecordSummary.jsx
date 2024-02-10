@@ -38,13 +38,23 @@ export default function RecordSummary() {
               className="hover:bg-black focus:bg-black flex justify-between"
               key={index}
             >
-              <div className="flex flex-row items-center gap-x-2 flex-1 justify-start me-2">
+              <div className="relative mx-auto flex-1 text-center">
+                <Avatar src={run.ava} size="lg" className="p-1" />
+
                 <Avatar
-                  variant="rounded"
-                  src={run.ava}
-                  size="xs"
-                  className="hidden md:block"
+                  src={
+                    run.heat < 60
+                      ? `rings/green-card.gif`
+                      : run.heat === 64
+                      ? `rings/purple-card.gif`
+                      : `rings/blue-card.gif`
+                  }
+                  className="absolute top-0 start-50 transform -translate-x-full"
+                  size="lg"
                 />
+              </div>
+
+              <div className="flex-1 me-2">
                 <Typography
                   variant="h6"
                   color="white"
