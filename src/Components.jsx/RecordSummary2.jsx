@@ -69,11 +69,7 @@ export default function RecordSummaryCard() {
 
               <div className="relative mx-auto text-center">
                 <Avatar
-                  src={
-                    `${run.name}` === "CapriceYuri"
-                      ? `madeit.gif`
-                      : `arms/${run.weapon}-${run.aspect}.png`
-                  }
+                  src={`arms/${run.weapon}-${run.aspect}.png`}
                   withBorder={true}
                   size="lg"
                 />

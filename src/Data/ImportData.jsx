@@ -1,14 +1,5 @@
 export const FullData = [
   {
-    ava: "creator.png",
-    category: "Modded",
-    name: "CapriceYuri",
-    heat: 64,
-    weapon: "Shield",
-    aspect: "Zeus",
-    src: "https://www.youtube.com/watch?v=ovWUhk5Ho-A",
-  },
-  {
     ava: "player-PlayAd.png",
     category: "Modded",
     name: "PlayAd",
