@@ -225,7 +225,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=ZEUJzkO6KLo",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-以太Aether.png",
     category: "Modded",
     name: "以太Aether",
     heat: 60,
