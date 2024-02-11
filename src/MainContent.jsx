@@ -89,7 +89,7 @@ export default function MainContent() {
             src="Backgrounds/vertical-green.jpg"
             className="h-full w-full object-cover rounded-2xl absolute"
           />
-          <div className="absolute h-full w-full bg-gradient-to-r from-teal-700 via-black to-teal-900 rounded-xl opacity-60" />
+          <div className="absolute h-full w-full bg-gradient-to-r from-cyan-900 via-black to-cyan-800 rounded-xl opacity-70" />
           <List className="z-40">
             <div className="flex justify-center items-center">
               <Typography
@@ -150,7 +150,7 @@ export default function MainContent() {
             src="Backgrounds/vertical-blue.jpg"
             className="h-full w-full object-cover rounded-2xl absolute"
           />
-          <div className="absolute h-full w-full bg-gradient-to-r from-black via-indigo-300 to-black rounded-xl opacity-60" />
+          <div className="absolute h-full w-full bg-gradient-to-l from-black via-blue-800 to-black rounded-xl opacity-60" />
           <List className="z-40">
             <div>
               <Typography
