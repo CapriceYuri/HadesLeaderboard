@@ -41,8 +41,8 @@ export default function RecordSummary() {
               <div
                 className={
                   run.name === "AngeL1C"
-                    ? `absolute bg-[url("/Backgrounds/cat.gif")] h-full w-full bg-center bg-contain -z-10 opacity-20 rounded-2xl top-0 left-0 border-2 border-black bg-black`
-                    : `absolute bg-[url("/Backgrounds/rain.gif")] h-full w-full bg-center bg-contain -z-10 opacity-60 rounded-2xl top-0 left-0 border-2 border-black`
+                    ? `absolute bg-[url("/Backgrounds/cat.gif")] h-full w-full bg-center bg-contain -z-10 opacity-60 rounded-2xl top-0 left-0 border-2 border-black bg-purple-600`
+                    : `absolute bg-[url("/Backgrounds/rain.gif")] h-full w-full bg-center bg-contain -z-10 opacity-60 rounded-2xl top-0 left-0 border-2 border-black bg-black`
                 }
               ></div>
               <div className="relative mx-auto flex-1 text-center hidden md:block">
@@ -66,7 +66,7 @@ export default function RecordSummary() {
                   variant="h6"
                   color={
                     run.heat < 60
-                      ? `light-green`
+                      ? `orange`
                       : run.heat === 64
                       ? `pink`
                       : `light-blue`
@@ -103,7 +103,7 @@ export default function RecordSummary() {
                   variant="h6"
                   color={
                     run.heat < 60
-                      ? `light-green`
+                      ? `orange`
                       : run.heat === 64
                       ? `pink`
                       : `light-blue`
@@ -124,13 +124,7 @@ export default function RecordSummary() {
               <div className="flex-1">
                 <Typography
                   variant="h4"
-                  color={
-                    run.heat < 60
-                      ? `light-green`
-                      : run.heat === 64
-                      ? `pink`
-                      : `light-blue`
-                  }
+                  color={`white`}
                   className="text-center font-customFont font-bold"
                 >
                   {run.heat}

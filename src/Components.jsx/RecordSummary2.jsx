@@ -83,20 +83,20 @@ export default function RecordSummaryCard() {
               <div className="flex justify-evenly items-center py-2">
                 <Typography
                   variant="h4"
-                  color="white"
+                  color={
+                    run.heat < 60
+                      ? `orange`
+                      : run.heat === 64
+                      ? `pink`
+                      : `light-blue`
+                  }
                   className="text-center backdrop-blur-md inline-block rounded-md font-customFont"
                 >
                   {run.aspect}
                 </Typography>
                 <Typography
                   variant="h3"
-                  color={
-                    run.heat < 60
-                      ? `light-green`
-                      : run.heat === 64
-                      ? `pink`
-                      : `light-blue`
-                  }
+                  color={`white`}
                   className="text-center backdrop-blur-md inline-block rounded-md font-customFont"
                 >
                   {run.heat}
