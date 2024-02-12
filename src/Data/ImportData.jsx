@@ -378,7 +378,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=RJTWQuig2Q0",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-c_gull.png",
     category: "Seeded",
     name: "c_gull",
     heat: 51,
@@ -441,7 +441,7 @@ export const FullData = [
     src: "https://youtu.be/WLVh4YyxJCI",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-c_gull.png",
     category: "Seeded",
     name: "c_gull",
     heat: 50,
@@ -531,7 +531,7 @@ export const FullData = [
     src: "https://www.twitch.tv/videos/765674324",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-c_gull.png",
     category: "Seeded",
     name: "c_gull",
     heat: 45,
@@ -639,7 +639,7 @@ export const FullData = [
     src: "https://www.twitch.tv/videos/1009162772",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-c_gull.png",
     category: "Seeded",
     name: "c_gull",
     heat: 40,
@@ -666,7 +666,7 @@ export const FullData = [
     src: "https://youtu.be/aNK3Dd8lx-M",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-c_gull.png",
     category: "Seeded",
     name: "c_gull",
     heat: 40,
@@ -2241,7 +2241,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=w7GE8bokFLQ",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-c_gull.png",
     category: "Unseeded",
     name: "c_gull",
     heat: 50,
@@ -2646,7 +2646,7 @@ export const FullData = [
     src: "https://youtu.be/YlxXqtqcQnk",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-c_gull.png",
     category: "Unseeded",
     name: "c_gull",
     heat: 50,
@@ -2862,7 +2862,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=0V6-gablOpE",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-c_gull.png",
     category: "Unseeded",
     name: "c_gull",
     heat: 50,
@@ -2898,7 +2898,7 @@ export const FullData = [
     src: "https://youtu.be/01CrDHj62zw",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Toffel.png",
     category: "Unseeded",
     name: "Toffel",
     heat: 50,
@@ -2961,7 +2961,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=qfGEni7-8YM",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Toffel.png",
     category: "Unseeded",
     name: "Toffel",
     heat: 50,
@@ -3501,7 +3501,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=x3qQRt-SdL4",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Toffel.png",
     category: "Unseeded",
     name: "Toffel",
     heat: 45,
@@ -3555,7 +3555,7 @@ export const FullData = [
     src: "https://youtu.be/P_fEKwP5t7w",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Toffel.png",
     category: "Unseeded",
     name: "Toffel",
     heat: 45,
@@ -3564,7 +3564,7 @@ export const FullData = [
     src: "https://youtu.be/mk9nkRg2fYA",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Toffel.png",
     category: "Unseeded",
     name: "Toffel",
     heat: 45,
@@ -3816,7 +3816,7 @@ export const FullData = [
     src: "https://youtu.be/OFwwSFcf0HY",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-c_gull.png",
     category: "Unseeded",
     name: "c_gull",
     heat: 40,
@@ -3834,7 +3834,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=BM57VAknbmI",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-c_gull.png",
     category: "Unseeded",
     name: "c_gull",
     heat: 40,
@@ -4059,7 +4059,7 @@ export const FullData = [
     src: "https://youtu.be/uLcxENYjS6E",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Toffel.png",
     category: "Unseeded",
     name: "Toffel",
     heat: 40,
@@ -4077,7 +4077,7 @@ export const FullData = [
     src: "https://www.twitch.tv/videos/942326795",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Toffel.png",
     category: "Unseeded",
     name: "Toffel",
     heat: 40,
@@ -4086,7 +4086,7 @@ export const FullData = [
     src: "https://youtu.be/TN2iLAHFe6w",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Toffel.png",
     category: "Unseeded",
     name: "Toffel",
     heat: 40,
@@ -4104,7 +4104,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=J_wskDrH1-I",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Toffel.png",
     category: "Unseeded",
     name: "Toffel",
     heat: 40,
@@ -4113,7 +4113,7 @@ export const FullData = [
     src: "https://youtu.be/7fAZmy7cOtQ",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-c_gull.png",
     category: "Unseeded",
     name: "c_gull",
     heat: 40,
@@ -4131,7 +4131,7 @@ export const FullData = [
     src: "https://www.twitch.tv/videos/958334465",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Toffel.png",
     category: "Unseeded",
     name: "Toffel",
     heat: 40,
@@ -4140,7 +4140,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=E1uq7scZoFM",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Toffel.png",
     category: "Unseeded",
     name: "Toffel",
     heat: 40,
@@ -4149,7 +4149,7 @@ export const FullData = [
     src: "https://youtu.be/Wg6IyDZVN00",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Toffel.png",
     category: "Unseeded",
     name: "Toffel",
     heat: 40,
@@ -4158,7 +4158,7 @@ export const FullData = [
     src: "https://youtu.be/PIAY43zkdN8",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Toffel.png",
     category: "Unseeded",
     name: "Toffel",
     heat: 40,
@@ -4167,7 +4167,7 @@ export const FullData = [
     src: "https://youtu.be/5MGcG2AM2JY",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Toffel.png",
     category: "Unseeded",
     name: "Toffel",
     heat: 40,
@@ -4176,7 +4176,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=0RWnqzBOJ44",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-c_gull.png",
     category: "Unseeded",
     name: "c_gull",
     heat: 40,
@@ -4185,7 +4185,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=TgbvwGAz98E",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Toffel.png",
     category: "Unseeded",
     name: "Toffel",
     heat: 40,
@@ -4194,7 +4194,7 @@ export const FullData = [
     src: "https://youtu.be/jQSDVGgkqiY",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Toffel.png",
     category: "Unseeded",
     name: "Toffel",
     heat: 40,
@@ -4203,7 +4203,7 @@ export const FullData = [
     src: "https://youtu.be/gerdc6xZt4k",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Toffel.png",
     category: "Unseeded",
     name: "Toffel",
     heat: 40,
@@ -4212,7 +4212,7 @@ export const FullData = [
     src: "https://youtu.be/azsQi2d-Nhw",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Toffel.png",
     category: "Unseeded",
     name: "Toffel",
     heat: 40,
@@ -4221,7 +4221,7 @@ export const FullData = [
     src: "https://youtu.be/sMBJAiuCJZg",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Toffel.png",
     category: "Unseeded",
     name: "Toffel",
     heat: 40,
@@ -4230,7 +4230,7 @@ export const FullData = [
     src: "https://youtu.be/Q73V-lzjx4k",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Toffel.png",
     category: "Unseeded",
     name: "Toffel",
     heat: 40,
@@ -4248,7 +4248,7 @@ export const FullData = [
     src: "https://youtu.be/rhKaABdJiCw",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Toffel.png",
     category: "Unseeded",
     name: "Toffel",
     heat: 40,
@@ -4257,7 +4257,7 @@ export const FullData = [
     src: "https://youtu.be/XYCyBLd2L-A",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Toffel.png",
     category: "Unseeded",
     name: "Toffel",
     heat: 40,
@@ -4266,7 +4266,7 @@ export const FullData = [
     src: "https://youtu.be/IhdgS9m6J6c",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Toffel.png",
     category: "Unseeded",
     name: "Toffel",
     heat: 40,
@@ -4275,7 +4275,7 @@ export const FullData = [
     src: "https://youtu.be/QsZ_x1iPIt8",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Toffel.png",
     category: "Unseeded",
     name: "Toffel",
     heat: 40,
@@ -4284,7 +4284,7 @@ export const FullData = [
     src: "https://youtu.be/N8frMHj8U6s",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Toffel.png",
     category: "Unseeded",
     name: "Toffel",
     heat: 40,
@@ -4293,7 +4293,7 @@ export const FullData = [
     src: "https://youtu.be/76EDqNBGiSA",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Toffel.png",
     category: "Unseeded",
     name: "Toffel",
     heat: 40,
@@ -4302,7 +4302,7 @@ export const FullData = [
     src: "https://youtu.be/_ttjdoQrNBA",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Toffel.png",
     category: "Unseeded",
     name: "Toffel",
     heat: 40,
@@ -4311,7 +4311,7 @@ export const FullData = [
     src: "https://youtu.be/__n9dHcNhAc",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Toffel.png",
     category: "Unseeded",
     name: "Toffel",
     heat: 40,
@@ -4347,7 +4347,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=LoD_i1IoG4U",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Toffel.png",
     category: "Unseeded",
     name: "Toffel",
     heat: 40,
@@ -4356,7 +4356,7 @@ export const FullData = [
     src: "https://youtu.be/lvSa3Hq3pNw",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Toffel.png",
     category: "Unseeded",
     name: "Toffel",
     heat: 40,
@@ -4365,7 +4365,7 @@ export const FullData = [
     src: "https://youtu.be/Mt4HYxc1_Xo",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-c_gull.png",
     category: "Unseeded",
     name: "c_gull",
     heat: 40,
@@ -4374,7 +4374,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=ixhFP_be5lM",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-c_gull.png",
     category: "Unseeded",
     name: "c_gull",
     heat: 40,
@@ -4383,7 +4383,7 @@ export const FullData = [
     src: "https://www.twitch.tv/videos/1024703849",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-c_gull.png",
     category: "Unseeded",
     name: "c_gull",
     heat: 40,
@@ -4392,7 +4392,7 @@ export const FullData = [
     src: "https://www.twitch.tv/videos/1024703848",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-c_gull.png",
     category: "Unseeded",
     name: "c_gull",
     heat: 40,
@@ -4401,7 +4401,7 @@ export const FullData = [
     src: "https://www.twitch.tv/videos/1124749512",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-c_gull.png",
     category: "Unseeded",
     name: "c_gull",
     heat: 40,
@@ -4410,7 +4410,7 @@ export const FullData = [
     src: "https://www.twitch.tv/videos/1125263067",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-c_gull.png",
     category: "Unseeded",
     name: "c_gull",
     heat: 40,
@@ -4419,7 +4419,7 @@ export const FullData = [
     src: "https://www.twitch.tv/videos/1125263066",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-c_gull.png",
     category: "Unseeded",
     name: "c_gull",
     heat: 40,
@@ -4428,7 +4428,7 @@ export const FullData = [
     src: "https://www.twitch.tv/videos/1125263065",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-c_gull.png",
     category: "Unseeded",
     name: "c_gull",
     heat: 40,
@@ -4734,7 +4734,7 @@ export const FullData = [
     src: "https://youtu.be/fXTv8jZfwzw",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-c_gull.png",
     category: "Unseeded",
     name: "c_gull",
     heat: 32,
@@ -5481,7 +5481,7 @@ export const FullData = [
     src: "https://youtu.be/vlKw3R0W8uE",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Kirrby.png",
     category: "Modded",
     name: "Kirrby",
     heat: 54,
@@ -5526,7 +5526,7 @@ export const FullData = [
     src: "https://youtu.be/594rKogKQwA",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Kirrby.png",
     category: "Modded",
     name: "Kirrby",
     heat: 52,
@@ -5697,7 +5697,7 @@ export const FullData = [
     src: "https://youtu.be/8zVZaM_UcZg",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Kirrby.png",
     category: "Modded",
     name: "Kirrby",
     heat: 50,
@@ -5715,7 +5715,7 @@ export const FullData = [
     src: "https://youtu.be/fRkONSyO5MM",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Kirrby.png",
     category: "Modded",
     name: "Kirrby",
     heat: 50,
@@ -5724,7 +5724,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=XnwHoizI3Zc&ab_channel=Kirrby",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Kirrby.png",
     category: "Modded",
     name: "Kirrby",
     heat: 50,
@@ -5733,7 +5733,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=t-WgKMUEcjI&ab_channel=Kirrby",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Kirrby.png",
     category: "Modded",
     name: "Kirrby",
     heat: 50,
@@ -5742,7 +5742,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=Vq4SeyeYO7Y&ab_channel=Kirrby",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Kirrby.png",
     category: "Modded",
     name: "Kirrby",
     heat: 50,
@@ -5751,7 +5751,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=BE8bXD6dd4U&ab_channel=Kirrby",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Kirrby.png",
     category: "Modded",
     name: "Kirrby",
     heat: 50,
@@ -5760,7 +5760,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=OAtXjAZIugM&ab_channel=Kirrby",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Kirrby.png",
     category: "Modded",
     name: "Kirrby",
     heat: 50,
@@ -5796,7 +5796,7 @@ export const FullData = [
     src: "https://youtu.be/oFn1cnmfdp0",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Kirrby.png",
     category: "Modded",
     name: "Kirrby",
     heat: 50,
@@ -5823,7 +5823,7 @@ export const FullData = [
     src: "https://youtu.be/Pb1JVAiTCwc",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Kirrby.png",
     category: "Modded",
     name: "Kirrby",
     heat: 50,
@@ -5832,7 +5832,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=SeOYjKrKwPk&ab_channel=Kirrby",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Kirrby.png",
     category: "Modded",
     name: "Kirrby",
     heat: 50,
@@ -5841,7 +5841,7 @@ export const FullData = [
     src: "https://youtu.be/allc8c4ewUw",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Kirrby.png",
     category: "Modded",
     name: "Kirrby",
     heat: 50,
@@ -5850,7 +5850,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=odV97zVvrx0&ab_channel=Kirrby",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Kirrby.png",
     category: "Modded",
     name: "Kirrby",
     heat: 50,
@@ -5859,7 +5859,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=WBUXq5_oVTQ&ab_channel=Kirrby",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Kirrby.png",
     category: "Modded",
     name: "Kirrby",
     heat: 50,
@@ -5868,7 +5868,7 @@ export const FullData = [
     src: "https://youtu.be/dK7_l_XMuLk",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Kirrby.png",
     category: "Modded",
     name: "Kirrby",
     heat: 50,
@@ -5877,7 +5877,7 @@ export const FullData = [
     src: "https://youtu.be/cLbbB7CGmJM",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Kirrby.png",
     category: "Modded",
     name: "Kirrby",
     heat: 50,
@@ -6066,7 +6066,7 @@ export const FullData = [
     src: "https://youtu.be/JbHiv-N-BV8",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Kirrby.png",
     category: "Modded",
     name: "Kirrby",
     heat: 40,
