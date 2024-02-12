@@ -30,8 +30,8 @@ export default function RecordSummaryCard() {
           <Card
             className={
               run.name === "AngeL1C"
-                ? `bg-[url('/Backgrounds/cat.gif')] bg-transparent backdrop-hue-rotate-90 bg-cover bg-center border-2 border-white px-4 py-8`
-                : `bg-[url('/Backgrounds/rain.gif')] bg-transparent backdrop-hue-rotate-90 bg-cover bg-center border-2 border-white px-4 py-8`
+                ? `bg-[url('/Backgrounds/cat.gif')] bg-transparent backdrop-hue-rotate-270 bg-cover bg-center border-2 border-white px-4 py-8`
+                : `bg-[url('/Backgrounds/snow.gif')] bg-transparent backdrop-hue-rotate-180 bg-cover bg-center border-2 border-white px-4 py-8`
             }
             key={index}
           >
