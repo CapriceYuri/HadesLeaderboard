@@ -41,8 +41,8 @@ export default function RecordSummary() {
               <div
                 className={
                   run.name === "AngeL1C"
-                    ? `absolute bg-[url("/Backgrounds/cat.gif")] h-full w-full bg-center bg-contain -z-10 opacity-30 rounded-2xl top-0 left-0 border-2 border-black bg-black`
-                    : `absolute bg-[url("/Backgrounds/rain.gif")] h-full w-full bg-center bg-contain -z-10 opacity-80 rounded-2xl top-0 left-0 border-2 border-black`
+                    ? `absolute bg-[url("/Backgrounds/cat.gif")] h-full w-full bg-center bg-contain -z-10 opacity-20 rounded-2xl top-0 left-0 border-2 border-black bg-black`
+                    : `absolute bg-[url("/Backgrounds/rain.gif")] h-full w-full bg-center bg-contain -z-10 opacity-60 rounded-2xl top-0 left-0 border-2 border-black`
                 }
               ></div>
               <div className="relative mx-auto flex-1 text-center hidden md:block">
@@ -64,8 +64,14 @@ export default function RecordSummary() {
               <div className="flex-1 me-2">
                 <Typography
                   variant="h6"
-                  color="white"
-                  className="font-customFont font-normal"
+                  color={
+                    run.heat < 60
+                      ? `light-green`
+                      : run.heat === 64
+                      ? `pink`
+                      : `light-blue`
+                  }
+                  className="font-customFont"
                 >
                   {run.name}
                 </Typography>
@@ -94,7 +100,13 @@ export default function RecordSummary() {
               <div className="flex-1 hidden md:block">
                 <Typography
                   variant="h6"
-                  color="light-green"
+                  color={
+                    run.heat < 60
+                      ? `light-green`
+                      : run.heat === 64
+                      ? `pink`
+                      : `light-blue`
+                  }
                   className="text-center font-customFont font-semibold"
                 >
                   {run.aspect}
