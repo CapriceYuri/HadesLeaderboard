@@ -35,9 +35,16 @@ export default function RecordSummary() {
         {TopPlayerCategory.map((arr) =>
           arr.map((run, index) => (
             <ListItem
-              className="hover:bg-black focus:bg-black flex justify-between"
+              className={`hover:bg-transparent focus:bg-black flex justify-between relative`}
               key={index}
             >
+              <div
+                className={
+                  run.name === "AngeL1C"
+                    ? `absolute bg-[url("/Backgrounds/cat.gif")] h-full w-full bg-center bg-contain -z-10 opacity-30 rounded-2xl top-0 left-0 border-2 border-black`
+                    : ""
+                }
+              ></div>
               <div className="relative mx-auto flex-1 text-center hidden md:block">
                 <Avatar src={run.ava} size="lg" className="p-1" />
 

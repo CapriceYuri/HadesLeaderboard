@@ -29,8 +29,8 @@ export default function RecordSummaryCard() {
         arr.map((run, index) => (
           <Card
             className={
-              run.name === "CapriceYuri"
-                ? `bg-[url('/cardBG/card4.png')] bg-cover bg-center border-2 border-white px-4 py-8`
+              run.name === "AngeL1C"
+                ? `bg-[url('/Backgrounds/cat.gif')] bg-transparent backdrop-hue-rotate-90 bg-cover bg-center border-2 border-white px-4 py-8`
                 : `bg-transparent backdrop-hue-rotate-90 border-2 border-white px-4 py-8`
             }
             key={index}
