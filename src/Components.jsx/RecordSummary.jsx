@@ -89,6 +89,7 @@ export default function RecordSummary() {
                   src={`arms/${run.weapon}-${run.aspect}.png`}
                   withBorder={true}
                   size="lg"
+                  className="animate-spin-slow"
                 />
                 <Avatar
                   src={getAvatarRing(run.aspect)}

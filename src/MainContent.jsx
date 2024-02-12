@@ -105,15 +105,15 @@ export default function MainContent() {
                 onClick={handleToggleClick}
                 className="cursor-pointer"
               />
-            </div>
-            <div>
-              <Typography
-                variant="h5"
-                color="light-green"
-                className="font-normal font-customFont text-center"
-              >
-                "Ascended to godlike prowess on the battlefield"
-              </Typography>
+              <div>
+                <Typography
+                  variant="small"
+                  color="amber"
+                  className="font-customFont text-center animate-bounce"
+                >
+                  (Click Me)
+                </Typography>
+              </div>
             </div>
             {showComponentOne ? <RecordSummary /> : <RecordSummaryCard />}
           </List>
