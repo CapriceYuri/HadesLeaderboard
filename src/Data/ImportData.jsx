@@ -396,7 +396,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=viyiJInKhhI",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-ledgerdamayn.png",
     category: "Seeded",
     name: "ledgerdamayn",
     heat: 50,
@@ -513,7 +513,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=0pALaGeibaU",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-ledgerdamayn.png",
     category: "Seeded",
     name: "ledgerdamayn",
     heat: 45,
@@ -549,7 +549,7 @@ export const FullData = [
     src: "https://www.bilibili.com/video/BV17Y4y1e7X4/",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Nyaanyaa.png",
     category: "Seeded",
     name: "Nyaanyaa",
     heat: 43,
@@ -558,7 +558,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=kXA357uKwJ0",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-ledgerdamayn.png",
     category: "Seeded",
     name: "ledgerdamayn",
     heat: 43,
@@ -603,7 +603,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=4zXfbsypxvY",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-ledgerdamayn.png",
     category: "Seeded",
     name: "ledgerdamayn",
     heat: 40,
@@ -675,7 +675,7 @@ export const FullData = [
     src: "https://www.twitch.tv/videos/1124749513",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Nyaanyaa.png",
     category: "Seeded",
     name: "Nyaanyaa",
     heat: 32,
@@ -1476,7 +1476,7 @@ export const FullData = [
     src: "https://youtu.be/MmAtcigaxPI",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-ledgerdamayn.png",
     category: "Unseeded",
     name: "ledgerdamayn",
     heat: 53,
@@ -1485,7 +1485,7 @@ export const FullData = [
     src: "https://youtu.be/3eiuIHwKQw8",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-ledgerdamayn.png",
     category: "Unseeded",
     name: "ledgerdamayn",
     heat: 53,
@@ -1494,7 +1494,7 @@ export const FullData = [
     src: "https://youtu.be/BnRnPtc1TZo",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Bright01.png",
     category: "Unseeded",
     name: "Bright01",
     heat: 53,
@@ -1503,7 +1503,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=wFGa6Nnla5s",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Bright01.png",
     category: "Unseeded",
     name: "Bright01",
     heat: 53,
@@ -1737,7 +1737,7 @@ export const FullData = [
     src: "https://youtu.be/oeNYiEeskIE",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-ledgerdamayn.png",
     category: "Unseeded",
     name: "ledgerdamayn",
     heat: 52,
@@ -1953,7 +1953,7 @@ export const FullData = [
     src: "https://youtu.be/I_14LVDkPho",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-ledgerdamayn.png",
     category: "Unseeded",
     name: "ledgerdamayn",
     heat: 51,
@@ -1980,7 +1980,7 @@ export const FullData = [
     src: "https://youtu.be/_AbegwNR8ZM",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Nyaanyaa.png",
     category: "Unseeded",
     name: "Nyaanyaa",
     heat: 51,
@@ -2322,7 +2322,7 @@ export const FullData = [
     src: "https://youtu.be/ONCAG775K_0",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Bright01.png",
     category: "Unseeded",
     name: "Bright01",
     heat: 50,
@@ -2367,7 +2367,7 @@ export const FullData = [
     src: "https://youtu.be/Xg2JYrdwoG0",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Bright01.png",
     category: "Unseeded",
     name: "Bright01",
     heat: 50,
@@ -2547,7 +2547,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=xjWC_G9Swjg",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-ledgerdamayn.png",
     category: "Unseeded",
     name: "ledgerdamayn",
     heat: 50,
@@ -2583,7 +2583,7 @@ export const FullData = [
     src: "https://youtu.be/oGL8pGP8rrU",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Bright01.png",
     category: "Unseeded",
     name: "Bright01",
     heat: 50,
@@ -2592,7 +2592,7 @@ export const FullData = [
     src: "https://www.twitch.tv/videos/926303256?filter=highlights&sort=time",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Bright01.png",
     category: "Unseeded",
     name: "Bright01",
     heat: 50,
@@ -2601,7 +2601,7 @@ export const FullData = [
     src: "https://www.twitch.tv/videos/926303257?filter=highlights&sort=time",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Bright01.png",
     category: "Unseeded",
     name: "Bright01",
     heat: 50,
@@ -2637,7 +2637,7 @@ export const FullData = [
     src: "https://youtu.be/Rsix3YwAARA",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-ledgerdamayn.png",
     category: "Unseeded",
     name: "ledgerdamayn",
     heat: 50,
@@ -2664,7 +2664,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=mbRKuaL4Bjs",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-ledgerdamayn.png",
     category: "Unseeded",
     name: "ledgerdamayn",
     heat: 50,
@@ -2673,7 +2673,7 @@ export const FullData = [
     src: "https://youtu.be/zUfv-n2LISs",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-ledgerdamayn.png",
     category: "Unseeded",
     name: "ledgerdamayn",
     heat: 50,
@@ -2709,7 +2709,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=lMa2V9wP9K4&",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-ledgerdamayn.png",
     category: "Unseeded",
     name: "ledgerdamayn",
     heat: 50,
@@ -2736,7 +2736,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=RjK_TjUtTI8",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Bright01.png",
     category: "Unseeded",
     name: "Bright01",
     heat: 50,
@@ -2745,7 +2745,7 @@ export const FullData = [
     src: "https://www.twitch.tv/videos/976072171?filter=highlights&sort=time",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Bright01.png",
     category: "Unseeded",
     name: "Bright01",
     heat: 50,
@@ -2754,7 +2754,7 @@ export const FullData = [
     src: "https://www.twitch.tv/videos/976072172?filter=highlights&sort=time",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Bright01.png",
     category: "Unseeded",
     name: "Bright01",
     heat: 50,
@@ -2763,7 +2763,7 @@ export const FullData = [
     src: "https://youtu.be/pljsqMtOZxc",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Bright01.png",
     category: "Unseeded",
     name: "Bright01",
     heat: 50,
@@ -2772,7 +2772,7 @@ export const FullData = [
     src: "https://youtu.be/4v-Lxze8Arc",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Bright01.png",
     category: "Unseeded",
     name: "Bright01",
     heat: 50,
@@ -2781,7 +2781,7 @@ export const FullData = [
     src: "https://youtu.be/BYK3o-erIfQ",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Bright01.png",
     category: "Unseeded",
     name: "Bright01",
     heat: 50,
@@ -2790,7 +2790,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=6VdzYTyh1fk",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Bright01.png",
     category: "Unseeded",
     name: "Bright01",
     heat: 50,
@@ -2808,7 +2808,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=RWqsinNLdZw",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-ledgerdamayn.png",
     category: "Unseeded",
     name: "ledgerdamayn",
     heat: 50,
@@ -2817,7 +2817,7 @@ export const FullData = [
     src: "https://youtu.be/3PuX1wc8qoA",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Bright01.png",
     category: "Unseeded",
     name: "Bright01",
     heat: 50,
@@ -2835,7 +2835,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=qhs4wtXLSNs",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Bright01.png",
     category: "Unseeded",
     name: "Bright01",
     heat: 50,
@@ -2844,7 +2844,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=iyTtxykJmvE",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Bright01.png",
     category: "Unseeded",
     name: "Bright01",
     heat: 50,
@@ -2889,7 +2889,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=Jby1LmUHa9o",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-ledgerdamayn.png",
     category: "Unseeded",
     name: "ledgerdamayn",
     heat: 50,
@@ -3177,7 +3177,7 @@ export const FullData = [
     src: "https://youtu.be/UOHYzG90udM",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-ScratcH.png",
     category: "Unseeded",
     name: "ScratcH",
     heat: 50,
@@ -3186,7 +3186,7 @@ export const FullData = [
     src: "https://www.twitch.tv/videos/1268729827",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-ScratcH.png",
     category: "Unseeded",
     name: "ScratcH",
     heat: 50,
@@ -3267,7 +3267,7 @@ export const FullData = [
     src: "https://www.twitch.tv/videos/791519993",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-ledgerdamayn.png",
     category: "Unseeded",
     name: "ledgerdamayn",
     heat: 47,
@@ -3312,7 +3312,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=uXOYpviMpNA",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Nyaanyaa.png",
     category: "Unseeded",
     name: "Nyaanyaa",
     heat: 46,
@@ -3330,7 +3330,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=Tb9kuH38oqo",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-ledgerdamayn.png",
     category: "Unseeded",
     name: "ledgerdamayn",
     heat: 46,
@@ -3339,7 +3339,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=ccYnoAWm08A",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-ledgerdamayn.png",
     category: "Unseeded",
     name: "ledgerdamayn",
     heat: 45,
@@ -3348,7 +3348,7 @@ export const FullData = [
     src: "https://youtu.be/EdLF1CfYLaU",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-ledgerdamayn.png",
     category: "Unseeded",
     name: "ledgerdamayn",
     heat: 45,
@@ -3465,7 +3465,7 @@ export const FullData = [
     src: "https://youtu.be/NHE7HYXzZaY?t=4250",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Bright01.png",
     category: "Unseeded",
     name: "Bright01",
     heat: 45,
@@ -3474,7 +3474,7 @@ export const FullData = [
     src: "https://youtu.be/Wb3XEMcJ79M",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Bright01.png",
     category: "Unseeded",
     name: "Bright01",
     heat: 45,
@@ -3492,7 +3492,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=btGxgpi2_c0",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-ledgerdamayn.png",
     category: "Unseeded",
     name: "ledgerdamayn",
     heat: 45,
@@ -3510,7 +3510,7 @@ export const FullData = [
     src: "https://youtu.be/WdspSl2RWkc",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-ledgerdamayn.png",
     category: "Unseeded",
     name: "ledgerdamayn",
     heat: 45,
@@ -3528,7 +3528,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=MgBmNhLSRbg",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-ledgerdamayn.png",
     category: "Unseeded",
     name: "ledgerdamayn",
     heat: 45,
@@ -3546,7 +3546,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=j3NfkSmoxss",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-ledgerdamayn.png",
     category: "Unseeded",
     name: "ledgerdamayn",
     heat: 45,
@@ -3618,7 +3618,7 @@ export const FullData = [
     src: "https://youtu.be/n_fewwkMSiI",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-ledgerdamayn.png",
     category: "Unseeded",
     name: "ledgerdamayn",
     heat: 43,
@@ -3627,7 +3627,7 @@ export const FullData = [
     src: "https://youtu.be/MV1OlIxbC78",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-ledgerdamayn.png",
     category: "Unseeded",
     name: "ledgerdamayn",
     heat: 43,
@@ -3654,7 +3654,7 @@ export const FullData = [
     src: "https://www.twitch.tv/videos/785322570",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-ScratcH.png",
     category: "Unseeded",
     name: "ScratcH",
     heat: 41,
@@ -3663,7 +3663,7 @@ export const FullData = [
     src: "https://www.twitch.tv/videos/941125711",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Nyaanyaa.png",
     category: "Unseeded",
     name: "Nyaanyaa",
     heat: 41,
@@ -3672,7 +3672,7 @@ export const FullData = [
     src: "https://youtu.be/hj8Ggw0_vHI",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Nyaanyaa.png",
     category: "Unseeded",
     name: "Nyaanyaa",
     heat: 41,
@@ -3681,7 +3681,7 @@ export const FullData = [
     src: "https://youtu.be/mLOv1lp_MgQ",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Nyaanyaa.png",
     category: "Unseeded",
     name: "Nyaanyaa",
     heat: 41,
@@ -3690,7 +3690,7 @@ export const FullData = [
     src: "https://youtu.be/dCKeLNax524",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Nyaanyaa.png",
     category: "Unseeded",
     name: "Nyaanyaa",
     heat: 41,
@@ -3699,7 +3699,7 @@ export const FullData = [
     src: "https://youtu.be/dAqtmKhacSc",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Nyaanyaa.png",
     category: "Unseeded",
     name: "Nyaanyaa",
     heat: 41,
@@ -3708,7 +3708,7 @@ export const FullData = [
     src: "https://youtu.be/qN7Wabm8uVg",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Nyaanyaa.png",
     category: "Unseeded",
     name: "Nyaanyaa",
     heat: 41,
@@ -3717,7 +3717,7 @@ export const FullData = [
     src: "https://youtu.be/J86AucQ0t0s",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Nyaanyaa.png",
     category: "Unseeded",
     name: "Nyaanyaa",
     heat: 41,
@@ -3726,7 +3726,7 @@ export const FullData = [
     src: "https://youtu.be/ZvVyFR8PY9g",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Nyaanyaa.png",
     category: "Unseeded",
     name: "Nyaanyaa",
     heat: 41,
@@ -3735,7 +3735,7 @@ export const FullData = [
     src: "https://youtu.be/-4PEYflOPvE",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Nyaanyaa.png",
     category: "Unseeded",
     name: "Nyaanyaa",
     heat: 41,
@@ -3753,7 +3753,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=Nn3c4X599nw",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-ledgerdamayn.png",
     category: "Unseeded",
     name: "ledgerdamayn",
     heat: 40,
@@ -3789,7 +3789,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=d3F-ysT7UDQ",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Nyaanyaa.png",
     category: "Unseeded",
     name: "Nyaanyaa",
     heat: 40,
@@ -3798,7 +3798,7 @@ export const FullData = [
     src: "https://youtu.be/OSrW-WfzH-E",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Nyaanyaa.png",
     category: "Unseeded",
     name: "Nyaanyaa",
     heat: 40,
@@ -3843,7 +3843,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=MbPSNCA1V_g",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Bright01.png",
     category: "Unseeded",
     name: "Bright01",
     heat: 40,
@@ -3888,7 +3888,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=BWlyTXr45Rw",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-ledgerdamayn.png",
     category: "Unseeded",
     name: "ledgerdamayn",
     heat: 40,
@@ -3897,7 +3897,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=kY6x0Aepz9A",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-ledgerdamayn.png",
     category: "Unseeded",
     name: "ledgerdamayn",
     heat: 40,
@@ -3906,7 +3906,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=ZQAtobBKJL4",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-ledgerdamayn.png",
     category: "Unseeded",
     name: "ledgerdamayn",
     heat: 40,
@@ -3915,7 +3915,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=LJVKg7AU5QM",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-ledgerdamayn.png",
     category: "Unseeded",
     name: "ledgerdamayn",
     heat: 40,
@@ -3924,7 +3924,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=mNP3kVxHDzQ",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-ledgerdamayn.png",
     category: "Unseeded",
     name: "ledgerdamayn",
     heat: 40,
@@ -3933,7 +3933,7 @@ export const FullData = [
     src: "https://youtu.be/lrdzzbGQLZI",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-ledgerdamayn.png",
     category: "Unseeded",
     name: "ledgerdamayn",
     heat: 40,
@@ -3942,7 +3942,7 @@ export const FullData = [
     src: "https://youtu.be/1DPBfuiGqV0",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-ledgerdamayn.png",
     category: "Unseeded",
     name: "ledgerdamayn",
     heat: 40,
@@ -3951,7 +3951,7 @@ export const FullData = [
     src: "https://youtu.be/bTMX990qoGI",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-ledgerdamayn.png",
     category: "Unseeded",
     name: "ledgerdamayn",
     heat: 40,
@@ -3960,7 +3960,7 @@ export const FullData = [
     src: "https://youtu.be/LO1eq_6b2i0",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-ledgerdamayn.png",
     category: "Unseeded",
     name: "ledgerdamayn",
     heat: 40,
@@ -3969,7 +3969,7 @@ export const FullData = [
     src: "https://youtu.be/5CFyy94ROxc",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-ledgerdamayn.png",
     category: "Unseeded",
     name: "ledgerdamayn",
     heat: 40,
@@ -3978,7 +3978,7 @@ export const FullData = [
     src: "https://youtu.be/h1pwdCIpH8s",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-ledgerdamayn.png",
     category: "Unseeded",
     name: "ledgerdamayn",
     heat: 40,
@@ -3987,7 +3987,7 @@ export const FullData = [
     src: "https://youtu.be/W0PdDce7kxI",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-ledgerdamayn.png",
     category: "Unseeded",
     name: "ledgerdamayn",
     heat: 40,
@@ -3996,7 +3996,7 @@ export const FullData = [
     src: "https://youtu.be/MCbXbO9KdRY",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-ledgerdamayn.png",
     category: "Unseeded",
     name: "ledgerdamayn",
     heat: 40,
@@ -4005,7 +4005,7 @@ export const FullData = [
     src: "https://youtu.be/PSnoXANfrZ0",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-ledgerdamayn.png",
     category: "Unseeded",
     name: "ledgerdamayn",
     heat: 40,
@@ -4014,7 +4014,7 @@ export const FullData = [
     src: "https://youtu.be/G8W9E8TkUT4",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-ledgerdamayn.png",
     category: "Unseeded",
     name: "ledgerdamayn",
     heat: 40,
@@ -4023,7 +4023,7 @@ export const FullData = [
     src: "https://youtu.be/TgInANLhLC4",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-ledgerdamayn.png",
     category: "Unseeded",
     name: "ledgerdamayn",
     heat: 40,
@@ -4032,7 +4032,7 @@ export const FullData = [
     src: "https://youtu.be/wwvFwoEuE1w",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-ledgerdamayn.png",
     category: "Unseeded",
     name: "ledgerdamayn",
     heat: 40,
@@ -4041,7 +4041,7 @@ export const FullData = [
     src: "https://youtu.be/JW9JSlA7Clg",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-ledgerdamayn.png",
     category: "Unseeded",
     name: "ledgerdamayn",
     heat: 40,
@@ -4050,7 +4050,7 @@ export const FullData = [
     src: "https://youtu.be/xiFkoabo00w",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-ledgerdamayn.png",
     category: "Unseeded",
     name: "ledgerdamayn",
     heat: 40,
@@ -4509,7 +4509,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=Y9ix8qHY9io&t=3s",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Nyaanyaa.png",
     category: "Unseeded",
     name: "Nyaanyaa",
     heat: 36,
@@ -4536,7 +4536,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=VNunvdJqUbQ",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Nyaanyaa.png",
     category: "Unseeded",
     name: "Nyaanyaa",
     heat: 32,
@@ -4545,7 +4545,7 @@ export const FullData = [
     src: "https://youtu.be/zAxwh7Qr2OA",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Nyaanyaa.png",
     category: "Unseeded",
     name: "Nyaanyaa",
     heat: 32,
@@ -4554,7 +4554,7 @@ export const FullData = [
     src: "https://youtu.be/zlWiOIeXx_U",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Nyaanyaa.png",
     category: "Unseeded",
     name: "Nyaanyaa",
     heat: 32,
@@ -4563,7 +4563,7 @@ export const FullData = [
     src: "https://youtu.be/aWEeMmmNZFI",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Nyaanyaa.png",
     category: "Unseeded",
     name: "Nyaanyaa",
     heat: 32,
@@ -4572,7 +4572,7 @@ export const FullData = [
     src: "https://youtu.be/fFkhLApwY-Q",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Bright01.png",
     category: "Unseeded",
     name: "Bright01",
     heat: 32,
@@ -4698,7 +4698,7 @@ export const FullData = [
     src: "https://youtu.be/DVOVuNtA4bs",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Nyaanyaa.png",
     category: "Unseeded",
     name: "Nyaanyaa",
     heat: 32,
@@ -4707,7 +4707,7 @@ export const FullData = [
     src: "https://youtu.be/QFdkylMoLYI",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Nyaanyaa.png",
     category: "Unseeded",
     name: "Nyaanyaa",
     heat: 32,
@@ -4716,7 +4716,7 @@ export const FullData = [
     src: "https://youtu.be/qu3o9Di04S8",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Nyaanyaa.png",
     category: "Unseeded",
     name: "Nyaanyaa",
     heat: 32,
@@ -4725,7 +4725,7 @@ export const FullData = [
     src: "https://youtu.be/JXjY3ImN8NU",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Nyaanyaa.png",
     category: "Unseeded",
     name: "Nyaanyaa",
     heat: 32,
@@ -4743,7 +4743,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=rVV2rP03i9c",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Nyaanyaa.png",
     category: "Unseeded",
     name: "Nyaanyaa",
     heat: 32,
@@ -4752,7 +4752,7 @@ export const FullData = [
     src: "https://youtu.be/LjMmlw5VDsQ",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-Nyaanyaa.png",
     category: "Unseeded",
     name: "Nyaanyaa",
     heat: 32,
@@ -4851,7 +4851,7 @@ export const FullData = [
     src: "https://www.twitch.tv/videos/1055565378",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-ScratcH.png",
     category: "Unseeded",
     name: "ScratcH",
     heat: 32,
@@ -4986,7 +4986,7 @@ export const FullData = [
     src: "https://youtu.be/oCSN__ABbro",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-ScratcH.png",
     category: "Unseeded",
     name: "ScratcH",
     heat: 32,
@@ -5346,7 +5346,7 @@ export const FullData = [
     src: "https://youtu.be/omDsCQqjysQ",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-ScratcH.png",
     category: "Modded",
     name: "ScratcH",
     heat: 56,
@@ -5535,7 +5535,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=HOp8WxjUKKM&ab_channel=Kirrby",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-ScratcH.png",
     category: "Modded",
     name: "ScratcH",
     heat: 52,
@@ -5553,7 +5553,7 @@ export const FullData = [
     src: "https://youtu.be/DnEuCfU7Brw",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-ledgerdamayn.png",
     category: "Modded",
     name: "ledgerdamayn",
     heat: 51,
@@ -6021,7 +6021,7 @@ export const FullData = [
     src: "https://youtu.be/vbH6pyiRsDw",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-ScratcH.png",
     category: "Modded",
     name: "ScratcH",
     heat: 50,
@@ -6075,7 +6075,7 @@ export const FullData = [
     src: "https://www.youtube.com/watch?v=49hrB_tfZqA&ab_channel=Kirrby",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-ScratcH.png",
     category: "Modded",
     name: "ScratcH",
     heat: 40,
@@ -6084,7 +6084,7 @@ export const FullData = [
     src: "https://www.twitch.tv/videos/1229767730",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-ScratcH.png",
     category: "Modded",
     name: "ScratcH",
     heat: 32,
@@ -6093,7 +6093,7 @@ export const FullData = [
     src: "https://www.twitch.tv/videos/1173903833",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-ScratcH.png",
     category: "Modded",
     name: "ScratcH",
     heat: 32,
@@ -6102,7 +6102,7 @@ export const FullData = [
     src: "https://www.twitch.tv/videos/1206500070",
   },
   {
-    ava: "Backgrounds/hades.gif",
+    ava: "player-ScratcH.png",
     category: "Modded",
     name: "ScratcH",
     heat: 32,
