@@ -166,7 +166,19 @@ export default function MainContent() {
             <CategoryButtons onButtonClick={handleDataChange} />
             <FindPlayerBtn onButtonClick={handleDataChange} />
             {sortDisplay.map((player, index) => (
-              <ListItem className="hover:bg-black focus:bg-black" key={index}>
+              <ListItem
+                className="hover:bg-black focus:bg-black relative"
+                key={index}
+              >
+                <div
+                  className={
+                    player.heat === 64
+                      ? "absolute top-0 left-0 h-full w-full rounded-2xl bg-[url(/Backgrounds/longfire-blue.gif)] bg-contain -z-10 opacity-40 border-2 border-white bg-black"
+                      : player.heat >= 60
+                      ? "absolute top-0 left-0 h-full w-full rounded-2xl bg-[url(/Backgrounds/longfire.gif)] bg-contain -z-10 opacity-40 border-2 border-white bg-black"
+                      : ""
+                  }
+                />
                 <div>
                   <Typography
                     variant="h6"
