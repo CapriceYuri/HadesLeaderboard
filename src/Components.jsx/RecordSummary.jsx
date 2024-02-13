@@ -41,9 +41,9 @@ export default function RecordSummary() {
               <div
                 className={
                   run.name === "AngeL1C"
-                    ? `absolute bg-[url("/Backgrounds/cat.gif")] h-full w-full bg-center bg-contain -z-10 opacity-50 rounded-2xl top-0 left-0 border-2 border-black bg-purple-600`
+                    ? `absolute bg-[url("/Backgrounds/cat.gif")] h-full w-full bg-center bg-contain -z-10 opacity-50 rounded-2xl top-0 left-0 border-2 border-black bg-black`
                     : run.name === "Baj" || run.name === "摆子哥"
-                    ? `absolute bg-[url("/Backgrounds/dragon.gif")] h-full w-full bg-center bg-contain -z-10 opacity-50 rounded-2xl top-0 left-0 border-2 border-black bg-pink-600`
+                    ? `absolute bg-[url("/Backgrounds/dragon.gif")] h-full w-full bg-center bg-contain -z-10 opacity-50 rounded-2xl top-0 left-0 border-2 border-black bg-black`
                     : `absolute bg-[url("/Backgrounds/rain.gif")] h-full w-full bg-center bg-contain -z-10 opacity-60 rounded-2xl top-0 left-0 border-2 border-black bg-black`
                 }
               ></div>
