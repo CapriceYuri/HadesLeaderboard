@@ -43,12 +43,8 @@ export default function RecordSummary() {
                   run.name === "AngeL1C"
                     ? `absolute bg-[url("/Backgrounds/cat.gif")] h-full w-full bg-center bg-contain -z-10 opacity-50 rounded-2xl top-0 left-0 border-2 border-black bg-purple-600`
                     : run.name === "Baj" || run.name === "摆子哥"
-                    ? `absolute bg-[url("/Backgrounds/dragon.gif")] h-full w-full bg-center bg-contain -z-10 opacity-50 rounded-2xl top-0 left-0 border-2 border-black bg-purple-900`
-                    : // : run.heat < 60
-                    // ? `absolute bg-[url("/Backgrounds/waves.gif")] h-full w-full bg-center bg-contain -z-10 opacity-50 rounded-2xl top-0 left-0 border-2 border-black bg-black`
-                    run.weapon === "Fists"
-                    ? `absolute bg-[url("/Backgrounds/akuma.gif")] h-full w-full bg-center bg-contain -z-10 opacity-50 rounded-2xl top-0 left-0 border-2 border-black bg-black`
-                    : `absolute bg-[url("/Backgrounds/dragon.gif")] h-full w-full bg-center bg-contain -z-10 opacity-60 rounded-2xl top-0 left-0 border-2 border-black bg-blue-900`
+                    ? `absolute bg-[url("/Backgrounds/dragon.gif")] h-full w-full bg-center bg-contain -z-10 opacity-50 rounded-2xl top-0 left-0 border-2 border-black bg-pink-600`
+                    : `absolute bg-[url("/Backgrounds/rain.gif")] h-full w-full bg-center bg-contain -z-10 opacity-60 rounded-2xl top-0 left-0 border-2 border-black bg-black`
                 }
               ></div>
               <div className="relative mx-auto flex-1 text-center hidden md:block">
