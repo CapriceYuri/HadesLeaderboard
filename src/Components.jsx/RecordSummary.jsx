@@ -99,7 +99,7 @@ export default function RecordSummary() {
                   variant="h6"
                   color={
                     run.heat < 60
-                      ? `orange`
+                      ? `light-green`
                       : run.heat === 64
                       ? `pink`
                       : `light-blue`
