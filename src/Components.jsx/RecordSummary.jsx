@@ -62,6 +62,7 @@ export default function RecordSummary() {
                   size="lg"
                 />
               </div>
+              <div className="text-[30px]">{run.flag}</div>
 
               <div className="flex-1 me-2">
                 <Typography
