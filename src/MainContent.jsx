@@ -25,16 +25,6 @@ import PageFooter from "./Components.jsx/Footer";
 import { useState } from "react";
 import { allData, BreakList, addRankProperty } from "./Data/DataLogic";
 
-export function checkCountry(country) {
-  if (country !== undefined) {
-    return (
-      <div className="text-center hidden md:block ms-2">
-        <Avatar variant="rounded" color="indigo" src={`/flag/${country}.png`} />
-      </div>
-    );
-  }
-}
-
 export default function MainContent() {
   const [category, setCategory] = useState(0);
   const [active, setActive] = useState(1);
@@ -215,8 +205,6 @@ export default function MainContent() {
                     </Typography>
                   </div>
                 </div>
-
-                {checkCountry(player.flag)}
 
                 <div className="flex-1 text-center">
                   <div className="relative mx-auto">

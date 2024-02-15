@@ -72,6 +72,7 @@ export default function RecordSummary() {
                   {run.name}
                 </Typography>
               </div>
+
               <div className="flex-1">
                 <img
                   src={`actual-arms/${run.aspect}-${run.weapon}.png`}
