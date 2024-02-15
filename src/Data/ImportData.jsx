@@ -141,6 +141,7 @@ export const FullData = [
     heat: 63,
     weapon: "Shield",
     aspect: "Zeus",
+    special: "aph",
     src: "https://www.bilibili.com/video/BV1xG4y1N7rT/",
   },
   {
@@ -150,6 +151,7 @@ export const FullData = [
     heat: 63,
     weapon: "Shield",
     aspect: "Zeus",
+    special: "art",
     src: "https://www.bilibili.com/video/BV1Qm4y1L7fw/",
   },
   {
@@ -159,6 +161,7 @@ export const FullData = [
     heat: 63,
     weapon: "Shield",
     aspect: "Zeus",
+    special: "zeu",
     src: "https://www.bilibili.com/video/BV1Ku4y127Yi/",
   },
   {
@@ -168,6 +171,7 @@ export const FullData = [
     heat: 63,
     weapon: "Shield",
     aspect: "Zeus",
+    special: "are",
     src: "https://www.bilibili.com/video/BV13w411F7fQ/",
   },
   {
@@ -177,6 +181,7 @@ export const FullData = [
     heat: 63,
     weapon: "Shield",
     aspect: "Zeus",
+    special: "pos",
     src: "https://www.bilibili.com/video/BV12w411F735/",
   },
   {
@@ -186,6 +191,7 @@ export const FullData = [
     heat: 63,
     weapon: "Shield",
     aspect: "Zeus",
+    special: "din",
     src: "https://www.bilibili.com/video/BV1iu4y1a7Kr/",
   },
   {
@@ -195,6 +201,7 @@ export const FullData = [
     heat: 63,
     weapon: "Shield",
     aspect: "Zeus",
+    special: "dem",
     src: "https://www.bilibili.com/video/BV12w411q7uL/",
   },
   {
@@ -204,6 +211,7 @@ export const FullData = [
     heat: 63,
     weapon: "Shield",
     aspect: "Zeus",
+    special: "ath",
     src: "https://www.bilibili.com/video/BV1yM411D77h/",
   },
   {

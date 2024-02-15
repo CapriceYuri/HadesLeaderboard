@@ -247,11 +247,12 @@ export default function MainContent() {
                   <div className="relative mx-auto">
                     <Avatar
                       src={
-                        `${player.name}` === "CapriceYuri"
-                          ? `madeit.gif`
+                        player.special !== undefined
+                          ? `special/${player.special}.png`
                           : `gods/${player.aspect}.png`
                       }
                       withBorder={true}
+                      className="p-0.5"
                     />
                     <Avatar
                       src={getAvatarRing(player.aspect)}
