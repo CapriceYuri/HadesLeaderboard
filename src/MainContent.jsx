@@ -206,19 +206,15 @@ export default function MainContent() {
                   </div>
                 </div>
 
-                <div>
+                <div className="flex-1 text-center">
                   <div className="relative mx-auto">
                     <Avatar
-                      src={
-                        `${player.name}` === "CapriceYuri"
-                          ? `madeit.gif`
-                          : `arms/${player.weapon}-${player.aspect}.png`
-                      }
+                      src={`arms/${player.weapon}-${player.aspect}.png`}
                       withBorder={true}
                     />
                     <Avatar
                       src={getAvatarRing(player.aspect)}
-                      className="absolute top-0 start-0"
+                      className="absolute top-0 start-50 transform -translate-x-full"
                     />
                   </div>
                 </div>
@@ -233,7 +229,7 @@ export default function MainContent() {
                   </Typography>
                 </div>
 
-                <div className="text-center px-2 md:flex-1 md:px-0">
+                <div className="text-center flex-1">
                   <Typography
                     variant="h5"
                     color="orange"
@@ -243,8 +239,8 @@ export default function MainContent() {
                   </Typography>
                 </div>
 
-                <div>
-                  <div className="relative mx-auto">
+                <div className="flex-1">
+                  <div className="relative mx-auto text-center">
                     <Avatar
                       src={
                         player.special !== undefined
@@ -256,7 +252,7 @@ export default function MainContent() {
                     />
                     <Avatar
                       src={getAvatarRing(player.aspect)}
-                      className="absolute top-0 start-0"
+                      className="absolute top-0 start-50 transform -translate-x-full"
                     />
                   </div>
                 </div>
@@ -266,9 +262,7 @@ export default function MainContent() {
                     variant="small"
                     color="white"
                     className="font-normal"
-                  >
-                    {``}
-                  </Typography>
+                  ></Typography>
                   <Typography variant="h5" color="deep-orange">
                     {`${player.heat}`}
                   </Typography>
@@ -288,7 +282,7 @@ export default function MainContent() {
                     {player.category}
                   </Typography>
                 </div>
-                <div className="flex-0 mx-2 text-center sm:hidden">
+                <div className="mx-2 text-center sm:hidden">
                   <Typography
                     variant="h4"
                     color={
