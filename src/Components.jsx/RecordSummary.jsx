@@ -92,7 +92,7 @@ export default function RecordSummary() {
                 />
               </div>
 
-              <div className="flex-1 hidden md:block">
+              <div className="flex-1 hidden md:block text-center">
                 <Typography
                   variant="h6"
                   color={
