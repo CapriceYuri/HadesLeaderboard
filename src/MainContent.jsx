@@ -282,25 +282,6 @@ export default function MainContent() {
                     {player.category}
                   </Typography>
                 </div>
-                <div className="mx-2 text-center sm:hidden">
-                  <Typography
-                    variant="h4"
-                    color={
-                      player.category === "Seeded"
-                        ? "blue"
-                        : player.category === "Modded"
-                        ? "green"
-                        : "orange"
-                    }
-                    className="font-bold"
-                  >
-                    {player.category === "Seeded"
-                      ? "S"
-                      : player.category === "Modded"
-                      ? "M"
-                      : "U"}
-                  </Typography>
-                </div>
                 <div className="flex justify-center">
                   <a href={player.src} target="_blank">
                     <svg
