@@ -11,9 +11,10 @@ const SITEMAP = [
     ],
   },
   {
-    title: "Spreadsheet",
-    links: ["High Heat", "Modded High Heat", "Speedrun Sub-6"],
+    title: "Submission",
+    links: ["Submit Run", "High Heat", "Modded High Heat", "Speedrun Sub-6"],
     src: [
+      "https://docs.google.com/spreadsheets/d/1rrTgSkRSIOcc20wU56w21DDPlRQO6Tso2av3vdiJd9M/edit?usp=sharing",
       "https://docs.google.com/spreadsheets/d/1fYeJpxFXZBO2UycHOz4qt90T3ZurFZKCtg07UQNZVyc/edit#gid=1855514336",
       "https://docs.google.com/spreadsheets/d/1-eAhomftrsnM8BV6TMA4CA58wneoBLcAvlQXiYrGAnU/edit#gid=1775740672",
       "https://docs.google.com/spreadsheets/d/1d56DvDTE8WvQsMRQFs1pLbNpMBHy2CLYss69EL-8bMU/edit#gid=850231511",
