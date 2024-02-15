@@ -2,7 +2,7 @@ export const FullData = [
   {
     ava: "player-Mysterra.png",
     category: "Modded",
-    name: "🇨🇳 Mysterra",
+    name: "🇨🇳Mysterra",
     heat: 64,
     weapon: "Shield",
     aspect: "Zeus",
@@ -38,7 +38,7 @@ export const FullData = [
   {
     ava: "player-Timothy.png",
     category: "Modded",
-    name: "🇰🇷 Timothy",
+    name: "🇰🇷Timothy",
     heat: 58,
     weapon: "Bow",
     aspect: "Zagreus",
@@ -47,7 +47,7 @@ export const FullData = [
   {
     ava: "player-Timothy.png",
     category: "Modded",
-    name: "🇰🇷 Timothy",
+    name: "🇰🇷Timothy",
     heat: 60,
     weapon: "Rail",
     aspect: "Hestia",
@@ -56,7 +56,7 @@ export const FullData = [
   {
     ava: "player-Timothy.png",
     category: "Modded",
-    name: "🇰🇷 Timothy",
+    name: "🇰🇷Timothy",
     heat: 60,
     weapon: "Bow",
     aspect: "Rama",
@@ -65,7 +65,7 @@ export const FullData = [
   {
     ava: "player-Timothy.png",
     category: "Modded",
-    name: "🇰🇷 Timothy",
+    name: "🇰🇷Timothy",
     heat: 62,
     weapon: "Shield",
     aspect: "Zeus",
@@ -74,7 +74,7 @@ export const FullData = [
   {
     ava: "player-Timothy.png",
     category: "Unseeded",
-    name: "🇰🇷 Timothy",
+    name: "🇰🇷Timothy",
     heat: 58,
     weapon: "Bow",
     aspect: "Chiron",
@@ -83,7 +83,7 @@ export const FullData = [
   {
     ava: "player-Mysterra.png",
     category: "Modded",
-    name: "🇨🇳 Mysterra",
+    name: "🇨🇳Mysterra",
     heat: 61,
     weapon: "Shield",
     aspect: "Zagreus",
@@ -92,7 +92,7 @@ export const FullData = [
   {
     ava: "player-Mysterra.png",
     category: "Modded",
-    name: "🇨🇳 Mysterra",
+    name: "🇨🇳Mysterra",
     heat: 61,
     weapon: "Shield",
     aspect: "Chaos",
@@ -101,7 +101,7 @@ export const FullData = [
   {
     ava: "player-Mysterra.png",
     category: "Modded",
-    name: "🇨🇳 Mysterra",
+    name: "🇨🇳Mysterra",
     heat: 59,
     weapon: "Rail",
     aspect: "Eris",
@@ -110,7 +110,7 @@ export const FullData = [
   {
     ava: "player-Mysterra.png",
     category: "Modded",
-    name: "🇨🇳 Mysterra",
+    name: "🇨🇳Mysterra",
     heat: 59,
     weapon: "Shield",
     aspect: "Beowulf",
@@ -119,7 +119,7 @@ export const FullData = [
   {
     ava: "player-Mysterra.png",
     category: "Modded",
-    name: "🇨🇳 Mysterra",
+    name: "🇨🇳Mysterra",
     heat: 59,
     weapon: "Shield",
     aspect: "Beowulf",
@@ -128,7 +128,7 @@ export const FullData = [
   {
     ava: "player-摆子哥.png",
     category: "Unseeded",
-    name: "🇨🇳 摆子哥",
+    name: "🇨🇳摆子哥",
     heat: 64,
     weapon: "Shield",
     aspect: "Zeus",
@@ -137,7 +137,7 @@ export const FullData = [
   {
     ava: "player-Mysterra.png",
     category: "Modded",
-    name: "🇨🇳 Mysterra",
+    name: "🇨🇳Mysterra",
     heat: 63,
     weapon: "Shield",
     aspect: "Zeus",
@@ -147,7 +147,7 @@ export const FullData = [
   {
     ava: "player-Mysterra.png",
     category: "Modded",
-    name: "🇨🇳 Mysterra",
+    name: "🇨🇳Mysterra",
     heat: 63,
     weapon: "Shield",
     aspect: "Zeus",
@@ -157,7 +157,7 @@ export const FullData = [
   {
     ava: "player-Mysterra.png",
     category: "Modded",
-    name: "🇨🇳 Mysterra",
+    name: "🇨🇳Mysterra",
     heat: 63,
     weapon: "Shield",
     aspect: "Zeus",
@@ -167,7 +167,7 @@ export const FullData = [
   {
     ava: "player-Mysterra.png",
     category: "Modded",
-    name: "🇨🇳 Mysterra",
+    name: "🇨🇳Mysterra",
     heat: 63,
     weapon: "Shield",
     aspect: "Zeus",
@@ -177,7 +177,7 @@ export const FullData = [
   {
     ava: "player-Mysterra.png",
     category: "Modded",
-    name: "🇨🇳 Mysterra",
+    name: "🇨🇳Mysterra",
     heat: 63,
     weapon: "Shield",
     aspect: "Zeus",
@@ -187,7 +187,7 @@ export const FullData = [
   {
     ava: "player-Mysterra.png",
     category: "Modded",
-    name: "🇨🇳 Mysterra",
+    name: "🇨🇳Mysterra",
     heat: 63,
     weapon: "Shield",
     aspect: "Zeus",
@@ -197,7 +197,7 @@ export const FullData = [
   {
     ava: "player-Mysterra.png",
     category: "Modded",
-    name: "🇨🇳 Mysterra",
+    name: "🇨🇳Mysterra",
     heat: 63,
     weapon: "Shield",
     aspect: "Zeus",
@@ -207,7 +207,7 @@ export const FullData = [
   {
     ava: "player-Mysterra.png",
     category: "Modded",
-    name: "🇨🇳 Mysterra",
+    name: "🇨🇳Mysterra",
     heat: 63,
     weapon: "Shield",
     aspect: "Zeus",
@@ -226,7 +226,7 @@ export const FullData = [
   {
     ava: "player-NephiOH.png",
     category: "Modded",
-    name: "🇫🇷 NephiOH",
+    name: "🇫🇷NephiOH",
     heat: 60,
     weapon: "Rail",
     aspect: "Hestia",
@@ -244,7 +244,7 @@ export const FullData = [
   {
     ava: "player-NephiOH.png",
     category: "Unseeded",
-    name: "🇫🇷 NephiOH",
+    name: "🇫🇷NephiOH",
     heat: 57,
     weapon: "Sword",
     aspect: "Arthur",
@@ -262,7 +262,7 @@ export const FullData = [
   {
     ava: "player-孑虫.png",
     category: "Modded",
-    name: "🇨🇳 孑虫",
+    name: "🇨🇳孑虫",
     heat: 62,
     weapon: "Rail",
     aspect: "Eris",
@@ -298,7 +298,7 @@ export const FullData = [
   {
     ava: "player-Baj.png",
     category: "Seeded",
-    name: "🇨🇳 Baj",
+    name: "🇨🇳Baj",
     heat: 64,
     weapon: "Shield",
     aspect: "Zeus",
@@ -388,7 +388,7 @@ export const FullData = [
   {
     ava: "player-NephiOH.png",
     category: "Seeded",
-    name: "🇫🇷 NephiOH",
+    name: "🇫🇷NephiOH",
     heat: 53,
     weapon: "Rail",
     aspect: "Lucifer",
@@ -478,7 +478,7 @@ export const FullData = [
   {
     ava: "player-NephiOH.png",
     category: "Seeded",
-    name: "🇫🇷 NephiOH",
+    name: "🇫🇷NephiOH",
     heat: 50,
     weapon: "Sword",
     aspect: "Zagreus",
@@ -487,7 +487,7 @@ export const FullData = [
   {
     ava: "player-NephiOH.png",
     category: "Seeded",
-    name: "🇫🇷 NephiOH",
+    name: "🇫🇷NephiOH",
     heat: 50,
     weapon: "Spear",
     aspect: "Achilles",
@@ -559,7 +559,7 @@ export const FullData = [
   {
     ava: "player-芝心丹.png",
     category: "Seeded",
-    name: "🇨🇳 芝心丹",
+    name: "🇨🇳芝心丹",
     heat: 45,
     weapon: "Spear",
     aspect: "Guan Yu",
@@ -721,7 +721,7 @@ export const FullData = [
   {
     ava: "player-ykc.png",
     category: "Unseeded",
-    name: "🇨🇳 ykc",
+    name: "🇨🇳ykc",
     heat: 62,
     weapon: "Shield",
     aspect: "Zeus",
@@ -739,7 +739,7 @@ export const FullData = [
   {
     ava: "player-摆子哥.png",
     category: "Unseeded",
-    name: "🇨🇳 摆子哥",
+    name: "🇨🇳摆子哥",
     heat: 62,
     weapon: "Shield",
     aspect: "Zeus",
@@ -757,7 +757,7 @@ export const FullData = [
   {
     ava: "player-ykc.png",
     category: "Unseeded",
-    name: "🇨🇳 ykc",
+    name: "🇨🇳ykc",
     heat: 61,
     weapon: "Shield",
     aspect: "Zeus",
@@ -775,7 +775,7 @@ export const FullData = [
   {
     ava: "player-ykc.png",
     category: "Unseeded",
-    name: "🇨🇳 ykc",
+    name: "🇨🇳ykc",
     heat: 60,
     weapon: "Shield",
     aspect: "Beowulf",
@@ -811,7 +811,7 @@ export const FullData = [
   {
     ava: "player-芝心丹.png",
     category: "Unseeded",
-    name: "🇨🇳 芝心丹",
+    name: "🇨🇳芝心丹",
     heat: 60,
     weapon: "Shield",
     aspect: "Beowulf",
@@ -829,7 +829,7 @@ export const FullData = [
   {
     ava: "player-芝心丹.png",
     category: "Unseeded",
-    name: "🇨🇳 芝心丹",
+    name: "🇨🇳芝心丹",
     heat: 60,
     weapon: "Bow",
     aspect: "Rama",
@@ -847,7 +847,7 @@ export const FullData = [
   {
     ava: "player-孑虫.png",
     category: "Unseeded",
-    name: "🇨🇳 孑虫",
+    name: "🇨🇳孑虫",
     heat: 60,
     weapon: "Shield",
     aspect: "Beowulf",
@@ -874,7 +874,7 @@ export const FullData = [
   {
     ava: "player-ykc.png",
     category: "Unseeded",
-    name: "🇨🇳 ykc",
+    name: "🇨🇳ykc",
     heat: 58,
     weapon: "Shield",
     aspect: "Beowulf",
@@ -892,7 +892,7 @@ export const FullData = [
   {
     ava: "player-芝心丹.png",
     category: "Unseeded",
-    name: "🇨🇳 芝心丹",
+    name: "🇨🇳芝心丹",
     heat: 58,
     weapon: "Shield",
     aspect: "Beowulf",
@@ -901,7 +901,7 @@ export const FullData = [
   {
     ava: "player-孑虫.png",
     category: "Unseeded",
-    name: "🇨🇳 孑虫",
+    name: "🇨🇳孑虫",
     heat: 58,
     weapon: "Shield",
     aspect: "Beowulf",
@@ -964,7 +964,7 @@ export const FullData = [
   {
     ava: "player-ykc.png",
     category: "Unseeded",
-    name: "🇨🇳 ykc",
+    name: "🇨🇳ykc",
     heat: 57,
     weapon: "Shield",
     aspect: "Zeus",
@@ -973,7 +973,7 @@ export const FullData = [
   {
     ava: "player-NephiOH.png",
     category: "Unseeded",
-    name: "🇫🇷 NephiOH",
+    name: "🇫🇷NephiOH",
     heat: 57,
     weapon: "Rail",
     aspect: "Hestia",
@@ -1000,7 +1000,7 @@ export const FullData = [
   {
     ava: "player-芝心丹.png",
     category: "Unseeded",
-    name: "🇨🇳 芝心丹",
+    name: "🇨🇳芝心丹",
     heat: 57,
     weapon: "Bow",
     aspect: "Rama",
@@ -1018,7 +1018,7 @@ export const FullData = [
   {
     ava: "player-孑虫.png",
     category: "Unseeded",
-    name: "🇨🇳 孑虫",
+    name: "🇨🇳孑虫",
     heat: 57,
     weapon: "Rail",
     aspect: "Eris",
@@ -1117,7 +1117,7 @@ export const FullData = [
   {
     ava: "player-ykc.png",
     category: "Unseeded",
-    name: "🇨🇳 ykc",
+    name: "🇨🇳ykc",
     heat: 55,
     weapon: "Shield",
     aspect: "Beowulf",
@@ -1162,7 +1162,7 @@ export const FullData = [
   {
     ava: "player-NephiOH.png",
     category: "Unseeded",
-    name: "🇫🇷 NephiOH",
+    name: "🇫🇷NephiOH",
     heat: 55,
     weapon: "Bow",
     aspect: "Rama",
@@ -1270,7 +1270,7 @@ export const FullData = [
   {
     ava: "player-芝心丹.png",
     category: "Unseeded",
-    name: "🇨🇳 芝心丹",
+    name: "🇨🇳芝心丹",
     heat: 55,
     weapon: "Rail",
     aspect: "Eris",
@@ -1297,7 +1297,7 @@ export const FullData = [
   {
     ava: "player-芝心丹.png",
     category: "Unseeded",
-    name: "🇨🇳 芝心丹",
+    name: "🇨🇳芝心丹",
     heat: 55,
     weapon: "Shield",
     aspect: "Chaos",
@@ -1306,7 +1306,7 @@ export const FullData = [
   {
     ava: "player-芝心丹.png",
     category: "Unseeded",
-    name: "🇨🇳 芝心丹",
+    name: "🇨🇳芝心丹",
     heat: 55,
     weapon: "Fists",
     aspect: "Talos",
@@ -1405,7 +1405,7 @@ export const FullData = [
   {
     ava: "player-ykc.png",
     category: "Unseeded",
-    name: "🇨🇳 ykc",
+    name: "🇨🇳ykc",
     heat: 54,
     weapon: "Shield",
     aspect: "Zeus",
@@ -1567,7 +1567,7 @@ export const FullData = [
   {
     ava: "player-NephiOH.png",
     category: "Unseeded",
-    name: "🇫🇷 NephiOH",
+    name: "🇫🇷NephiOH",
     heat: 53,
     weapon: "Sword",
     aspect: "Arthur",
@@ -2008,7 +2008,7 @@ export const FullData = [
   {
     ava: "player-NephiOH.png",
     category: "Unseeded",
-    name: "🇫🇷 NephiOH",
+    name: "🇫🇷NephiOH",
     heat: 51,
     weapon: "Bow",
     aspect: "Zagreus",
@@ -2926,7 +2926,7 @@ export const FullData = [
   {
     ava: "player-ykc.png",
     category: "Unseeded",
-    name: "🇨🇳 ykc",
+    name: "🇨🇳ykc",
     heat: 50,
     weapon: "Shield",
     aspect: "Beowulf",
@@ -3016,7 +3016,7 @@ export const FullData = [
   {
     ava: "player-NephiOH.png",
     category: "Unseeded",
-    name: "🇫🇷 NephiOH",
+    name: "🇫🇷NephiOH",
     heat: 50,
     weapon: "Spear",
     aspect: "Guan Yu",
@@ -3034,7 +3034,7 @@ export const FullData = [
   {
     ava: "player-NephiOH.png",
     category: "Unseeded",
-    name: "🇫🇷 NephiOH",
+    name: "🇫🇷NephiOH",
     heat: 50,
     weapon: "Rail",
     aspect: "Eris",
@@ -3043,7 +3043,7 @@ export const FullData = [
   {
     ava: "player-NephiOH.png",
     category: "Unseeded",
-    name: "🇫🇷 NephiOH",
+    name: "🇫🇷NephiOH",
     heat: 50,
     weapon: "Rail",
     aspect: "Zagreus",
@@ -3061,7 +3061,7 @@ export const FullData = [
   {
     ava: "player-NephiOH.png",
     category: "Unseeded",
-    name: "🇫🇷 NephiOH",
+    name: "🇫🇷NephiOH",
     heat: 50,
     weapon: "Shield",
     aspect: "Beowulf",
@@ -3070,7 +3070,7 @@ export const FullData = [
   {
     ava: "player-NephiOH.png",
     category: "Unseeded",
-    name: "🇫🇷 NephiOH",
+    name: "🇫🇷NephiOH",
     heat: 50,
     weapon: "Spear",
     aspect: "Hades",
@@ -3088,7 +3088,7 @@ export const FullData = [
   {
     ava: "player-NephiOH.png",
     category: "Unseeded",
-    name: "🇫🇷 NephiOH",
+    name: "🇫🇷NephiOH",
     heat: 50,
     weapon: "Fists",
     aspect: "Talos",
@@ -3106,7 +3106,7 @@ export const FullData = [
   {
     ava: "player-NephiOH.png",
     category: "Unseeded",
-    name: "🇫🇷 NephiOH",
+    name: "🇫🇷NephiOH",
     heat: 50,
     weapon: "Bow",
     aspect: "Chiron",
@@ -3115,7 +3115,7 @@ export const FullData = [
   {
     ava: "player-NephiOH.png",
     category: "Unseeded",
-    name: "🇫🇷 NephiOH",
+    name: "🇫🇷NephiOH",
     heat: 50,
     weapon: "Sword",
     aspect: "Poseidon",
@@ -5014,7 +5014,7 @@ export const FullData = [
   {
     ava: "player-摆子哥.png",
     category: "Modded",
-    name: "🇨🇳 摆子哥",
+    name: "🇨🇳摆子哥",
     heat: 64,
     weapon: "Shield",
     aspect: "Zeus",
@@ -5581,7 +5581,7 @@ export const FullData = [
   {
     ava: "player-Baj.png",
     category: "Modded",
-    name: "🇨🇳 Baj",
+    name: "🇨🇳Baj",
     heat: 50,
     weapon: "Shield",
     aspect: "Zeus",
