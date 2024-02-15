@@ -42,7 +42,7 @@ export default function RecordSummary() {
                 className={
                   run.name === "AngeL1C"
                     ? `absolute bg-[url("/Backgrounds/cat.gif")] h-full w-full bg-center bg-contain -z-10 opacity-50 rounded-2xl top-0 left-0 border-2 border-black bg-black`
-                    : run.name === "Baj" || run.name === "摆子哥"
+                    : run.heat === 64
                     ? `absolute bg-[url("/Backgrounds/dragon.gif")] h-full w-full bg-center bg-contain -z-10 opacity-50 rounded-2xl top-0 left-0 border-2 border-black bg-black`
                     : `absolute bg-[url("/Backgrounds/rain.gif")] h-full w-full bg-center bg-contain -z-10 opacity-60 rounded-2xl top-0 left-0 border-2 border-black bg-black`
                 }
@@ -85,7 +85,6 @@ export default function RecordSummary() {
                   src={`arms/${run.weapon}-${run.aspect}.png`}
                   withBorder={true}
                   size="lg"
-                  // className="animate-spin-slow"
                 />
                 <Avatar
                   src={getAvatarRing(run.aspect)}
