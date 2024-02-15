@@ -35,7 +35,7 @@ export default function RecordSummary() {
         {TopPlayerCategory.map((arr) =>
           arr.map((run, index) => (
             <ListItem
-              className={`hover:bg-transparent focus:bg-black flex justify-between relative`}
+              className={`hover:bg-black focus:bg-black flex justify-between relative`}
               key={index}
             >
               <div
