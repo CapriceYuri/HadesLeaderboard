@@ -44,7 +44,7 @@ export default function RecordSummary() {
                     ? `absolute bg-[url("/Backgrounds/cat.gif")] h-full w-full bg-center bg-contain -z-10 opacity-50 rounded-2xl top-0 left-0 border-2 border-black bg-black`
                     : run.heat === 64
                     ? `absolute bg-[url("/Backgrounds/dragon.gif")] h-full w-full bg-center bg-contain -z-10 opacity-50 rounded-2xl top-0 left-0 border-2 border-black bg-black`
-                    : `absolute bg-[url("/Backgrounds/rain.gif")] h-full w-full bg-center bg-contain -z-10 opacity-60 rounded-2xl top-0 left-0 border-2 border-black bg-black`
+                    : ``
                 }
               ></div>
               <div className="relative mx-auto flex-1 text-center hidden md:block">
@@ -62,8 +62,6 @@ export default function RecordSummary() {
                   size="lg"
                 />
               </div>
-              <div className="text-[20px]">{run.flag}</div>
-
               <div className="flex-1 me-2">
                 <Typography
                   variant="h6"
