@@ -89,7 +89,6 @@ export default function MainContent() {
             src="Backgrounds/vertical-green.jpg"
             className="h-full w-full object-cover rounded-2xl absolute"
           />
-          <div className="absolute bg-[url('/Backgrounds/snow.gif')] h-full w-full bg-center bg-cover opacity-60"></div>
           <div className="absolute h-full w-full bg-gradient-to-r from-cyan-900 via-black to-cyan-800 rounded-xl opacity-70" />
           <List className="z-40">
             <div className="flex justify-center items-center">

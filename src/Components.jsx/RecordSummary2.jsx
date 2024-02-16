@@ -29,17 +29,18 @@ export default function RecordSummaryCard() {
       {TopPlayerCategory.map((arr) =>
         arr.map((run, index) => (
           <Card
-            className={`border-2 border-white px-4 py-4 relative bg-transparent`}
+            className={`border-2 border-white px-4 py-4 relative bg-black`}
             key={index}
           >
             <div
-            // className={
-            //   run.name === "AngeL1C"
-            //     ? `bg-[url('/Backgrounds/cat-edit.gif')] bg-transparent bg-cover bg-center absolute h-full w-full top-0 left-0 rounded-xl -z-10`
-            //     : `bg-[url('/Backgrounds/snow.gif')] bg-cover bg-center absolute h-full w-full top-0 left-0 rounded-xl bg-transparent`
-            // }
-            />
-            <div className="text-center relative">
+              className={
+                run.heat === 64
+                  ? `text-center relative bg-[url('/Backgrounds/bg1.png')] bg-center bg-cover border-2 border-black rounded-2xl`
+                  : run.heat >= 60
+                  ? `text-center relative bg-[url('/Backgrounds/bg2.png')] bg-center bg-cover border-2 border-black rounded-2xl`
+                  : `text-center relative bg-[url('/Backgrounds/bg3.png')] bg-center bg-cover border-2 border-black rounded-2xl`
+              }
+            >
               <Avatar
                 variant="circular"
                 withBorder={true}
@@ -100,7 +101,13 @@ export default function RecordSummaryCard() {
                 </Typography>
                 <Typography
                   variant="h3"
-                  color={`white`}
+                  color={
+                    run.heat < 60
+                      ? `light-green`
+                      : run.heat === 64
+                      ? `pink`
+                      : `light-blue`
+                  }
                   className="text-center rounded-md font-customFont"
                 >
                   {run.heat}
