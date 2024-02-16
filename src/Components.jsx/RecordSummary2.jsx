@@ -2,6 +2,7 @@ import { Card, CardBody, Typography, Avatar } from "@material-tailwind/react";
 
 import { allData } from "../Data/DataLogic";
 import { getAvatarRing } from "../Data/FunctionLogic";
+import { calculateDate } from "../Data/DateCalculate";
 
 const recordData = allData.slice(4, 28);
 let TopPlayerCategory = [];
@@ -28,13 +29,16 @@ export default function RecordSummaryCard() {
       {TopPlayerCategory.map((arr) =>
         arr.map((run, index) => (
           <Card
-            className={
-              run.name === "AngeL1C"
-                ? `bg-[url('/Backgrounds/cat-edit.gif')] bg-black bg-cover bg-center border-2 border-white px-4 py-8`
-                : `bg-[url('/Backgrounds/snow.gif')] bg-transparent backdrop-hue-rotate-90 bg-cover bg-center border-2 border-white px-4 py-8`
-            }
+            className={`border-2 border-white px-4 py-4 relative bg-transparent`}
             key={index}
           >
+            <div
+              className={
+                run.name === "AngeL1C"
+                  ? `bg-[url('/Backgrounds/cat-edit.gif')] bg-transparent bg-cover bg-center absolute h-full w-full top-0 left-0 rounded-xl -z-10`
+                  : `bg-[url('/Backgrounds/snow.gif')] bg-cover bg-center absolute h-full w-full top-0 left-0 rounded-xl bg-transparent`
+              }
+            />
             <div className="text-center relative">
               <Avatar
                 variant="circular"
@@ -61,7 +65,7 @@ export default function RecordSummaryCard() {
                 <Typography
                   variant="h5"
                   color="white"
-                  className="mx-auto backdrop-blur-md inline-block rounded-md font-customFont"
+                  className="mx-auto backdrop-blur-md rounded-md font-customFont"
                 >
                   {run.name}
                 </Typography>
@@ -90,14 +94,14 @@ export default function RecordSummaryCard() {
                       ? `pink`
                       : `light-blue`
                   }
-                  className="text-center backdrop-blur-md inline-block rounded-md font-customFont"
+                  className="text-center rounded-md font-customFont"
                 >
                   {run.aspect}
                 </Typography>
                 <Typography
                   variant="h3"
                   color={`white`}
-                  className="text-center backdrop-blur-md inline-block rounded-md font-customFont"
+                  className="text-center rounded-md font-customFont"
                 >
                   {run.heat}
                 </Typography>
@@ -109,6 +113,16 @@ export default function RecordSummaryCard() {
                   className="rounded-2xl mx-auto shadow-[0_0_20px_pink]"
                   width={200}
                 />
+              </div>
+
+              <div className="text-center my-4">
+                <Typography
+                  variant="h4"
+                  color="yellow"
+                  className="mx-auto rounded-md font-customFont"
+                >
+                  {`${calculateDate(run.date)} Days`}
+                </Typography>
               </div>
             </CardBody>
           </Card>

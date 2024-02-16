@@ -7,6 +7,7 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     src: "https://www.bilibili.com/video/BV1sz421d7Yx/",
+    date: "2/14/2024",
   },
   {
     ava: "player-PlayAd.png",
@@ -16,6 +17,7 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Rama",
     src: "https://www.youtube.com/watch?v=lQgBtOjaGt8",
+    date: "2/10/2024",
   },
   {
     ava: "player-Nitrostarch.png",
@@ -43,6 +45,7 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Zagreus",
     src: "https://www.youtube.com/watch?v=-_sUfxCQp_M",
+    date: "2/3/2024",
   },
   {
     ava: "player-Timothy.png",
@@ -52,6 +55,7 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Hestia",
     src: "https://www.youtube.com/watch?v=oBGrL7yJqNw",
+    date: "1/14/2024",
   },
   {
     ava: "player-Timothy.png",
@@ -79,6 +83,7 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Chiron",
     src: "https://www.youtube.com/watch?v=Je9lw0t10Bc&t=786s",
+    date: "2/2/2024",
   },
   {
     ava: "player-Mysterra.png",
@@ -133,6 +138,7 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     src: "https://www.bilibili.com/video/BV1hH4y1z7c9/",
+    date: "11/3/2023",
   },
   {
     ava: "player-Mysterra.png",
@@ -222,6 +228,7 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zagreus",
     src: "https://www.youtube.com/watch?v=FMgB_1blciY",
+    date: "12/31/2023",
   },
   {
     ava: "player-NephiOH.png",
@@ -231,6 +238,7 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Hestia",
     src: "https://www.youtube.com/watch?v=ZEUJzkO6KLo",
+    date: "9/8/2022",
   },
   {
     ava: "player-以太Aether.png",
@@ -240,6 +248,7 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Guan Yu",
     src: "https://www.bilibili.com/video/BV1V64y1p7fG/",
+    date: "12/17/2023",
   },
   {
     ava: "player-NephiOH.png",
@@ -249,6 +258,7 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Arthur",
     src: "https://www.youtube.com/watch?v=YOF3YfqCwBE&ab_channel=NephiOH",
+    date: "7/5/2022",
   },
   {
     ava: "player-Jade.png",
@@ -258,6 +268,7 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Chaos",
     src: "https://www.youtube.com/watch?v=uXrJWsuXpfw&t=1204s",
+    date: "11/27/2022",
   },
   {
     ava: "player-孑虫.png",
@@ -267,6 +278,7 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Eris",
     src: "https://www.bilibili.com/video/BV1R14y1Z7HR",
+    date: "5/1/2023",
   },
   {
     ava: "player-Jade.png",
@@ -276,6 +288,7 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Nemesis",
     src: "https://www.youtube.com/watch?v=rWmm1_1Dy3c",
+    date: "5/11/2023",
   },
   {
     ava: "player-Jade.png",
@@ -285,6 +298,7 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Lucifer",
     src: "https://www.youtube.com/watch?v=Z4umFW4lpyM",
+    date: "5/11/2023",
   },
   {
     ava: "player-Jade.png",
@@ -294,6 +308,7 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Demeter",
     src: "https://www.youtube.com/watch?v=4XWHO8F8XCc",
+    date: "6/6/2023",
   },
   {
     ava: "player-Baj.png",
@@ -303,6 +318,7 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     src: "https://www.bilibili.com/video/BV1Mf4y1p7t2",
+    date: "4/21/2021",
   },
   {
     ava: "player-Bananas.png",
@@ -339,6 +355,7 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Zagreus",
     src: "https://youtu.be/9MIcM-chEDM",
+    date: "4/14/2021",
   },
   {
     ava: "player-Schad.png",
@@ -717,6 +734,7 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     src: "https://youtu.be/0mo-kXjasZs",
+    date: "8/2/2023",
   },
   {
     ava: "player-ykc.png",
@@ -780,6 +798,7 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     src: "https://www.bilibili.com/video/BV1BK4y1P7EW",
+    date: "4/18/2021",
   },
   {
     ava: "player-ocaml_ocaml.png",
@@ -816,6 +835,7 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     src: "https://www.bilibili.com/video/BV1o34y1h72o",
+    date: "5/15/2022",
   },
   {
     ava: "player-索方索.png",
@@ -824,7 +844,8 @@ export const FullData = [
     heat: 60,
     weapon: "Shield",
     aspect: "Beowulf",
-    src: "https://www.bilibili.com/video/BV1TY411F7WS?spm_id_from=333.999.list.card_archive.click",
+    src: "https://www.bilibili.com/video/BV1TY411F7WS",
+    date: "5/19/2022",
   },
   {
     ava: "player-芝心丹.png",
@@ -851,7 +872,8 @@ export const FullData = [
     heat: 60,
     weapon: "Shield",
     aspect: "Beowulf",
-    src: "https://www.bilibili.com/video/BV1vx4y1c7Nm/?spm_id_from=333.999.0.0&vd_source=f11ff48f182a1b78e6f17407eedd459f",
+    src: "https://www.bilibili.com/video/BV1vx4y1c7Nm/",
+    date: "2/18/2023",
   },
   {
     ava: "player-索方索.png",
@@ -1113,6 +1135,7 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Zagreus",
     src: "https://youtu.be/zrGTflRwNJI",
+    date: "3/26/2021",
   },
   {
     ava: "player-ykc.png",
@@ -1248,6 +1271,7 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Poseidon",
     src: "https://youtu.be/ftOMJ5scu3c",
+    date: "1/29/2022",
   },
   {
     ava: "player-Jade.png",
@@ -5019,6 +5043,7 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     src: " https://www.bilibili.com/video/BV1kx4y1V7kz/",
+    date: "2/14/2023",
   },
   {
     ava: "player-Jade.png",
@@ -5046,6 +5071,7 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zagreus",
     src: "https://youtu.be/qtDp6fCcyS8",
+    date: "2/6/2022",
   },
   {
     ava: "player-Vaxon08.png",
@@ -5091,6 +5117,7 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Hestia",
     src: "https://www.youtube.com/watch?v=u4fOOByXBtI",
+    date: "9/30/2021",
   },
   {
     ava: "player-Jade.png",
@@ -5118,6 +5145,7 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Beowulf",
     src: "https://youtu.be/rk2OK2k2uDg",
+    date: "2/25/2022",
   },
   {
     ava: "player-llzzqq.png",
@@ -5127,6 +5155,7 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Achilles",
     src: "https://www.bilibili.com/video/BV1214y1c767/#reply779270232",
+    date: "2/13/2023",
   },
   {
     ava: "player-Vaxon08.png",
@@ -5172,6 +5201,7 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Zagreus",
     src: "https://youtu.be/fp717tGRbAU",
+    date: "5/10/2022",
   },
   {
     ava: "player-Jade.png",
@@ -5199,6 +5229,7 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Hades",
     src: "https://www.youtube.com/watch?v=dZUfQ6Hn06Y",
+    date: "12/1/2021",
   },
   {
     ava: "player-ocaml_ocaml.png",
@@ -5253,6 +5284,7 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Hades",
     src: "https://youtu.be/5rW3gFiqZDs",
+    date: "4/23/2022",
   },
   {
     ava: "player-Jade.png",
@@ -5298,6 +5330,7 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Talos",
     src: "https://youtu.be/Sla0kPw69rg",
+    date: "8/16/2022",
   },
   {
     ava: "player-Jade.png",
@@ -5316,6 +5349,7 @@ export const FullData = [
     weapon: "Bow",
     aspect: "Hera",
     src: "https://youtu.be/1QkVDRppoJw",
+    date: "6/27/2022",
   },
   {
     ava: "player-Jade.png",
@@ -5352,6 +5386,7 @@ export const FullData = [
     weapon: "Rail",
     aspect: "Zagreus",
     src: "https://youtu.be/3HcoqspIiAs",
+    date: "3/24/2022",
   },
   {
     ava: "player-Jade.png",
@@ -5361,6 +5396,7 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Zagreus",
     src: "https://youtu.be/omDsCQqjysQ",
+    date: "5/9/2022",
   },
   {
     ava: "player-ScratcH.png",
@@ -5442,6 +5478,7 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Zagreus",
     src: "https://youtu.be/yN_X7mEgjR0",
+    date: "3/8/2022",
   },
   {
     ava: "player-Jade.png",
@@ -5469,6 +5506,7 @@ export const FullData = [
     weapon: "Sword",
     aspect: "Poseidon",
     src: "https://youtu.be/TNrlr2it3lY",
+    date: "4/8/2022",
   },
   {
     ava: "player-Jade.png",
@@ -5487,6 +5525,7 @@ export const FullData = [
     weapon: "Fists",
     aspect: "Gilgamesh",
     src: "https://youtu.be/DumyWYJ1-F8",
+    date: "6/5/2022",
   },
   {
     ava: "player-Zyruvias.png",
@@ -5577,15 +5616,6 @@ export const FullData = [
     weapon: "Spear",
     aspect: "Guan Yu",
     src: "https://youtu.be/mX9KUFlFjQk",
-  },
-  {
-    ava: "player-Baj.png",
-    category: "Modded",
-    name: "Baj",
-    heat: 50,
-    weapon: "Shield",
-    aspect: "Zeus",
-    src: "https://youtu.be/UctbzIl8C5U",
   },
   {
     ava: "Backgrounds/hades.gif",
