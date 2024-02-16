@@ -186,7 +186,7 @@ export default function MainContent() {
                     {`#${player.rank}.`}
                   </Typography>
                 </div>
-                <div className="text-[30px]">{player.flag}</div>
+                <div className="text-[20px]">{player.flag}</div>
                 <div className="flex-1">
                   <div className="flex flex-col items-center">
                     <Avatar
