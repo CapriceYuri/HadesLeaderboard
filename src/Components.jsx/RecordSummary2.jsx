@@ -33,11 +33,11 @@ export default function RecordSummaryCard() {
             key={index}
           >
             <div
-              className={
-                run.name === "AngeL1C"
-                  ? `bg-[url('/Backgrounds/cat-edit.gif')] bg-transparent bg-cover bg-center absolute h-full w-full top-0 left-0 rounded-xl -z-10`
-                  : `bg-[url('/Backgrounds/snow.gif')] bg-cover bg-center absolute h-full w-full top-0 left-0 rounded-xl bg-transparent`
-              }
+            // className={
+            //   run.name === "AngeL1C"
+            //     ? `bg-[url('/Backgrounds/cat-edit.gif')] bg-transparent bg-cover bg-center absolute h-full w-full top-0 left-0 rounded-xl -z-10`
+            //     : `bg-[url('/Backgrounds/snow.gif')] bg-cover bg-center absolute h-full w-full top-0 left-0 rounded-xl bg-transparent`
+            // }
             />
             <div className="text-center relative">
               <Avatar
@@ -89,7 +89,7 @@ export default function RecordSummaryCard() {
                   variant="h4"
                   color={
                     run.heat < 60
-                      ? `orange`
+                      ? `light-green`
                       : run.heat === 64
                       ? `pink`
                       : `light-blue`
