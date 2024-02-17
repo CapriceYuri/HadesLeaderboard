@@ -1,5 +1,15 @@
 export const FullData = [
   {
+    ava: "/Backgrounds/hades.gif",
+    category: "Modded",
+    name: "poshboy",
+    heat: 64,
+    weapon: "Shield",
+    aspect: "Zeus",
+    src: "https://www.youtube.com/watch?v=it_5y7pWFlE",
+    date: "2/16/2024",
+  },
+  {
     ava: "player-索方索.png",
     category: "Modded",
     name: "索方索",
