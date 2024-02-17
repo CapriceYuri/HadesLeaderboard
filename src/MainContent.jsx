@@ -263,7 +263,16 @@ export default function MainContent() {
                     color="white"
                     className="font-normal"
                   ></Typography>
-                  <Typography variant="h5" color="deep-orange">
+                  <Typography
+                    variant="h5"
+                    color={
+                      player.category === "Seeded"
+                        ? "blue"
+                        : player.category === "Modded"
+                        ? "green"
+                        : "orange"
+                    }
+                  >
                     {`${player.heat}`}
                   </Typography>
                 </div>
