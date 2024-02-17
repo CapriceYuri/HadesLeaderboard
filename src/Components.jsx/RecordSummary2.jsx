@@ -66,7 +66,7 @@ export default function RecordSummaryCard() {
                 <Typography
                   variant="h5"
                   color="white"
-                  className="mx-auto backdrop-blur-md rounded-md font-customFont"
+                  className="mx-auto font-customFont"
                 >
                   {run.name}
                 </Typography>

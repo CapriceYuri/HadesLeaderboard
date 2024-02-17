@@ -118,7 +118,13 @@ export default function RecordSummary() {
               <div className="flex-1 text-center">
                 <Typography
                   variant="h4"
-                  color={`white`}
+                  color={
+                    run.heat < 60
+                      ? `light-green`
+                      : run.heat === 64
+                      ? `pink`
+                      : `light-blue`
+                  }
                   className="font-customFont font-bold"
                 >
                   {run.heat}

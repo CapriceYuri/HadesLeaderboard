@@ -1,5 +1,15 @@
 export const FullData = [
   {
+    ava: "player-索方索.png",
+    category: "Modded",
+    name: "索方索",
+    heat: 64,
+    weapon: "Shield",
+    aspect: "Zeus",
+    src: "https://www.bilibili.com/video/BV1JG4y1S74t/",
+    date: "2/8/2023",
+  },
+  {
     ava: "player-Mysterra.png",
     category: "Modded",
     name: "Mysterra",
