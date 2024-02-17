@@ -29,9 +29,16 @@ export default function RecordSummaryCard() {
       {TopPlayerCategory.map((arr) =>
         arr.map((run, index) => (
           <Card
-            className={`border-2 border-white px-4 py-4 relative bg-black`}
+            className={`border-2 border-white px-4 py-4 rounded-2xl relative bg-black`}
             key={index}
           >
+            <div
+              className={
+                run.heat === 64
+                  ? `absolute h-full w-full bg-center bg-contain rounded-2xl top-0 left-0 border-4 border-black shadow-[inset_0_0_80px_cyan]`
+                  : ``
+              }
+            />
             <div
               className={
                 run.heat === 64

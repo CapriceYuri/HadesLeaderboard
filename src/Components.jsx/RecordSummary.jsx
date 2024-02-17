@@ -44,7 +44,7 @@ export default function RecordSummary() {
                     ? `absolute h-full w-full bg-center bg-contain -z-10 rounded-2xl top-0 left-0 border-4 border-black shadow-[inset_0_0_30px_cyan]`
                     : ``
                 }
-              ></div>
+              />
               <div className="relative mx-auto flex-1 text-center hidden md:block">
                 <Avatar src={run.ava} size="lg" className="p-1" />
 
