@@ -75,6 +75,7 @@ export default function RecordSummary() {
                   src={`actual-arms/${run.aspect}-${run.weapon}.png`}
                   className="rounded-2xl mx-auto shadow-[0_0_30px_white]"
                   width={200}
+                  loading="lazy"
                 />
               </div>
               <div className="relative mx-auto flex-1 text-center">

@@ -127,6 +127,7 @@ export default function RecordSummaryCard() {
                   src={`actual-arms/${run.aspect}-${run.weapon}.png`}
                   className="rounded-2xl mx-auto shadow-[0_0_20px_pink]"
                   width={200}
+                  loading="lazy"
                 />
               </div>
 

@@ -124,6 +124,7 @@ export default function MainContent() {
           <img
             src="Backgrounds/recordBG.png"
             className="h-full w-full object-cover rounded-2xl absolute"
+            loading="lazy"
           />
           <div className="absolute h-full w-full bg-gradient-to-r from-light-blue-700 via-indigo-800 to-light-blue-800 rounded-xl opacity-50" />
           <List className="z-40">
