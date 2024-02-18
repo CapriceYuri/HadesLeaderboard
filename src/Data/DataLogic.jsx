@@ -140,4 +140,4 @@ export function BreakList(arr) {
 }
 
 //
-export { totalRuns, uniquePlayers, allData };
+export { totalRuns, uniquePlayers, allData, FullData };

@@ -1,6 +1,6 @@
 import { Card, CardBody, Typography, Avatar } from "@material-tailwind/react";
 
-import { allData } from "../Data/DataLogic";
+import { allData, FullData } from "../Data/DataLogic";
 import { getAvatarRing } from "../Data/FunctionLogic";
 import { calculateDate } from "../Data/DateCalculate";
 
@@ -21,6 +21,13 @@ recordData.forEach((arr) => findTopPlayer(arr));
 
 for (let i = 0; i < TopPlayerCategory.length; i++) {
   TopPlayerCategory[i] = removeDup(TopPlayerCategory[i], "ava");
+}
+
+// Find Player Total Function
+function playerTotalRuns(pname) {
+  let tempFile = structuredClone(FullData);
+  let tempRuns = tempFile.filter((obj) => obj.name === pname);
+  return tempRuns.length;
 }
 
 export default function RecordSummaryCard() {
@@ -79,19 +86,6 @@ export default function RecordSummaryCard() {
                 </Typography>
               </div>
 
-              <div className="relative mx-auto text-center">
-                <Avatar
-                  src={`arms/${run.weapon}-${run.aspect}.png`}
-                  withBorder={true}
-                  size="lg"
-                />
-                <Avatar
-                  src={getAvatarRing(run.aspect)}
-                  className="absolute top-0 start-50 transform -translate-x-full"
-                  size="lg"
-                />
-              </div>
-
               <div className="flex justify-evenly items-center py-2">
                 <Typography
                   variant="h4"
@@ -129,13 +123,22 @@ export default function RecordSummaryCard() {
                 />
               </div>
 
-              <div className="text-center my-4">
+              <div className="text-center mt-4">
                 <Typography
                   variant="h4"
                   color="yellow"
                   className="mx-auto rounded-md font-customFont"
                 >
                   {`${calculateDate(run.date)} Days`}
+                </Typography>
+              </div>
+              <div className="text-center">
+                <Typography
+                  variant="h6"
+                  color="white"
+                  className="mx-auto font-customFont font-normal"
+                >
+                  {`${playerTotalRuns(run.name)} total run/s`}
                 </Typography>
               </div>
             </CardBody>
