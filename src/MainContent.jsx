@@ -189,12 +189,10 @@ export default function MainContent() {
                 <div className="flex-1">
                   <div className="flex flex-col items-center">
                     <Avatar
-                      variant="circular"
+                      variant="rounded"
                       color="indigo"
                       src={player.ava}
-                      withBorder={true}
-                      className="p-0.5"
-                      size="md"
+                      size="sm"
                     />
                     <Typography
                       variant="small"
