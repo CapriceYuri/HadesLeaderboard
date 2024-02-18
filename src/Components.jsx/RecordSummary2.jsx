@@ -30,13 +30,20 @@ function playerTotalRuns(pname) {
   return tempRuns.length;
 }
 
+function player60PlusRuns(pname) {
+  let tempFile = structuredClone(FullData);
+  let tempRuns = tempFile.filter((obj) => obj.name === pname);
+  let temp60Runs = tempRuns.filter((obj) => obj.heat >= 60);
+  return temp60Runs.length;
+}
+
 export default function RecordSummaryCard() {
   return (
     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 pt-4">
       {TopPlayerCategory.map((arr) =>
         arr.map((run, index) => (
           <Card
-            className={`border-2 border-white px-4 py-4 rounded-2xl relative bg-black`}
+            className={`border-4 border-[#28282B] px-4 py-4 rounded-2xl relative bg-black`}
             key={index}
           >
             <div
@@ -139,6 +146,15 @@ export default function RecordSummaryCard() {
                   className="mx-auto font-customFont font-normal"
                 >
                   {`${playerTotalRuns(run.name)} total run/s`}
+                </Typography>
+              </div>
+              <div className="text-center">
+                <Typography
+                  variant="h6"
+                  color="white"
+                  className="mx-auto font-customFont font-normal"
+                >
+                  {`${player60PlusRuns(run.name)} 60+ run/s`}
                 </Typography>
               </div>
             </CardBody>
