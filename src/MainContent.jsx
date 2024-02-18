@@ -66,6 +66,7 @@ export default function MainContent() {
 
   return (
     <section className="h-lvh">
+      <div className="fixed bg-[#000] h-lvh w-full object-cover -z-10" />
       <img
         src="Backgrounds/bg-img.png"
         alt="cover-bg"
