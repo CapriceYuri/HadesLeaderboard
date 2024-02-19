@@ -120,11 +120,11 @@ export default function RecordSummaryCard() {
 
               <div className="text-center mt-4">
                 <Typography
-                  variant="h5"
+                  variant="h6"
                   color="white"
                   className="mx-auto font-customFont"
                 >
-                  {`${calculateDate(run.date)} Days`}
+                  {`${calculateDate(run.date)} Day/s Ago`}
                 </Typography>
               </div>
               <div className="text-center">
