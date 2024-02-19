@@ -49,13 +49,6 @@ export default function RecordSummaryCard() {
             <div
               className={
                 run.heat === 64
-                  ? `absolute h-full w-full bg-center bg-contain rounded-2xl top-0 left-0 border-4 border-black shadow-[inset_0_0_80px_cyan]`
-                  : ``
-              }
-            />
-            <div
-              className={
-                run.heat === 64
                   ? `text-center relative bg-[url('/Backgrounds/bg1.png')] bg-center bg-cover border-2 border-black rounded-2xl`
                   : run.heat >= 60
                   ? `text-center relative bg-[url('/Backgrounds/bg2.png')] bg-center bg-cover border-2 border-black rounded-2xl`
@@ -96,27 +89,21 @@ export default function RecordSummaryCard() {
               <div className="flex justify-evenly items-center py-2">
                 <Typography
                   variant="h4"
-                  color={
-                    run.heat < 60
-                      ? `light-green`
-                      : run.heat === 64
-                      ? `pink`
-                      : `light-blue`
-                  }
-                  className="text-center rounded-md font-customFont"
+                  color="amber"
+                  className="text-center font-customFont"
                 >
                   {run.aspect}
                 </Typography>
                 <Typography
                   variant="h3"
                   color={
-                    run.heat < 60
-                      ? `light-green`
-                      : run.heat === 64
-                      ? `pink`
-                      : `light-blue`
+                    run.category === "Seeded"
+                      ? "blue"
+                      : run.category === "Modded"
+                      ? "green"
+                      : "orange"
                   }
-                  className="text-center rounded-md font-customFont"
+                  className="text-center font-customFont"
                 >
                   {run.heat}
                 </Typography>
@@ -133,9 +120,9 @@ export default function RecordSummaryCard() {
 
               <div className="text-center mt-4">
                 <Typography
-                  variant="h4"
-                  color="yellow"
-                  className="mx-auto rounded-md font-customFont"
+                  variant="h5"
+                  color="white"
+                  className="mx-auto font-customFont"
                 >
                   {`${calculateDate(run.date)} Days`}
                 </Typography>

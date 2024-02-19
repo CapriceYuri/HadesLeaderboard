@@ -81,24 +81,24 @@ export default function MainContent() {
         </div>
       </section>
       <section>
-        <img src="hades2-closeup.png" className="mx-auto" />
+        <img src="hades2-closeup.png" className="mx-auto opacity-80" />
       </section>
       {/* CHARTS */}
       <section className="w-full flex justify-center pb-5">
-        <Card className="w-[100%] backdr`op-blur-lg bg-transparent shadow-[0_0_50px_green] 2xl:w-3/4">
+        <Card className="w-[100%] backdr`op-blur-lg bg-transparent shadow-[0_0_30px_white] 2xl:w-3/4 border-4 border-black rounded-2xl">
           <img
             src="Backgrounds/vertical-green.jpg"
-            className="h-full w-full object-cover rounded-2xl absolute"
+            className="h-full w-full object-cover rounded-xl absolute"
           />
-          <div className="absolute h-full w-full bg-gradient-to-r from-cyan-900 via-black to-teal-900 rounded-xl opacity-80" />
+          <div className="absolute h-full w-full bg-gradient-to-r to-black from-black rounded-xl opacity-70" />
           <List className="z-40">
             <div className="flex justify-center items-center">
               <Typography
                 variant="h2"
-                color="light-green"
+                color="white"
                 className="p-2 text-center font-customFont"
               >
-                {"Record Summary"}
+                {"H.H.W.R."}
               </Typography>
               <img
                 src="switch.gif"
@@ -109,7 +109,7 @@ export default function MainContent() {
               <div>
                 <Typography
                   variant="small"
-                  color="amber"
+                  color="white"
                   className="font-customFont text-center animate-bounce"
                 >
                   (Click Me)
@@ -121,13 +121,13 @@ export default function MainContent() {
         </Card>
       </section>
       <section className="w-full flex justify-center pt-5">
-        <Card className="w-[100%] backdrop-blur-lg bg-transparent shadow-[0_0_50px_cyan] 2xl:w-3/4">
+        <Card className="w-[100%] backdrop-blur-lg bg-transparent shadow-[0_0_30px_white] 2xl:w-3/4 border-4 border-black rounded-2xl">
           <img
             src="Backgrounds/recordBG.png"
-            className="h-full w-full object-cover rounded-2xl absolute"
+            className="h-full w-full object-cover rounded-xl absolute"
             loading="lazy"
           />
-          <div className="absolute h-full w-full bg-gradient-to-r from-light-blue-700 via-indigo-800 to-light-blue-800 rounded-xl opacity-50" />
+          <div className="absolute h-full w-full bg-gradient-to-r from-black to-black rounded-xl opacity-60" />
           <List className="z-40">
             <div>
               <Typography
@@ -144,20 +144,20 @@ export default function MainContent() {
       </section>
       {/* TABLE CONTENT */}
       <section>
-        <img src="hades-blue.png" className="mx-auto" />
+        <img src="hades-blue.png" className="mx-auto opacity-90" />
       </section>
       <section className="w-full flex justify-center pb-10">
-        <Card className="w-[100%] backdrop-blur-lg bg-transparent shadow-[0_0_50px_white] 2xl:w-3/4">
+        <Card className="w-[100%] backdrop-blur-lg bg-transparent 2xl:w-3/4 border-4 border-black rounded-2xl shadow-[0_0_30px_white]">
           <img
             src="Backgrounds/vertical-blue.jpg"
-            className="h-full w-full object-cover rounded-2xl absolute"
+            className="h-full w-full object-cover rounded-xl absolute"
           />
-          <div className="absolute h-full w-full bg-gradient-to-l from-black via-blue-800 to-black rounded-xl opacity-60" />
+          <div className="absolute h-full w-full bg-gradient-to-l from-black to-black rounded-xl opacity-60" />
           <List className="z-40">
             <div>
               <Typography
                 variant="h2"
-                color="deep-orange"
+                color="white"
                 className="p-2 text-center font-customFont"
               >
                 {"Heat Leaderboard"}
@@ -172,17 +172,10 @@ export default function MainContent() {
                 className="hover:bg-black focus:bg-black relative"
                 key={index}
               >
-                <div
-                  className={
-                    player.heat === 64
-                      ? "absolute top-0 left-0 h-full w-full rounded-2xl bg-[url(/Backgrounds/longfire-blue.gif)] bg-contain -z-10 opacity-40 border-2 border-white bg-black"
-                      : ""
-                  }
-                />
                 <div>
                   <Typography
                     variant="h6"
-                    color="pink"
+                    color="white"
                     className="font-customFont"
                   >
                     {`#${player.rank}.`}
@@ -206,7 +199,7 @@ export default function MainContent() {
                   </div>
                 </div>
 
-                <div className="flex-1 text-center">
+                <div className="flex-1 text-center hidden md:block">
                   <div className="relative mx-auto">
                     <Avatar
                       src={`arms/${player.weapon}-${player.aspect}.png`}
@@ -219,20 +212,17 @@ export default function MainContent() {
                   </div>
                 </div>
 
-                <div className="flex-1 text-center align-top hidden md:block">
+                <div className="flex-1 text-center">
                   <Typography
-                    variant="h5"
-                    color="pink"
+                    variant="h6"
+                    color="amber"
                     className="font-customFont"
                   >
                     {`${player.aspect}`}
                   </Typography>
-                </div>
-
-                <div className="text-center flex-1">
                   <Typography
-                    variant="h5"
-                    color="orange"
+                    variant="small"
+                    color="white"
                     className="font-customFont"
                   >
                     {`${player.weapon}`}
@@ -264,7 +254,7 @@ export default function MainContent() {
                     className="font-normal"
                   ></Typography>
                   <Typography
-                    variant="h5"
+                    variant="h6"
                     color={
                       player.category === "Seeded"
                         ? "blue"

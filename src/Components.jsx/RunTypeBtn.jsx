@@ -1,7 +1,7 @@
 import { Button } from "@material-tailwind/react";
 
 const RunTypes = ["All", "Modded", "Unseeded", "Seeded"];
-const buttonColors = ["pink", "cyan", "light-green"];
+const RunTypesColor = ["white", "green", "orange", "blue"];
 
 export default function RunTypeBtn({ onButtonClick }) {
   return (
@@ -11,7 +11,7 @@ export default function RunTypeBtn({ onButtonClick }) {
           key={index}
           variant={onButtonClick(index).variant}
           onClick={onButtonClick(index).onClick}
-          color={buttonColors[0]}
+          color={RunTypesColor[index]}
           className="p-3 w-[100px]"
         >
           {num}

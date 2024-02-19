@@ -9,7 +9,7 @@ export default function CategoryWeapBtns({ onButtonClick }) {
         <Button
           variant={onButtonClick(index + 28).variant}
           onClick={onButtonClick(index + 28).onClick}
-          color="orange"
+          color="white"
           className="p-3 w-[100px] "
           key={index}
         >

@@ -41,7 +41,7 @@ export default function RecordSummary() {
               <div
                 className={
                   run.heat === 64
-                    ? `absolute h-full w-full bg-center bg-contain -z-10 rounded-2xl top-0 left-0 border-4 border-black shadow-[inset_0_0_30px_cyan]`
+                    ? `absolute h-full w-full bg-center bg-contain -z-10 rounded-xl top-0 left-0 border-4 border-black shadow-[inset_0_0_10px_white]`
                     : ``
                 }
               />
@@ -73,7 +73,7 @@ export default function RecordSummary() {
               <div className="flex-1">
                 <img
                   src={`actual-arms/${run.aspect}-${run.weapon}.png`}
-                  className="rounded-2xl mx-auto shadow-[0_0_30px_white]"
+                  className="rounded-2xl mx-auto shadow-[0_0_20px_white]"
                   width={200}
                   loading="lazy"
                 />
@@ -94,19 +94,13 @@ export default function RecordSummary() {
               <div className="flex-1 hidden md:block text-center">
                 <Typography
                   variant="h6"
-                  color={
-                    run.heat < 60
-                      ? `light-green`
-                      : run.heat === 64
-                      ? `pink`
-                      : `light-blue`
-                  }
+                  color="amber"
                   className="font-customFont font-semibold"
                 >
                   {run.aspect}
                 </Typography>
                 <Typography
-                  variant="h6"
+                  variant="small"
                   color="white"
                   className="font-customFont font-normal"
                 >
@@ -116,13 +110,13 @@ export default function RecordSummary() {
 
               <div className="flex-1 text-center">
                 <Typography
-                  variant="h4"
+                  variant="h5"
                   color={
-                    run.heat < 60
-                      ? `light-green`
-                      : run.heat === 64
-                      ? `pink`
-                      : `light-blue`
+                    run.category === "Seeded"
+                      ? "blue"
+                      : run.category === "Modded"
+                      ? "green"
+                      : "orange"
                   }
                   className="font-customFont font-bold"
                 >

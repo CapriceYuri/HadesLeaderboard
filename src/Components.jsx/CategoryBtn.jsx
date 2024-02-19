@@ -9,12 +9,12 @@ import { Button } from "@material-tailwind/react";
 
 export default function CategoryButtons({ onButtonClick }) {
   return (
-    <div className="grid grid-cols-3 md:grid-cols-6">
+    <div className="grid grid-cols-3 md:grid-cols-6 gap-2 px-4">
       <div className="grid grid-cols-1 place-items-center gap-2 p-2">
         {categories1.map((cate, index) => (
           <Button
             variant={onButtonClick(index + 4).variant}
-            color="blue"
+            color="white"
             onClick={onButtonClick(index + 4).onClick}
             className="p-3 w-[100px]"
             key={index}
@@ -27,7 +27,7 @@ export default function CategoryButtons({ onButtonClick }) {
         {categories2.map((cate, index) => (
           <Button
             variant={onButtonClick(index + 8).variant}
-            color="amber"
+            color="white"
             onClick={onButtonClick(index + 8).onClick}
             className="p-3 w-[100px]"
             key={index}
@@ -40,7 +40,7 @@ export default function CategoryButtons({ onButtonClick }) {
         {categories3.map((cate, index) => (
           <Button
             variant={onButtonClick(index + 12).variant}
-            color="lime"
+            color="white"
             onClick={onButtonClick(index + 12).onClick}
             className="p-3 w-[100px]"
             key={index}
@@ -53,7 +53,7 @@ export default function CategoryButtons({ onButtonClick }) {
         {categories4.map((cate, index) => (
           <Button
             variant={onButtonClick(index + 16).variant}
-            color="red"
+            color="white"
             onClick={onButtonClick(index + 16).onClick}
             className="p-3 w-[100px]"
             key={index}
@@ -66,7 +66,7 @@ export default function CategoryButtons({ onButtonClick }) {
         {categories5.map((cate, index) => (
           <Button
             variant={onButtonClick(index + 20).variant}
-            color="light-blue"
+            color="white"
             onClick={onButtonClick(index + 20).onClick}
             className="p-3 w-[100px]"
             key={index}
@@ -79,7 +79,7 @@ export default function CategoryButtons({ onButtonClick }) {
         {categories6.map((cate, index) => (
           <Button
             variant={onButtonClick(index + 24).variant}
-            color="teal"
+            color="white"
             onClick={onButtonClick(index + 24).onClick}
             className="p-3 w-[100px]"
             key={index}
