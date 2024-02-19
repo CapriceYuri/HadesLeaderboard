@@ -88,14 +88,14 @@ export default function RecordSummaryCard() {
 
               <div className="flex justify-evenly items-center py-2">
                 <Typography
-                  variant="h4"
+                  variant="h6"
                   color="amber"
                   className="text-center font-customFont"
                 >
                   {run.aspect}
                 </Typography>
                 <Typography
-                  variant="h3"
+                  variant="h4"
                   color={
                     run.category === "Seeded"
                       ? "blue"
