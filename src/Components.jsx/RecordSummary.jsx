@@ -40,10 +40,10 @@ export default function RecordSummary() {
             >
               <div
                 className={
-                  run.name === "AngeL1C"
-                    ? `absolute h-full w-full bg-[url('/Backgrounds/cat-edit.gif')] bg-center bg-contain -z-10 rounded-xl top-0 left-0 border-4 border-black opacity-50`
-                    : run.heat === 64
+                  run.heat === 64
                     ? `absolute h-full w-full bg-center bg-contain -z-10 rounded-xl top-0 left-0 border-4 border-black shadow-[inset_0_0_10px_white]`
+                    : run.name === "AngeL1C"
+                    ? `absolute h-full w-full bg-[url('/Backgrounds/cat-edit.gif')] bg-center bg-contain -z-10 rounded-xl top-0 left-0 border-4 border-black opacity-40`
                     : ``
                 }
               />
