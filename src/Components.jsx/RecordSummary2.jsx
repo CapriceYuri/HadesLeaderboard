@@ -1,7 +1,6 @@
 import { Card, CardBody, Typography, Avatar } from "@material-tailwind/react";
 
 import { allData, FullData } from "../Data/DataLogic";
-import { getAvatarRing } from "../Data/FunctionLogic";
 import { calculateDate } from "../Data/DateCalculate";
 
 const recordData = allData.slice(4, 28);
@@ -35,6 +34,29 @@ function player60PlusRuns(pname) {
   let tempRuns = tempFile.filter((obj) => obj.name === pname);
   let temp60Runs = tempRuns.filter((obj) => obj.heat >= 60);
   return temp60Runs.length;
+}
+
+function player64PlusRuns(pname) {
+  let tempFile = structuredClone(FullData);
+  let tempRuns = tempFile.filter((obj) => obj.name === pname);
+  let temp64Runs = tempRuns.filter((obj) => obj.heat === 64);
+  return temp64Runs.length;
+}
+
+function check64Runs(pname) {
+  if (player64PlusRuns(pname) > 0) {
+    return (
+      <div className="text-center">
+        <Typography
+          variant="h6"
+          color="pink"
+          className="mx-auto font-customFont font-normal"
+        >
+          {`${player64PlusRuns(pname)} 64 run/s`}
+        </Typography>
+      </div>
+    );
+  }
 }
 
 export default function RecordSummaryCard() {
@@ -152,6 +174,7 @@ export default function RecordSummaryCard() {
                   {`${player60PlusRuns(run.name)} 60+ run/s`}
                 </Typography>
               </div>
+              {check64Runs(run.name)}
             </CardBody>
           </Card>
         ))
