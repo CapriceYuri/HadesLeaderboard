@@ -17,7 +17,7 @@ import CategoryWeaponChart from "./Components.jsx/WeaponChart";
 import CategoryAspectChart from "./Components.jsx/AspectChart";
 import RecordSummary from "./Components.jsx/RecordSummary";
 import RecordSummaryCard from "./Components.jsx/RecordSummary2";
-import { getAvatarRing } from "./Data/FunctionLogic";
+import { getAvatarRing, useAvatarBorder } from "./Data/FunctionLogic";
 import FindPlayerBtn from "./Components.jsx/FindPlayerBtn";
 import NavigationBar from "./Components.jsx/NavigationBar";
 import PageFooter from "./Components.jsx/Footer";
@@ -203,11 +203,13 @@ export default function MainContent() {
                   <div className="relative mx-auto">
                     <Avatar
                       src={`arms/${player.weapon}-${player.aspect}.png`}
-                      withBorder={true}
                     />
                     <Avatar
-                      src={getAvatarRing(player.aspect)}
-                      className="absolute top-0 start-50 transform -translate-x-full"
+                      src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+                      withBorder={true}
+                      color={useAvatarBorder(player.aspect)}
+                      variant="rounded"
+                      className="rotate-45 absolute top-0 start-50 transform -translate-x-full"
                     />
                   </div>
                 </div>
