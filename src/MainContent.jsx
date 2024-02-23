@@ -21,6 +21,7 @@ import { getAvatarRing, useAvatarBorder } from "./Data/FunctionLogic";
 import FindPlayerBtn from "./Components.jsx/FindPlayerBtn";
 import NavigationBar from "./Components.jsx/NavigationBar";
 import PageFooter from "./Components.jsx/Footer";
+import { addBoons } from "./Data/FunctionLogic";
 
 import { useState } from "react";
 import { allData, BreakList, addRankProperty } from "./Data/DataLogic";
@@ -36,6 +37,7 @@ export default function MainContent() {
   const handleToggleClick = () => {
     setShowComponentOne(!showComponentOne);
   };
+
   // TESTING
   const handleDataChange = (num) => ({
     variant: category === num ? "filled" : "outlined",
@@ -169,7 +171,7 @@ export default function MainContent() {
             <FindPlayerBtn onButtonClick={handleDataChange} />
             {sortDisplay.map((player, index) => (
               <ListItem
-                className="hover:bg-black focus:bg-black relative"
+                className="hover:bg-transparent focus:bg-black relative py-6 cursor-default"
                 key={index}
               >
                 <div>
@@ -248,6 +250,8 @@ export default function MainContent() {
                     />
                   </div>
                 </div>
+
+                {addBoons(player.playerBoon, useAvatarBorder(player.aspect))}
 
                 <div className="flex-1 text-center">
                   <Typography

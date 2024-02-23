@@ -1,3 +1,5 @@
+import { Avatar, Tooltip } from "@material-tailwind/react";
+
 export const getAvatarRing = (aspect) => {
   switch (aspect) {
     case "Beowulf":
@@ -126,3 +128,71 @@ export const useAvatarBorder = (aspect) => {
       return "teal";
   }
 };
+
+// Function for Boon
+
+export function addBoons(playerBoon, color) {
+  if (playerBoon !== undefined) {
+    return (
+      <div className="flex translate-y-4 translate-x-4">
+        <div className="flex-1 text-center hidden md:block">
+          <Tooltip content={playerBoon[0]} className="bg-black font-customFont">
+            <div className="relative mx-auto">
+              <Avatar src={`/testing/${playerBoon[0]}.png`} />
+              <Avatar
+                src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+                withBorder={true}
+                color={color}
+                variant="rounded"
+                className="rotate-45 absolute top-0 start-50 transform -translate-x-full cursor-default"
+              />
+            </div>
+          </Tooltip>
+        </div>
+
+        <div className="flex-1 text-center hidden md:block transform -translate-x-[13px] -translate-y-[35px]">
+          <Tooltip content={playerBoon[1]} className="bg-black font-customFont">
+            <div className="relative mx-auto">
+              <Avatar src={`/testing/${playerBoon[1]}.png`} />
+              <Avatar
+                src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+                withBorder={true}
+                color={`yellow`}
+                variant="rounded"
+                className="rotate-45 absolute top-0 start-50 transform -translate-x-full cursor-default"
+              />
+            </div>
+          </Tooltip>
+        </div>
+        <div className="flex-1 text-center hidden md:block transform -translate-x-[26px]">
+          <Tooltip content={playerBoon[2]} className="bg-black font-customFont">
+            <div className="relative mx-auto">
+              <Avatar src={`/testing/${playerBoon[2]}.png`} />
+              <Avatar
+                src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+                withBorder={true}
+                color={`yellow`}
+                variant="rounded"
+                className="rotate-45 absolute top-0 start-50 transform -translate-x-full cursor-default"
+              />
+            </div>
+          </Tooltip>
+        </div>
+        <div className="flex-1 text-center hidden md:block transform -translate-x-[38px] -translate-y-[34px]">
+          <Tooltip content={playerBoon[3]} className="bg-black font-customFont">
+            <div className="relative mx-auto">
+              <Avatar src={`/testing/${playerBoon[3]}.png`} />
+              <Avatar
+                src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+                withBorder={true}
+                color={`yellow`}
+                variant="rounded"
+                className="rotate-45 absolute top-0 start-50 transform -translate-x-full cursor-default"
+              />
+            </div>
+          </Tooltip>
+        </div>
+      </div>
+    );
+  }
+}
