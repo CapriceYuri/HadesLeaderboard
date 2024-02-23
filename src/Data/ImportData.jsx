@@ -13,7 +13,7 @@ export const FullData = [
       "Ferocious_Guard",
       "Thunder_Flourish",
       "Static_Discharge",
-      "Zeus_Aid",
+      "Artemis_Aid",
     ],
     boonlevel: ["blue-gray", "purple", "blue", "purple"],
   },
