@@ -131,7 +131,7 @@ export const useAvatarBorder = (aspect) => {
 
 // Function for Boon
 
-export function addBoons(playerBoon, color) {
+export function addBoons(playerBoon, boonLevel) {
   if (playerBoon !== undefined) {
     return (
       <div className="flex translate-y-4 translate-x-4">
@@ -142,9 +142,9 @@ export function addBoons(playerBoon, color) {
               <Avatar
                 src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
                 withBorder={true}
-                color={color}
+                color={boonLevel[0]}
                 variant="rounded"
-                className="rotate-45 absolute top-0 start-50 transform -translate-x-full cursor-default"
+                className="rotate-45 absolute top-0 start-50 transform -translate-x-full cursor-default border-[3px]"
               />
             </div>
           </Tooltip>
@@ -157,9 +157,9 @@ export function addBoons(playerBoon, color) {
               <Avatar
                 src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
                 withBorder={true}
-                color={`yellow`}
+                color={boonLevel[1]}
                 variant="rounded"
-                className="rotate-45 absolute top-0 start-50 transform -translate-x-full cursor-default"
+                className="rotate-45 absolute top-0 start-50 transform -translate-x-full cursor-default border-[3px]"
               />
             </div>
           </Tooltip>
@@ -171,9 +171,9 @@ export function addBoons(playerBoon, color) {
               <Avatar
                 src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
                 withBorder={true}
-                color={`yellow`}
+                color={boonLevel[2]}
                 variant="rounded"
-                className="rotate-45 absolute top-0 start-50 transform -translate-x-full cursor-default"
+                className="rotate-45 absolute top-0 start-50 transform -translate-x-full cursor-default border-[3px]"
               />
             </div>
           </Tooltip>
@@ -185,9 +185,9 @@ export function addBoons(playerBoon, color) {
               <Avatar
                 src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
                 withBorder={true}
-                color={`yellow`}
+                color={boonLevel[3]}
                 variant="rounded"
-                className="rotate-45 absolute top-0 start-50 transform -translate-x-full cursor-default"
+                className="rotate-45 absolute top-0 start-50 transform -translate-x-full cursor-default border-[3px]"
               />
             </div>
           </Tooltip>

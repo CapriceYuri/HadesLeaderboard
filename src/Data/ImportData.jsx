@@ -10,11 +10,12 @@ export const FullData = [
     src: "https://www.bilibili.com/video/BV17A4m137E5/",
     date: "2/22/2024",
     playerBoon: [
-      "High_Voltage",
-      "Static_Discharge",
-      "Storm_Lightning",
+      "Ferocious_Guard",
       "Thunder_Flourish",
+      "Static_Discharge",
+      "Zeus_Aid",
     ],
+    boonlevel: ["blue-gray", "purple", "blue", "purple"],
   },
   {
     ava: "player-Mysterra.png",
@@ -27,11 +28,12 @@ export const FullData = [
     src: "https://www.bilibili.com/video/BV1h1421Z7Zk/",
     date: "2/20/2024",
     playerBoon: [
-      "Flood_Shot",
-      "Hydraulic_Might",
+      "Explosive_Return",
       "Tempest_Flourish",
-      "Tempest_Strike",
+      "Chaos_Flourish",
+      "Companion_Battie",
     ],
+    boonlevel: ["blue-gray", "purple", "blue-gray", "blue-gray"],
   },
   {
     ava: "player-银紙竹光.png",

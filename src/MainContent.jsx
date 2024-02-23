@@ -251,7 +251,7 @@ export default function MainContent() {
                   </div>
                 </div>
 
-                {addBoons(player.playerBoon, useAvatarBorder(player.aspect))}
+                {addBoons(player.playerBoon, player.boonlevel)}
 
                 <div className="flex-1 text-center">
                   <Typography
