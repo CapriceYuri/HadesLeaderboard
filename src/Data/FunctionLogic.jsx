@@ -132,9 +132,9 @@ export const useAvatarBorder = (aspect) => {
 // Function for Boon
 
 export function addBoons(playerBoon, boonLevel) {
-  if (playerBoon !== undefined) {
-    return (
-      <div className="flex translate-y-4 translate-x-4">
+  function check0(playerBoon) {
+    if (playerBoon[0] !== undefined) {
+      return (
         <div className="flex-1 text-center hidden md:block">
           <Tooltip content={playerBoon[0]} className="bg-black font-customFont">
             <div className="relative mx-auto">
@@ -149,7 +149,12 @@ export function addBoons(playerBoon, boonLevel) {
             </div>
           </Tooltip>
         </div>
-
+      );
+    }
+  }
+  function check1(playerBoon) {
+    if (playerBoon[1] !== undefined) {
+      return (
         <div className="flex-1 text-center hidden md:block transform -translate-x-[13px] -translate-y-[35px]">
           <Tooltip content={playerBoon[1]} className="bg-black font-customFont">
             <div className="relative mx-auto">
@@ -164,6 +169,12 @@ export function addBoons(playerBoon, boonLevel) {
             </div>
           </Tooltip>
         </div>
+      );
+    }
+  }
+  function check2(playerBoon) {
+    if (playerBoon[2] !== undefined) {
+      return (
         <div className="flex-1 text-center hidden md:block transform -translate-x-[26px]">
           <Tooltip content={playerBoon[2]} className="bg-black font-customFont">
             <div className="relative mx-auto">
@@ -178,7 +189,13 @@ export function addBoons(playerBoon, boonLevel) {
             </div>
           </Tooltip>
         </div>
-        <div className="flex-1 text-center hidden md:block transform -translate-x-[38px] -translate-y-[34px]">
+      );
+    }
+  }
+  function check3(playerBoon) {
+    if (playerBoon[3] !== undefined) {
+      return (
+        <div className="flex-1 text-center hidden md:block transform -translate-x-[39px] -translate-y-[35px]">
           <Tooltip content={playerBoon[3]} className="bg-black font-customFont">
             <div className="relative mx-auto">
               <Avatar src={`/testing/${playerBoon[3]}.png`} />
@@ -192,6 +209,59 @@ export function addBoons(playerBoon, boonLevel) {
             </div>
           </Tooltip>
         </div>
+      );
+    }
+  }
+  function check4(playerBoon) {
+    if (playerBoon[4] !== undefined) {
+      return (
+        <div className="flex-1 text-center hidden md:block transform -translate-x-[52px]">
+          <Tooltip content={playerBoon[4]} className="bg-black font-customFont">
+            <div className="relative mx-auto">
+              <Avatar src={`/testing/${playerBoon[4]}.png`} />
+              <Avatar
+                src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+                withBorder={true}
+                color={boonLevel[4]}
+                variant="rounded"
+                className="rotate-45 absolute top-0 start-50 transform -translate-x-full cursor-default border-[3px]"
+              />
+            </div>
+          </Tooltip>
+        </div>
+      );
+    }
+  }
+  function check5(playerBoon) {
+    if (playerBoon[5] !== undefined) {
+      return (
+        <div className="flex-1 text-center hidden md:block transform -translate-x-[65px] -translate-y-[35px]">
+          <Tooltip content={playerBoon[5]} className="bg-black font-customFont">
+            <div className="relative mx-auto">
+              <Avatar src={`/testing/${playerBoon[5]}.png`} />
+              <Avatar
+                src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+                withBorder={true}
+                color={boonLevel[5]}
+                variant="rounded"
+                className="rotate-45 absolute top-0 start-50 transform -translate-x-full cursor-default border-[3px]"
+              />
+            </div>
+          </Tooltip>
+        </div>
+      );
+    }
+  }
+
+  if (playerBoon !== undefined) {
+    return (
+      <div className="flex translate-y-4 translate-x-4">
+        {check0(playerBoon)}
+        {check1(playerBoon)}
+        {check2(playerBoon)}
+        {check3(playerBoon)}
+        {check4(playerBoon)}
+        {check5(playerBoon)}
       </div>
     );
   }
