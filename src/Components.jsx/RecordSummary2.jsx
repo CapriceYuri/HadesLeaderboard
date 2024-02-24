@@ -150,7 +150,7 @@ export default function RecordSummaryCard() {
               <div className="text-center mt-4">
                 <Typography
                   variant="h6"
-                  color="white"
+                  color="yellow"
                   className="mx-auto font-customFont"
                 >
                   {`${calculateDate(run.date)} Day/s Ago`}

@@ -6,6 +6,7 @@ export const FullData = [
     heat: 59,
     weapon: "Bow",
     aspect: "Chiron",
+    special: "aph",
     src: "https://youtu.be/w504Ga_55vc",
     date: "2/24/2024",
     playerBoon: [
