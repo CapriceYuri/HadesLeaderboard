@@ -1,5 +1,24 @@
 export const FullData = [
   {
+    ava: "player-Timothy.png",
+    category: "Modded",
+    name: "Timothy",
+    heat: 59,
+    weapon: "Bow",
+    aspect: "Chiron",
+    src: "https://youtu.be/w504Ga_55vc",
+    date: "2/24/2024",
+    playerBoon: [
+      "Concentrated_Volley",
+      "Explosive_Shot",
+      "Heartbreak_Flourish",
+      "Companion_Battie",
+      "Divine_Dash",
+      "Swift_Flourish",
+    ],
+    boonlevel: ["blue-gray", "blue-gray", "red", "blue-gray", "blue", "blue"],
+  },
+  {
     ava: "player-Mysterra.png",
     category: "Modded",
     name: "Mysterra",
