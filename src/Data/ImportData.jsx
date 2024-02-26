@@ -1,5 +1,23 @@
 export const FullData = [
   {
+    ava: "player-PlayAd.png",
+    category: "Modded",
+    name: "PlayAd",
+    heat: 64,
+    weapon: "Spear",
+    aspect: "Guan Yu",
+    src: "https://www.youtube.com/watch?v=OaHxgeIX_hc",
+    date: "2/25/2024",
+    playerBoon: [
+      "Divine_Strike",
+      "Massive_Spin",
+      "Aphrodite_Aid",
+      "Quick_Spin",
+      "Greatest_Reflex",
+    ],
+    boonlevel: ["red", "blue-gray", "blue-gray", "blue-gray", "blue"],
+  },
+  {
     ava: "player-Timothy.png",
     category: "Modded",
     name: "Timothy",
