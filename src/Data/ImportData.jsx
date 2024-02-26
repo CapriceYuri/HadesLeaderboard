@@ -102,7 +102,7 @@ export const FullData = [
     boonlevel: ["purple", "blue-gray", "blue-gray", "purple", "blue"],
   },
   {
-    ava: "/Backgrounds/hades.gif",
+    ava: "player-poshboy.png",
     category: "Modded",
     name: "poshboy",
     heat: 64,
