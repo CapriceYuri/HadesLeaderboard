@@ -8,8 +8,8 @@ export default function TotalPlayerCard() {
       shadow={false}
     >
       <img
-        src="Backgrounds/playerbg.png"
-        className="h-full w-full object-cover rounded-xl absolute"
+        src="Backgrounds/friendbg.png"
+        className="h-full w-full object-cover rounded-xl absolute object-top"
       />
       <div className="absolute h-full w-full bg-gradient-to-r to-black from-black opacity-50 rounded-xl" />
 
