@@ -78,7 +78,7 @@ export default function MainContent() {
       {/* COVER BG */}
       <NavigationBar />
       <section>
-        <div className="flex justify-center px-2 mx-auto w-[100%] pt-10 pb-5 gap-x-2 2xl:w-3/4">
+        <div className="flex justify-center px-2 mx-auto w-[100%] pt-10 pb-5 gap-x-2 2xl:w-4/5">
           <TotalRunsCard />
           <TotalPlayerCard />
         </div>
@@ -88,7 +88,7 @@ export default function MainContent() {
       </section>
       {/* CHARTS */}
       <section className="w-full flex justify-center pb-5">
-        <Card className="w-[100%] backdr`op-blur-lg bg-transparent shadow-[0_0_30px_white] 2xl:w-3/4 border-4 border-black rounded-2xl">
+        <Card className="w-[100%] backdr`op-blur-lg bg-transparent shadow-[0_0_30px_white] 2xl:w-4/5 border-4 border-black rounded-2xl">
           <img
             src="Backgrounds/vertical-green.jpg"
             className="h-full w-full object-cover rounded-xl absolute"
@@ -124,7 +124,7 @@ export default function MainContent() {
         </Card>
       </section>
       <section className="w-full flex justify-center pt-5">
-        <Card className="w-[100%] backdrop-blur-lg bg-transparent shadow-[0_0_30px_white] 2xl:w-3/4 border-4 border-black rounded-2xl">
+        <Card className="w-[100%] backdrop-blur-lg bg-transparent shadow-[0_0_30px_white] 2xl:w-4/5 border-4 border-black rounded-2xl">
           <img
             src="Backgrounds/recordBG.png"
             className="h-full w-full object-cover rounded-xl absolute"
@@ -150,7 +150,7 @@ export default function MainContent() {
         <img src="hades-blue.png" className="mx-auto opacity-90" />
       </section>
       <section className="w-full flex justify-center pb-10">
-        <Card className="w-[100%] backdrop-blur-lg bg-transparent 2xl:w-3/4 border-4 border-black rounded-2xl shadow-[0_0_30px_white]">
+        <Card className="w-[100%] backdrop-blur-lg bg-transparent 2xl:w-4/5 border-4 border-black rounded-2xl shadow-[0_0_30px_white]">
           <img
             src="Backgrounds/vertical-blue.jpg"
             className="h-full w-full object-cover rounded-xl absolute"

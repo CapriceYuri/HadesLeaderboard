@@ -16,7 +16,6 @@ export const FullData = [
       "Greatest_Reflex",
     ],
     boonlevel: ["red", "blue-gray", "blue-gray", "blue-gray", "blue"],
-    comment: "This was a Hypermodded run",
   },
   {
     ava: "player-Timothy.png",
@@ -153,6 +152,7 @@ export const FullData = [
       "Rush_Delivery",
     ],
     boonlevel: ["orange", "purple", "blue-gray", "purple"],
+    comment: "Routed.",
   },
   {
     ava: "player-Jade.png",
@@ -170,6 +170,7 @@ export const FullData = [
       "Explosive_Return",
     ],
     boonlevel: ["purple", "blue-gray", "red", "blue-gray"],
+    comment: "20 minutes and 30 seconds of resetting",
   },
   {
     ava: "player-Mysterra.png",
@@ -5411,6 +5412,7 @@ export const FullData = [
     aspect: "Zeus",
     src: " https://www.bilibili.com/video/BV1kx4y1V7kz/",
     date: "2/14/2023",
+    comment: "unseeded",
   },
   {
     ava: "player-Jade.png",
@@ -5420,6 +5422,7 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     src: "https://youtu.be/v1Pu-t7mxNM",
+    comment: "meow mrrroww",
   },
   {
     ava: "player-Jade.png",
@@ -5429,6 +5432,7 @@ export const FullData = [
     weapon: "Shield",
     aspect: "Zeus",
     src: "https://youtu.be/I3dYGU5RTts",
+    comment: "nya",
   },
   {
     ava: "player-Jade.png",
@@ -5447,6 +5451,8 @@ export const FullData = [
       "Companion_Battie",
     ],
     boonlevel: ["red", "blue-gray", "blue", "blue", "blue-gray"],
+    comment:
+      "idk man as someone with around 11 60 heat runs I will literally always take divine dash",
   },
   {
     ava: "player-Vaxon08.png",
