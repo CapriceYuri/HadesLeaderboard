@@ -16,6 +16,7 @@ export const FullData = [
       "Greatest_Reflex",
     ],
     boonlevel: ["red", "blue-gray", "blue-gray", "blue-gray", "blue"],
+    comment: "This was a Hypermodded run",
   },
   {
     ava: "player-Timothy.png",

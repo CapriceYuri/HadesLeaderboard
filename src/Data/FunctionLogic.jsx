@@ -1,4 +1,4 @@
-import { Avatar, Tooltip } from "@material-tailwind/react";
+import { Avatar, Tooltip, Typography } from "@material-tailwind/react";
 
 export const getAvatarRing = (aspect) => {
   switch (aspect) {
@@ -262,6 +262,20 @@ export function addBoons(playerBoon, boonLevel) {
         {check3(playerBoon)}
         {check4(playerBoon)}
         {check5(playerBoon)}
+      </div>
+    );
+  }
+}
+// Testing Comment Function
+export function haveComment(comment) {
+  if (comment !== undefined) {
+    return (
+      <div className="text-end transform -translate-y-[150%] px-24">
+        <Typography
+          variant="small"
+          color="white"
+          className="font-customFont"
+        >{`${comment}`}</Typography>
       </div>
     );
   }
