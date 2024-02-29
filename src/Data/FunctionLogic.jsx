@@ -270,12 +270,12 @@ export function addBoons(playerBoon, boonLevel) {
 export function haveComment(comment) {
   if (comment !== undefined) {
     return (
-      <div className="text-end transform -translate-y-[150%] px-24">
+      <div className="transform -translate-y-[100%] px-14">
         <Typography
           variant="small"
-          color="white"
+          color="red"
           className="font-customFont"
-        >{`${comment}`}</Typography>
+        >{`"${comment}"`}</Typography>
       </div>
     );
   }
