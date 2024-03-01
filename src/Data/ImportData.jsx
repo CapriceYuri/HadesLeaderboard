@@ -1,5 +1,25 @@
 export const FullData = [
   {
+    ava: "player-银紙竹光.png",
+    category: "Modded",
+    name: "银紙竹光",
+    heat: 64,
+    weapon: "Shield",
+    aspect: "Zeus",
+    special: "ath",
+    src: "https://www.bilibili.com/video/BV1vC411W7b6/",
+    date: "3/1/2024",
+    comment: "Modpack v1.3+第一个祝福紫色",
+    playerBoon: [
+      "Dionysus_Aid",
+      "Divine_Flourish",
+      "Chaos_Flourish",
+      "Static_Discharge",
+      "Billowing_Strength",
+    ],
+    boonlevel: ["blue", "purple", "blue-gray", "purple", "blue-gray"],
+  },
+  {
     ava: "player-PlayAd.png",
     category: "Modded",
     name: "PlayAd",
