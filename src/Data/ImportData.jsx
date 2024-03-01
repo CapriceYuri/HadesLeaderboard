@@ -36,6 +36,8 @@ export const FullData = [
       "Greatest_Reflex",
     ],
     boonlevel: ["red", "blue-gray", "blue-gray", "blue-gray", "blue"],
+    comment:
+      "Hypermodded : forced second hammer, and hermes 1/3 chance for dash, everything else is vanilla",
   },
   {
     ava: "player-Timothy.png",
