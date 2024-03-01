@@ -119,7 +119,7 @@ export default function MainContent() {
                 </Typography>
               </div>
             </div>
-            {showComponentOne ? <RecordSummaryCard /> : <RecordSummary />}
+            {showComponentOne ? <RecordSummary /> : <RecordSummaryCard />}
           </List>
         </Card>
       </section>
