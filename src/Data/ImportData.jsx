@@ -5479,7 +5479,7 @@ export const FullData = [
   {
     ava: "player-Vaxon08.png",
     category: "Modded",
-    name: "Vaxon08",
+    name: "Vaxon",
     heat: 62,
     weapon: "Bow",
     aspect: "Rama",
@@ -5585,7 +5585,7 @@ export const FullData = [
   {
     ava: "player-Vaxon08.png",
     category: "Modded",
-    name: "Vaxon08",
+    name: "Vaxon",
     heat: 60,
     weapon: "Bow",
     aspect: "Rama",
