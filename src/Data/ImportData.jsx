@@ -1,5 +1,26 @@
 export const FullData = [
   {
+    ava: "player-PlayAd.png",
+    category: "Modded",
+    name: "PlayAd",
+    heat: 64,
+    weapon: "Bow",
+    aspect: "Rama",
+    src: "https://www.youtube.com/watch?v=v1-hYQnsN8M",
+    date: "3/1/2024",
+    playerBoon: [
+      "Twin_Shot",
+      "Perfect_Shot",
+      "Greatest_Reflex",
+      "Heartbreak_Strike",
+      "Pressure_Points",
+      "Athena_Aid",
+    ],
+    boonlevel: ["blue-gray", "blue-gray", "blue", "purple", "purple", "purple"],
+    comment:
+      "Hypermodded: forced second hammer (PS), and Hermes control roughly 1/3 chance (GR)",
+  },
+  {
     ava: "player-银紙竹光.png",
     category: "Modded",
     name: "银紙竹光",
@@ -9,7 +30,7 @@ export const FullData = [
     special: "ath",
     src: "https://www.bilibili.com/video/BV1vC411W7b6/",
     date: "3/1/2024",
-    comment: "Modpack v1.3+第一个祝福紫色",
+    comment: "Modpack v1.3+第一个祝福紫色(first blessing purple)",
     playerBoon: [
       "Dionysus_Aid",
       "Divine_Flourish",
@@ -37,7 +58,7 @@ export const FullData = [
     ],
     boonlevel: ["red", "blue-gray", "blue-gray", "blue-gray", "blue"],
     comment:
-      "Hypermodded : forced second hammer, and hermes 1/3 chance for dash, everything else is vanilla",
+      "Hypermodded: forced second hammer, and hermes 1/3 chance for dash, everything else is vanilla",
   },
   {
     ava: "player-Timothy.png",
