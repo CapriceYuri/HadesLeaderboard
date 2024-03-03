@@ -7,8 +7,15 @@ const recordData = allData.slice(4, 28);
 let TopPlayerCategory = [];
 // Filter Function
 function findTopPlayer(arr) {
-  let highestHeat = arr[0].heat;
-  TopPlayerCategory.push(arr.filter((run) => run.heat === highestHeat));
+  let highestHeat;
+  if (arr[0].hyper === undefined) {
+    highestHeat = arr[0].heat;
+  } else {
+    highestHeat = arr[1].heat;
+  }
+  TopPlayerCategory.push(
+    arr.filter((run) => run.heat === highestHeat && run.hyper === undefined)
+  );
 }
 function removeDup(myArr, prop) {
   return myArr.filter((obj, pos, arr) => {

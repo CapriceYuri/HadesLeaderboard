@@ -8,6 +8,7 @@ export const FullData = [
     aspect: "Rama",
     src: "https://www.youtube.com/watch?v=v1-hYQnsN8M",
     date: "3/1/2024",
+    hyper: true,
     playerBoon: [
       "Twin_Shot",
       "Perfect_Shot",
@@ -49,6 +50,7 @@ export const FullData = [
     aspect: "Guan Yu",
     src: "https://www.youtube.com/watch?v=OaHxgeIX_hc",
     date: "2/25/2024",
+    hyper: true,
     playerBoon: [
       "Divine_Strike",
       "Massive_Spin",
