@@ -4,6 +4,7 @@ import {
   Card,
   Typography,
   Spinner,
+  Avatar,
 } from "@material-tailwind/react";
 import { rawData } from "../Data/DataLogic";
 
@@ -27,11 +28,19 @@ export default function RecentRuns() {
           </Typography>
         </div>
         {recent5.map((run) => (
-          <ListItem className="text-center">
-            <div className="">
+          <ListItem className="text-center hover:bg-transparent focus:bg-[#28282B]">
+            <div>
               <Spinner color="blue" />
             </div>
-            <div className="flex-1 text-start ms-4">
+            <div className="mx-2">
+              <Avatar
+                variant="rounded"
+                color="indigo"
+                src={run.ava}
+                size="sm"
+              />
+            </div>
+            <div className="flex-1 text-start">
               <Typography
                 variant="h6"
                 color={`white`}
@@ -42,7 +51,7 @@ export default function RecentRuns() {
             </div>
             <div className="flex-1">
               <Typography
-                variant="h6"
+                variant="small"
                 color={`amber`}
                 className="font-customFont"
               >
@@ -64,14 +73,14 @@ export default function RecentRuns() {
                 {run.heat}
               </Typography>
             </div>
-            <div className="flex-1">
+            <div className="flex-1 hidden md:block">
               <Typography variant="h6" color="red" className="font-customFont">
                 {run.note}
               </Typography>
             </div>
             <div className="flex-1">
               <Typography
-                variant="h6"
+                variant="small"
                 color={`white`}
                 className="font-customFont"
               >
