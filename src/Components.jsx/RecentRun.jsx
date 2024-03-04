@@ -51,7 +51,7 @@ export default function RecentRuns() {
             </div>
             <div className="flex-1">
               <Typography
-                variant="small"
+                variant="h6"
                 color={`amber`}
                 className="font-customFont"
               >
@@ -80,7 +80,7 @@ export default function RecentRuns() {
             </div>
             <div className="flex-1">
               <Typography
-                variant="small"
+                variant="h6"
                 color={`white`}
                 className="font-customFont"
               >

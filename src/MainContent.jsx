@@ -24,6 +24,7 @@ import PageFooter from "./Components.jsx/Footer";
 import { addBoons } from "./Data/FunctionLogic";
 import { haveComment } from "./Data/FunctionLogic";
 import RecentRuns from "./Components.jsx/RecentRun";
+import Timeline64 from "./Components.jsx/Timeline";
 
 import { useState } from "react";
 import { allData, BreakList, addRankProperty } from "./Data/DataLogic";
@@ -124,6 +125,12 @@ export default function MainContent() {
           </List>
         </Card>
       </section>
+      <section className="my-5">
+        <Timeline64 />
+      </section>
+      {/* TESTING */}
+      {/* TESTING */}
+
       <section className="w-full flex justify-center pt-5">
         <Card className="w-[100%] backdrop-blur-lg bg-transparent shadow-[0_0_30px_white] 2xl:w-4/5 border-4 border-black rounded-2xl">
           <img
