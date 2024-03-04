@@ -16,7 +16,7 @@ export default function RecentRuns() {
       className="w-[100%] bg-transparent 2xl:w-4/5 border-4 border-black rounded-2xl shadow-[0_0_40px_black] mx-auto mb-5 relative"
       shadow={false}
     >
-      <div className="absolute h-full w-full bg-black rounded-xl opacity-80 -z-10" />
+      <div className="absolute h-full w-full bg-[#28282b] -z-10 rounded-xl opacity-80" />
       <List className="p-0">
         <div>
           <Typography
