@@ -72,29 +72,23 @@ export default function RecordSummaryCard() {
       {TopPlayerCategory.map((arr) =>
         arr.map((run, index) => (
           <Card
-            className={`border-4 border-[#28282B] px-4 py-4 rounded-2xl relative bg-transparent hover:bg-black`}
+            className={`border-4 border-black px-4 py-4 rounded-2xl relative bg-transparent hover:bg-[#28282b]`}
             key={index}
           >
             <div
               className={
-                run.name === "AngeL1C"
-                  ? `absolute h-full w-full bg-[url('/Backgrounds/cat.gif')] bg-center bg-contain bg-no-repeat -z-10 rounded-xl top-0 left-0 bg-black`
-                  : "absolute h-full w-full bg-black bg-center bg-contain -z-10 rounded-xl top-0 left-0"
+                "absolute h-full w-full bg-[#28282b] bg-center bg-contain -z-10 rounded-xl top-0 left-0 shadow-[inset_0_0_30px_black]"
               }
             />
-            <div
-              className={
-                run.heat === 64
-                  ? `text-center relative bg-[url('/Backgrounds/bg1.png')] bg-center bg-cover border-2 border-black rounded-2xl`
-                  : run.heat >= 60
-                  ? `text-center relative bg-[url('/Backgrounds/bg2.png')] bg-center bg-cover border-2 border-black rounded-2xl`
-                  : `text-center relative bg-[url('/Backgrounds/bg3.png')] bg-center bg-cover border-2 border-black rounded-2xl`
-              }
-            >
+            <div className={`text-center relative`}>
               <Avatar
                 variant="circular"
                 withBorder={true}
-                className="p-2"
+                className={
+                  run.heat === 64
+                    ? `shadow-[0_0_25px_red] p-2`
+                    : "shadow-[0_0_15px_white] p-2"
+                }
                 src={run.ava}
                 size="xl"
               />
@@ -103,7 +97,7 @@ export default function RecordSummaryCard() {
                   run.heat < 60
                     ? `rings/green-card.gif`
                     : run.heat === 64
-                    ? `rings/purple-card.gif`
+                    ? `rings/red-card.gif`
                     : `rings/blue-card.gif`
                 }
                 className="absolute top-0 start-50 transform -translate-x-full"
@@ -115,7 +109,7 @@ export default function RecordSummaryCard() {
               <div className="text-center">
                 <Typography
                   variant="h5"
-                  color="white"
+                  color={run.heat === 64 ? "pink" : "white"}
                   className="mx-auto font-customFont"
                 >
                   {run.name}
@@ -131,7 +125,7 @@ export default function RecordSummaryCard() {
                   {run.aspect}
                 </Typography>
                 <Typography
-                  variant="h4"
+                  variant="h5"
                   color={
                     run.category === "Seeded"
                       ? "blue"

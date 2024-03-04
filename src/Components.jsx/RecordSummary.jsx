@@ -45,13 +45,6 @@ export default function RecordSummary() {
               className={`hover:bg-black focus:bg-black flex justify-between relative`}
               key={index}
             >
-              <div
-                className={
-                  run.name === "AngeL1C"
-                    ? `absolute h-full w-full bg-[url('/Backgrounds/cat-edit.gif')] bg-center bg-contain -z-10 rounded-xl top-0 left-0 border-4 border-black opacity-40`
-                    : ``
-                }
-              />
               <div className="relative mx-auto flex-1 text-center hidden md:block">
                 <Avatar src={run.ava} size="lg" className="p-1" />
 
@@ -60,7 +53,7 @@ export default function RecordSummary() {
                     run.heat < 60
                       ? `rings/green-card.gif`
                       : run.heat === 64
-                      ? `rings/purple-card.gif`
+                      ? `rings/red-card.gif`
                       : `rings/blue-card.gif`
                   }
                   className="absolute top-0 start-50 transform -translate-x-full"
@@ -70,7 +63,7 @@ export default function RecordSummary() {
               <div className="flex-1 me-2">
                 <Typography
                   variant="h6"
-                  color={`white`}
+                  color={run.heat === 64 ? "pink" : "white"}
                   className="font-customFont"
                 >
                   {run.name}
