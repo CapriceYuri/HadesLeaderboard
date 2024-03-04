@@ -23,6 +23,7 @@ import NavigationBar from "./Components.jsx/NavigationBar";
 import PageFooter from "./Components.jsx/Footer";
 import { addBoons } from "./Data/FunctionLogic";
 import { haveComment } from "./Data/FunctionLogic";
+import RecentRuns from "./Components.jsx/RecentRun";
 
 import { useState } from "react";
 import { allData, BreakList, addRankProperty } from "./Data/DataLogic";
@@ -148,6 +149,9 @@ export default function MainContent() {
       {/* TABLE CONTENT */}
       <section>
         <img src="hades-blue.png" className="mx-auto opacity-90" />
+      </section>
+      <section>
+        <RecentRuns />
       </section>
       <section className="w-full flex justify-center pb-10">
         <Card className="w-[100%] backdrop-blur-lg bg-transparent 2xl:w-4/5 border-4 border-black rounded-2xl shadow-[0_0_30px_white]">

@@ -13,6 +13,7 @@ findTotalPlayer();
 const uniquePlayers = tempPlayerArr.length;
 const totalRuns = FullData.length;
 //
+const rawData = FullData.slice();
 FullData.sort((a, b) => (a.heat < b.heat ? 1 : -1));
 const ogData = FullData.sort((a, b) => (a.heat < b.heat ? 1 : -1));
 const mData = FullData.filter((run) => run.category === "Modded");
@@ -140,4 +141,4 @@ export function BreakList(arr) {
 }
 
 //
-export { totalRuns, uniquePlayers, allData, FullData };
+export { totalRuns, uniquePlayers, allData, FullData, rawData };

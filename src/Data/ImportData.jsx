@@ -1,5 +1,24 @@
 export const FullData = [
   {
+    ava: "player-Timothy.png",
+    category: "Modded",
+    name: "Timothy",
+    heat: 60,
+    weapon: "Bow",
+    aspect: "Chiron",
+    special: "ath",
+    src: "https://www.youtube.com/watch?v=9GCbMbg75to",
+    date: "3/4/2024",
+    note: "Current WR",
+    playerBoon: [
+      "Athena_Aid",
+      "Heartbreak_Flourish",
+      "Companion_Battie",
+      "Relentless_Barrage",
+    ],
+    boonlevel: ["blue", "purple", "blue-gray", "blue-gray"],
+  },
+  {
     ava: "player-PlayAd.png",
     category: "Modded",
     name: "PlayAd",
@@ -9,6 +28,7 @@ export const FullData = [
     special: "ath",
     src: "https://www.youtube.com/watch?v=pTelcLtfMG0",
     date: "3/3/2024",
+    note: "Current WR",
     playerBoon: ["Divine_Strike", "Massive_Spin", "Quick_Spin", "Chaos_Strike"],
     boonlevel: ["red", "blue-gray", "blue-gray", "blue-gray"],
     comment: "The first ever non zeus shield max heat clear.",
@@ -46,6 +66,7 @@ export const FullData = [
     special: "ath",
     src: "https://www.bilibili.com/video/BV1vC411W7b6/",
     date: "3/1/2024",
+    note: "7th 64 Player",
     comment: "Modpack v1.3+第一个祝福紫色(first blessing purple)",
     playerBoon: [
       "Dionysus_Aid",
