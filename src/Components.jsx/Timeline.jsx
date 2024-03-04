@@ -43,11 +43,10 @@ export default function Timeline64() {
                   {obj.title}
                 </Typography>
               </TimelineHeader>
-              <TimelineBody className="pb-8">
+              <TimelineBody className="pb-6">
                 <Typography
                   color="orange"
-                  variant="h6"
-                  className="font-customFont"
+                  className="font-customFont text-[14px] md:text-[16px]"
                 >
                   {obj.info}
                 </Typography>
