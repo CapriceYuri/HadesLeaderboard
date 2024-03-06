@@ -14,7 +14,7 @@ import { timelineData } from "../Data/TimelineData";
 
 export default function Timeline64() {
   return (
-    <Card className="bg-transparent border-4 border-black w-full 2xl:w-4/5 mx-auto backdrop-blur-lg relative rounded-2xl">
+    <Card className="bg-transparent border-4 border-black w-full 2xl:w-4/5 mx-auto relative rounded-2xl">
       <div className="absolute h-full w-full bg-[#28282b] -z-10 rounded-xl opacity-80" />
 
       <div>
@@ -22,7 +22,7 @@ export default function Timeline64() {
           <Typography
             color="white"
             variant="h2"
-            className="font-customFont py-4"
+            className="font-customFont pt-4"
           >
             Timeline 64
           </Typography>
@@ -55,14 +55,16 @@ export default function Timeline64() {
           ))}
           <TimelineItem>
             <TimelineHeader>
-              <TimelineIcon className="bg-transparent">
-                <Avatar
-                  src="fire-hope.gif"
-                  alt={`next`}
-                  size="xl"
-                  className="w-auto"
-                />
+              <TimelineIcon className="p-1">
+                <Avatar src="hammer.png" withBorder />
               </TimelineIcon>
+              <Typography
+                variant="h5"
+                color="white"
+                className="font-customFont"
+              >
+                {`Next...`}
+              </Typography>
             </TimelineHeader>
           </TimelineItem>
         </Timeline>

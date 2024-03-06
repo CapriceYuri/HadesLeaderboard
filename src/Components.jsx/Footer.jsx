@@ -1,24 +1,26 @@
-import { Typography } from "@material-tailwind/react";
+import { Typography, Avatar } from "@material-tailwind/react";
 
 const SITEMAP = [
   {
     title: "Resources",
-    links: ["Official Hades Discord", "Speedrun Discord", "Speedrun.com"],
+    links: ["Official Hades", "Speedrun Discord", "Speedrun.com"],
     src: [
       "https://discord.com/invite/supergiant",
       "https://discord.com/invite/zN7cc8Z",
       "https://www.speedrun.com/hades",
     ],
+    icons: ["icon-discord", "icon-discord", "icon-src"],
   },
   {
     title: "Submission",
-    links: ["Submit Run", "High Heat", "Modded High Heat", "Speedrun Sub-6"],
+    links: ["Submit Run", "Heat SS", "Mod Heat SS", "Sub-6 SS"],
     src: [
       "https://docs.google.com/spreadsheets/d/1rrTgSkRSIOcc20wU56w21DDPlRQO6Tso2av3vdiJd9M/edit?usp=sharing",
       "https://docs.google.com/spreadsheets/d/1fYeJpxFXZBO2UycHOz4qt90T3ZurFZKCtg07UQNZVyc/edit#gid=1855514336",
       "https://docs.google.com/spreadsheets/d/1-eAhomftrsnM8BV6TMA4CA58wneoBLcAvlQXiYrGAnU/edit#gid=1775740672",
       "https://docs.google.com/spreadsheets/d/1d56DvDTE8WvQsMRQFs1pLbNpMBHy2CLYss69EL-8bMU/edit#gid=850231511",
     ],
+    icons: ["icon-submit", "icon-data", "icon-data", "icon-data"],
   },
 ];
 
@@ -26,13 +28,13 @@ export default function PageFooter() {
   return (
     <footer className="relative w-full bg-black">
       <div className="mx-auto w-full max-w-7xl px-8">
-        <div className="mx-auto grid w-full grid-cols-1 gap-8 py-8 md:grid-cols-2 text-center">
-          {SITEMAP.map(({ title, links, src }, key) => (
+        <div className="mx-auto grid w-full grid-cols-2 gap-8 py-8 md:grid-cols-2 text-center">
+          {SITEMAP.map(({ title, links, src, icons }, key) => (
             <div key={key} className="w-full">
               <Typography
                 variant="small"
-                color="white"
-                className="mb-4 font-bold uppercase opacity-50"
+                color="orange"
+                className="mb-4 font-bold uppercase opacity-80 font-customFont"
               >
                 {title}
               </Typography>
@@ -42,8 +44,13 @@ export default function PageFooter() {
                     key={key}
                     as="li"
                     color="white"
-                    className="font-normal"
+                    className="font-customFont"
                   >
+                    <Avatar
+                      src={`${icons[key]}.png`}
+                      size="xs"
+                      className="me-2"
+                    ></Avatar>
                     <a
                       href={src[key]}
                       className="inline-block py-1 pr-2 transition-transform hover:scale-105"
