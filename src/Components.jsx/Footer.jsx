@@ -3,7 +3,7 @@ import { Typography, Avatar } from "@material-tailwind/react";
 const SITEMAP = [
   {
     title: "Resources",
-    links: ["Official Hades", "Speedrun Discord", "Speedrun.com"],
+    links: ["Supergiant", "Speedrunning", "Speedrun SRC"],
     src: [
       "https://discord.com/invite/supergiant",
       "https://discord.com/invite/zN7cc8Z",
@@ -32,7 +32,7 @@ export default function PageFooter() {
           {SITEMAP.map(({ title, links, src, icons }, key) => (
             <div key={key} className="w-full">
               <Typography
-                variant="small"
+                variant="h6"
                 color="orange"
                 className="mb-4 font-bold uppercase opacity-80 font-customFont"
               >

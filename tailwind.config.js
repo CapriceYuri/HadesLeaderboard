@@ -12,9 +12,6 @@ module.exports = withMT({
       fontFamily: {
         customFont: ['Ubuntu Mono', 'sans-serif'],
       },
-      animation: {
-        'spin-slow': 'spin 3s linear infinite',
-      },
     },
   },
   plugins: [],
