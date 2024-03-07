@@ -77,7 +77,7 @@ export default function RecordSummaryCard() {
           >
             <div
               className={
-                "absolute h-full w-full bg-[#28282b] bg-center bg-contain -z-10 rounded-xl top-0 left-0 shadow-[inset_0_0_30px_black]"
+                "absolute h-full w-full bg-[#28282b] bg-center bg-contain -z-10 rounded-xl top-0 left-0 shadow-[inset_0_0_40px_black]"
               }
             />
             <div className={`text-center relative`}>
