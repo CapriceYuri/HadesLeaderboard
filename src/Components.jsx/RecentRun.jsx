@@ -73,11 +73,6 @@ export default function RecentRuns() {
                 {run.heat}
               </Typography>
             </div>
-            <div className="flex-1 hidden md:block">
-              <Typography variant="h6" color="red" className="font-customFont">
-                {run.note}
-              </Typography>
-            </div>
             <div className="flex-1">
               <Typography
                 variant="h6"
