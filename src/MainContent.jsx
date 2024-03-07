@@ -86,7 +86,7 @@ export default function MainContent() {
         </div>
       </section>
       <section>
-        <img src="hades2-closeup.png" className="mx-auto opacity-80" />
+        <img src="hades2-closeup.png" className="mx-auto hue-rotate-60" />
       </section>
       {/* CHARTS */}
       <section className="w-full flex justify-center pb-5">
@@ -155,7 +155,7 @@ export default function MainContent() {
       </section>
       {/* TABLE CONTENT */}
       <section>
-        <img src="hades-blue.png" className="mx-auto opacity-90" />
+        <img src="hades-blue.png" className="mx-auto -hue-rotate-60" />
       </section>
       <section>
         <RecentRuns />
