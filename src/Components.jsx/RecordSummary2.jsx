@@ -78,7 +78,7 @@ export default function RecordSummaryCard() {
             <div
               className={
                 run.name === "AngeL1C"
-                  ? "absolute h-full w-full bg-[url('Backgrounds/cat.gif')] bg-[#28282b] bg-center z-20 rounded-xl top-0 left-0 shadow-[inset_0_0_40px_white]"
+                  ? "absolute h-full w-full bg-[url('Backgrounds/cat.gif')] bg-[#28282b] bg-bottom bg-no-repeat bg-cover rounded-xl top-0 left-0 shadow-[inset_0_0_40px_black] hover:bg-transparent hover:bg-none"
                   : "absolute h-full w-full bg-[#28282b] bg-center bg-contain -z-10 rounded-xl top-0 left-0 shadow-[inset_0_0_40px_black]"
               }
             />
