@@ -9,6 +9,7 @@ export const FullData = [
     special: "ath",
     src: "https://www.youtube.com/watch?v=9GCbMbg75to",
     date: "3/4/2024",
+    comment: "  speedrunning modpack v1.30+epic 1st boon",
     playerBoon: [
       "Athena_Aid",
       "Heartbreak_Flourish",

@@ -49,7 +49,7 @@ export default function RecentRuns() {
                 {run.name}
               </Typography>
             </div>
-            <div className="flex-1">
+            <div className="flex-1 text-center">
               <Typography
                 variant="h6"
                 color={`amber`}
@@ -58,7 +58,7 @@ export default function RecentRuns() {
                 {run.aspect}
               </Typography>
             </div>
-            <div className="flex-1">
+            <div className="flex-1 text-center">
               <Typography
                 variant="h6"
                 color={
@@ -71,6 +71,14 @@ export default function RecentRuns() {
                 className="font-customFont"
               >
                 {run.heat}
+              </Typography>
+            </div>
+            <div className="flex-1 hidden lg:block">
+              <Typography
+                color={`orange`}
+                className="font-customFont text-[12px]"
+              >
+                {run.comment}
               </Typography>
             </div>
             <div className="flex-1">
