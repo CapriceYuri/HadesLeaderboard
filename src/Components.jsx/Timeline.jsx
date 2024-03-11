@@ -42,6 +42,13 @@ export default function Timeline64() {
                 >
                   {obj.title}
                 </Typography>
+                <TimelineIcon className="shadow-[0_0_15px_white] p-0 bg-transparent">
+                  <Avatar
+                    size="sm"
+                    src={`arms/${obj.weapon}-${obj.aspect}.png`}
+                    alt={`Weapon`}
+                  />
+                </TimelineIcon>
               </TimelineHeader>
               <TimelineBody className="pb-6">
                 <Typography

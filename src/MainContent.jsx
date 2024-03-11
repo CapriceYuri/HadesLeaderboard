@@ -90,12 +90,12 @@ export default function MainContent() {
       </section>
       {/* CHARTS */}
       <section className="w-full flex justify-center pb-5">
-        <Card className="w-[100%] backdr`op-blur-lg bg-transparent shadow-[0_0_30px_white] 2xl:w-4/5 border-4 border-black rounded-2xl">
-          <img
+        <Card className="w-[100%] bg-transparent shadow-[0_0_30px_white] 2xl:w-4/5 border-4 border-black rounded-2xl">
+          {/* <img
             src="Backgrounds/vertical-green.jpg"
             className="h-full w-full object-cover rounded-xl absolute"
-          />
-          <div className="absolute h-full w-full bg-gradient-to-r to-black from-black rounded-xl opacity-80" />
+          /> */}
+          <div className="absolute h-full w-full bg-[#28282b] rounded-xl opacity-80" />
           <List className="z-40">
             <div className="flex justify-center items-center">
               <Typography
