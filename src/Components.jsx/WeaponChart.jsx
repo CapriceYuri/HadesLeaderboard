@@ -96,41 +96,6 @@ const chartConfig = {
 export default function CategoryWeaponChart() {
   return (
     <Card className="bg-transparent" shadow={false}>
-      <CardHeader
-        floated={false}
-        shadow={false}
-        color="transparent"
-        className="flex flex-col gap-4 rounded-none md:flex-row md:items-center"
-      >
-        <div className="2xl:text-center 2xl:mx-auto">
-          <Typography variant="h4" className="text-[#E6E6FA] font-customFont">
-            Infernal Arms
-          </Typography>
-          <Typography
-            variant="h6"
-            color="white"
-            className="max-w-sm font-normal font-customFont"
-          >
-            Concise visual representation of the distribution of runs based on
-            different weapons, offering insights into the effectiveness and
-            prevalence of each weapon in the given context.
-          </Typography>
-        </div>
-        <div className="2xl:text-center 2xl:mx-auto">
-          <Typography variant="h4" className="text-[#E6E6FA] font-customFont">
-            Aspects
-          </Typography>
-          <Typography
-            variant="h6"
-            color="white"
-            className="max-w-sm font-normal font-customFont"
-          >
-            Like a forged blade tempered in the fires of adversity, a strong
-            weapon is not only a tool of power but a testament to resilience,
-            capable of cutting through the challenges that stand in its way.
-          </Typography>
-        </div>
-      </CardHeader>
       <CardBody className="px-2 pb-0">
         <Chart {...chartConfig} />
       </CardBody>

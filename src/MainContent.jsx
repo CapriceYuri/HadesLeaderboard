@@ -132,20 +132,19 @@ export default function MainContent() {
       {/* TESTING */}
 
       <section className="w-full flex justify-center pt-5">
-        <Card className="w-[100%] backdrop-blur-lg bg-transparent shadow-[0_0_30px_white] 2xl:w-4/5 border-4 border-black rounded-2xl">
-          <img
+        <Card className="w-[100%] bg-transparent shadow-[0_0_30px_white] 2xl:w-4/5 border-4 border-black rounded-2xl">
+          {/* <img
             src="Backgrounds/recordBG.png"
             className="h-full w-full object-cover rounded-xl absolute"
-            loading="lazy"
-          />
-          <div className="absolute h-full w-full bg-gradient-to-r from-black to-black rounded-xl opacity-60" />
+          /> */}
+          <div className="absolute h-full w-full bg-[#28282b] rounded-xl opacity-80" />
           <List className="z-40">
             <div>
               <Typography
-                variant="h2"
+                variant="h3"
                 className="p-2 text-center font-customFont text-[#E6E6FA]"
               >
-                {"Stat Summary"}
+                {"Weapon Stat Summary"}
               </Typography>
             </div>
             <CategoryWeaponChart />
