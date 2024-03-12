@@ -51,6 +51,13 @@ export default function RecentRuns() {
             </div>
             <div className="flex-1 text-center">
               <Typography
+                variant="small"
+                color={`white`}
+                className="font-customFont"
+              >
+                {run.weapon}
+              </Typography>
+              <Typography
                 variant="h6"
                 color={`amber`}
                 className="font-customFont"
