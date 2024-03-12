@@ -46,37 +46,30 @@ export default function RecordSummary() {
               key={index}
             >
               <div className="relative mx-auto flex-1 text-center hidden md:block">
-                <Avatar src={run.ava} size="lg" className="p-1" />
+                <Avatar src={run.ava} size="md" className="p-1" />
 
                 <Avatar
                   src={
-                    run.heat < 60
-                      ? `rings/green-card.gif`
-                      : run.heat === 64
+                    run.heat === 64
                       ? `rings/red-card.gif`
+                      : run.heat < 60
+                      ? `rings/green-card.gif`
                       : `rings/blue-card.gif`
                   }
                   className="absolute top-0 start-50 transform -translate-x-full"
-                  size="lg"
+                  size="md"
                 />
               </div>
-              <div className="flex-1 me-2">
+              <div className="flex-1 text-center">
                 <Typography
                   variant="h6"
-                  color={run.heat === 64 ? "pink" : "white"}
+                  color={
+                    run.heat === 64 ? "pink" : run.heat < 60 ? "green" : "blue"
+                  }
                   className="font-customFont"
                 >
                   {run.name}
                 </Typography>
-              </div>
-
-              <div className="flex-1">
-                <img
-                  src={`actual-arms/${run.aspect}-${run.weapon}.png`}
-                  className="rounded-2xl mx-auto shadow-[0_0_20px_white]"
-                  width={200}
-                  loading="lazy"
-                />
               </div>
               <div className="relative mx-auto flex-1 text-center">
                 <Avatar

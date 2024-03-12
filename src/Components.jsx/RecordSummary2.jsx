@@ -96,11 +96,11 @@ export default function RecordSummaryCard() {
               />
               <Avatar
                 src={
-                  run.heat < 60
-                    ? `rings/green-card.gif`
-                    : run.heat === 64
+                  run.heat === 64
                     ? `rings/red-card.gif`
-                    : `rings/blue-card.gif`
+                    : run.heat < 60
+                    ? `rings/blue-card.gif`
+                    : `rings/green-card.gif`
                 }
                 className="absolute top-0 start-50 transform -translate-x-full"
                 size="xl"
@@ -111,7 +111,9 @@ export default function RecordSummaryCard() {
               <div className="text-center">
                 <Typography
                   variant="h5"
-                  color={run.heat === 64 ? "pink" : "white"}
+                  color={
+                    run.heat === 64 ? "pink" : run.heat < 60 ? "blue" : "green"
+                  }
                   className="mx-auto font-customFont"
                 >
                   {run.name}
@@ -145,7 +147,7 @@ export default function RecordSummaryCard() {
                 <img
                   src={`actual-arms/${run.aspect}-${run.weapon}.png`}
                   className="rounded-2xl mx-auto shadow-[0_0_20px_pink]"
-                  width={200}
+                  width={180}
                   loading="lazy"
                 />
               </div>

@@ -139,7 +139,7 @@ export default function MainContent() {
             <div>
               <Typography
                 variant="h3"
-                className="p-2 text-center font-customFont text-[#E6E6FA]"
+                className="pt-2 text-center font-customFont text-[#E6E6FA]"
               >
                 {"Weapon Stat Summary"}
               </Typography>

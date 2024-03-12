@@ -22,7 +22,7 @@ export default function RecentRuns() {
           <Typography
             variant="h3"
             color="white"
-            className="font-customFont text-center"
+            className="font-customFont text-center pt-5"
           >
             Recent Submissions
           </Typography>
