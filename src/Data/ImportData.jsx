@@ -1,6 +1,23 @@
 export const FullData = [
   {
     ava: "player-五维过客.png",
+    category: "Unseeded",
+    name: "五维过客",
+    heat: 60,
+    weapon: "Shield",
+    aspect: "Beowulf",
+    src: "https://www.bilibili.com/video/BV1Rr4y1Z7et/",
+    date: "9/23/2023",
+    playerBoon: [
+      "Snow_Burst",
+      "Companion_Battie",
+      "Passion_Flare",
+      "Divine_Dash",
+    ],
+    boonlevel: ["purple", "blue-gray", "blue-gray", "blue-gray"],
+  },
+  {
+    ava: "player-五维过客.png",
     category: "Modded",
     name: "五维过客",
     heat: 62,
