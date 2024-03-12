@@ -75,7 +75,7 @@ export default function MainContent() {
       <img
         src="Backgrounds/bg-img.png"
         alt="cover-bg"
-        className="fixed h-lvh w-full object-cover -z-10"
+        className="fixed h-lvh w-full object-cover -z-10 lazy"
       />
       {/* COVER BG */}
       <NavigationBar />
@@ -84,9 +84,6 @@ export default function MainContent() {
           <TotalRunsCard />
           <TotalPlayerCard />
         </div>
-      </section>
-      <section>
-        <img src="hades2-closeup.png" className="mx-auto hue-rotate-60" />
       </section>
       {/* CHARTS */}
       <section className="w-full flex justify-center pb-5">
@@ -153,9 +150,6 @@ export default function MainContent() {
         </Card>
       </section>
       {/* TABLE CONTENT */}
-      <section>
-        <img src="hades-blue.png" className="mx-auto -hue-rotate-60" />
-      </section>
       <section>
         <RecentRuns />
       </section>

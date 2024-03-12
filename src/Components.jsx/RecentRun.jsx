@@ -13,7 +13,7 @@ const recent5 = rawData.slice(0, 5);
 export default function RecentRuns() {
   return (
     <Card
-      className="w-[100%] bg-transparent 2xl:w-4/5 border-4 border-black rounded-2xl shadow-[0_0_40px_black] mx-auto mb-5 relative"
+      className="w-[100%] bg-transparent 2xl:w-4/5 border-4 border-black rounded-2xl shadow-[0_0_40px_black] mx-auto my-5 relative"
       shadow={false}
     >
       <div className="absolute h-full w-full bg-[#28282b] -z-10 rounded-xl opacity-80" />
