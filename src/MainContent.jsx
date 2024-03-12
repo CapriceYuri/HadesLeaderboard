@@ -88,10 +88,6 @@ export default function MainContent() {
       {/* CHARTS */}
       <section className="w-full flex justify-center pb-5">
         <Card className="w-[100%] bg-transparent shadow-[0_0_30px_white] 2xl:w-4/5 border-4 border-black rounded-2xl">
-          {/* <img
-            src="Backgrounds/vertical-green.jpg"
-            className="h-full w-full object-cover rounded-xl absolute"
-          /> */}
           <div className="absolute h-full w-full bg-[#28282b] rounded-xl opacity-80" />
           <List className="z-40">
             <div className="flex justify-center items-center">
@@ -154,12 +150,8 @@ export default function MainContent() {
         <RecentRuns />
       </section>
       <section className="w-full flex justify-center pb-10">
-        <Card className="w-[100%] backdrop-blur-lg bg-transparent 2xl:w-4/5 border-4 border-black rounded-2xl shadow-[0_0_30px_white]">
-          <img
-            src="Backgrounds/vertical-blue.jpg"
-            className="h-full w-full object-cover rounded-xl absolute"
-          />
-          <div className="absolute h-full w-full bg-gradient-to-l from-black to-black rounded-xl opacity-60" />
+        <Card className="w-[100%] bg-transparent 2xl:w-4/5 border-4 border-black rounded-2xl shadow-[0_0_30px_white]">
+          <div className="absolute h-full w-full bg-[#28282b] rounded-xl opacity-90" />
           <List className="z-40">
             <div>
               <Typography
