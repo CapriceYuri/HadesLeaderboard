@@ -27,8 +27,11 @@ export default function RecentRuns() {
             Recent Submissions
           </Typography>
         </div>
-        {recent5.map((run) => (
-          <ListItem className="text-center hover:bg-transparent focus:bg-[#28282B]">
+        {recent5.map((run, index) => (
+          <ListItem
+            className="text-center hover:bg-transparent focus:bg-[#28282B]"
+            key={index}
+          >
             <div>
               <Spinner color="blue" />
             </div>

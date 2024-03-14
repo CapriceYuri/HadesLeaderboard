@@ -28,8 +28,8 @@ export default function Timeline64() {
           </Typography>
         </div>
         <Timeline className="p-10">
-          {timelineData.map((obj) => (
-            <TimelineItem>
+          {timelineData.map((obj, index) => (
+            <TimelineItem key={index}>
               <TimelineConnector />
               <TimelineHeader>
                 <TimelineIcon className="p-1">
