@@ -167,11 +167,8 @@ export default function MainContent() {
             <CategoryButtons onButtonClick={handleDataChange} />
             <FindPlayerBtn onButtonClick={handleDataChange} />
             {sortDisplay.map((player, index) => (
-              <div>
-                <ListItem
-                  className="hover:bg-transparent focus:bg-black relative py-6 cursor-default"
-                  key={index}
-                >
+              <div key={index}>
+                <ListItem className="hover:bg-transparent focus:bg-black relative py-6 cursor-default">
                   <div>
                     <Typography
                       variant="h6"
@@ -252,11 +249,6 @@ export default function MainContent() {
                   {addBoons(player.playerBoon, player.boonlevel)}
 
                   <div className="flex-1 text-center">
-                    <Typography
-                      variant="small"
-                      color="white"
-                      className="font-normal"
-                    ></Typography>
                     <Typography
                       variant="h6"
                       color={
