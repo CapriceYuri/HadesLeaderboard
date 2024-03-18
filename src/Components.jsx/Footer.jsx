@@ -3,21 +3,15 @@ import { Typography, Avatar } from "@material-tailwind/react";
 const SITEMAP = [
   {
     title: "Resources",
-    links: ["Supergiant", "Speedrunning", "Speedrun SRC"],
-    src: [
-      "https://discord.com/invite/supergiant",
-      "https://discord.com/invite/zN7cc8Z",
-      "https://www.speedrun.com/hades",
-    ],
+    links: ["Speedrunning", "Speedrun SRC"],
+    src: ["https://discord.gg/sCefJUdbJp", "https://www.speedrun.com/hades"],
     icons: ["icon-discord", "icon-discord", "icon-src"],
   },
   {
     title: "Submission",
-    links: ["Submit Run", "Heat SS", "Mod Heat SS", "Sub-6 SS"],
+    links: ["Submit Run", "Sub-6 SS"],
     src: [
       "https://docs.google.com/spreadsheets/d/1rrTgSkRSIOcc20wU56w21DDPlRQO6Tso2av3vdiJd9M/edit?usp=sharing",
-      "https://docs.google.com/spreadsheets/d/1fYeJpxFXZBO2UycHOz4qt90T3ZurFZKCtg07UQNZVyc/edit#gid=1855514336",
-      "https://docs.google.com/spreadsheets/d/1-eAhomftrsnM8BV6TMA4CA58wneoBLcAvlQXiYrGAnU/edit#gid=1775740672",
       "https://docs.google.com/spreadsheets/d/1d56DvDTE8WvQsMRQFs1pLbNpMBHy2CLYss69EL-8bMU/edit#gid=850231511",
     ],
     icons: ["icon-submit", "icon-data", "icon-data", "icon-data"],

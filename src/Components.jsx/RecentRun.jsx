@@ -24,7 +24,7 @@ export default function RecentRuns() {
             color="white"
             className="font-customFont text-center pt-5"
           >
-            Recent Submissions
+            Latest Submissions
           </Typography>
         </div>
         {recent5.map((run, index) => (
