@@ -75,7 +75,7 @@ export default function MainContent() {
       <img
         src="Backgrounds/bg-img.png"
         alt="cover-bg"
-        className="fixed h-lvh w-full object-cover -z-10 lazy"
+        className="fixed h-lvh w-full object-cover -z-10"
       />
       {/* COVER BG */}
       <NavigationBar />
