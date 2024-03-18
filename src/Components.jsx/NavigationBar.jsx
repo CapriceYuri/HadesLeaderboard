@@ -21,16 +21,25 @@ export default function NavigationBar() {
       <Typography
         as="li"
         variant="h6"
-        className="p-1 customFont hover:text-red-500"
+        className="p-1 font-customFont"
+        color="orange"
       >
         <a
+          href="https://hades2-leader-board.vercel.app/"
+          className="flex items-center hover:text-red-500"
+        >
+          Heat 2 Leaderboard
+        </a>
+      </Typography>
+      <Typography as="li" variant="h6" className="p-1 font-customFont">
+        <a
           href="https://hades-heat-runs.vercel.app/"
-          className="flex items-center"
+          className="flex items-center hover:text-red-500"
         >
           Heat Leaderboard
         </a>
       </Typography>
-      <Typography as="li" variant="h6" className="p-1 customFont">
+      <Typography as="li" variant="h6" className="p-1 font-customFont">
         <a
           href="https://hades-sub6-runs.vercel.app/"
           className="flex items-center hover:text-red-500"
