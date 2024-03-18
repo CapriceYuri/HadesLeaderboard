@@ -5,7 +5,7 @@ const SITEMAP = [
     title: "Resources",
     links: ["Speedrunning", "Speedrun SRC"],
     src: ["https://discord.gg/sCefJUdbJp", "https://www.speedrun.com/hades"],
-    icons: ["icon-discord", "icon-discord", "icon-src"],
+    icons: ["icon-discord", "icon-src"],
   },
   {
     title: "Submission",
@@ -14,7 +14,7 @@ const SITEMAP = [
       "https://docs.google.com/spreadsheets/d/1rrTgSkRSIOcc20wU56w21DDPlRQO6Tso2av3vdiJd9M/edit?usp=sharing",
       "https://docs.google.com/spreadsheets/d/1d56DvDTE8WvQsMRQFs1pLbNpMBHy2CLYss69EL-8bMU/edit#gid=850231511",
     ],
-    icons: ["icon-submit", "icon-data", "icon-data", "icon-data"],
+    icons: ["icon-submit", "icon-data"],
   },
 ];
 
