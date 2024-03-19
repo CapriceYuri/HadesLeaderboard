@@ -47,6 +47,14 @@ export default function NavigationBar() {
           Sub-6 Leaderboard
         </a>
       </Typography>
+      <Typography as="li" variant="h6" className="p-1 font-customFont">
+        <a
+          href="https://hades-guide.vercel.app/"
+          className="flex items-center hover:text-red-500"
+        >
+          Resources
+        </a>
+      </Typography>
     </ul>
   );
 
