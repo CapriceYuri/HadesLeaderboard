@@ -38,7 +38,6 @@ recordData.forEach((arr) => findTopPlayer(arr));
 for (let i = 0; i < TopPlayerCategory.length; i++) {
   TopPlayerCategory[i] = removeDup(TopPlayerCategory[i], "ava");
 }
-console.log(TopPlayerCategory);
 export default function RecordSummary() {
   return (
     <Card className="w-full bg-transparent" shadow={false}>
