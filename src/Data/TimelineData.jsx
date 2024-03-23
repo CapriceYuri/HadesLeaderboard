@@ -63,4 +63,12 @@ export const timelineData = [
     title: "PlayAd",
     info: "[Mar 3rd 2024] The first ever Guan Yu Spear 64 heat modded completion, the 2nd aspect to have 64 heat cleared.",
   },
+  {
+    ava: "player-PlayAd.png",
+    person: "PlayAd",
+    aspect: "Rama",
+    weapon: "Bow",
+    title: "PlayAd",
+    info: "[Mar 22rd 2024] The first ever Rama Bow 64 heat modded completion, the 3rd aspect to have 64 heat cleared.",
+  },
 ];

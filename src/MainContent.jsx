@@ -91,9 +91,9 @@ export default function MainContent() {
       </Reveal>
       {/* CHARTS */}
       <Reveal>
-        <section className="w-full flex justify-center pb-5">
-          <Card className="w-[100%] bg-transparent shadow-[0_0_30px_white] 2xl:w-4/5 border-4 border-black rounded-2xl">
-            <div className="absolute h-full w-full bg-[#28282b] rounded-xl opacity-80" />
+        <section className="w-full flex justify-center py-5">
+          <Card className="w-[100%] bg-transparent shadow-[0_0_20px_white] 2xl:w-4/5 border-4 border-black rounded-2xl">
+            <div className="absolute h-full w-full bg-[#28282b] rounded-xl opacity-90" />
             <List className="z-40">
               <div className="flex justify-center items-center">
                 <Typography
@@ -132,8 +132,11 @@ export default function MainContent() {
       {/* TESTING */}
       {/* TESTING */}
       <Reveal>
-        <section className="w-full flex justify-center pt-5">
-          <Card className="w-[100%] bg-transparent shadow-[0_0_30px_white] 2xl:w-4/5 border-4 border-black rounded-2xl">
+        <section className="w-full flex justify-center py-5">
+          <Card
+            className="w-[100%] bg-transparent shadow-[0_0_20px_white] 2xl:w-4/5 border-4 border-black rounded-2xl"
+            shadow={false}
+          >
             {/* <img
             src="Backgrounds/recordBG.png"
             className="h-full w-full object-cover rounded-xl absolute"
@@ -156,13 +159,16 @@ export default function MainContent() {
       </Reveal>
       {/* TABLE CONTENT */}
       <Reveal>
-        <section>
+        <section className="flex justify-center my-5">
           <RecentRuns />
         </section>
       </Reveal>
       <Reveal>
-        <section className="w-full flex justify-center pb-10">
-          <Card className="w-[100%] bg-transparent 2xl:w-4/5 border-4 border-black rounded-2xl shadow-[0_0_30px_white]">
+        <section className="w-full flex justify-center py-10">
+          <Card
+            className="w-[100%] bg-transparent 2xl:w-4/5 border-4 border-black rounded-2xl shadow-[0_0_20px_white]"
+            shadow={false}
+          >
             <div className="absolute h-full w-full bg-[#28282b] rounded-xl opacity-90" />
             <List className="z-40">
               <div>

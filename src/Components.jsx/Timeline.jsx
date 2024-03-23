@@ -14,8 +14,8 @@ import { timelineData } from "../Data/TimelineData";
 
 export default function Timeline64() {
   return (
-    <Card className="bg-transparent border-4 border-black w-full 2xl:w-4/5 mx-auto relative rounded-2xl">
-      <div className="absolute h-full w-full bg-[#28282b] -z-10 rounded-xl opacity-80" />
+    <Card className="bg-transparent border-4 border-black w-full 2xl:w-4/5 mx-auto relative rounded-2xl shadow-[0_0_10px_white]">
+      <div className="absolute h-full w-full bg-[#28282b] -z-10 rounded-xl opacity-90" />
 
       <div>
         <div className="text-center">
